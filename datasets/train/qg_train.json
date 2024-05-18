@@ -207,5 +207,57 @@
     "question": "Triết học khác biệt với mọi khoa học cụ thể như thế nào?",
     "options": ["Nó xem xét thế giới như một chỉnh thể", "Nó chỉ tập trung vào khoa học tự nhiên", "Nó chỉ tập trung vào khoa học xã hội", "Nó không liên quan đến các khoa học khác"],
     "answer": "Nó xem xét thế giới như một chỉnh thể"
+  },
+  {
+    "context": "Đỉnh cao của hình thức này được thể hiện trong triết học cổ điển Đức, người khởi đầu là Cantơ và người hoàn thiện là Hêghen. Có thể nói, lần đầu tiên trong lịch sử phát triển của tư duy nhân loại, các nhà triết học Đức đã trình bày một cách có hệ thống những nội dung quan trọng nhất của phương pháp biện chứng. Song theo họ biện chứng ở đây bắt đầu từ tinh thần và kết thúc ở tinh thần, thế giới hiện thực chỉ là sự sao chép ý niệm nên biện chứng của các nhà triết học cổ điển Đức là biện chứng duy tâm. Hình thức thứ ba là phép biện chứng duy vật. Phép biện chứng duy vật được thể hiện trong triết học do C.Mác và Ph.Ăngghen xây dựng, sau đó được Lênin phát triển. C.Mác và Ph.Ăngghen đã gạt bỏ tính chất thần bí, kế thừa những hạt nhân hợp lý trong phép biện chứng duy tâm để xây dựng phép biện chứng duy vật với tính cách là học thuyết về mối liên hệ phổ biến và về sự phát triển dưới hình thức hoàn bị nhất.",
+    "question_type": "open_ended",
+    "question": "Ai đã phát triển phép biện chứng duy vật?",
+    "answer": "Lênin"
+  },
+  {
+    "context": "Thế giới quan huyền thoại là phương thức cảm nhận thế giới của người nguyên thủy. ở thời kỳ này, các yếu tố tri thức và cảm xúc, lý trí và tín ngưỡng, hiện thực và tưởng tượng, cái thật và cái ảo, cái thần và cái người, v.v. của con người hoà quyện vào nhau thể hiện quan niệm về thế giới.",
+    "question_type": "multiple_choice",
+    "question": "Thế giới quan huyền thoại là gì?",
+    "options": ["Phương thức cảm nhận thế giới của người nguyên thủy", "Phương thức cảm nhận thế giới của người hiện đại", "Phương thức cảm nhận thế giới của người trung đại", "Phương thức cảm nhận thế giới của người cổ đại"],
+    "answer": "Phương thức cảm nhận thế giới của người nguyên thủy"
+  },
+  {
+    "context": "Trong thế giới quan tôn giáo, niềm tin tôn giáo đóng vai trò chủ yếu; tín ngưỡng cao hơn lý trí, cái ảo lấn át cái thực, cái thần vượt trội cái người.",
+    "question_type": "multiple_choice",
+    "question": "Thế giới quan tôn giáo tập trung chủ yếu vào yếu tố nào?",
+    "options": ["Niềm tin tôn giáo", "Lý trí", "Tri thức", "Hiện thực"],
+    "answer": "Niềm tin tôn giáo"
+  },
+  {
+    "context": "Về quan điểm lịch sử xã hội, chủ nghĩa hiện sinh xuất phát từ tự do cá nhân tuyệt đối, cho rằng chỉ có cá nhân mới là hiện sinh chân thực, xã hội chỉ là một phương thức hiện sinh của cá nhân, hơn nữa là phương thức hiện sinh không chân thực. Bởi vì, khi giữa xã hội và cá nhân có liên hệ chặt chẽ thì sự tồn tại của cá nhân sẽ không còn là cá nhân thực sự mà là cá nhân đã bị đối tượng hóa, bị mất cá tính do bị ràng buộc với người khác và với xã hội, là cá nhân bị tập thể, xã hội và người khác lấn át. Do đó, tồn tại xã hội đã bóp chết hiện sinh chân chính của con người. Để khôi phục sự hiện sinh của mình, con người cần thoát khỏi sự ràng buộc của những người khác và xã hội. Xã hội chính là sản vật tha hóa của con người, bản thân nó không phải là cái tồn tại khách quan tự thân phát triển theo quy luật, mà chỉ là một mớ ngẫu nhiên những con người bị tha hóa. Động lực phát triển của lịch sử tất nhiên là không nằm trong xã hội, mà là ở hiện sinh mỗi con người và nó cũng có ảnh hưởng mạnh mẽ, rộng rãi đối với thế giới phương Tây, và cả một số châu lục khác.",
+    "question_type": "open_ended",
+    "question": "Xã hội là gì theo chủ nghĩa hiện sinh?",
+    "answer": "Một phương thức hiện sinh của cá nhân"
+  },
+  {
+    "context": "Khác với huyền thoại và giáo lý của tôn giáo, triết học diễn tả quan niệm của con người dưới dạng hệ thống các phạm trù, quy luật đóng vai trò như những bậc thang trong quá trình nhận thức thế giới. Với ý nghĩa như vậy, triết học được coi như trình độ tự giác trong quá trình hình thành và phát triển của thế giới quan. Nếu thế giới quan được hình thành từ toàn bộ tri thức và kinh nghiệm sống của con người; trong đó tri thức của các khoa học cụ thể là cơ sở trực tiếp cho sự hình thành những quan niệm nhất định về từng mặt, từng bộ phận của thế giới, thì triết học, với phương thức tư duy đặc thù đã tạo nên hệ thống lý luận bao gồm những quan niệm chung nhất về thế giới với tư cách là một chỉnh thể. Như vậy, triết học là hạt nhân lý luận của thế giới quan; triết học giữ vai trò định hướng cho quá trình củng cố và phát triển thế giới quan của mỗi cá nhân, mỗi cộng đồng trong lịch sử.",
+    "question_type": "multiple_choice",
+    "question": "Triết học diễn tả quan niệm của con người dưới dạng nào?",
+    "options": ["Hệ thống các phạm trù, quy luật", "Truyện cổ tích", "Truyền thuyết", "Niềm tin tôn giáo"],
+    "answer": "Hệ thống các phạm trù, quy luật"
+  },
+  {
+    "context": "Phương pháp luận là lý luận về phương pháp; là hệ thống các quan điểm chỉ đạo việc tìm tòi, xây dựng, lựa chọn và vận dụng các phương pháp. Xét phạm vi tác dụng của nó, phương pháp luận có thể chia thành ba cấp độ: Phương pháp luận ngành, phương pháp luận chung và phương pháp luận chung nhất. Phương pháp luận ngành (còn gọi là phương pháp luận bộ môn) là phương pháp luận của một ngành khoa học cụ thể nào đó. Phương pháp luận chung là phương pháp luận được sử dụng cho một số ngành khoa học. Phương pháp luận chung nhất là phương pháp luận được dùng làm điểm xuất phát cho việc xác định các phương pháp luận chung, các phương pháp luận ngành và các phương pháp hoạt động khác của con người.",
+    "question_type": "open_ended",
+    "question": "Phương pháp luận là gì?",
+    "answer": "Lý luận về phương pháp"
+  },
+  {
+    "context": "Việc giải quyết mặt thứ nhất vấn đề cơ bản của triết học đã chia các nhà triết học thành hai trường phái lớn. Những người cho rằng vật chất, giới tự nhiên là cái có trước và quyết định ý thức của con người được coi là các nhà duy vật; học thuyết của họ hợp thành các môn phái khác nhau của chủ nghĩa duy vật. Ngược lại, những người cho rằng, ý thức, tinh thần có trước giới tự nhiên được gọi là các nhà duy tâm; họ hợp thành các môn phái khác nhau của chủ nghĩa duy tâm.",
+    "question_type": "multiple_choice",
+    "question": "Những người cho rằng ý thức có trước giới tự nhiên được gọi là gì?",
+    "options": ["Các nhà duy tâm", "Các nhà duy vật", "Các nhà khoa học", "Các nhà lý luận"],
+    "answer": "Các nhà duy tâm"
+  },
+  {
+    "context": "Điều kiện kinh tế - xã hội: Xã hội Ấn Độ cổ đại ra đời sớm. Theo tài liệu khảo cổ học, vào khoảng thế kỷ XXV trước Công nguyên đã xuất hiện nền văn minh sông Ấn, sau đó bị tiêu vong, nay vẫn chưa rõ nguyên nhân. Từ thế kỷ XV trước Công nguyên các bộ lạc du mục Arya từ Trung á xâm nhập vào Ấn Độ. Họ định cư rồi đồng hóa với người bản địa Dravida tạo thành cơ sở cho sự xuất hiện quốc gia, nhà nước lần thứ hai trên đất Ấn Độ. Từ thế kỷ thứ VII trước Công nguyên đến thế kỷ XVI sau Công nguyên, đất nước Ấn Độ phải trải qua hàng loạt biến cố lớn, đó là những cuộc chiến tranh thôn tính lẫn nhau giữa các vương triều trong nước và sự xâm lăng của các quốc gia bên ngoài.",
+    "question_type": "open_ended",
+    "question": "Sự kiện nào xảy ra vào khoảng thế kỷ XXV trước Công nguyên ở xã hội Ấn Độ cổ đại?",
+    "answer": "Xuất hiện nền văn minh sông Ấn, sau đó bị tiêu vong"
   }
 ]

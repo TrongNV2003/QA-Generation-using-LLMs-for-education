@@ -1,15 +1,40 @@
-1) Q: Chủ nghĩa duy vật về nguồn gốc của ý thức xã hội là gì?
-   A: v.
+1) Q: * generate mcq là gì?
+   Context: Hai phát hiện vĩ đại ấy - quan niệm duy vật về lịch sử và việc dùng giá trị thặng dư để bóc trần bí mật của sản xuất tư bản chủ nghĩa - là công lao của Mác.
+   1. Mác.ed
+   2. Mác.es
+   3. Mác.ly
+   4. Mác.
+   Correct Answer: 4. Mác.
 
-2) Q: Chủ nghĩa duy vật về nguồn gốc của ý thức xã hội là gì?
-   A: Sự biến đổi của một thời đại nào đó cũng sẽ không thể giải thích được nếu chỉ căn cứ vào ý thức của thời đại ấy.
+2) Q: Thời gian lao động xã hội cần thiết là gì?
+   Context: Theo Mác, Thời gian lao động xã hội cần thiết là thời gian lao động đòi hỏi để sản xuất ra một giá trị sử dụng nào đó, trong những điều kiện sản xuất bình thường của xã hội, với một trình độ thành thạo trung bình và một cường độ lao động trung bình trong xã hội đó.
+   1. đó.ed
+   2. đó.ly
+   3. đó.ed
+   4. đó.
+   Correct Answer: 4. đó.
 
-3) Q: Những luận điểm nào đã bác bỏ quan niệm sai lầm của chủ nghĩa duy tâm về ý thức xã hội?
-   A: Những luận điểm trên đây đã bác bỏ quan niệm sai lầm của chủ nghĩa duy tâm muốn đi tìm nguồn gốc của ý thức tư tưởng trong bản thân ý thức tư tưởng, xem tinh thần, tư tưởng là nguồn gốc của mọi hiện tượng xã hội, quyết định sự phát triển xã hội và trình bày lịch sử các hình thái ý thức xã hội tách rời cơ sở kinh tế - xã hội.
+3) Q: Mác tiếp tục sự nghiệp của hai nhà kinh tế học nào?
+   Context: Mác tiếp tục sự nghiệp của hai nhà kinh tế học đó.
+   1. đó.ing
+   2. đó.ing
+   3. đó.es
+   4. đó.
+   Correct Answer: 4. đó.
 
-4) Q: Chủ nghĩa duy vật lịch sử xác định điều gì trong ý thức xã hội?
-   A: Mỗi khi tồn tại xã hội, nhất là phương thức sản xuất biến đổi thì những tư tưởng và lý luận xã hội, những quan điểm về chính trị, pháp quyền, triết học, đạo đức, văn hóa, nghệ thuật, v.
+4) Q: Những tinh thể của cái thực thể xã hội chung cho tất cả các vật ấy có ý nghĩa gì?
+   Context: Là những tinh thể của cái thực thể xã hội chung cho tất cả các vật ấy, cho nên các vật ấy đều là những giá trị - những giá trị hàng hóa.
+   1. hóa.es
+   2. hóa.ing
+   3. hóa.ed
+   4. hóa.
+   Correct Answer: 4. hóa.
 
-5) Q: Quan điểm duy vật về nguồn gốc của ý thức xã hội được coi như thế nào?
-   A: sớm muộn sẽ biến đổi theo.
+5) Q: Những vật ấy đã được chi phí vào đâu?
+   Context: Tất cả những vật ấy bây giờ chỉ còn biểu hiện một điều là trong việc sản xuất ra chúng, sức lao động của con người đã được chi phí vào đấy, lao động của con người đã được tích lũy vào đấy.
+   1. đấy.ly
+   2. đấy.ly
+   3. đấy.ly
+   4. đấy.
+   Correct Answer: 4. đấy.
 

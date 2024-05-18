@@ -9,6 +9,7 @@ from transformers import (
 )
 from typing import Any, List, Mapping, Tuple
 
+
 class QuestionGenerator:
     """A transformer-based NLP system for generating reading comprehension-style questions from
     texts. It can generate full sentence questions, multiple choice questions, or a mix of the
@@ -16,7 +17,6 @@ class QuestionGenerator:
     """
 
     def __init__(self) -> None:
-
         QG_PRETRAINED = "t5-base-question-generator"
         self.SEQ_LENGTH = 512
 
@@ -74,7 +74,7 @@ class QuestionGenerator:
             for segment in segments:
                 sentences = self._split_text(segment)
                 prepped_inputs, prepped_answers = self._prepare_qg_inputs(
-                    sentences, segment
+                    sentences, segment, answer_style
                 )
                 inputs.extend(prepped_inputs)
                 answers.extend(prepped_answers)
@@ -136,7 +136,7 @@ class QuestionGenerator:
 
         return [self.qg_tokenizer.decode(s, skip_special_tokens=True) for s in segments]
 
-    def _prepare_qg_inputs(self, sentences: List[str], text: str) -> Tuple[List[str], List[str]]:
+    def _prepare_qg_inputs(self, sentences: List[str], text: str, answer_style: str) -> Tuple[List[str], List[str]]:
         """Uses extracted entities or key phrases as answers and the text as context.
         Returns a tuple of (model inputs, answers).
         """
@@ -144,7 +144,12 @@ class QuestionGenerator:
         answers = []
 
         for sentence in sentences:
-            qg_input = f"{sentence} {text}"
+            if answer_style == "sentences":
+                qg_input = f"generate sentence question: {sentence} {text}"
+            elif answer_style == "multiple_choice":
+                qg_input = f"generate mcq: {sentence} {text}"
+            else:
+                qg_input = f"{sentence} {text}"
             inputs.append(qg_input)
             answers.append(sentence)
 
@@ -157,21 +162,32 @@ class QuestionGenerator:
 
         for sentence in sentences:
             options = self._generate_mcq_options(sentence)
-            qg_input = f"{sentence} {options['context']}"
-            inputs_from_text.append(qg_input)
-            answers_from_text.append(options)
+            if options:
+                qg_input = f"generate mcq: {sentence} {options['context']}"
+                inputs_from_text.append(qg_input)
+                answers_from_text.append(options)
 
         return inputs_from_text, answers_from_text
 
     def _generate_mcq_options(self, sentence: str) -> Mapping[str, Any]:
         """Generates multiple-choice options for a given sentence."""
-        options = ["Option 1", "Option 2", "Option 3", "Option 4"]  # Replace with actual options
-        correct_answer = "Correct Answer"  # Replace with the actual correct answer
+        # Extracting a correct answer from the sentence
+        correct_answer = sentence.split()[-1]  # Just as an example, picking the last word as the correct answer
+
+        # Generating distractors (incorrect options)
+        distractors = [self._generate_distractor(correct_answer) for _ in range(3)]
+
+        context = " ".join(sentence.split())
         return {
-            "context": sentence,
-            "options": options,
+            "context": context,
+            "options": distractors + [correct_answer],
             "correct": correct_answer
         }
+
+    def _generate_distractor(self, correct_answer: str) -> str:
+        """Generates a distractor that is related but incorrect."""
+        # Simple example: altering the correct answer slightly to create a distractor
+        return correct_answer + random.choice(["ly", "es", "ed", "ing"])
 
     @torch.no_grad()
     def _generate_question(self, qg_input: str) -> str:
@@ -226,36 +242,18 @@ def print_qa(qa_list: List[Mapping[str, str]], show_answers: bool = True) -> Non
 
         answer = qa_list[i]["answer"]
         
-        # print a list of multiple choice answers
-        if type(answer) is list:
-
+        # Check if the answer is a dictionary (MCQ format)
+        if isinstance(answer, dict) and 'options' in answer and 'correct' in answer:
+            print(f"{space}Context: {answer['context']}")
+            for idx, option in enumerate(answer['options']):
+                print(f"{space}{idx + 1}. {option}")
             if show_answers:
-                print(
-                    f"{space}A: 1. {answer[0]['answer']} "
-                    f"{np.where(answer[0]['correct'], '(correct)', '')}"
-                )
-                for j in range(1, len(answer)):
-                    print(
-                        f"{space + '   '}{j + 1}. {answer[j]['answer']} "
-                        f"{np.where(answer[j]['correct']==True,'(correct)', '')}"
-                    )
-
-            else:
-                print(f"{space}A: 1. {answer[0]['answer']}")
-                for j in range(1, len(answer)):
-                    print(f"{space + '   '}{j + 1}. {answer[j]['answer']}")
-
-            print("")
-
-        # print full sentence answers
+                correct_option_idx = answer['options'].index(answer['correct']) + 1
+                print(f"{space}Correct Answer: {correct_option_idx}. {answer['correct']}\n")
         else:
             if show_answers:
                 print(f"{space}A: {answer}\n")
 
-            else:
-                print(f"{space}A: {answer}")
-
-            print("")
 
 def save_qa_to_txt(qa_list: List[Mapping[str, str]], file_path: str) -> None:
     """Saves a list of generated questions and answers to a text file."""
@@ -266,10 +264,13 @@ def save_qa_to_txt(qa_list: List[Mapping[str, str]], file_path: str) -> None:
 
             answer = qa_list[i]["answer"]
 
-            if type(answer) is list:
-                file.write(f"{space}A: 1. {answer[0]['answer']} {np.where(answer[0]['correct'], '(correct)', '')}\n")
-                for j in range(1, len(answer)):
-                    file.write(f"{space + '   '}{j + 1}. {answer[j]['answer']} {np.where(answer[j]['correct'], '(correct)', '')}\n")
+            # Check if the answer is a dictionary (MCQ format)
+            if isinstance(answer, dict) and 'options' in answer and 'correct' in answer:
+                file.write(f"{space}Context: {answer['context']}\n")
+                for idx, option in enumerate(answer['options']):
+                    file.write(f"{space}{idx + 1}. {option}\n")
+                correct_option_idx = answer['options'].index(answer['correct']) + 1
+                file.write(f"{space}Correct Answer: {correct_option_idx}. {answer['correct']}\n")
             else:
                 file.write(f"{space}A: {answer}\n")
 
