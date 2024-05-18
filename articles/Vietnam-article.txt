@@ -1,0 +1,17 @@
+Tàu vũ trụ cánh buồm Mặt Trời tiên tiến nhất thế giới bắt đầu hành trình vào 6h32 ngày 24/4 khi cất cánh trên tên lửa đẩy Electron của công ty Rocket Lab từ Tổ hợp phóng 1 ở Mahia, New Zealand. 
+Đây là một trong hai khối hàng trong nhiệm vụ Beginning Of The Swarm. 
+Dù chỉ lớn cỡ chiếc lò vi sóng, Hệ thống cánh buồm Mặt Trời composite cao cấp (ACS3) của NASA có thể mở cánh buồm bằng nhựa mỏng trong khoảng 25 phút và trải rộng 80 m2 với phần sào kéo căng dài 7 m. 
+Đây không phải cánh buồm Mặt Trời đầu tiên phóng vào không gian, nhưng sào kéo căng làm từ vật liệu polymer composite cực nhẹ và cấu hình đặc biệt để xếp gọn của nó đánh dấu bước tiến quan trọng giúp hệ thống nhẹ và ổn định hơn, theo Popular Science.
+Hiện nay nằm ở quỹ đạo đồng bộ Mặt Trời cách Trái Đất 966 m, ACS3 sẽ triển khai trong vòng vài tuần tới và chứng minh công nghệ có thể cung cấp năng lượng cho các nhiệm vụ không gian sâu mà không cần dùng nhiên liệu tên lửa sau khi phóng. 
+Thông qua thu thập áp lực phát ra bởi năng lượng Mặt Trời, cánh buồm mỏng có thể đẩy tàu vũ trụ ở tốc độ cực lớn, tương tự thuyền buồm. 
+Giới kỹ sư đã chứng minh nguyên lý trước đây, nhưng dự án mới của NASA sẽ đặc biệt kiểm tra thiết kế hứa hẹn cấu tạo từ vật liệu composite polymer linh hoạt, gia cố bằng sợi carbon.
+Sau khi triển khai, các sào kéo căng đóng vai trò như cột thuyền buồm giữ cho cánh buồm đủ căng để thu thập năng lượng mặt trời. 
+Điều khiến sào kéo căng của ACS3 đặc biệt là cách chúng được gập gọn. 
+Hệ thống sào kéo căng của cánh buồm Mặt Trời cần đủ cứng chắc để chịu được biến động nhiệt độ, cũng như đủ bền để tồn tại qua nhiệm vụ kéo dài. 
+Tuy nhiên, cánh buồm Mặt Trời quy mô lớn sẽ khá to. Hiện nay, NASA đang lên kế hoạch thiết kế cánh buồm rộng hơn 500 m2, tương đương một sân bóng rổ. 
+Những cánh buồm này cần hệ thống sào kéo căng cực kỳ dài, không thể đặt vừa trong khoang hàng của tên lửa.
+Để giải quyết vấn đề, NASA cuộn sào kéo căng làm từ vật liệu composite mới vào gói hàng lớn cỡ phong thư. 
+Khi sẵn sàng, các kỹ sư sẽ sử dụng hệ thống kéo tương tự lõi cuộn băng dính để mở sào, giúp giảm tối đa khả năng bị kẹt. 
+Sau khi dựng xong, sào kéo căng sẽ giữ cánh buồm mặt trời mỏng trong khi camera trên tàu ghi lại toàn bộ quá trình.
+NASA hy vọng dự án sẽ cho phép họ đánh giá thiết kế cánh buồm mặt trời mới đồng thời đo lực đẩy của nó sẽ ảnh hưởng như thế nào đến quỹ đạo thấp của tàu vũ trụ nhỏ. 
+Các kỹ sư cũng sẽ đánh giá độ dẻo dai của sào kéo căng composite mới, nhẹ hơn 75% và ít bị biến dạng hơn 100 lần so với bất kỳ nguyên mẫu cánh buồm Mặt Trời nào trước đây.

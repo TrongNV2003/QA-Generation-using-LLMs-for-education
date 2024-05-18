@@ -1,0 +1,18 @@
+{% extends 'layout.html' %}
+{% block body %}
+
+<title>Generated Questions</title>
+
+<body>
+    <header>
+        <h3 style="margin-bottom: 3vh; margin-top: -2vh;">Generated Questions</h3>
+    </header>
+    <main>
+        {% for qa in qa_list %}
+            <p><strong>Question:</strong> {{ qa['question'] }}</p>
+            <p><strong>Answer:  </strong> {{ qa['answer'] }}</p>
+            <hr>
+        {% endfor %}
+    </main>
+
+{% endblock %}

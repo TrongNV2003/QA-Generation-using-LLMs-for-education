@@ -1,0 +1,25 @@
+{% extends 'layout.html' %}
+{% block body %}
+
+<title>Generated Multiple Choice Questions</title>
+
+<body>
+    <header>
+        <h3 style="margin-bottom: 3vh; margin-top: -2vh;">Generated Multiple Choice Questions</h3>
+    </header>
+    <main>
+        {% for qa in qa_list %}
+            <p><strong>Question:</strong> {{ qa['question'] }}</p>
+            <p><strong>Answer:</strong></p>
+                <ul>
+                    {% for choice in qa['answer'] %}
+                        
+                        <li style="list-style: none;">{{ loop.index }}. {{ choice['answer'] }} {% if choice['correct'] %}(correct){% endif %}</li>
+                        
+                    {% endfor %}
+                </ul> 
+            <hr>
+        {% endfor %}
+    </main>
+
+{% endblock %}

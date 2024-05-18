@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f8f4ec;
+    height: 100%;
+}
+
+.header{
+    margin-top: 3vh;
+    margin-bottom: 6vh;
+}
+
+.transparent-bg {
+    background-color: transparent !important;
+    border-color: #000000a1
+}
+
+
+.footer{
+    margin-top: 9vh;
+}

@@ -1,0 +1,31 @@
+{% extends 'layout.html' %}
+{% block body %}
+<main>
+<div class="row align-items-center d-flex  justify-content-center">
+    <div class="col-12 mb-4">
+        <form action="/generate_questions" method="post">
+
+        <div class="form-group">
+            
+            <textarea id="article" name="article" rows="10" cols="50" class="form-control transparent-bg" placeholder="Input your Text" required></textarea><br>
+        </div>
+
+        <div class="form-group">
+            <label class="h6" for="exampleFormControlTextarea1">Number of Questions</label>
+            <input type="number" id="num_questions" class="form-control transparent-bg" name="num_questions" min="1" max="10" value="5" required><br>
+        </div>
+
+        <div class="form-group">
+            <label class="h6" for="inlineFormCustomSelectPref" for="answer_style">Answer Style</label>
+            <select class="custom-select my-1 mr-sm-2 transparent-bg" id="inlineFormCustomSelectPref" id="answer_style" name="answer_style">
+                <option value="sentences">Sentences</option>
+                <option value="multiple_choice">Multiple Choice</option>
+                <option value="all">All</option>
+            </select><br>
+            <input type="submit" style="margin-top: 3vh; display: flex; justify-content: center; position: absolute; bottom: -10%; left: 50%; transform: translateX(-50%);" class="btn btn-success" value="Generate Questions">
+        </div>       
+        </form>
+    </div>
+</div>
+</main>
+{% endblock %}
