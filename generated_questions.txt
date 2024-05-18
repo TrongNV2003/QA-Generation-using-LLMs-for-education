@@ -1,40 +1,15 @@
-1) Q: * generate mcq là gì?
-   Context: Hai phát hiện vĩ đại ấy - quan niệm duy vật về lịch sử và việc dùng giá trị thặng dư để bóc trần bí mật của sản xuất tư bản chủ nghĩa - là công lao của Mác.
-   1. Mác.ed
-   2. Mác.es
-   3. Mác.ly
-   4. Mác.
-   Correct Answer: 4. Mác.
+1) Q: Những phát minh quan trọng nhất của Mác là gì?
+   A: Hai phát hiện vĩ đại ấy - quan niệm duy vật về lịch sử và việc dùng giá trị thặng dư để bóc trần bí mật của sản xuất tư bản chủ nghĩa - là công lao của Mác.
 
-2) Q: Thời gian lao động xã hội cần thiết là gì?
-   Context: Theo Mác, Thời gian lao động xã hội cần thiết là thời gian lao động đòi hỏi để sản xuất ra một giá trị sử dụng nào đó, trong những điều kiện sản xuất bình thường của xã hội, với một trình độ thành thạo trung bình và một cường độ lao động trung bình trong xã hội đó.
-   1. đó.ed
-   2. đó.ly
-   3. đó.ed
-   4. đó.
-   Correct Answer: 4. đó.
+2) Q: Học thuyết duy vật được coi là gì?
+   A: Nhờ hai phát hiện ấy, chủ nghĩa xã hội đã trở thành một khoa học mà ngày nay, vấn đề trước hết là phải nghiên cứu thêm, trong mọi chi tiết và mọi mối liên hệ của nó.
 
-3) Q: Mác tiếp tục sự nghiệp của hai nhà kinh tế học nào?
-   Context: Mác tiếp tục sự nghiệp của hai nhà kinh tế học đó.
-   1. đó.ing
-   2. đó.ing
-   3. đó.es
-   4. đó.
-   Correct Answer: 4. đó.
+3) Q: Học thuyết giá trị thặng dư được coi là gì?
+   A: Nghiên cứu về chủ nghĩa Mác đã đưa Lênin tới khẳng định rằng, Nghiên cứu sự phát sinh, phát triển và suy tàn của những quan hệ sản xuất của một xã hội nhất định trong lịch sử, đó là nội dung của học thuyết kinh tế của Mác Học thuyết giá trị thặng dư là viên đá tảng của học thuyết kinh tế của Mác.
 
-4) Q: Những tinh thể của cái thực thể xã hội chung cho tất cả các vật ấy có ý nghĩa gì?
-   Context: Là những tinh thể của cái thực thể xã hội chung cho tất cả các vật ấy, cho nên các vật ấy đều là những giá trị - những giá trị hàng hóa.
-   1. hóa.es
-   2. hóa.ing
-   3. hóa.ed
-   4. hóa.
-   Correct Answer: 4. hóa.
+4) Q: Học thuyết của Mác được coi là gì?
+   A: Học thuyết của Mác là học thuyết vạn năng vì nó là một học thuyết chính xác.
 
-5) Q: Những vật ấy đã được chi phí vào đâu?
-   Context: Tất cả những vật ấy bây giờ chỉ còn biểu hiện một điều là trong việc sản xuất ra chúng, sức lao động của con người đã được chi phí vào đấy, lao động của con người đã được tích lũy vào đấy.
-   1. đấy.ly
-   2. đấy.ly
-   3. đấy.ly
-   4. đấy.
-   Correct Answer: 4. đấy.
+5) Q: Những phát minh vĩ đại nào đã đưa Lênin tới khẳng định điều gì?
+   A: Điều thứ nhất là Mác đã thực hiện một cuộc cách mạng trong toàn bộ quan niệm về lịch sử thế giới; Phát hiện quan trọng thứ hai của Các Mác là sự giải thích một cách triệt để quan hệ giữa tư bản và lao động, nói một cách khác là vạch rõ việc nhà tư bản thực hiện bóc lột công nhân như thế nào trong xã hội hiện nay, trong phương thức sản xuất tư bản chủ nghĩa đang tồn tại.
 

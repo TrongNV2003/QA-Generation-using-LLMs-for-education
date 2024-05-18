@@ -6,9 +6,9 @@ import torch
 from transformers import (
     AutoTokenizer,
     AutoModelForSeq2SeqLM,
+    pipeline
 )
 from typing import Any, List, Mapping, Tuple
-
 
 class QuestionGenerator:
     """A transformer-based NLP system for generating reading comprehension-style questions from
@@ -20,15 +20,15 @@ class QuestionGenerator:
         QG_PRETRAINED = "t5-base-question-generator"
         self.SEQ_LENGTH = 512
 
-        self.device = torch.device(
-            "cuda" if torch.cuda.is_available() else "cpu")
+        self.device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
-        self.qg_tokenizer = AutoTokenizer.from_pretrained(
-            QG_PRETRAINED, use_fast=False)
+        self.qg_tokenizer = AutoTokenizer.from_pretrained(QG_PRETRAINED, use_fast=False)
         self.qg_model = AutoModelForSeq2SeqLM.from_pretrained(QG_PRETRAINED)
         self.qg_model.to(self.device)
         self.qg_model.eval()
-
+        # Loading a pipeline for generating distractors
+        self.distractor_generator = pipeline('text-generation', model='distilgpt2')
+        
     def generate(
         self,
         article: str,
@@ -36,7 +36,7 @@ class QuestionGenerator:
         answer_style: str = "all"
     ) -> List:
         """Takes an article and generates a set of question and answer pairs.
-        answer_style should be selected from ["all", "sentences", "multiple_choice"].
+        answer_style should be selected from ["sentences", "multiple_choice"].
         """
 
         print("Generating questions...\n")
@@ -137,57 +137,64 @@ class QuestionGenerator:
         return [self.qg_tokenizer.decode(s, skip_special_tokens=True) for s in segments]
 
     def _prepare_qg_inputs(self, sentences: List[str], text: str, answer_style: str) -> Tuple[List[str], List[str]]:
-        """Uses extracted entities or key phrases as answers and the text as context.
+        """Uses key phrases as answers and the text as context.
         Returns a tuple of (model inputs, answers).
         """
         inputs = []
         answers = []
 
         for sentence in sentences:
-            if answer_style == "sentences":
-                qg_input = f"generate sentence question: {sentence} {text}"
-            elif answer_style == "multiple_choice":
-                qg_input = f"generate mcq: {sentence} {text}"
-            else:
-                qg_input = f"{sentence} {text}"
+            qg_input = f" {sentence} {text}"
             inputs.append(qg_input)
             answers.append(sentence)
 
         return inputs, answers
 
     def _prepare_qg_inputs_MC(self, sentences: List[str]) -> Tuple[List[str], List[str]]:
-        """Prepares inputs for multiple-choice questions"""
+        """Prepares inputs for multiple-choice questions from the provided sentences"""
         inputs_from_text = []
         answers_from_text = []
 
         for sentence in sentences:
-            options = self._generate_mcq_options(sentence)
-            if options:
-                qg_input = f"generate mcq: {sentence} {options['context']}"
-                inputs_from_text.append(qg_input)
-                answers_from_text.append(options)
+            correct_answer = sentence  # Assuming sentence is the correct answer for simplicity
+            mcq_data = self._generate_mcq_options(correct_answer)
+            options = mcq_data["options"]
+            
+            context = " ".join([s for s in sentences if s != correct_answer])  # example context
+            question = f"What best describes '{correct_answer}'?"  # Simplified question
+
+            qg_input = f"generate mcq: {context} {question} Options: {', '.join(options)}"
+            inputs_from_text.append(qg_input)
+            answers_from_text.append({
+                "context": context,
+                "question": question,
+                "options": options,
+                "correct": correct_answer
+            })
 
         return inputs_from_text, answers_from_text
 
-    def _generate_mcq_options(self, sentence: str) -> Mapping[str, Any]:
-        """Generates multiple-choice options for a given sentence."""
-        # Extracting a correct answer from the sentence
-        correct_answer = sentence.split()[-1]  # Just as an example, picking the last word as the correct answer
 
-        # Generating distractors (incorrect options)
+    def _generate_mcq_options(self, correct_answer: str) -> Mapping[str, Any]:
+        """Generates multiple-choice options for a given correct answer."""
+        # Generate distractors
         distractors = [self._generate_distractor(correct_answer) for _ in range(3)]
+        # Ensure no duplicate options
+        options = list(set(distractors))
+        if len(options) < 3:
+            options.append(self._generate_distractor(correct_answer))
+        options.append(correct_answer)
+        random.shuffle(options)  # Shuffle to ensure the correct answer isn't always last
 
-        context = " ".join(sentence.split())
         return {
-            "context": context,
-            "options": distractors + [correct_answer],
+            "options": options,
             "correct": correct_answer
         }
 
     def _generate_distractor(self, correct_answer: str) -> str:
-        """Generates a distractor that is related but incorrect."""
-        # Simple example: altering the correct answer slightly to create a distractor
-        return correct_answer + random.choice(["ly", "es", "ed", "ing"])
+        """Generates a distractor using a language model."""
+        generated = self.distractor_generator(correct_answer, max_length=50)
+        return generated[0]['generated_text'].strip()
 
     @torch.no_grad()
     def _generate_question(self, qg_input: str) -> str:
@@ -244,7 +251,7 @@ def print_qa(qa_list: List[Mapping[str, str]], show_answers: bool = True) -> Non
         
         # Check if the answer is a dictionary (MCQ format)
         if isinstance(answer, dict) and 'options' in answer and 'correct' in answer:
-            print(f"{space}Context: {answer['context']}")
+            
             for idx, option in enumerate(answer['options']):
                 print(f"{space}{idx + 1}. {option}")
             if show_answers:

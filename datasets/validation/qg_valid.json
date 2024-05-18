@@ -10,7 +10,7 @@
     "question_type": "multiple_choice",
     "question": "Thế giới quan là gì?",
     "options": ["Toàn bộ những quan niệm của con người về thế giới, về bản thân con người, về cuộc sống và vị trí của con người trong thế giới đó", "Sự hiểu biết về tự nhiên", "Sự hiểu biết về xã hội", "Sự hiểu biết về con người"],
-    "answer": "Toàn bộ những quan niệm của con người về thế giới, về bản thân con người, về cuộc sống và vị trí của con người trong thế giới đó"
+    "answer": "A"
   },
   {
     "context": "Phương pháp siêu hình là phương pháp: Nhận thức đối tượng ở trạng thái cô lập, tách rời đối tượng ra khỏi các chỉnh thể khác và giữa các mặt đối lập nhau có một ranh giới tuyệt đối. Nhận thức đối tượng ở trạng thái tĩnh tại; nếu có sự biến đổi thì đấy chỉ là sự biến đổi về số lượng, nguyên nhân của sự biến đổi nằm ở bên ngoài đối tượng. Phương pháp siêu hình làm cho con người chỉ nhìn thấy những sự vật riêng biệt mà không nhìn thấy mối liên hệ qua lại giữa những sự vật ấy, chỉ nhìn thấy sự tồn tại của những sự vật ấy mà không nhìn thấy sự phát sinh và sự tiêu vong của những sự vật ấy, chỉ nhìn thấy trạng thái tĩnh của những sự vật ấy mà quên mất sự vận động của những sự vật ấy, chỉ nhìn thấy cây mà không thấy rừng.",
@@ -40,7 +40,7 @@
     "context": "Theo Ăngghen: Vấn đề cơ bản lớn của mọi triết học, đặc biệt là của triết học hiện đại, là vấn đề quan hệ giữa tư duy với tồn tại. Giải quyết vấn đề cơ bản của triết học không chỉ xác định được nền tảng và điểm xuất phát để giải quyết các vấn đề khác của triết học mà nó còn là tiêu chuẩn để xác định lập trường, thế giới quan của các triết gia và học thuyết của họ.",
     "question_type": "multiple_choice",
     "question": "Vấn đề cơ bản của triết học được định nghĩa như thế nào?",
-    "options": ["Quan hệ giữa tư duy với tồn tại", "Quan hệ giữa con người với tự nhiên", "Quan hệ giữa vật chất và tinh thần", "Quan hệ giữa tri thức và hành động"],
-    "answer": "Quan hệ giữa tư duy với tồn tại"
+    "options": ["Quan hệ giữa con người với tự nhiên", "Quan hệ giữa tư duy với tồn tại", "Quan hệ giữa vật chất và tinh thần", "Quan hệ giữa tri thức và hành động"],
+    "answer": "B"
   }
 ]
