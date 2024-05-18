@@ -193,7 +193,7 @@ class QuestionGenerator:
 
     def _generate_distractor(self, correct_answer: str) -> str:
         """Generates a distractor using a language model."""
-        generated = self.distractor_generator(correct_answer, max_length=50)
+        generated = self.distractor_generator(correct_answer)
         return generated[0]['generated_text'].strip()
 
     @torch.no_grad()

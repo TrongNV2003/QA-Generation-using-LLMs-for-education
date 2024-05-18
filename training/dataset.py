@@ -8,7 +8,7 @@ import en_core_web_sm
 class QGDataset(torch.utils.data.Dataset):
     def __init__(
         self,
-        json_file: str,  # Thay đổi từ csv_file sang json_file
+        json_file: str,
         max_length: int,
         pad_mask_id: int,
         tokenizer: AutoTokenizer
@@ -24,9 +24,25 @@ class QGDataset(torch.utils.data.Dataset):
 
     def __getitem__(self, index: int) -> Mapping[str, torch.Tensor]:
         item = self.data[index]
-        input_ids, attention_mask = self._encode_text(item["context"])
-        labels, _ = self._encode_text(item["question"])
+        context = item["context"]
+        question = item["question"]
+
+        if item['question_type'] == 'multiple_choice':
+            options = " ".join([f"{chr(65+i)}: {option}" for i, option in enumerate(item['options'])])
+            input_text = f"question: {question} context: {context} options: {options}"
+            answer_index = ord(item['answer']) - ord('A')
+            answer = item['options'][answer_index]
+        else:
+            input_text = f"question: {question} context: {context}"
+            answer = item["answer"]
+
+        # Encode the input text and the answer text
+        input_ids, attention_mask = self._encode_text(input_text)
+        labels, _ = self._encode_text(answer)
+
+        # Apply masking to labels where padding tokens are present
         masked_labels = self._mask_label_padding(labels)
+
         return {
             "input_ids": input_ids,
             "attention_mask": attention_mask,

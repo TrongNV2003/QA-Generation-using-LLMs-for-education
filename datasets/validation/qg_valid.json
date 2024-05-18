@@ -1,7 +1,7 @@
 [
   {
     "context": "Tình cảm là sự cảm động của con người trong quan hệ của mình với thực tại xung quanh và đối với bản thân mình. Tình cảm là một hình thái đặc biệt của sự phản ánh thực tại; nó phản ánh quan hệ của con người đối với nhau, cũng như đối với thế giới khách quan. Tình cảm tham gia vào mọi hoạt động của con người và giữ một vị trí quan trọng trong việc điều chỉnh hoạt động của con người. Tình cảm có thể mang tính chất chủ động, chứa đựng sắc thái cảm xúc tích cực, cũng như trở thành thụ động, chứa đựng sắc thái cảm xúc tiêu cực. Tình cảm tích cực là một trong những động lực nâng cao năng lực hoạt động sống của con người. Tri thức kết hợp với tình cảm hình thành nên niềm tin, nâng cao ý chí tích cực biến thành hành động thực tế, mới phát huy được sức mạnh của mình.",
-    "question_type": "open_ended",
+    "question_type": "sentences",
     "question": "Tình cảm có ảnh hưởng như thế nào đến con người?",
     "answer": "Tham gia vào mọi hoạt động của con người"
   },
@@ -14,25 +14,25 @@
   },
   {
     "context": "Phương pháp siêu hình là phương pháp: Nhận thức đối tượng ở trạng thái cô lập, tách rời đối tượng ra khỏi các chỉnh thể khác và giữa các mặt đối lập nhau có một ranh giới tuyệt đối. Nhận thức đối tượng ở trạng thái tĩnh tại; nếu có sự biến đổi thì đấy chỉ là sự biến đổi về số lượng, nguyên nhân của sự biến đổi nằm ở bên ngoài đối tượng. Phương pháp siêu hình làm cho con người chỉ nhìn thấy những sự vật riêng biệt mà không nhìn thấy mối liên hệ qua lại giữa những sự vật ấy, chỉ nhìn thấy sự tồn tại của những sự vật ấy mà không nhìn thấy sự phát sinh và sự tiêu vong của những sự vật ấy, chỉ nhìn thấy trạng thái tĩnh của những sự vật ấy mà quên mất sự vận động của những sự vật ấy, chỉ nhìn thấy cây mà không thấy rừng.",
-    "question_type": "open_ended",
+    "question_type": "sentences",
     "question": "Phương pháp siêu hình là gì?",
     "answer": "Nhận thức đối tượng ở trạng thái cô lập, tách rời đối tượng ra khỏi các chỉnh thể khác"
   },
   {
     "context": "Về mặt nhận thức luận, do đã coi vấn đề bản thể luận trung tâm của triết học là sự cảm thụ chủ quan và thái độ ứng xử của cá nhân nên chủ nghĩa hiện sinh không chú trọng nghiên cứu nhận thức khoa học. Trái lại chủ nghĩa hiện sinh cho rằng, những tri thức thu được bằng khoa học dựa trên lý tính là hư ảo. Người ta càng dựa vào lý tính và khoa học thì càng khiến mình bị chi phối, từ đó bị tha hóa. Theo họ, để đạt đến hiện sinh chân chính thì chỉ có thể dựa vào trực giác phi lý tính. Chỉ có trong cuộc sống đau khổ, cô đơn, tuyệt vọng, sợ hãi... con người mới có thể trực tiếp cảm nhận được sự tồn tại của mình. Như vậy, nhận thức luận của chủ nghĩa hiện sinh là nhận thức duy tâm chủ quan phi duy lý.",
-    "question_type": "open_ended",
+    "question_type": "sentences",
     "question": "Nhận thức luận của chủ nghĩa hiện sinh là gì?",
     "answer": "Nhận thức duy tâm chủ quan phi duy lý"
   },
   {
     "context": "Như vậy phương pháp biện chứng thể hiện tư duy mềm dẻo, linh hoạt. Nó thừa nhận trong những trường hợp cần thiết thì bên cạnh cái hoặc là... hoặc là... còn có cả cái vừa là... vừa là... nữa; thừa nhận một chỉnh thể trong lúc vừa là nó lại vừa không phải là nó; thừa nhận cái khẳng định và cái phủ định vừa loại trừ nhau lại vừa gắn bó với nhau . Phương pháp biện chứng phản ánh hiện thực đúng như nó tồn tại. Nhờ vậy, phương pháp tư duy biện chứng trở thành công cụ hữu hiệu giúp con người nhận thức và cải tạo thế giới.",
-    "question_type": "open_ended",
+    "question_type": "sentences",
     "question": "Phương pháp biện chứng thể hiện gì về tư duy?",
     "answer": "Tư duy mềm dẻo, linh hoạt"
   },
   {
     "context": "Cùng với sự phát triển của tư duy con người, phương pháp biện chứng đã qua ba giai đoạn phát triển, được thể hiện trong triết học với ba hình thức lịch sử của nó: phép biện chứng tự phát, phép biện chứng duy tâm và phép biện chứng duy vật.",
-    "question_type": "open_ended",
+    "question_type": "sentences",
     "question": "Phương pháp biện chứng đã trải qua bao nhiêu giai đoạn phát triển?",
     "answer": "Ba giai đoạn phát triển"
   },
