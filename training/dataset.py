@@ -1,9 +1,7 @@
-import random
 import json
 import torch
 from transformers import AutoTokenizer
 from typing import Mapping, Tuple
-import en_core_web_sm
 
 class QGDataset(torch.utils.data.Dataset):
     def __init__(
@@ -14,7 +12,7 @@ class QGDataset(torch.utils.data.Dataset):
         tokenizer: AutoTokenizer
     ) -> None:
         with open(json_file, 'r', encoding='utf-8') as f:
-            self.data = json.load(f)  # Đọc dữ liệu từ file JSON
+            self.data = json.load(f)
         self.max_length = max_length
         self.pad_mask_id = pad_mask_id
         self.tokenizer = tokenizer
@@ -28,12 +26,16 @@ class QGDataset(torch.utils.data.Dataset):
         question = item["question"]
 
         if item['question_type'] == 'multiple_choice':
+            # Tiền tố cho câu hỏi trắc nghiệm
+            task_prefix = "generate mcq:"
             options = " ".join([f"{chr(65+i)}: {option}" for i, option in enumerate(item['options'])])
-            input_text = f"question: {question} context: {context} options: {options}"
+            input_text = f"{task_prefix} question: {question} context: {context} options: {options}"
             answer_index = ord(item['answer']) - ord('A')
             answer = item['options'][answer_index]
         else:
-            input_text = f"question: {question} context: {context}"
+            # Tiền tố cho câu hỏi tự luận
+            task_prefix = "generate essay:"
+            input_text = f"{task_prefix} question: {question} context: {context}"
             answer = item["answer"]
 
         # Encode the input text and the answer text
