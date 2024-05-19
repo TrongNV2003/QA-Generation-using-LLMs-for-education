@@ -241,7 +241,7 @@ def print_qa(qa_list: List[Mapping[str, str]], show_answers: bool = True) -> Non
                 print(f"{space}{idx + 1}. {option}")
             if show_answers:
                 correct_option_idx = answer['options'].index(answer['correct']) + 1
-                print(f"{space}Correct Answer: {correct_option_idx}. {answer['correct']}\n")
+                print(f"{space}Correct Answer: {answer['correct']}\n")
         else:
             if show_answers:
                 print(f"{space}A: {answer}\n")
