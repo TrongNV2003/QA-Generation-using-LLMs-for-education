@@ -3,13 +3,13 @@ from questiongenerator import print_qa
 from questiongenerator import save_qa_to_txt
 qg = QuestionGenerator()
 
-with open('articles/philosophy2.txt', 'r',encoding='utf-8') as a:
+with open('articles/philosophy.txt', 'r',encoding='utf-8') as a:
     article = a.read()
 
 qa_list = qg.generate(
     article,
     num_questions=5,
-    answer_style='multiple_choice'
+    answer_style='sentences'
 )
 # print_qa(qa_list, show_answers=False)
 print_qa(qa_list, show_answers=True)

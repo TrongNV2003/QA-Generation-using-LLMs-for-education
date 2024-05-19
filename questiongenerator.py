@@ -16,8 +16,7 @@ class QuestionGenerator:
     """
 
     def __init__(self) -> None:
-        QG_PRETRAINED = "t5-base-question-generator"
-        DISTRACTOR_PRETRAINED = "vinai/phobert-base"
+        QG_PRETRAINED = "t5-base-question-generator"  # Sử dụng mô hình đã fine-tune
         self.SEQ_LENGTH = 512
 
         self.device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
@@ -27,12 +26,6 @@ class QuestionGenerator:
         self.qg_model = AutoModelForSeq2SeqLM.from_pretrained(QG_PRETRAINED)
         self.qg_model.to(self.device)
         self.qg_model.eval()
-
-        # Load the distractor generation model
-        self.distractor_tokenizer = AutoTokenizer.from_pretrained(DISTRACTOR_PRETRAINED, use_fast=False)
-        self.distractor_model = AutoModelForSeq2SeqLM.from_pretrained(DISTRACTOR_PRETRAINED)
-        self.distractor_model.to(self.device)
-        self.distractor_model.eval()
 
     def generate(
         self,
@@ -178,13 +171,13 @@ class QuestionGenerator:
         return inputs_from_text, answers_from_text
 
     def _generate_distractors(self, correct_answer: str) -> List[str]:
-        """Generates multiple-choice distractors for a given correct answer using the Phobert model."""
+        """Generates multiple-choice distractors for a given correct answer using the T5 model."""
         distractors = []
         for _ in range(3):
             prompt = f"generate distractor: {correct_answer}"
-            input_ids = self.distractor_tokenizer(prompt, return_tensors='pt').input_ids.to(self.device)
-            outputs = self.distractor_model.generate(input_ids, max_length=50, num_return_sequences=1)
-            generated_text = self.distractor_tokenizer.decode(outputs[0], skip_special_tokens=True).strip()
+            input_ids = self.qg_tokenizer(prompt, return_tensors='pt').input_ids.to(self.device)
+            outputs = self.qg_model.generate(input_ids, max_length=50, num_return_sequences=1)
+            generated_text = self.qg_tokenizer.decode(outputs[0], skip_special_tokens=True).strip()
             distractors.append(generated_text)
         return distractors
 
