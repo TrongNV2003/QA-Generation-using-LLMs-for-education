@@ -87,7 +87,7 @@ class QuestionGenerator:
         if answer_style == "multiple_choice" or answer_style == "all":
             sentences = self._split_text(text)
             prepped_inputs, prepped_answers = self._prepare_qg_inputs_MC(
-                sentences
+                sentences, text
             )
             inputs.extend(prepped_inputs)
             answers.extend(prepped_answers)
@@ -177,24 +177,8 @@ class QuestionGenerator:
 
         return inputs_from_text, answers_from_text
 
-    def _generate_mcq_options(self, correct_answer: str) -> Mapping[str, Any]:
-        """Generates multiple-choice options for a given correct answer."""
-        # Generate distractors
-        distractors = [self._generate_distractor(correct_answer) for _ in range(3)]
-        # Ensure no duplicate options
-        options = list(set(distractors))
-        while len(options) < 3:
-            options.append(self._generate_distractor(correct_answer))
-        options.append(correct_answer)
-        random.shuffle(options)  # Shuffle to ensure the correct answer isn't always last
-
-        return {
-            "options": options,
-            "correct": correct_answer
-        }
-
     def _generate_distractors(self, correct_answer: str) -> List[str]:
-        """Generates multiple-choice distractors for a given correct answer using the T5 model."""
+        """Generates multiple-choice distractors for a given correct answer using the Phobert model."""
         distractors = []
         for _ in range(3):
             prompt = f"generate distractor: {correct_answer}"
