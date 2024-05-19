@@ -18,17 +18,23 @@ class QuestionGenerator:
 
     def __init__(self) -> None:
         QG_PRETRAINED = "t5-base-question-generator"
+        DISTRACTOR_PRETRAINED = "vinai/phobert-base"
         self.SEQ_LENGTH = 512
 
         self.device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
+        # Load the question generation model
         self.qg_tokenizer = AutoTokenizer.from_pretrained(QG_PRETRAINED, use_fast=False)
         self.qg_model = AutoModelForSeq2SeqLM.from_pretrained(QG_PRETRAINED)
         self.qg_model.to(self.device)
         self.qg_model.eval()
-        # Loading a pipeline for generating distractors
-        self.distractor_generator = pipeline('text-generation', model='distilgpt2')
-        
+
+        # Load the distractor generation model
+        self.distractor_tokenizer = AutoTokenizer.from_pretrained(DISTRACTOR_PRETRAINED, use_fast=False)
+        self.distractor_model = AutoModelForSeq2SeqLM.from_pretrained(DISTRACTOR_PRETRAINED)
+        self.distractor_model.to(self.device)
+        self.distractor_model.eval()
+
     def generate(
         self,
         article: str,
@@ -144,36 +150,33 @@ class QuestionGenerator:
         answers = []
 
         for sentence in sentences:
-            qg_input = f" {sentence} {text}"
+            qg_input = f"generate essay: question: {sentence} context: {text}"
             inputs.append(qg_input)
             answers.append(sentence)
 
         return inputs, answers
 
-    def _prepare_qg_inputs_MC(self, sentences: List[str]) -> Tuple[List[str], List[str]]:
+    def _prepare_qg_inputs_MC(self, sentences: List[str], context: str) -> Tuple[List[str], List[dict]]:
         """Prepares inputs for multiple-choice questions from the provided sentences"""
         inputs_from_text = []
         answers_from_text = []
 
         for sentence in sentences:
-            correct_answer = sentence  # Assuming sentence is the correct answer for simplicity
-            mcq_data = self._generate_mcq_options(correct_answer)
-            options = mcq_data["options"]
-            
-            context = " ".join([s for s in sentences if s != correct_answer])  # example context
-            question = f"What best describes '{correct_answer}'?"  # Simplified question
+            correct_answer = sentence
+            distractors = self._generate_distractors(correct_answer)
+            options = distractors + [correct_answer]
+            random.shuffle(options)
 
-            qg_input = f"generate mcq: {context} {question} Options: {', '.join(options)}"
+            qg_input = f"generate mcq: question: {sentence} context: {context} options: {', '.join(options)}"
             inputs_from_text.append(qg_input)
             answers_from_text.append({
                 "context": context,
-                "question": question,
+                "question": sentence,
                 "options": options,
                 "correct": correct_answer
             })
 
         return inputs_from_text, answers_from_text
-
 
     def _generate_mcq_options(self, correct_answer: str) -> Mapping[str, Any]:
         """Generates multiple-choice options for a given correct answer."""
@@ -181,7 +184,7 @@ class QuestionGenerator:
         distractors = [self._generate_distractor(correct_answer) for _ in range(3)]
         # Ensure no duplicate options
         options = list(set(distractors))
-        if len(options) < 3:
+        while len(options) < 3:
             options.append(self._generate_distractor(correct_answer))
         options.append(correct_answer)
         random.shuffle(options)  # Shuffle to ensure the correct answer isn't always last
@@ -191,10 +194,16 @@ class QuestionGenerator:
             "correct": correct_answer
         }
 
-    def _generate_distractor(self, correct_answer: str) -> str:
-        """Generates a distractor using a language model."""
-        generated = self.distractor_generator(correct_answer)
-        return generated[0]['generated_text'].strip()
+    def _generate_distractors(self, correct_answer: str) -> List[str]:
+        """Generates multiple-choice distractors for a given correct answer using the T5 model."""
+        distractors = []
+        for _ in range(3):
+            prompt = f"generate distractor: {correct_answer}"
+            input_ids = self.distractor_tokenizer(prompt, return_tensors='pt').input_ids.to(self.device)
+            outputs = self.distractor_model.generate(input_ids, max_length=50, num_return_sequences=1)
+            generated_text = self.distractor_tokenizer.decode(outputs[0], skip_special_tokens=True).strip()
+            distractors.append(generated_text)
+        return distractors
 
     @torch.no_grad()
     def _generate_question(self, qg_input: str) -> str:
