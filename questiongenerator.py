@@ -5,8 +5,7 @@ import re
 import torch
 from transformers import (
     AutoTokenizer,
-    AutoModelForSeq2SeqLM,
-    pipeline
+    AutoModelForSeq2SeqLM
 )
 from typing import Any, List, Mapping, Tuple
 
