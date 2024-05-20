@@ -25,17 +25,17 @@ class QGDataset(torch.utils.data.Dataset):
         context = item["context"]
         question = item["question"]
         question_type = item['question_type']
-        
-        if question_type == "<MC>":
+        SEP_TOKEN = "<SEP>"
+        if question_type == "multiple_choice":
             # Tiền tố cho câu hỏi trắc nghiệm
             options = " ".join([f"{chr(65+i)}: {option}" for i, option in enumerate(item['options'])])
-            input_text = f"{question_type} Question: {question} <SEP> Context: {context} <SEP> Options: {options}"
+            input_text = f"{question} {SEP_TOKEN} {context} {SEP_TOKEN} {options}"
             answer_index = ord(item['answer']) - ord('A')
             answer = item['options'][answer_index]
             
-        elif question_type == "<Essay>":
+        elif question_type == "sentences":
             # Tiền tố cho câu hỏi tự luận
-            input_text = f"{question_type} Question: {question} <SEP> Context: {context}"
+            input_text = f"{question} {SEP_TOKEN} {context}"
             answer = item["answer"]
 
         # Encode the input text and the answer text
