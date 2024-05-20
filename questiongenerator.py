@@ -178,8 +178,8 @@ class QuestionGenerator:
     def _extract_key_phrases(self, sentence: str) -> List[str]:
         """Extracts key phrases from a sentence using spaCy"""
         doc = nlp(sentence)
-        phrases = [chunk.text for chunk in doc.noun_chunks]  # Extract noun phrases
-        if not phrases:  # If no noun phrases, return the sentence as a whole
+        phrases = [chunk.text for chunk in doc.noun_chunks]  # Extract phrases
+        if not phrases:  # If no phrases, return the sentence as a whole
             phrases = [sentence]
         return phrases
 
