@@ -342,13 +342,6 @@
     "answer": "Quy luật đồng nhất, quy luật cấm mâu thuẫn trong tư duy, quy luật bài trừ cái thứ ba"
   },
   {
-    "context": "Đạo đức học được Arixtốt xếp vào loại khoa học quan trọng sau triết học. Trong đạo đức học ông đặc biệt quan tâm đến vấn đề phẩm hạnh. Theo ông phẩm hạnh là cái tốt đẹp nhất. Phẩm hạnh của con người thể hiện ở quan niệm về hạnh phúc. Xã hội có nhiều quan niệm khác nhau về đạo đức, song, theo Arixtốt, hạnh phúc phải gắn liền với hoạt động nhận thức, với ước vọng là điều thiện. Tóm lại, triết học của Arixtốt tuy còn những hạn chế, dao động giữa chủ nghĩa duy vật và chủ nghĩa duy tâm, nhưng ông vẫn xứng đáng là bộ óc vĩ đại nhất trong các bộ óc vĩ đại của triết học cổ đại Hy Lạp",
-    "question_type": "multiple_choice",
-    "question": "Phẩm hạnh là gì?",
-    "options": ["Một khía cạnh của đạo đức", "Một hành vi đúng đắn", "Một trạng thái cảm xúc", "Cái tốt đẹp nhất"],
-    "answer": "D"
-  },
-  {
     "context": "Xã hội Tây Âu vào thế kỷ II - V là xã hội đánh dấu sự tan rã của chế độ nô lệ và sự ra đời chế độ phong kiến. Nền kinh tế của thời kỳ này nằm trong tay những người tiểu nông, những người khốn cùng, phụ thuộc, nhục nhã về mặt cá nhân và tối tăm về trí tuệ. Thời kỳ đầu trung cổ là thời kỳ của sự suy đồi toàn bộ đời sống xã hội. ở những thế kỷ tiếp theo, chế độ phong kiến cũng tạo ra được một sự phát triển xã hội cao hơn xã hội cổ đại: kỹ thuật và nghề thủ công dần dần được phát triển; dân cư tăng nhanh, các thành thị ra đời, tạo ra những tiền đề cho sự phục hưng mới của khoa học và văn hóa. Nhà thờ thời trung cổ là một tổ chức tập quyền hùng mạnh, tôn giáo bao trùm lên mọi lĩnh vực của đời sống xã hội làm cho triết học, luật học, chính trị học biến thành các bộ môn của thần học. Đặc điểm của triết học thời kỳ này có khuynh hướng phát triển của chủ nghĩa kinh viện. Chủ nghĩa kinh viện Thiên chúa giáo thể hiện tập trung ở học thuyết của Tômát Đacanh. Trong lĩnh vực triết học, Tômát Đacanh có mưu đồ làm cho học thuyết của Arixtốt thích hợp với giáo lý đạo Thiên Chúa, biến triết học của mình thành cơ sở giáo lý của nhà thờ.",
     "question_type": "sentences",
     "question": "Triết học thời kỳ trung cổ có khuynh hướng gì?",
@@ -871,6 +864,13 @@
     "answer": "Tổng kết được thực tiễn, trao đổi thông tin, trao đổi tri thức"
   },
   {
+    "context": "Đạo đức học được Arixtốt xếp vào loại khoa học quan trọng sau triết học. Trong đạo đức học ông đặc biệt quan tâm đến vấn đề phẩm hạnh. Theo ông phẩm hạnh là cái tốt đẹp nhất. Phẩm hạnh của con người thể hiện ở quan niệm về hạnh phúc. Xã hội có nhiều quan niệm khác nhau về đạo đức, song, theo Arixtốt, hạnh phúc phải gắn liền với hoạt động nhận thức, với ước vọng là điều thiện. Tóm lại, triết học của Arixtốt tuy còn những hạn chế, dao động giữa chủ nghĩa duy vật và chủ nghĩa duy tâm, nhưng ông vẫn xứng đáng là bộ óc vĩ đại nhất trong các bộ óc vĩ đại của triết học cổ đại Hy Lạp",
+    "question_type": "multiple_choice",
+    "question": "Phẩm hạnh là gì?",
+    "options": ["Một khía cạnh của đạo đức", "Một hành vi đúng đắn", "Một trạng thái cảm xúc", "Cái tốt đẹp nhất"],
+    "answer": "D"
+  },
+  {
     "context": "Tháng 4 năm 1841, Mác nhận bằng Tiến sĩ triết học. Trong luận án tiến sĩ với đề tài Sự khác nhau giữa triết học tự nhiên của Đêmôcrit và triết học tự nhiên của Êpiquya, tuy Mác vẫn là người theo triết học duy tâm của Hêghen, song ông coi nhiệm vụ của triết học là phải phục vụ cuộc đấu tranh cho sự nghiệp giải phóng con người, phá bỏ hiện thực lỗi thời theo tinh thần cách mạng của phép biện chứng. Giống như Prômêtê - Mác viết trong luận án, - sau khi đã đánh cắp lửa từ trên trời xuống, đã bắt đầu xây dựng nhà cửa và cư trú trên trái đất, triết học cũng vậy, sau khi bao quát được toàn bộ thế giới, nó nổi dậy chống lại thế giới các hiện tượng. Luận án cũng cho thấy tư tưởng vô thần của Mác khi ông đòi hỏi triết học phải phục vụ cuộc sống chứ quyết không làm tôi tớ cho thần học.",
     "question_type": "multiple_choice",
     "question": "Mác nhận bằng Tiến sĩ triết học khi nào?",
@@ -952,7 +952,7 @@
     "question_type": "multiple_choice",
     "question": "Ai là người sáng lập ra Chủ nghĩa thực dụng?",
     "options": ["Piếcxơ", "Giêmxơ", "Đêcáctơ", "Hêghen"],
-    "answer": "Piếcxơ"
+    "answer": "A"
   },
   {
     "context": "Chủ nghĩa Tôma mới quả quyết rằng, các khoa học tự nhiên khi nghiên cứu thế giới vật chất tất nhiên phải đề cập các vấn đề triết học như kết cấu và nguồn gốc của vật chất, v.v. do đó phải lấy học thuyết về hình thức và vật chất của Arixtốt là cơ sở lý luận cho triết học tự nhiên. Theo đó, vật chất là bản nguyên hoàn toàn thụ động, là khả năng; hình thức là chủ động, là hiện thực; vật chất không thể tồn tại độc lập, nó cần có hình thức mới giành được tính quy định của nó, mới thực hiện được sự tồn tại của nó. Chính nhờ hình thức nên mới xuất hiện tính đa dạng của phương thức tồn tại của vật chất. Bởi vì Chúa là hình thức tối cao, là hình thức của các hình thức cho nên việc nghiên cứu của khoa học tự nhiên là quá trình không ngừng phát hiện ra Chúa, khẳng định Chúa và không phủ nhận Chúa. Vậy là khoa học và thần học đã hợp tác rất hoà thuận để phát hiện và chứng minh sự tồn tại vĩnh hằng của Chúa.",
@@ -986,7 +986,7 @@
     "context": "Trước và sau Chiến tranh thế giới thứ hai, trong triết học phân tích đã xuất hiện phái ngôn ngữ học thường ngày. Các đại biểu của phái này đều là các giáo sư trường Đại học Oxpho (Oxford) cho nên trường phái đó cũng được gọi là trường phái Oxpho. Những người theo chủ nghĩa thực chứng lôgíc thường phê phán các khái niệm của ngôn ngữ tự nhiên là mơ hồ, không rõ ràng, nên không phù hợp với tư duy chính xác. Trái lại, trường phái ngôn ngữ lại nhấn mạnh tính phong phú của khái niệm và sự phân biệt tỉ mỉ giữa các khái niệm trong ngôn ngữ tự nhiên. Nếu chủ nghĩa thực chứng lôgíc quy nhiệm vụ triết học thành sự phân tích lôgíc, thì trường phái ngôn ngữ luôn luôn quy triết học thành sự phân tích ngôn ngữ tự nhiên, cả hai đều phủ định ý nghĩa thế giới quan của triết học.",
     "question_type": "multiple_choice",
     "question": "Các đại biểu của phái ngôn ngữ học thường ngày là các giáo sư của trường nào?",
-    "options": ["Trường Đại học Cambridge", "Trường Đại học Harvard", "Trường Đại học Oxpho (Oxford)", "Trường Đại học Stanford"],
+    "options": ["Trường Đại học Cambridge", "Trường Đại học Harvard", "Trường Đại học Oxpho", "Trường Đại học Stanford"],
     "answer": "C"
   },
   {
@@ -1042,7 +1042,7 @@
     "context": "Tác phẩm Gia đình thần thánh do Mác và Ăngghen viết chung được xuất bản tháng 2-1845. Cùng với việc phê phán quan điểm duy tâm về lịch sử của phái Hêghen trẻ, đứng đầu là anh em nhà Bauơ, hai ông đã đề xuất một số nguyên lý cơ bản của triết học mác xít và của chủ nghĩa cộng sản khoa học. Tác phẩm Gia đình thần thánh đã chứa đựng quan điểm hầu như đã hình thành của Mác về vai trò cách mạng của giai cấp vô sản và cho thấy Mác đã tiến gần như thế nào đến tư tưởng cơ bản của toàn bộ hệ thống của ông... tức là tư tưởng về những quan hệ xã hội của sản xuất.",
     "question_type": "multiple_choice",
     "question": "Tác phẩm nào do Mác và Ăngghen viết chung?",
-    "options": ["Tình cảnh giai cấp công nhân Anh", "Bản thảo kinh tế - triết học năm 1844", "Gia đình thần thánh", "Tư bản"],
+    "options": ["Tình cảnh giai cấp công nhân Anh", "Bản thảo kinh tế năm 1844", "Gia đình thần thánh", "Tư bản"],
     "answer": "C"
   },
   {
