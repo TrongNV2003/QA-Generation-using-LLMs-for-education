@@ -143,11 +143,9 @@ class QuestionGenerator:
         answers = []
 
         for sentence in sentences:
-            phrases = self._extract_key_phrases(sentence)
-            for phrase in phrases:
-                qg_input = f"generate essay: context: {text} answer: {phrase}"
-                inputs.append(qg_input)
-                answers.append(phrase)
+            qg_input = f"generate essay: question: {sentence} context: {text}"
+            inputs.append(qg_input)
+            answers.append(sentence)
 
         return inputs, answers
 
@@ -157,31 +155,21 @@ class QuestionGenerator:
         answers_from_text = []
 
         for sentence in sentences:
-            phrases = self._extract_key_phrases(sentence)
-            for phrase in phrases:
-                correct_answer = phrase
-                distractors = self._generate_distractors(correct_answer)
-                options = distractors + [correct_answer]
-                random.shuffle(options)
+            correct_answer = sentence
+            distractors = self._generate_distractors(correct_answer)
+            options = distractors + [correct_answer]
+            random.shuffle(options)
 
-                qg_input = f"generate mcq: context: {context} answer: {correct_answer} options: {', '.join(options)}"
-                inputs_from_text.append(qg_input)
-                answers_from_text.append({
-                    "context": context,
-                    "question": sentence,
-                    "options": options,
-                    "correct": correct_answer
-                })
+            qg_input = f"generate mcq: question: {sentence} context: {context} options: {', '.join(options)}"
+            inputs_from_text.append(qg_input)
+            answers_from_text.append({
+                "context": context,
+                "question": sentence,
+                "options": options,
+                "correct": correct_answer
+            })
 
         return inputs_from_text, answers_from_text
-
-    def _extract_key_phrases(self, sentence: str) -> List[str]:
-        """Extracts key phrases from a sentence using spaCy"""
-        doc = nlp(sentence)
-        phrases = [chunk.text for chunk in doc.noun_chunks]  # Extract phrases
-        if not phrases:  # If no phrases, return the sentence as a whole
-            phrases = [sentence]
-        return phrases
 
     def _generate_distractors(self, correct_answer: str) -> List[str]:
         """Generates multiple-choice distractors for a given correct answer using the T5 model."""

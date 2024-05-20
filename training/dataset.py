@@ -27,14 +27,15 @@ class QGDataset(torch.utils.data.Dataset):
 
         if item['question_type'] == 'multiple_choice':
             # Tiền tố cho câu hỏi trắc nghiệm
-            task_prefix = "generate mcq:"
+            task_prefix = "qa multiple_choice:"
             options = " ".join([f"{chr(65+i)}: {option}" for i, option in enumerate(item['options'])])
             input_text = f"{task_prefix} question: {question} context: {context} options: {options}"
             answer_index = ord(item['answer']) - ord('A')
             answer = item['options'][answer_index]
-        else:
+            
+        elif item['question_type'] == 'sentences':
             # Tiền tố cho câu hỏi tự luận
-            task_prefix = "generate essay:"
+            task_prefix = "qa sentences:"
             input_text = f"{task_prefix} question: {question} context: {context}"
             answer = item["answer"]
 

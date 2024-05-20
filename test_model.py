@@ -8,7 +8,7 @@ with open('articles/philosophy.txt', 'r',encoding='utf-8') as a:
 
 qa_list = qg.generate(
     article,
-    num_questions=5,
+    num_questions=3,
     answer_style='sentences'
 )
 # print_qa(qa_list, show_answers=False)
