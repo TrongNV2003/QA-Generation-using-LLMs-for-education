@@ -7,8 +7,6 @@ from transformers import (
     AutoModelForSeq2SeqLM
 )
 from typing import Any, List, Mapping, Tuple
-import spacy
-nlp = spacy.load('vi_core_news_lg')
 
 class QuestionGenerator:
     """A transformer-based NLP system for generating reading comprehension-style questions from
@@ -19,7 +17,8 @@ class QuestionGenerator:
     def __init__(self) -> None:
         QG_PRETRAINED = "t5-base-question-generator"  # Sử dụng mô hình đã fine-tune
         self.SEQ_LENGTH = 512
-
+        self.prefix_mcq = "qa multiple_choice:"
+        self.prefix_sentences = "qa sentences:"
         self.device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
         # Load the question generation model
@@ -143,7 +142,7 @@ class QuestionGenerator:
         answers = []
 
         for sentence in sentences:
-            qg_input = f"generate essay: question: {sentence} context: {text}"
+            qg_input = f"{self.prefix_sentences} question: {sentence} context: {text}"
             inputs.append(qg_input)
             answers.append(sentence)
 
@@ -160,7 +159,7 @@ class QuestionGenerator:
             options = distractors + [correct_answer]
             random.shuffle(options)
 
-            qg_input = f"generate mcq: question: {sentence} context: {context} options: {', '.join(options)}"
+            qg_input = f"{self.prefix_mcq} {sentence} context: {context} options: {', '.join(options)}"
             inputs_from_text.append(qg_input)
             answers_from_text.append({
                 "context": context,
