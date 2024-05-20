@@ -24,19 +24,18 @@ class QGDataset(torch.utils.data.Dataset):
         item = self.data[index]
         context = item["context"]
         question = item["question"]
-
-        if item['question_type'] == 'multiple_choice':
+        question_type = item['question_type']
+        
+        if question_type == "<MC>":
             # Tiền tố cho câu hỏi trắc nghiệm
-            task_prefix = "qa multiple_choice:"
             options = " ".join([f"{chr(65+i)}: {option}" for i, option in enumerate(item['options'])])
-            input_text = f"{task_prefix} question: {question} context: {context} options: {options}"
+            input_text = f"{question_type} Question: {question} <SEP> Context: {context} <SEP> Options: {options}"
             answer_index = ord(item['answer']) - ord('A')
             answer = item['options'][answer_index]
             
-        elif item['question_type'] == 'sentences':
+        elif question_type == "<Essay>":
             # Tiền tố cho câu hỏi tự luận
-            task_prefix = "qa sentences:"
-            input_text = f"{task_prefix} question: {question} context: {context}"
+            input_text = f"{question_type} Question: {question} <SEP> Context: {context}"
             answer = item["answer"]
 
         # Encode the input text and the answer text
@@ -61,8 +60,8 @@ class QGDataset(torch.utils.data.Dataset):
             return_tensors='pt'
         )
         return (
-            encoded_text["input_ids"].squeeze(),
-            encoded_text["attention_mask"].squeeze()
+            encoded_text["input_ids"].squeeze(0),
+            encoded_text["attention_mask"].squeeze(0)
         )
 
     def _mask_label_padding(self, labels: torch.Tensor) -> torch.Tensor:

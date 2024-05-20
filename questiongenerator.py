@@ -17,8 +17,8 @@ class QuestionGenerator:
     def __init__(self) -> None:
         QG_PRETRAINED = "t5-base-question-generator"  # Sử dụng mô hình đã fine-tune
         self.SEQ_LENGTH = 512
-        self.prefix_mcq = "qa multiple_choice:"
-        self.prefix_sentences = "qa sentences:"
+        self.prefix_mcq = "<MC>"
+        self.prefix_sentences = "<Essay>"
         self.device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
         # Load the question generation model
@@ -142,7 +142,7 @@ class QuestionGenerator:
         answers = []
 
         for sentence in sentences:
-            qg_input = f"{self.prefix_sentences} question: {sentence} context: {text}"
+            qg_input = f"{self.prefix_sentences} question: {sentence} <SEP> context: {text}"
             inputs.append(qg_input)
             answers.append(sentence)
 
@@ -159,7 +159,7 @@ class QuestionGenerator:
             options = distractors + [correct_answer]
             random.shuffle(options)
 
-            qg_input = f"{self.prefix_mcq} {sentence} context: {context} options: {', '.join(options)}"
+            qg_input = f"{self.prefix_mcq} question: {sentence} <SEP> context: {context} <SEP> options: {', '.join(options)}"
             inputs_from_text.append(qg_input)
             answers_from_text.append({
                 "context": context,
@@ -241,7 +241,7 @@ def print_qa(qa_list: List[Mapping[str, str]], show_answers: bool = True) -> Non
                 print(f"{space}{idx + 1}. {option}")
             if show_answers:
                 correct_option_idx = answer['options'].index(answer['correct']) + 1
-                print(f"{space}Correct Answer: {answer['correct']}\n")
+                print(f"{space}Correct Answer: {correct_option_idx}. {answer['correct']}\n")
         else:
             if show_answers:
                 print(f"{space}A: {answer}\n")
