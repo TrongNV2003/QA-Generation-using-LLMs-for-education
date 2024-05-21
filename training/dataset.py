@@ -31,14 +31,14 @@ class QGDataset(torch.utils.data.Dataset):
             options = " ".join([f"{chr(65+i)}: {opt}" for i, opt in enumerate(item["options"])])
             answer_index = ord(item["answer"]) - 65
             answer = item["options"][answer_index]
-            target_text = f"{question} {options} {answer}"
+            target_text = f"{question}\n{answer}\n{options}"
             
         elif question_type == "sentences":
             question = item["question"]
             answer = item["answer"]
-            target_text = f"{question} {answer}"
+            target_text = f"{question}\n{answer}"
         
-        input_text = f"Context: {context}"
+        input_text = f"{context}\n"
 
         input_ids, attention_mask = self._encode_text(f"qa: {input_text}")
         labels, _ = self._encode_text(target_text)
