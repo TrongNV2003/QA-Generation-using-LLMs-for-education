@@ -1,6 +1,6 @@
 import json
 import torch
-from transformers import AutoTokenizer
+from transformers import T5Tokenizer
 from typing import Mapping, Tuple
 
 class QGDataset(torch.utils.data.Dataset):
@@ -9,7 +9,7 @@ class QGDataset(torch.utils.data.Dataset):
         json_file: str,
         max_length: int,
         pad_mask_id: int,
-        tokenizer: AutoTokenizer
+        tokenizer: T5Tokenizer
     ) -> None:
         with open(json_file, 'r', encoding='utf-8') as f:
             self.data = json.load(f)
@@ -27,20 +27,20 @@ class QGDataset(torch.utils.data.Dataset):
         
         
         if question_type == "multiple_choice":
-            question = "trắc nghiệm: " + item["question"]
+            question = item["question"]
             options = " ".join([f"{chr(65+i)}: {opt}" for i, opt in enumerate(item["options"])])
             answer_index = ord(item["answer"]) - 65
             answer = item["options"][answer_index]
-            target_text = f"{question} {options} Trả lời: {answer}"
+            target_text = f"{question} {options} {answer}"
             
         elif question_type == "sentences":
-            question = "tự luận: " + item["question"]
+            question = item["question"]
             answer = item["answer"]
-            target_text = f"{question} Trả lời: {answer}"
+            target_text = f"{question} {answer}"
         
         input_text = f"Context: {context}"
 
-        input_ids, attention_mask = self._encode_text(input_text)
+        input_ids, attention_mask = self._encode_text(f"qa: {input_text}")
         labels, _ = self._encode_text(target_text)
         masked_labels = self._mask_label_padding(labels)
 
