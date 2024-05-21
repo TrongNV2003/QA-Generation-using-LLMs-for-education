@@ -23,26 +23,25 @@ class QGDataset(torch.utils.data.Dataset):
     def __getitem__(self, index: int) -> Mapping[str, torch.Tensor]:
         item = self.data[index]
         context = item["context"]
-        question = item["question"]
-        question_type = item['question_type']
-        SEP_TOKEN = "<SEP>"
+        question_type = item["question_type"]
+        
+        
         if question_type == "multiple_choice":
-            # Tiền tố cho câu hỏi trắc nghiệm
-            options = " ".join([f"{chr(65+i)}: {option}" for i, option in enumerate(item['options'])])
-            input_text = f"{question} {SEP_TOKEN} {context} {SEP_TOKEN} {options}"
-            answer_index = ord(item['answer']) - ord('A')
-            answer = item['options'][answer_index]
+            question = "trắc nghiệm: " + item["question"]
+            options = " ".join([f"{chr(65+i)}: {opt}" for i, opt in enumerate(item["options"])])
+            answer_index = ord(item["answer"]) - 65
+            answer = item["options"][answer_index]
+            target_text = f"{question} {options} Trả lời: {answer}"
             
         elif question_type == "sentences":
-            # Tiền tố cho câu hỏi tự luận
-            input_text = f"{question} {SEP_TOKEN} {context}"
+            question = "tự luận: " + item["question"]
             answer = item["answer"]
+            target_text = f"{question} Trả lời: {answer}"
+        
+        input_text = f"Context: {context}"
 
-        # Encode the input text and the answer text
         input_ids, attention_mask = self._encode_text(input_text)
-        labels, _ = self._encode_text(answer)
-
-        # Apply masking to labels where padding tokens are present
+        labels, _ = self._encode_text(target_text)
         masked_labels = self._mask_label_padding(labels)
 
         return {
@@ -60,8 +59,8 @@ class QGDataset(torch.utils.data.Dataset):
             return_tensors='pt'
         )
         return (
-            encoded_text["input_ids"].squeeze(0),
-            encoded_text["attention_mask"].squeeze(0)
+            encoded_text["input_ids"].squeeze(),
+            encoded_text["attention_mask"].squeeze()
         )
 
     def _mask_label_padding(self, labels: torch.Tensor) -> torch.Tensor:
