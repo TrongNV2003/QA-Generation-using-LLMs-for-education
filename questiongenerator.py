@@ -1,11 +1,7 @@
 import numpy as np
 import random
 import torch
-from transformers import (
-    T5Tokenizer,
-    AutoTokenizer,
-    AutoModelForSeq2SeqLM
-)
+from transformers import T5Tokenizer, AutoTokenizer, AutoModelForSeq2SeqLM
 from typing import Any, List, Mapping, Tuple
 
 class QuestionAnswerGenerator:
@@ -16,7 +12,6 @@ class QuestionAnswerGenerator:
     def __init__(self) -> None:
         self.SEQ_LENGTH = 512
         self.device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-        
         QG_PRETRAINED = "t5-base-question-generator"
         self.qg_tokenizer = AutoTokenizer.from_pretrained(QG_PRETRAINED, use_fast=False)
         self.qg_model = AutoModelForSeq2SeqLM.from_pretrained(QG_PRETRAINED)
@@ -136,7 +131,7 @@ class QuestionAnswerGenerator:
             
         return inputs, answers
 
-
+ 
     @torch.no_grad()
     def _generate_question(self, qg_input: str) -> str:
         """Generates a question and answer with given a context."""
@@ -203,20 +198,16 @@ class DistractorGenerator:
 
 def print_qa(qa_list: List[Mapping[str, str]], show_answers: bool = True) -> None:
     """Formats and prints a list of generated questions and answers."""
-
     for i in range(len(qa_list)):
-        # wider space for 2 digit q nums
         space = " " * int(np.where(i < 9, 3, 4))
-
         print(f"{i + 1}) Q: {qa_list[i]['question']}")
-
         answer = qa_list[i]["answer"]
-        
-        if "A: " in answer:  # multiple choice format
-            print(f"{space}{answer}")
+        if isinstance(answer, dict):  # multiple choice format
+            for idx, option in enumerate(answer['options']):
+                print(f"{space}{chr(65 + idx)}: {option}")
             if show_answers:
-                correct_option = answer.split('\n')[1].strip()
-                print(f"{space}Correct Answer: {correct_option}\n")
+                correct_option_idx = answer['options'].index(answer['correct'])
+                print(f"{space}Correct Answer: {chr(65 + correct_option_idx)}: {answer['correct']}\n")
         else:  # sentence format
             if show_answers:
                 print(f"{space}A: {answer}\n")
