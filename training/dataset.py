@@ -2,9 +2,10 @@ import json
 import torch
 from transformers import T5Tokenizer
 from typing import Mapping, Tuple
+import random
 
 class QGDataset(torch.utils.data.Dataset):
-    def __init__(self, json_file: str, max_length: int, pad_mask_id: int, tokenizer: T5Tokenizer) -> None:
+    def __init__(self, json_file: str, max_length: int, pad_mask_id: int, tokenizer: T5Tokenizer, separator = '<sep>') -> None:
         """
         task:
             - input: article (i.e. context)
@@ -19,7 +20,9 @@ class QGDataset(torch.utils.data.Dataset):
         self.max_length = max_length
         self.pad_mask_id = pad_mask_id
         self.tokenizer = tokenizer
-
+        self.separator = separator
+        self.label_mapping = {label: i for i, label in enumerate(["A", "B", "C", "D"])}
+        
     def __len__(self) -> int:
         return len(self.data)
 
@@ -27,21 +30,22 @@ class QGDataset(torch.utils.data.Dataset):
         item = self.data[index]
         context = item["context"]
         question_type = item["question_type"]
-        separator = '<sep>'
+        
         
         if question_type == "multiple_choice":
             question = item["question"]
-            all_answers = item['options']
-            correct_answer_index =  ord(item['answer']) - 65
+            options = item["options"]
+            
+            label_answer =  item["answer"]
 
-            curr_correct = all_answers.pop(correct_answer_index)
-            target_text = question + ' ' + separator + ' ' + curr_correct
+            answer = options[self.label_mapping[label_answer]]
+            target_text = question + ' ' + self.separator + ' ' + answer
             input_ids, attention_mask = self._encode_text(f"Trắc nghiệm: {context}")
             
         elif question_type == "sentences":
             question = item["question"]
             answer = item["answer"]
-            target_text = question + ' ' + separator + ' ' + answer
+            target_text = question + ' ' + self.separator + ' ' + answer
             input_ids, attention_mask = self._encode_text(f"Tự luận: {context}")
 
         
@@ -73,7 +77,7 @@ class QGDataset(torch.utils.data.Dataset):
         
         
 class DistractorDataset(torch.utils.data.Dataset):
-    def __init__(self, json_file: str, max_length: int, pad_mask_id: int, tokenizer: T5Tokenizer) -> None:
+    def __init__(self, json_file: str, max_length: int, pad_mask_id: int, tokenizer: T5Tokenizer, shuffle_distractors=False, separator = '<sep>') -> None:
         """
         task:
             - input: question <sep> answer <sep> context
@@ -86,30 +90,35 @@ class DistractorDataset(torch.utils.data.Dataset):
         with open(json_file, 'r', encoding='utf-8') as f:
             data = json.load(f)
         self.data = [item for item in data if item["question_type"] == "multiple_choice"]
+        
         self.max_length = max_length
         self.pad_mask_id = pad_mask_id
         self.tokenizer = tokenizer
-
+        self.separator = separator
+        self.label_mapping = {label: i for i, label in enumerate(["A", "B", "C", "D"])}
+        self.all_labels = [0, 1, 2, 3]
+        self.shuffle_distractors = shuffle_distractors
+        
     def __len__(self) -> int:
         return len(self.data)
 
     def __getitem__(self, index: int) -> Mapping[str, torch.Tensor]:
         item = self.data[index]
         context = item["context"]
-        question_type = item["question_type"]
-        separator = '<sep>'
+        question = item["question"]
+        options = item["options"]
+        label_answer = item["answer"]
         
-        if question_type == "multiple_choice":
-            question = item["question"]
-            all_answers = item['options']
-            correct_answer_index =  ord(item['answer']) - 65
+        answer_i = self.label_mapping[label_answer]
+        answer = options[answer_i]
 
-            curr_correct = all_answers.pop(correct_answer_index)
-            curr_incorrect1 = all_answers[0]
-            curr_incorrect2 = all_answers[1]
-            curr_incorrect3 = all_answers[2]
-            target_text = curr_incorrect1 + ' ' + separator + ' ' + curr_incorrect2 + ' ' + separator + ' ' + curr_incorrect3
-            input_text = question + ' ' + separator + ' ' + curr_correct + ' ' + separator + ' ' + context
+        distractor_ids = [i for i in self.all_labels if i != answer_i]
+        if self.shuffle_distractors:
+            random.shuffle(distractor_ids)
+        distractors = [options[i] for i in distractor_ids]
+        
+        input_text = question + ' ' + self.separator + ' ' + answer + ' ' + self.separator + ' ' + context
+        target_text = distractors[0] + ' ' + self.separator + ' ' + distractors[1] + ' ' + self.separator + ' ' + distractors[2]
 
         input_ids, attention_mask = self._encode_text(input_text)
         labels, _ = self._encode_text(target_text)
