@@ -15,7 +15,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--pad_mask_id", type=int, default=-100)
     parser.add_argument("--qg_model", type=str, default="VietAI/vit5-base")
     parser.add_argument("--pin_memory", dest="pin_memory", action="store_true", default=False)
-    parser.add_argument("--save_dir", type=str, default="./t5-base-question-generator")
+    parser.add_argument("--save_dir", type=str, default="./t5-base-distractor-generator")
     parser.add_argument("--train_batch_size", type=int, default=4)
     parser.add_argument("--valid_batch_size", type=int, default=4)
     parser.add_argument("--log_file", type=str, default="result/train_distractor_log.csv")
