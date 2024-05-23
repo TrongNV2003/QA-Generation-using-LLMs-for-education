@@ -1,45 +1,36 @@
 import numpy as np
 import random
-import re
 import torch
 from transformers import (
+    T5Tokenizer,
     AutoTokenizer,
     AutoModelForSeq2SeqLM
 )
 from typing import Any, List, Mapping, Tuple
 
-class QuestionGenerator:
+class QuestionAnswerGenerator:
     """A transformer-based NLP system for generating reading comprehension-style questions from
-    texts. It can generate full sentence questions, multiple choice questions, or a mix of the
-    two styles.
+    texts. 
     """
 
     def __init__(self) -> None:
-        QG_PRETRAINED = "t5-base-question-generator"  # Sử dụng mô hình đã fine-tune
         self.SEQ_LENGTH = 512
-        self.prefix_mcq = "<MC>"
-        self.prefix_sentences = "<Essay>"
         self.device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-
-        # Load the question generation model
+        
+        QG_PRETRAINED = "t5-base-question-generator"
         self.qg_tokenizer = AutoTokenizer.from_pretrained(QG_PRETRAINED, use_fast=False)
         self.qg_model = AutoModelForSeq2SeqLM.from_pretrained(QG_PRETRAINED)
         self.qg_model.to(self.device)
         self.qg_model.eval()
+        
 
-    def generate(
-        self,
-        article: str,
-        num_questions: int = None,
-        answer_style: str = "all"
-    ) -> List:
-        """Takes an article and generates a set of question and answer pairs.
-        answer_style should be selected from ["sentences", "multiple_choice"].
+    def generate(self, context: str, num_questions: int = None, answer_style: str = "all") -> List:
+        """Takes an context and generates a set of question and answer.
         """
 
         print("Generating questions...\n")
 
-        qg_inputs, qg_answers = self.generate_qg_inputs(article, answer_style)
+        qg_inputs, qg_answers = self.generate_answer_from_inputs(context, answer_style)
         generated_questions = self.generate_questions_from_inputs(qg_inputs)
 
         message = "{} questions doesn't match {} answers".format(
@@ -50,37 +41,34 @@ class QuestionGenerator:
         qa_list = self._get_all_qa_pairs(generated_questions, qg_answers, num_questions)
 
         return qa_list
+    
+    def generate_answer_from_inputs(self, text: str, answer_style: str) -> Tuple[List[str], List[str], List[List[str]]]:
+        """Given a text, returns a list of model inputs and a list of corresponding answers.
+        """
 
-    def generate_qg_inputs(self, text: str, answer_style: str) -> Tuple[List[str], List[str]]:
-        """Given a text, returns a list of model inputs and a list of corresponding answers."""
-
-        VALID_ANSWER_STYLES = ["all", "sentences", "multiple_choice"]
+        VALID_ANSWER_STYLES = ["sentences", "multiple_choice"]
 
         if answer_style not in VALID_ANSWER_STYLES:
             raise ValueError(
-                "Invalid answer style {}. Please choose from {}".format(
-                    answer_style, VALID_ANSWER_STYLES
-                )
+                "Invalid answer style {}. Please choose from {}".format(answer_style, VALID_ANSWER_STYLES)
             )
 
         inputs = []
         answers = []
 
-        if answer_style == "sentences" or answer_style == "all":
+        if answer_style == "sentences":
             segments = self._split_into_segments(text)
 
-            for segment in segments:
-                sentences = self._split_text(segment)
-                prepped_inputs, prepped_answers = self._prepare_qg_inputs(
-                    sentences, segment, answer_style
-                )
-                inputs.extend(prepped_inputs)
-                answers.extend(prepped_answers)
+            prepped_inputs, prepped_answers = self._generate_answer(
+                segments, answer_style
+            )
+            inputs.extend(prepped_inputs)
+            answers.extend(prepped_answers)
 
-        if answer_style == "multiple_choice" or answer_style == "all":
-            sentences = self._split_text(text)
-            prepped_inputs, prepped_answers = self._prepare_qg_inputs_MC(
-                sentences, text
+        elif answer_style == "multiple_choice":
+            sentences = self._split_into_segments(text)
+            prepped_inputs, prepped_answers = self._generate_answer_mcq(
+                sentences, answer_style
             )
             inputs.extend(prepped_inputs)
             answers.extend(prepped_answers)
@@ -88,7 +76,6 @@ class QuestionGenerator:
         return inputs, answers
 
     def generate_questions_from_inputs(self, qg_inputs: List) -> List[str]:
-        """Given a list of concatenated answers and contexts, generates a list of questions."""
         generated_questions = []
 
         for qg_input in qg_inputs:
@@ -96,22 +83,6 @@ class QuestionGenerator:
             generated_questions.append(question)
 
         return generated_questions
-
-    def _split_text(self, text: str) -> List[str]:
-        """Splits the text into sentences, and attempts to split or truncate long sentences."""
-        MAX_SENTENCE_LEN = 128
-        sentences = re.findall(".*?[.!\?]", text)
-        cut_sentences = []
-
-        for sentence in sentences:
-            if len(sentence) > MAX_SENTENCE_LEN:
-                cut_sentences.extend(re.split("[,;:)]", sentence))
-
-        # remove useless post-quote sentence fragments
-        cut_sentences = [s for s in sentences if len(s.split(" ")) > 5]
-        sentences = sentences + cut_sentences
-
-        return list(set([s.strip(" ") for s in sentences]))
 
     def _split_into_segments(self, text: str) -> List[str]:
         """Splits a long text into segments short enough to be input into the transformer network.
@@ -133,65 +104,45 @@ class QuestionGenerator:
             segments.append(segment)
 
         return [self.qg_tokenizer.decode(s, skip_special_tokens=True) for s in segments]
+    
+    @torch.no_grad()
+    def _generate_answer(self, context: str, answer_style: str) -> Tuple[List[str], List[str]]:
 
-    def _prepare_qg_inputs(self, sentences: List[str], text: str, answer_style: str) -> Tuple[List[str], List[str]]:
-        """Uses key phrases as answers and the text as context.
-        Returns a tuple of (model inputs, answers).
-        """
         inputs = []
         answers = []
 
-        for sentence in sentences:
-            qg_input = f"{self.prefix_sentences} question: {sentence} <SEP> context: {text}"
-            inputs.append(qg_input)
-            answers.append(sentence)
+
+        qg_input = f"tự luận: {context}"
+        encoded_input = self._encode_qg_input(qg_input)
+        output = self.qg_model.generate(input_ids=encoded_input["input_ids"], max_new_tokens=128)
+        correct_answer = self.qg_tokenizer.decode(output[0], skip_special_tokens=True).strip()
+        inputs.append(qg_input)
+        answers.append(correct_answer)
 
         return inputs, answers
 
-    def _prepare_qg_inputs_MC(self, sentences: List[str], context: str) -> Tuple[List[str], List[dict]]:
-        """Prepares inputs for multiple-choice questions from the provided sentences"""
-        inputs_from_text = []
-        answers_from_text = []
+    @torch.no_grad()
+    def _generate_answer_mcq(self, context: str, answer_style: str) -> Tuple[List[str], List[str], List[List[str]]]:
+        inputs  = []
+        answers = []
 
-        for sentence in sentences:
-            correct_answer = sentence
-            distractors = self._generate_distractors(correct_answer)
-            options = distractors + [correct_answer]
-            random.shuffle(options)
+        qg_input = f"trắc nghiệm: {context}"
+        encoded_input = self._encode_qg_input(qg_input)
+        output = self.qg_model.generate(input_ids=encoded_input["input_ids"], max_new_tokens=128)
+        correct_answer = self.qg_tokenizer.decode(output[0], skip_special_tokens=True).strip()
 
-            qg_input = f"{self.prefix_mcq} question: {sentence} <SEP> context: {context} <SEP> options: {', '.join(options)}"
-            inputs_from_text.append(qg_input)
-            answers_from_text.append({
-                "context": context,
-                "question": sentence,
-                "options": options,
-                "correct": correct_answer
-            })
+        inputs.append(qg_input)
+        answers.append(correct_answer)
+            
+        return inputs, answers
 
-        return inputs_from_text, answers_from_text
-
-    def _generate_distractors(self, correct_answer: str) -> List[str]:
-        """Generates multiple-choice distractors for a given correct answer using the T5 model."""
-        distractors = []
-        for _ in range(3):
-            prompt = f"generate distractor: {correct_answer}"
-            input_ids = self.qg_tokenizer(prompt, return_tensors='pt').input_ids.to(self.device)
-            outputs = self.qg_model.generate(input_ids, max_length=50, num_return_sequences=1)
-            generated_text = self.qg_tokenizer.decode(outputs[0], skip_special_tokens=True).strip()
-            distractors.append(generated_text)
-        return distractors
 
     @torch.no_grad()
     def _generate_question(self, qg_input: str) -> str:
-        """Takes qg_input which is the concatenated answer and context, and uses it to generate
-        a question sentence. The generated question is decoded and then returned.
-        """
+        """Generates a question and answer with given a context."""
         encoded_input = self._encode_qg_input(qg_input)
-        output = self.qg_model.generate(input_ids=encoded_input["input_ids"], max_new_tokens=30)
-        question = self.qg_tokenizer.decode(
-            output[0],
-            skip_special_tokens=True
-        )
+        output = self.qg_model.generate(input_ids=encoded_input["input_ids"], max_new_tokens=128)
+        question = self.qg_tokenizer.decode(output[0],skip_special_tokens=True)
         return question
 
     def _encode_qg_input(self, qg_input: str) -> torch.tensor:
@@ -206,7 +157,7 @@ class QuestionGenerator:
             return_tensors="pt",
         ).to(self.device)
 
-    def _get_all_qa_pairs(self, generated_questions: List[str], qg_answers: List[str], num_questions: int = None):
+    def _get_all_qa_pairs(self, generated_questions: List[str], qg_answers: List[str]):
         """Formats question and answer pairs without ranking or filtering."""
         qa_list = []
 
@@ -217,11 +168,51 @@ class QuestionGenerator:
             }
             qa_list.append(qa)
 
-        if num_questions:
-            qa_list = qa_list[:num_questions]
-
         return qa_list
 
+class DistractorGenerator:
+    """A class for generating distractor options for multiple-choice questions."""
+
+    def __init__(self) -> None:
+        # model 2: generate distractors
+        QD_PRETRAINED = "t5-base-distractor-generator"
+        self.SEQ_LENGTH = 512
+        self.device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+        self.qd_tokenizer = T5Tokenizer.from_pretrained(QD_PRETRAINED, self.SEQ_LENGTH)
+        self.qd_tokenizer.add_special_tokens({"sep_token": "<sep>"})
+        self.qd_model = AutoModelForSeq2SeqLM.from_pretrained(QD_PRETRAINED)
+        self.qd_model.to(self.device)
+        self.qd_model.eval()
+
+    @torch.no_grad()
+    def _generate_distractors(self, question: str, correct_answer: str, context: str) -> List[str]:
+        distractors = set()
+        attempts = 0
+
+        distractor_input = f"{question} <sep> {correct_answer} <sep> {context}"
+
+        while len(distractors) < 3 and attempts < 10:
+            input_ids = self.qd_tokenizer(distractor_input, return_tensors='pt').input_ids.to(self.device)
+            outputs = self.qd_model.generate(input_ids, max_new_tokens=50, num_return_sequences=1)
+            generated_text = self.qd_tokenizer.decode(outputs[0], skip_special_tokens=True).strip()
+
+            if generated_text.lower() != correct_answer.lower() and generated_text not in distractors:
+                distractors.add(generated_text)
+            attempts += 1
+
+        return list(distractors)
+    
+    def _encode_qg_input(self, qg_input: str) -> torch.tensor:
+        """Tokenizes a string and returns a tensor of input ids corresponding to indices of tokens in
+        the vocab.
+        """
+        return self.qg_tokenizer(
+            qg_input,
+            padding='max_length',
+            max_length=self.SEQ_LENGTH,
+            truncation=True,
+            return_tensors="pt",
+        ).to(self.device)
 
 def print_qa(qa_list: List[Mapping[str, str]], show_answers: bool = True) -> None:
     """Formats and prints a list of generated questions and answers."""
@@ -234,15 +225,12 @@ def print_qa(qa_list: List[Mapping[str, str]], show_answers: bool = True) -> Non
 
         answer = qa_list[i]["answer"]
         
-        # Check if the answer is a dictionary (MCQ format)
-        if isinstance(answer, dict) and 'options' in answer and 'correct' in answer:
-            
-            for idx, option in enumerate(answer['options']):
-                print(f"{space}{idx + 1}. {option}")
+        if "A: " in answer:  # multiple choice format
+            print(f"{space}{answer}")
             if show_answers:
-                correct_option_idx = answer['options'].index(answer['correct']) + 1
-                print(f"{space}Correct Answer: {correct_option_idx}. {answer['correct']}\n")
-        else:
+                correct_option = answer.split('\n')[1].strip()
+                print(f"{space}Correct Answer: {correct_option}\n")
+        else:  # sentence format
             if show_answers:
                 print(f"{space}A: {answer}\n")
 
