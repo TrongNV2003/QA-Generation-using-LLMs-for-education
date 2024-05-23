@@ -174,12 +174,10 @@ class DistractorGenerator:
     """A class for generating distractor options for multiple-choice questions."""
 
     def __init__(self) -> None:
-        # model 2: generate distractors
         QD_PRETRAINED = "t5-base-distractor-generator"
         self.SEQ_LENGTH = 512
         self.device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-        self.qd_tokenizer = T5Tokenizer.from_pretrained(QD_PRETRAINED, self.SEQ_LENGTH)
-        self.qd_tokenizer.add_special_tokens({"sep_token": "<sep>"})
+        self.qd_tokenizer = AutoTokenizer.from_pretrained(QD_PRETRAINED,use_fast=False)
         self.qd_model = AutoModelForSeq2SeqLM.from_pretrained(QD_PRETRAINED)
         self.qd_model.to(self.device)
         self.qd_model.eval()
@@ -202,17 +200,6 @@ class DistractorGenerator:
 
         return list(distractors)
     
-    def _encode_qg_input(self, qg_input: str) -> torch.tensor:
-        """Tokenizes a string and returns a tensor of input ids corresponding to indices of tokens in
-        the vocab.
-        """
-        return self.qg_tokenizer(
-            qg_input,
-            padding='max_length',
-            max_length=self.SEQ_LENGTH,
-            truncation=True,
-            return_tensors="pt",
-        ).to(self.device)
 
 def print_qa(qa_list: List[Mapping[str, str]], show_answers: bool = True) -> None:
     """Formats and prints a list of generated questions and answers."""
