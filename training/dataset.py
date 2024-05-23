@@ -77,7 +77,7 @@ class QGDataset(torch.utils.data.Dataset):
         
         
 class DistractorDataset(torch.utils.data.Dataset):
-    def __init__(self, json_file: str, max_length: int, pad_mask_id: int, tokenizer: T5Tokenizer, shuffle_distractors=False, separator = '<sep>') -> None:
+    def __init__(self, json_file: str, max_length: int, pad_mask_id: int, tokenizer: T5Tokenizer, shuffle_distractors=True, separator = '<sep>') -> None:
         """
         task:
             - input: question <sep> answer <sep> context

@@ -7,13 +7,13 @@ from trainer import Trainer
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser()
-    parser.add_argument("--dataloader_workers", type=int, default=2)
+    parser.add_argument("--dataloader_workers", type=int, default=0)
     parser.add_argument("--device", type=str, default="cuda")
     parser.add_argument("--epochs", type=int, default=5)
     parser.add_argument("--learning_rates", nargs="+", type=float, default=[2e-5])
     parser.add_argument("--max_length", type=int, default=512)
     parser.add_argument("--pad_mask_id", type=int, default=-100)
-    parser.add_argument("--qg_model", type=str, default="VietAI/vit5-base")
+    parser.add_argument("--distractor_model", type=str, default="VietAI/vit5-base")
     parser.add_argument("--pin_memory", dest="pin_memory", action="store_true", default=False)
     parser.add_argument("--save_dir", type=str, default="./t5-base-distractor-generator")
     parser.add_argument("--train_batch_size", type=int, default=4)
@@ -43,7 +43,7 @@ def get_model(checkpoint: str, device: str, tokenizer: T5Tokenizer) -> T5ForCond
 
 if __name__ == "__main__":
     args = parse_args()
-    tokenizer = get_tokenizer(args.qg_model)
+    tokenizer = get_tokenizer(args.distractor_model)
     
     train_set = DistractorDataset(
         json_file=args.train_file,
@@ -61,7 +61,7 @@ if __name__ == "__main__":
     
     for lr in args.learning_rates:
         print(f"Training with learning rate: {lr}")
-        model = get_model(args.qg_model, args.device, tokenizer)
+        model = get_model(args.distractor_model, args.device, tokenizer)
         trainer = Trainer(
             dataloader_workers=args.dataloader_workers,
             device=args.device,
