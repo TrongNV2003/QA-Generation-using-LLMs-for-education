@@ -1366,33 +1366,5 @@
     "question": "Chủ nghĩa duy tâm chia thành những phái nào?",
     "options": ["Chủ nghĩa duy tâm chủ quan và chủ nghĩa duy tâm khách quan", "Chủ nghĩa duy tâm cổ điển và chủ nghĩa duy tâm hiện đại", "Chủ nghĩa duy tâm phương Đông và chủ nghĩa duy tâm phương Tây", "Chủ nghĩa duy tâm lý thuyết và chủ nghĩa duy tâm thực hành"],
     "answer": "A"
-  },
-  {
-    "context": "Trong quá trình phát triển, đối tượng của triết học thay đổi theo từng giai đoạn lịch sử. Ngay từ khi mới ra đời, triết học được xem là hình thái cao nhất của tri thức, bao hàm trong nó tri thức về tất cả các lĩnh vực không có đối tượng riêng. Đây là nguyên nhân sâu xa làm nảy sinh quan niệm cho rằng, triết học là khoa học của mọi khoa học, đặc biệt là ở triết học tự nhiên của Hy Lạp cổ đại. Thời kỳ này, triết học đã đạt được nhiều thành tựu rực rỡ mà ảnh hưởng của nó còn in đậm đối với sự phát triển của tư tưởng triết học ở Tây Âu.",
-    "question_type": "multiple_choice",
-    "question": "Triết học được coi là hình thái cao nhất của gì ngay từ khi ra đời?",
-    "options": ["Tri thức", "Khoa học", "Nghệ thuật", "Văn hóa"],
-    "answer": "A"
-  },
-  {
-    "context": "Trong điều kiện xã hội ngày nay, cuộc đấu tranh giai cấp trên lĩnh vực ý thức hệ vẫn đang tiếp tục diễn ra. Trước những khó khăn và thử thách trên con đường phát triển của chủ nghĩa xã hội, các thế lực thù địch đang ra sức tiến công vào chủ nghĩa Mác - Lênin, muốn phủ nhận, xoá bỏ nó. Do vậy bảo vệ và phát triển chủ nghĩa Mác - Lênin trong điều kiện thế giới ngày nay, là một nhiệm vụ quan trọng của cuộc đấu tranh vì mục tiêu độc lập dân tộc, dân chủ và chủ nghĩa xã hội của nhân dân ta và nhân dân tiến bộ trên thế giới nói chung.",
-    "question_type": "multiple_choice",
-    "question": "Trong điều kiện xã hội ngày nay, cuộc đấu tranh giai cấp diễn ra trên lĩnh vực nào?",
-    "options": ["Lĩnh vực ý thức hệ", "Lĩnh vực kinh tế", "Lĩnh vực văn hóa", "Lĩnh vực chính trị"],
-    "answer": "A"
-  },
-  {
-    "context": "Cần thấy rõ sự khác nhau tương đối giữa ý thức xã hội và ý thức cá nhân. ý thức của cá nhân đều phản ánh tồn tại xã hội với mức độ khác nhau. Do đó, nó không thể không mang tính xã hội. Song ý thức cá nhân không phải bao giờ cũng thể hiện quan điểm tư tưởng, tình cảm phổ biến của một cộng đồng, một tập đoàn xã hội, một thời đại xã hội nhất định.",
-    "question_type": "multiple_choice",
-    "question": "Ý thức của cá nhân đều phản ánh tồn tại xã hội với mức độ như thế nào?",
-    "options": ["Giống nhau", "Khác nhau", "Đồng nhất", "Tương đồng"],
-    "answer": "B"
-  },
-  {
-    "context": "Tính tất yếu và tính phổ biến là những đặc trưng của quy luật xã hội. Tuy nhiên, tùy thuộc vào phạm vi và cấp độ của các mối quan hệ xã hội mà các quy luật thể hiện chúng cũng có mức độ tất yếu và phổ biến khác nhau.",
-    "question_type": "multiple_choice",
-    "question": "Tính tất yếu và tính phổ biến là đặc trưng của quy luật nào?",
-    "options": ["Tự nhiên", "Vật lý", "Xã hội", "Sinh học"],
-    "answer": "C"
   }
 ]
