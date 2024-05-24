@@ -70,7 +70,7 @@ class QuestionAnswerGenerator:
         inputs, questions, answers = [], [], []
 
         for segment in context:
-            qg_input = f"tự luận: {segment}"
+            qg_input = f"Tự luận: {segment}"
             encoded_input = self._encode_qg_input(qg_input)
             output = self.qg_model.generate(input_ids=encoded_input["input_ids"], max_new_tokens=128)
             correct_answer = self.qg_tokenizer.decode(output[0], skip_special_tokens=False)
@@ -92,7 +92,7 @@ class QuestionAnswerGenerator:
         inputs, questions, answers = [], [], []
 
         for segment in context:
-            qg_input = f"trắc nghiệm: {segment}"
+            qg_input = f"Trắc nghiệm: {segment}"
             encoded_input = self._encode_qg_input(qg_input)
             output = self.qg_model.generate(input_ids=encoded_input["input_ids"], max_new_tokens=128)
             correct_answer = self.qg_tokenizer.decode(output[0], skip_special_tokens=False)
