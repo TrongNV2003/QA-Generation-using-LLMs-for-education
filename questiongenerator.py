@@ -3,15 +3,11 @@ import random
 import torch
 from transformers import T5Tokenizer, AutoTokenizer, AutoModelForSeq2SeqLM
 from typing import Any, List, Mapping, Tuple
-# from prepare import prepare_qa_input, prepare_distractor_input
 
 class QuestionAnswerGenerator:
-    """A transformer-based NLP system for generating reading comprehension-style questions from
-    texts. 
-    """
+    """A transformer-based NLP system for generating reading comprehension-style questions from texts."""
 
     def __init__(self) -> None:
-        
         self.SEQ_LENGTH = 512
         self.qg_tokenizer = AutoTokenizer.from_pretrained("VietAI/vit5-base", use_fast=False)
         self.qg_tokenizer.add_special_tokens({"sep_token": "<sep>"})
@@ -21,29 +17,24 @@ class QuestionAnswerGenerator:
         self.qg_model = AutoModelForSeq2SeqLM.from_pretrained(QG_PRETRAINED)
         self.qg_model.to(self.device)
         self.qg_model.eval()
-        
 
     def generate(self, context: str, num_questions: int = None, answer_style: str = "all") -> List:
-        """Takes an context and generates a set of question and answer.
-        """
+        """Takes a context and generates a set of question and answer pairs."""
 
         print("Generating questions...\n")
 
         qg_inputs, qg_answers = self.generate_answer_from_inputs(context, answer_style)
         generated_questions = self.generate_questions_from_inputs(qg_inputs)
 
-        message = "{} questions doesn't match {} answers".format(
-            len(generated_questions), len(qg_answers)
-        )
+        message = "{} questions don't match {} answers".format(len(generated_questions), len(qg_answers))
         assert len(generated_questions) == len(qg_answers), message
 
         qa_list = self._get_all_qa_pairs(generated_questions, qg_answers)
 
         return qa_list
     
-    def generate_answer_from_inputs(self, text: str, answer_style: str) -> Tuple[List[str], List[str], List[List[str]]]:
-        """Given a text, returns a list of model inputs and a list of corresponding answers.
-        """
+    def generate_answer_from_inputs(self, text: str, answer_style: str) -> Tuple[List[str], List[str]]:
+        """Given a text, returns a list of model inputs and a list of corresponding answers."""
 
         VALID_ANSWER_STYLES = ["sentences", "multiple_choice"]
 
@@ -58,17 +49,13 @@ class QuestionAnswerGenerator:
         if answer_style == "sentences":
             segments = self._split_into_segments(text)
 
-            prepped_inputs, prepped_answers = self._generate_answer(
-                segments, answer_style
-            )
+            prepped_inputs, prepped_answers = self._generate_answer(segments, answer_style)
             inputs.extend(prepped_inputs)
             answers.extend(prepped_answers)
 
         elif answer_style == "multiple_choice":
             sentences = self._split_into_segments(text)
-            prepped_inputs, prepped_answers = self._generate_answer_mcq(
-                sentences, answer_style
-            )
+            prepped_inputs, prepped_answers = self._generate_answer_mcq(sentences, answer_style)
             inputs.extend(prepped_inputs)
             answers.extend(prepped_answers)
 
@@ -105,47 +92,46 @@ class QuestionAnswerGenerator:
         return [self.qg_tokenizer.decode(s, skip_special_tokens=True) for s in segments]
     
     @torch.no_grad()
-    def _generate_answer(self, context: str, answer_style: str) -> Tuple[List[str], List[str]]:
-
+    def _generate_answer(self, context: List[str], answer_style: str) -> Tuple[List[str], List[str]]:
         inputs = []
         answers = []
 
-        qg_input = f"tự luận: {context}"
-        encoded_input = self._encode_qg_input(qg_input)
-        output = self.qg_model.generate(input_ids=encoded_input["input_ids"], max_new_tokens=128)
-        correct_answer = self.qg_tokenizer.decode(output[0], skip_special_tokens=True).strip()
-        inputs.append(qg_input)
-        answers.append(correct_answer)
+        for segment in context:
+            qg_input = f"tự luận: {segment}"
+            encoded_input = self._encode_qg_input(qg_input)
+            output = self.qg_model.generate(input_ids=encoded_input["input_ids"], max_new_tokens=128)
+            correct_answer = self.qg_tokenizer.decode(output[0], skip_special_tokens=True).strip()
+            inputs.append(qg_input)
+            answers.append(correct_answer)
 
         return inputs, answers
 
     @torch.no_grad()
-    def _generate_answer_mcq(self, context: str, answer_style: str) -> Tuple[List[str], List[str], List[List[str]]]:
-        inputs  = []
+    def _generate_answer_mcq(self, context: List[str], answer_style: str) -> Tuple[List[str], List[str]]:
+        inputs = []
         answers = []
 
-        qg_input = f"trắc nghiệm: {context}"
-        encoded_input = self._encode_qg_input(qg_input)
-        output = self.qg_model.generate(input_ids=encoded_input["input_ids"], max_new_tokens=128)
-        correct_answer = self.qg_tokenizer.decode(output[0], skip_special_tokens=True).strip()
+        for segment in context:
+            qg_input = f"trắc nghiệm: {segment}"
+            encoded_input = self._encode_qg_input(qg_input)
+            output = self.qg_model.generate(input_ids=encoded_input["input_ids"], max_new_tokens=128)
+            correct_answer = self.qg_tokenizer.decode(output[0], skip_special_tokens=True).strip()
 
-        inputs.append(qg_input)
-        answers.append(correct_answer)
+            inputs.append(qg_input)
+            answers.append(correct_answer)
             
         return inputs, answers
 
     @torch.no_grad()
     def _generate_question(self, qg_input: str) -> str:
-        """Generates a question and answer with given a context."""
+        """Generates a question from given input."""
         encoded_input = self._encode_qg_input(qg_input)
         output = self.qg_model.generate(input_ids=encoded_input["input_ids"], max_new_tokens=128)
-        question = self.qg_tokenizer.decode(output[0],skip_special_tokens=True)
+        question = self.qg_tokenizer.decode(output[0], skip_special_tokens=True)
         return question
 
-    def _encode_qg_input(self, qg_input: str) -> torch.tensor:
-        """Tokenizes a string and returns a tensor of input ids corresponding to indices of tokens in
-        the vocab.
-        """
+    def _encode_qg_input(self, qg_input: str) -> torch.Tensor:
+        """Tokenizes a string and returns a tensor of input ids corresponding to indices of tokens in the vocab."""
         return self.qg_tokenizer(
             qg_input,
             padding='max_length',
@@ -154,7 +140,7 @@ class QuestionAnswerGenerator:
             return_tensors="pt",
         ).to(self.device)
 
-    def _get_all_qa_pairs(self, generated_questions: List[str], qg_answers: List[str]):
+    def _get_all_qa_pairs(self, generated_questions: List[str], qg_answers: List[str]) -> List[Mapping[str, str]]:
         """Formats question and answer pairs without ranking or filtering."""
         qa_list = []
 
@@ -174,7 +160,7 @@ class DistractorGenerator:
         QD_PRETRAINED = "t5-base-distractor-generator"
         self.SEQ_LENGTH = 512
         self.device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-        self.qd_tokenizer = AutoTokenizer.from_pretrained("VietAI/vit5-base",use_fast=False)
+        self.qd_tokenizer = AutoTokenizer.from_pretrained("VietAI/vit5-base", use_fast=False)
         self.qd_model = AutoModelForSeq2SeqLM.from_pretrained(QD_PRETRAINED)
         self.qd_model.to(self.device)
         self.qd_model.eval()
@@ -196,7 +182,6 @@ class DistractorGenerator:
             attempts += 1
 
         return list(distractors)
-    
 
 def print_qa(qa_list: List[Mapping[str, str]], show_answers: bool = True) -> None:
     """Formats and prints a list of generated questions and answers."""
@@ -213,7 +198,6 @@ def print_qa(qa_list: List[Mapping[str, str]], show_answers: bool = True) -> Non
         else:  # sentence format
             if show_answers:
                 print(f"{space}A: {answer}\n")
-
 
 def save_qa_to_txt(qa_list: List[Mapping[str, str]], file_path: str) -> None:
     """Saves a list of generated questions and answers to a text file."""
