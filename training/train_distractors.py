@@ -1,7 +1,7 @@
 import argparse
 from transformers import T5Config, T5ForConditionalGeneration, T5Tokenizer
 
-from dataset import DistractorDataset
+from data_loader import DistractorDataset
 from trainer import Trainer
 
 

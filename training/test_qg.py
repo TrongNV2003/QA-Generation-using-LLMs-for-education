@@ -1,7 +1,7 @@
 import argparse
 from transformers import T5Config, T5ForConditionalGeneration, T5Tokenizer
 
-from dataset import QGDataset
+from data_loader import QGDataset
 from trainer import Trainer
 import pandas as pd
 
