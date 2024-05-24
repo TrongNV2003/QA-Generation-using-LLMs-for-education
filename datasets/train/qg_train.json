@@ -1738,6 +1738,13 @@
     "answer": "C"
   },
   {
+    "context": "Các quy luật cơ bản của phép biện chứng duy vật phản ánh sự vận động, phát triển dưới những phương diện cơ bản nhất. Quy luật chuyển hóa từ những thay đổi về lượng thành những thay đổi về chất và ngược lại cho biết phương thức của sự vận động, phát triển; quy luật thống nhất và đấu tranh của các mặt đối lập cho biết nguồn gốc của sự vận động và phát triển; quy luật phủ định của phủ định cho biết khuynh hướng của sự phát triển.",
+    "question_type": "multiple_choice",
+    "question": "Quy luật nào cho biết khuynh hướng của sự phát triển?",
+    "options": ["Quy luật chuyển hóa từ những thay đổi về lượng thành những thay đổi về chất", "Quy luật thống nhất và đấu tranh của các mặt đối lập", "Quy luật phủ định của phủ định", "Quy luật bảo toàn năng lượng"],
+    "answer": "C"
+  },
+  {
     "context": "Như bất cứ một cộng đồng người nào phát triển trong lịch sử, cộng đồng người Việt đầu tiên cũng hình thành từ một thị tộc, tiếp đó thị tộc này liên kết với các thị tộc khác có quan hệ về huyết duyên và địa lý mà trở thành bộ lạc rồi liên minh bộ lạc, và phát triển lên thành bộ tộc rồi dân tộc. Cộng đồng người Việt được hình thành sớm trong lịch sử, có tên là Việt; phân biệt với nhiều tộc Việt ở miền Nam Trung Quốc, nó được gọi là Lạc Việt. Để bảo đảm tính ổn định của cộng đồng mình, nhiều nhà tư tưởng trong lịch sử nói tới sự cần thiết phải giữ những nét riêng của nó so với người Ngô (người Trung Quốc) và người Lào.",
     "question_type": "multiple_choice",
     "question": "Cộng đồng người Việt đầu tiên được hình thành từ đâu?",
