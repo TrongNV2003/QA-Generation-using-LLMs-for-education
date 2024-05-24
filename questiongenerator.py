@@ -52,9 +52,7 @@ class QuestionAnswerGenerator:
         """
         MAX_TOKENS = 512
         paragraphs = text.split("\n")
-        tokenized_paragraphs = [
-            self.qg_tokenizer(p)["input_ids"] for p in paragraphs if len(p) > 0
-        ]
+        tokenized_paragraphs = [self.qg_tokenizer(p)["input_ids"] for p in paragraphs if len(p) > 0]
         segments = []
 
         while tokenized_paragraphs:
