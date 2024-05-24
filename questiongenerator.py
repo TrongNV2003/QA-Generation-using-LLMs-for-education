@@ -18,14 +18,16 @@ class QuestionAnswerGenerator:
         self.qg_model.to(self.device)
         self.qg_model.eval()
 
-    def generate(self, context: str, num_questions: int = None, answer_style: str = "sentences") -> List:
+    def generate(self, context: str, num_questions: int = 3, answer_style: str = "all") -> List:
         """Takes a context and generates a set of question and answer pairs."""
 
         print("Generating questions...\n")
 
-        inputs, questions, answers = self.generate_qa_from_inputs(context, answer_style)
-
-        qa_list = self._get_all_qa_pairs(questions, answers)
+        qa_list = []
+        for _ in range(num_questions):
+            inputs, questions, answers = self.generate_qa_from_inputs(context, answer_style)
+            qa_pairs = self._get_all_qa_pairs(questions, answers)
+            qa_list.extend(qa_pairs)
 
         return qa_list
     
