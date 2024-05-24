@@ -18,23 +18,19 @@ class QuestionAnswerGenerator:
         self.qg_model.to(self.device)
         self.qg_model.eval()
 
-    def generate(self, context: str, num_questions: int = None, answer_style: str = "all") -> List:
+    def generate(self, context: str, num_questions: int = None, answer_style: str = "sentences") -> List:
         """Takes a context and generates a set of question and answer pairs."""
 
         print("Generating questions...\n")
 
-        qg_inputs, qg_answers = self.generate_answer_from_inputs(context, answer_style)
-        generated_questions = self.generate_questions_from_inputs(qg_inputs)
+        inputs, questions, answers = self.generate_qa_from_inputs(context, answer_style)
 
-        message = "{} questions don't match {} answers".format(len(generated_questions), len(qg_answers))
-        assert len(generated_questions) == len(qg_answers), message
-
-        qa_list = self._get_all_qa_pairs(generated_questions, qg_answers)
+        qa_list = self._get_all_qa_pairs(questions, answers)
 
         return qa_list
     
-    def generate_answer_from_inputs(self, text: str, answer_style: str) -> Tuple[List[str], List[str]]:
-        """Given a text, returns a list of model inputs and a list of corresponding answers."""
+    def generate_qa_from_inputs(self, context: str, answer_style: str) -> Tuple[List[str], List[str], List[str]]:
+        """Given a text, returns a list of model inputs, questions, and answers."""
 
         VALID_ANSWER_STYLES = ["sentences", "multiple_choice"]
 
@@ -42,34 +38,15 @@ class QuestionAnswerGenerator:
             raise ValueError(
                 "Invalid answer style {}. Please choose from {}".format(answer_style, VALID_ANSWER_STYLES)
             )
-
-        inputs = []
-        answers = []
-
+        segments = self._split_into_segments(context)
         if answer_style == "sentences":
-            segments = self._split_into_segments(text)
-
-            prepped_inputs, prepped_answers = self._generate_answer(segments, answer_style)
-            inputs.extend(prepped_inputs)
-            answers.extend(prepped_answers)
+            inputs, questions, answers = self._generate_qa(segments)
 
         elif answer_style == "multiple_choice":
-            sentences = self._split_into_segments(text)
-            prepped_inputs, prepped_answers = self._generate_answer_mcq(sentences, answer_style)
-            inputs.extend(prepped_inputs)
-            answers.extend(prepped_answers)
+            inputs, questions, answers = self._generate_qa_mcq(segments)
 
-        return inputs, answers
-
-    def generate_questions_from_inputs(self, qg_inputs: List) -> List[str]:
-        generated_questions = []
-
-        for qg_input in qg_inputs:
-            question = self._generate_question(qg_input)
-            generated_questions.append(question)
-
-        return generated_questions
-
+        return inputs, questions, answers
+    
     def _split_into_segments(self, text: str) -> List[str]:
         """Splits a long text into segments short enough to be input into the transformer network.
         Segments are used as context for question generation.
@@ -81,10 +58,10 @@ class QuestionAnswerGenerator:
         ]
         segments = []
 
-        while len(tokenized_paragraphs) > 0:
+        while tokenized_paragraphs:
             segment = []
 
-            while len(segment) < MAX_TOKENS and len(tokenized_paragraphs) > 0:
+            while len(segment) < MAX_TOKENS and tokenized_paragraphs:
                 paragraph = tokenized_paragraphs.pop(0)
                 segment.extend(paragraph)
             segments.append(segment)
@@ -92,46 +69,51 @@ class QuestionAnswerGenerator:
         return [self.qg_tokenizer.decode(s, skip_special_tokens=True) for s in segments]
     
     @torch.no_grad()
-    def _generate_answer(self, context: List[str], answer_style: str) -> Tuple[List[str], List[str]]:
-        inputs = []
-        answers = []
+    def _generate_qa(self, context: List[str]) -> Tuple[List[str], List[str], List[str]]:
+        inputs, questions, answers = [], [], []
 
         for segment in context:
             qg_input = f"tự luận: {segment}"
             encoded_input = self._encode_qg_input(qg_input)
             output = self.qg_model.generate(input_ids=encoded_input["input_ids"], max_new_tokens=128)
-            correct_answer = self.qg_tokenizer.decode(output[0], skip_special_tokens=True).strip()
-            inputs.append(qg_input)
-            answers.append(correct_answer)
+            correct_answer = self.qg_tokenizer.decode(output[0], skip_special_tokens=False)
+            correct_answer = correct_answer.replace(self.qg_tokenizer.pad_token, "").replace(self.qg_tokenizer.eos_token, "")
+            question_answer_split = correct_answer.split(self.qg_tokenizer.sep_token)
+            if len(question_answer_split) == 2:
+                # valid Question + Annswer output
+                question, answer = question_answer_split[0].strip(), question_answer_split[1].strip()
+                inputs.append(qg_input)
+                questions.append(question)
+                answers.append(answer)
+            else:
+                raise Exception("max_repeated_sampling exceeded")
 
-        return inputs, answers
+        return inputs, questions, answers
 
     @torch.no_grad()
-    def _generate_answer_mcq(self, context: List[str], answer_style: str) -> Tuple[List[str], List[str]]:
-        inputs = []
-        answers = []
+    def _generate_qa_mcq(self, context: List[str]) -> Tuple[List[str], List[str], List[str]]:
+        inputs, questions, answers = [], [], []
 
         for segment in context:
             qg_input = f"trắc nghiệm: {segment}"
             encoded_input = self._encode_qg_input(qg_input)
             output = self.qg_model.generate(input_ids=encoded_input["input_ids"], max_new_tokens=128)
-            correct_answer = self.qg_tokenizer.decode(output[0], skip_special_tokens=True).strip()
+            correct_answer = self.qg_tokenizer.decode(output[0], skip_special_tokens=False)
+            correct_answer = correct_answer.replace(self.qg_tokenizer.pad_token, "").replace(self.qg_tokenizer.eos_token, "")
+            question_answer_split = correct_answer.split(self.qg_tokenizer.sep_token)
+            if len(question_answer_split) == 2:
+                # valid Question + Annswer output
+                question, answer = question_answer_split[0].strip(), question_answer_split[1].strip()
+                inputs.append(qg_input)
+                questions.append(question)
+                answers.append(answer)
+            else:
+                raise Exception("Invalid Question-Answer format")
 
-            inputs.append(qg_input)
-            answers.append(correct_answer)
-            
-        return inputs, answers
-
-    @torch.no_grad()
-    def _generate_question(self, qg_input: str) -> str:
-        """Generates a question from given input."""
-        encoded_input = self._encode_qg_input(qg_input)
-        output = self.qg_model.generate(input_ids=encoded_input["input_ids"], max_new_tokens=128)
-        question = self.qg_tokenizer.decode(output[0], skip_special_tokens=True)
-        return question
+        return inputs, questions, answers
 
     def _encode_qg_input(self, qg_input: str) -> torch.Tensor:
-        """Tokenizes a string and returns a tensor of input ids corresponding to indices of tokens in the vocab."""
+        """Tokenizes a string and returns a tensor of input ids."""
         return self.qg_tokenizer(
             qg_input,
             padding='max_length',
@@ -140,17 +122,9 @@ class QuestionAnswerGenerator:
             return_tensors="pt",
         ).to(self.device)
 
-    def _get_all_qa_pairs(self, generated_questions: List[str], qg_answers: List[str]) -> List[Mapping[str, str]]:
-        """Formats question and answer pairs without ranking or filtering."""
-        qa_list = []
-
-        for question, answer in zip(generated_questions, qg_answers):
-            qa = {
-                "question": question.split("?")[0] + "?",
-                "answer": answer
-            }
-            qa_list.append(qa)
-
+    def _get_all_qa_pairs(self, questions: List[str], answers: List[str]) -> List[Mapping[str, str]]:
+        """Formats question and answer pairs"""
+        qa_list = [{"question": question.split("?")[0] + "?", "answer": answer} for question, answer in zip(questions, answers)]
         return qa_list
 
 class DistractorGenerator:
@@ -169,12 +143,11 @@ class DistractorGenerator:
     def _generate_distractors(self, question: str, correct_answer: str, context: str) -> List[str]:
         distractors = set()
         attempts = 0
-
         distractor_input = f"{question} <sep> {correct_answer} <sep> {context}"
 
         while len(distractors) < 3 and attempts < 10:
             input_ids = self.qd_tokenizer(distractor_input, return_tensors='pt').input_ids.to(self.device)
-            outputs = self.qd_model.generate(input_ids, max_new_tokens=50, num_return_sequences=1)
+            outputs = self.qd_model.generate(input_ids, max_new_tokens=128, num_return_sequences=1)
             generated_text = self.qd_tokenizer.decode(outputs[0], skip_special_tokens=True).strip()
 
             if generated_text.lower() != correct_answer.lower() and generated_text not in distractors:
@@ -185,10 +158,10 @@ class DistractorGenerator:
 
 def print_qa(qa_list: List[Mapping[str, str]], show_answers: bool = True) -> None:
     """Formats and prints a list of generated questions and answers."""
-    for i in range(len(qa_list)):
-        space = " " * int(np.where(i < 9, 3, 4))
-        print(f"{i + 1}) Q: {qa_list[i]['question']}")
-        answer = qa_list[i]["answer"]
+    for i, qa in enumerate(qa_list):
+        space = " " * (3 if i < 9 else 4)
+        print(f"{i + 1}) Q: {qa['question']}")
+        answer = qa["answer"]
         if isinstance(answer, dict):  # multiple choice format
             for idx, option in enumerate(answer['options']):
                 print(f"{space}{chr(65 + idx)}: {option}")
@@ -202,13 +175,10 @@ def print_qa(qa_list: List[Mapping[str, str]], show_answers: bool = True) -> Non
 def save_qa_to_txt(qa_list: List[Mapping[str, str]], file_path: str) -> None:
     """Saves a list of generated questions and answers to a text file."""
     with open(file_path, "w", encoding="utf-8") as file:
-        for i in range(len(qa_list)):
-            space = " " * int(np.where(i < 9, 3, 4))
-            file.write(f"{i + 1}) Q: {qa_list[i]['question']}\n")
-
-            answer = qa_list[i]["answer"]
-
-            # Check if the answer is a dictionary (MCQ format)
+        for i, qa in enumerate(qa_list):
+            space = " " * (3 if i < 9 else 4)
+            file.write(f"{i + 1}) Q: {qa['question']}\n")
+            answer = qa["answer"]
             if isinstance(answer, dict) and 'options' in answer and 'correct' in answer:
                 file.write(f"{space}Context: {answer['context']}\n")
                 for idx, option in enumerate(answer['options']):
@@ -217,5 +187,4 @@ def save_qa_to_txt(qa_list: List[Mapping[str, str]], file_path: str) -> None:
                 file.write(f"{space}Correct Answer: {correct_option_idx}. {answer['correct']}\n")
             else:
                 file.write(f"{space}A: {answer}\n")
-
             file.write("\n")
