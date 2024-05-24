@@ -26,6 +26,9 @@ def parse_args() -> argparse.Namespace:
 
 def get_tokenizer(checkpoint: str) -> T5Tokenizer:
     tokenizer = T5Tokenizer.from_pretrained(checkpoint)
+    tokenizer.add_special_tokens(
+        {'additional_special_tokens': ['<sep>']}
+    )
     return tokenizer
 
 

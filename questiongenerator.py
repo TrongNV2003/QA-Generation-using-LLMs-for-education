@@ -1,8 +1,10 @@
 import numpy as np
 import random
 import torch
+import argparse
 from transformers import T5Tokenizer, AutoTokenizer, AutoModelForSeq2SeqLM
 from typing import Any, List, Mapping, Tuple
+from prepare import prepare_qa_input, prepare_distractor_input
 
 class QuestionAnswerGenerator:
     """A transformer-based NLP system for generating reading comprehension-style questions from
@@ -10,10 +12,13 @@ class QuestionAnswerGenerator:
     """
 
     def __init__(self) -> None:
+        
         self.SEQ_LENGTH = 512
+        self.qg_tokenizer = AutoTokenizer.from_pretrained("VietAI/vit5-base", use_fast=False)
+        self.qg_tokenizer.add_special_tokens({"sep_token": "<sep>"})
         self.device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+        
         QG_PRETRAINED = "t5-base-question-generator"
-        self.qg_tokenizer = AutoTokenizer.from_pretrained(QG_PRETRAINED, use_fast=False)
         self.qg_model = AutoModelForSeq2SeqLM.from_pretrained(QG_PRETRAINED)
         self.qg_model.to(self.device)
         self.qg_model.eval()
@@ -172,7 +177,7 @@ class DistractorGenerator:
         QD_PRETRAINED = "t5-base-distractor-generator"
         self.SEQ_LENGTH = 512
         self.device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-        self.qd_tokenizer = AutoTokenizer.from_pretrained(QD_PRETRAINED,use_fast=False)
+        self.qd_tokenizer = AutoTokenizer.from_pretrained("VietAI/vit5-base",use_fast=False)
         self.qd_model = AutoModelForSeq2SeqLM.from_pretrained(QD_PRETRAINED)
         self.qd_model.to(self.device)
         self.qd_model.eval()

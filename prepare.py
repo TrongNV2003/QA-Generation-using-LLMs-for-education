@@ -45,38 +45,3 @@ def prepare_distractor_input(
     if torch_device == 'cuda':
         input_ids = input_ids.cuda()
     return input_ids
-
-def prepare_answering_input(
-    tokenizer, # longformer_tokenizer
-    question,
-    options,
-    context,
-    max_seq_length=4096,
-    torch_device='cpu',
-):
-    """
-    this currently only supports longformer
-    """
-    c_plus_q = context + ' ' + tokenizer.bos_token + ' ' + question
-    c_plus_q_4 = [c_plus_q] * len(options)
-
-    tokenized_examples = tokenizer(
-        c_plus_q_4, options,
-        max_length=max_seq_length,
-        padding="longest",
-        truncation=True,
-        return_tensors="pt",
-    )
-    input_ids = tokenized_examples['input_ids'].unsqueeze(0)
-    attention_mask = tokenized_examples['attention_mask'].unsqueeze(0)
-
-    if torch_device == 'cuda':
-        input_ids = input_ids.cuda()
-        attention_mask = attention_mask.cuda()
-
-    example_encoded = {
-        "input_ids": input_ids,
-        "attention_mask": attention_mask,
-    }
-
-    return example_encoded
