@@ -1,10 +1,9 @@
 import numpy as np
 import random
 import torch
-import argparse
 from transformers import T5Tokenizer, AutoTokenizer, AutoModelForSeq2SeqLM
 from typing import Any, List, Mapping, Tuple
-from prepare import prepare_qa_input, prepare_distractor_input
+# from prepare import prepare_qa_input, prepare_distractor_input
 
 class QuestionAnswerGenerator:
     """A transformer-based NLP system for generating reading comprehension-style questions from
@@ -38,7 +37,7 @@ class QuestionAnswerGenerator:
         )
         assert len(generated_questions) == len(qg_answers), message
 
-        qa_list = self._get_all_qa_pairs(generated_questions, qg_answers, num_questions)
+        qa_list = self._get_all_qa_pairs(generated_questions, qg_answers)
 
         return qa_list
     
@@ -111,7 +110,6 @@ class QuestionAnswerGenerator:
         inputs = []
         answers = []
 
-
         qg_input = f"tự luận: {context}"
         encoded_input = self._encode_qg_input(qg_input)
         output = self.qg_model.generate(input_ids=encoded_input["input_ids"], max_new_tokens=128)
@@ -136,7 +134,6 @@ class QuestionAnswerGenerator:
             
         return inputs, answers
 
- 
     @torch.no_grad()
     def _generate_question(self, qg_input: str) -> str:
         """Generates a question and answer with given a context."""

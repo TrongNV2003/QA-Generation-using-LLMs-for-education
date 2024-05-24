@@ -12,9 +12,8 @@ def inference(
     mqag_variant, # mqag_src | mqag_sum
     num_samples, # number of questions to be drawn
     generation_model1_path, # path to Question+Answer Gen (t5-large)
-    generation_model_type1,
     generation_model2_path, # path to Distractor Gen (t5-large)
-    generation_model_type2,
+    generation_model_type, # e.g. t5-large
     use_gpu, # whether or not to use GPU (if available)
     verbose, # whether or not to print information
 ):
@@ -38,10 +37,10 @@ def inference(
 
     # ---------- Model ----------- #
     max_length = 512
-    generation_tokenizer = AutoTokenizer.from_pretrained('VietAI/vit5-base', model_max_length=max_length)
+    generation_tokenizer = AutoTokenizer.from_pretrained(generation_model_type, model_max_length=max_length)
     generation_tokenizer.add_special_tokens({"sep_token": "<sep>"})
     # model1: question generation
-    qg_model = AutoModelForSeq2SeqLM.from_pretrained(generation_model_type1)
+    qg_model = AutoModelForSeq2SeqLM.from_pretrained(generation_model_type)
     if torch_device == "cuda":
         qg_model.cuda()
         state = torch.load(generation_model1_path)
@@ -53,7 +52,7 @@ def inference(
     print('Question+AnswerGeneration Model loaded:', generation_model1_path)
 
     # model2: distractor generation
-    distractor_model = AutoModelForSeq2SeqLM.from_pretrained(generation_model_type2)
+    distractor_model = AutoModelForSeq2SeqLM.from_pretrained(generation_model_type)
     if torch_device == "cuda":
         distractor_model.cuda()
         state = torch.load(generation_model2_path)
@@ -63,8 +62,9 @@ def inference(
     distractor_model.load_state_dict(model_state_dict)
     distractor_model.eval()
     print('DistractorGeneration Model loaded:', generation_model2_path)
-    
-    max_repeated_sampling = 2 # how many times to repeat the sampling process until there is a valid question (it should be 1)
+
+
+    max_repeated_sampling = 1 # how many times to repeat the sampling process until there is a valid question (it should be 1)
 
     for idx in range(len_data):
         doc_x = source_lines[idx]
@@ -140,9 +140,8 @@ def add_arguments(parser):
     parser.add_argument('--mqag_variant', type=str, required=True)
     parser.add_argument('--num_samples', type=int, default=20)
     parser.add_argument('--generation_model1_path', type=str, required=True)
-    parser.add_argument('--generation_model_type1', type=str, default='t5-base-question-generator')
     parser.add_argument('--generation_model2_path', type=str, required=True)
-    parser.add_argument('--generation_model_type2', type=str, default='t5-base-distractor-generator')
+    parser.add_argument('--generation_model_type', type=str, default='VietAI/vit5-base')
     parser.add_argument('--use_gpu', type="bool", nargs="?", const=True, default=True)
     parser.add_argument('--verbose', type="bool", nargs="?", const=True, default=False)
     return parser
@@ -155,6 +154,7 @@ if __name__ == "__main__":
     # simple argument checking
     assert kwargs['mqag_variant'] in ['mqag_sum', 'mqag_src'], "mqag_varaint not exist, use only mqag_sum, mqag_sum"
     assert kwargs['num_samples'] > 0, "num_samples > 0 error"
+    assert kwargs['generation_model_type'] in ['VietAI/vit5-base'], "generation_model_type currently only supports T5"
 
     with torch.no_grad():
         inference(**kwargs)
