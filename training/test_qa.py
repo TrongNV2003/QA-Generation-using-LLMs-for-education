@@ -25,14 +25,14 @@ def parse_args() -> argparse.Namespace:
 def get_tokenizer(checkpoint: str) -> T5Tokenizer:
     tokenizer = T5Tokenizer.from_pretrained(checkpoint)
     tokenizer.add_special_tokens(
-        {'additional_special_tokens': ['<answer>', '<context>']}
+        {'additional_special_tokens': ['<sep>']}
     )
     return tokenizer
 
 
 def get_model(checkpoint: str, device: str, tokenizer: T5Tokenizer) -> T5ForConditionalGeneration:
-    config = T5Config(decoder_start_token_id=tokenizer.pad_token_id)
-    model = T5ForConditionalGeneration(config).from_pretrained(checkpoint)
+    config = T5Config.from_pretrained(checkpoint)
+    model = T5ForConditionalGeneration.from_pretrained(checkpoint, config=config)
     model.resize_token_embeddings(len(tokenizer))
     model = model.to(device)
     return model
