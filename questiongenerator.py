@@ -28,7 +28,7 @@ class QuestionAnswerGenerator:
 
         return qa_list
     
-    def generate_qa_from_inputs(self, context: str, answer_style: str) -> Tuple[List[str], List[str], List[str]]:
+    def generate_qa_from_inputs(self, context: str, answer_style: str, num_questions: int) -> Tuple[List[str], List[str], List[str]]:
         """Given a text, returns a list of model inputs, questions, and answers."""
 
         VALID_ANSWER_STYLES = ["sentences", "multiple_choice"]
@@ -39,10 +39,10 @@ class QuestionAnswerGenerator:
             )
         segments = self._split_into_segments(context)
         if answer_style == "sentences":
-            inputs, questions, answers = self._generate_qa(segments)
+            inputs, questions, answers = self._generate_qa(segments, num_questions)
 
         elif answer_style == "multiple_choice":
-            inputs, questions, answers = self._generate_qa_mcq(segments)
+            inputs, questions, answers = self._generate_qa_mcq(segments, num_questions)
 
         return inputs, questions, answers
     
@@ -66,13 +66,13 @@ class QuestionAnswerGenerator:
         return [self.qg_tokenizer.decode(s, skip_special_tokens=True) for s in segments]
     
     @torch.no_grad()
-    def _generate_qa(self, context: List[str]) -> Tuple[List[str], List[str], List[str]]:
+    def _generate_qa(self, context: List[str], num_questions: int) -> Tuple[List[str], List[str], List[str]]:
         inputs, questions, answers = [], [], []
 
         for segment in context:
             qg_input = f"Tự luận: {segment}"
             encoded_input = self._encode_qg_input(qg_input)
-            output = self.qg_model.generate(input_ids=encoded_input["input_ids"], max_new_tokens=128)
+            output = self.qg_model.generate(input_ids=encoded_input["input_ids"], max_new_tokens=128, num_return_sequences=num_questions)
             correct_answer = self.qg_tokenizer.decode(output[0], skip_special_tokens=False)
             correct_answer = correct_answer.replace(self.qg_tokenizer.pad_token, "").replace(self.qg_tokenizer.eos_token, "")
             question_answer_split = correct_answer.split(self.qg_tokenizer.sep_token)
@@ -86,15 +86,24 @@ class QuestionAnswerGenerator:
                 raise Exception("max_repeated_sampling exceeded")
 
         return inputs, questions, answers
+    
+        # inputs, questions, answers = [], [], []
+
+        # for segment in context:
+        #     qg_input = f"Tự luận: {segment}"
+        #     inputs.append(qg_input)
+        #     answers.append(segment)
+
+        # return inputs, answers
 
     @torch.no_grad()
-    def _generate_qa_mcq(self, context: List[str]) -> Tuple[List[str], List[str], List[str]]:
+    def _generate_qa_mcq(self, context: List[str], num_questions: int) -> Tuple[List[str], List[str], List[str]]:
         inputs, questions, answers = [], [], []
 
         for segment in context:
             qg_input = f"Trắc nghiệm: {segment}"
             encoded_input = self._encode_qg_input(qg_input)
-            output = self.qg_model.generate(input_ids=encoded_input["input_ids"], max_new_tokens=128)
+            output = self.qg_model.generate(input_ids=encoded_input["input_ids"], max_new_tokens=128, num_return_sequences=num_questions)
             correct_answer = self.qg_tokenizer.decode(output[0], skip_special_tokens=False)
             correct_answer = correct_answer.replace(self.qg_tokenizer.pad_token, "").replace(self.qg_tokenizer.eos_token, "")
             question_answer_split = correct_answer.split(self.qg_tokenizer.sep_token)
