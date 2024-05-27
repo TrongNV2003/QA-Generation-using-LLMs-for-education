@@ -1350,6 +1350,40 @@
     "answer": "Giữ vững thành quả cách mạng, xây dựng và củng cố chính quyền của nhân dân"
   },
   {
+    "context": "Nếu như áp bức giai cấp là nguyên nhân sâu xa của áp bức dân tộc thì áp bức dân tộc tác động mạnh mẽ trở lại đối với áp bức giai cấp. Nó nuôi dưỡng áp bức giai cấp và làm sâu sắc thêm áp bức giai cấp. Từ giữa thế kỷ XIX, C.Mác đã phân tích cho thấy việc Anh thống trị Ailen không làm nhẹ bớt ách áp bức giai cấp ở Anh mà trái lại còn làm cho nó trầm trọng thêm. Ông nhấn mạnh rằng: một dân tộc đi áp bức dân tộc khác, dân tộc ấy không thể có tự do được. Tác động trở lại của áp bức dân tộc đối với áp bức giai cấp (ở chính quốc) càng thể hiện rõ trong thời đại đế quốc chủ nghĩa. Chủ nghĩa đế quốc phải lấy việc bóc lột các dân tộc chậm phát triển làm tiền đề tồn tại của nó.",
+    "question_type": "sentences",
+    "question": "Áp bức dân tộc có tác động như thế nào đối với áp bức giai cấp?",
+    "answer": "Nuôi dưỡng áp bức giai cấp và làm sâu sắc thêm áp bức giai cấp"
+  },
+  {
+    "context": "Mối quan hệ giữa đấu tranh giai cấp và đấu tranh dân tộc không phải chỉ có một chiều là đấu tranh giai cấp tác động vào đấu tranh dân tộc mà còn có chiều ngược lại: đấu tranh dân tộc tác động vào đấu tranh giai cấp. Nếu dân tộc chưa có độc lập thống nhất thì giai cấp đại biểu cho phương thức sản xuất mới muốn trở thành giai cấp dân tộc phải đi đầu trong cách mạng giải phóng dân tộc, phải thực hiện trước tiên nhiệm vụ khôi phục độc lập, thống nhất dân tộc. Vì vậy, thành quả đầu tiên của cách mạng tư sản giữa thế kỷ XIX ở các nước Italia, Đức, áo, Ba Lan là độc lập, thống nhất dân tộc. Giai cấp tư sản khi còn là giai cấp cách mạng đã nêu cao vấn đề dân tộc để tập hợp quần chúng đấu tranh giành và giữ chính quyền tư sản. Khi giai cấp tư sản trở thành giai cấp thống trị thì lợi ích dân tộc mà giai cấp tư sản nêu lên ngày càng lộ rõ thực chất của nó là lợi ích tư sản, chủ yếu là lợi ích của đại tư sản.",
+    "question_type": "multiple_choice",
+    "question": "Giai cấp tư sản khi còn là giai cấp cách mạng đã nêu cao vấn đề gì để tập hợp quần chúng?",
+    "options": ["Lợi ích tư sản", "Lợi ích đại tư sản", "Vấn đề dân tộc", "Vấn đề giai cấp"],
+    "answer": "C"
+  },  
+  {
+    "context": "Cuộc đấu tranh của giai cấp công nhân về bản chất mang tính chất quốc tế và đoàn kết quốc tế, là một trong những nhân tố quyết định thắng lợi cuối cùng của sự nghiệp giải phóng những ngưòi lao động. C. Mác - ăngghen và V.I. Lênin thường xuyên nhấn mạnh rằng giai cấp công nhân các nước, trước hết là các nước tư bản lớn, phải thoát khỏi những thiên kiến của chủ nghĩa dân tộc tư sản. Các nhà sáng lập chủ nghĩa Mác - Lênin chỉ rõ rằng Đảng của giai cấp công nhân không lúc nào được coi nhẹ việc giáo dục chủ nghĩa quốc tế chân chính cho quần chúng nhân dân, nhưng giai cấp công nhân không được quên rằng cuộc đấu tranh giải phóng của họ có tính chất dân tộc. Dân tộc là địa bàn trực tiếp của cuộc đấu tranh giai cấp của giai cấp công nhân. Vì vậy, giai cấp vô sản mỗi nước trước hết phải giành lấy chính quyền, phải tự vươn lên thành giai cấp dân tộc, phải tự mình trở thành dân tộc.",
+    "question_type": "multiple_choice",
+    "question": "Cuộc đấu tranh của giai cấp công nhân có tính chất gì?",
+    "options": ["Quốc tế", "Dân tộc", "Văn hóa", "Kinh tế"],
+    "answer": "A"
+  },  
+  {
+    "context": "Áp bức giai cấp là nguyên nhân căn bản, sâu xa của áp bức dân tộc. Hiện tượng dân tộc này thống trị, áp bức dân tộc khác trong lịch sử, về thực chất là giai cấp thống trị của dân tộc này áp bức bóc lột dân tộc khác mà bộ phận bị áp bức, bóc lột nặng nề nhất là nhân dân lao động. Nhân tố giai cấp là nhân tố cơ bản trong phong trào giải phóng dân tộc. Giai cấp nào lãnh đạo phong trào; những giai cấp, liên minh giai cấp nào là lực lượng nòng cốt của phong trào là những vấn đề trọng yếu của cách mạng giải phóng dân tộc.",
+    "question_type": "multiple_choice",
+    "question": "Áp bức giai cấp là nguyên nhân của hiện tượng nào?",
+    "options": ["Phát triển kinh tế", "Áp bức dân tộc", "Phát triển văn hóa", "Tiến bộ xã hội"],
+    "answer": "B"
+  },  
+  {
+    "context": "Giai cấp và dân tộc quan hệ mật thiết với nhau song đó là những phạm trù chỉ các quan hệ xã hội khác nhau, có vai trò lịch sử khác nhau và không thể thay thế được nhau. Giai cấp và dân tộc sinh ra và mất đi không đồng thời. Trong lịch sử nhân loại nói chung, giai cấp có trước dân tộc hàng nghìn năm song khi giai cấp mất đi thì dân tộc sẽ vẫn còn tồn tại. Sẽ không hiểu được bản chất của vấn đề dân tộc, mối quan hệ phức tạp giữa giai cấp và dân tộc nếu không nhận rõ vai trò của nhân tố kinh tế - xã hội, của nhân tố giai cấp. Quan hệ giai cấp - với tư cách là sản phẩm trực tiếp của phương thức sản xuất trong xã hội có giai cấp - là nhân tố xét đến cùng có vai trò quyết định đối với sự hình thành dân tộc, đối với xu hướng phát triển của dân tộc, quy định tính chất mối quan hệ giữa các dân tộc.",
+    "question_type": "multiple_choice",
+    "question": "Giai cấp có trước dân tộc bao nhiêu năm?",
+    "options": ["Hàng nghìn năm", "Hàng trăm năm", "Hàng chục năm", "Vài năm"],
+    "answer": "A"
+  },  
+  {
     "context": "Nội dung chủ yếu của đấu tranh giai cấp trong giai đoạn hiện nay ở nước ta là thực hiện thắng lợi sự nghiệp công nghiệp hóa, hiện đại hóa theo định hướng xã hội chủ nghĩa, khắc phục tình trạng nước nghèo, kém phát triển, thực hiện công bằng xã hội, chống áp bức, bất công, đấu tranh ngăn chặn, khắc phục những tư tưởng và hành động tiêu cực, sai trái, đấu tranh làm thất bại mọi âm mưu và hành động chống phá của các thế lực thù địch; bảo vệ độc lập dân tộc, xây dựng nước ta thành một nước xã hội chủ nghĩa phồn vinh, nhân dân hạnh phúc. Đồng thời Đảng ta cũng khẳng định: Động lực chủ yếu để phát triển đất nước là đại đoàn kết toàn dân trên cơ sở liên minh giữa công nhân với nông dân và trí thức do Đảng lãnh đạo, kết hợp hài hoà các lợi ích cá nhân, tập thể và xã hội, phát huy mọi tiềm năng và nguồn lực của các thành phần kinh tế, của toàn xã hội.",
     "question_type": "multiple_choice",
     "question": "Động lực chủ yếu để phát triển đất nước là gì?",
