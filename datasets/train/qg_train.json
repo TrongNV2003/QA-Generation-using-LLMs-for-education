@@ -1116,12 +1116,547 @@
     "answer": "Nguyên lý này nói lên khả năng biến đổi Âm - Dương"
   },
   {
+    "context": "Lực lượng sản xuất biểu hiện mối quan hệ giữa con người với tự nhiên trong quá trình sản xuất. Trong quá trình sản xuất, con người kết hợp sức lao động của mình với tư liệu sản xuất, trước hết là công cụ lao động, tạo thành sức mạnh khai thác giới tự nhiên, làm ra sản phẩm cần thiết cho cuộc sống của mình.",
+    "question_type": "sentences",
+    "question": "Lực lượng sản xuất biểu hiện mối quan hệ giữa con người với cái gì?",
+    "answer": "Con người với tự nhiên"
+  },
+  {
+    "context": "Lực lượng sản xuất là sự kết hợp người lao động và tư liệu sản xuất, trong đó lực lượng sản xuất hàng đầu của toàn thể nhân loại là công nhân, là người lao động. Chính người lao động là chủ thể của quá trình lao động sản xuất, với sức mạnh và kỹ năng lao động của mình, sử dụng tư liệu lao động, trước hết là công cụ lao động, tác động vào đối tượng lao động để sản xuất ra của cải vật chất.",
+    "question_type": "sentences",
+    "question": "Lực lượng sản xuất là gì?",
+    "answer": "Sự kết hợp người lao động và tư liệu sản xuất"
+  },
+  {
+    "context": "Trong sự phát triển của lực lượng sản xuất, khoa học đóng vai trò ngày càng to lớn. Sự phát triển của khoa học gắn liền với sản xuất và là động lực mạnh mẽ thúc đẩy sản xuất phát triển. Ngày nay, khoa học đã phát triển đến mức trở thành nguyên nhân trực tiếp của nhiều biến đổi to lớn trong sản xuất, trong đời sống và trở thành lực lượng sản xuất trực tiếp. Sức lao động đặc trưng cho lao động hiện đại không còn chỉ là kinh nghiệm và thói quen của họ mà là tri thức khoa học. Có thể nói: khoa học và công nghệ hiện đại là đặc trưng cho lực lượng sản xuất hiện đại.",
+    "question_type": "sentences",
+    "question": "Khoa học đóng vai trò như thế nào trong sự phát triển của lực lượng sản xuất?",
+    "answer": "Ngày càng to lớn"
+  },
+  {
+    "context": "Quan hệ sản xuất do con người tạo ra, nhưng nó hình thành một cách khách quan trong quá trình sản xuất, không phụ thuộc vào ý muốn chủ quan của con người. C.Mác viết: Trong sản xuất, người ta không chỉ quan hệ với giới tự nhiên. Người ta không thể sản xuất được nếu không kết hợp với nhau theo một cách nào đó để hoạt động chung và để trao đổi hoạt động với nhau. Muốn sản xuất được, người ta phải có những mối liên hệ và quan hệ nhất định với nhau; và quan hệ của họ với giới tự nhiên, tức là việc sản xuất. Quan hệ sản xuất là hình thức xã hội của sản xuất; giữa ba mặt của quan hệ sản xuất thống nhất với nhau, tạo thành một hệ thống mang tính ổn định tương đối so với sự vận động, phát triển không ngừng của lực lượng sản xuất.",
+    "question_type": "sentences",
+    "question": "Quan hệ sản xuất hình thành như thế nào?",
+    "answer": "Do con người tạo ra, nhưng nó hình thành một cách khách quan trong quá trình sản xuất, không phụ thuộc vào ý muốn chủ quan của con người"
+  },
+  {
+    "context": "Quan hệ sản xuất do con người tạo ra, nhưng nó hình thành một cách khách quan trong quá trình sản xuất, không phụ thuộc vào ý muốn chủ quan của con người. C.Mác viết: Trong sản xuất, người ta không chỉ quan hệ với giới tự nhiên. Người ta không thể sản xuất được nếu không kết hợp với nhau theo một cách nào đó để hoạt động chung và để trao đổi hoạt động với nhau. Muốn sản xuất được, người ta phải có những mối liên hệ và quan hệ nhất định với nhau; và quan hệ của họ với giới tự nhiên, tức là việc sản xuất. Quan hệ sản xuất là hình thức xã hội của sản xuất; giữa ba mặt của quan hệ sản xuất thống nhất với nhau, tạo thành một hệ thống mang tính ổn định tương đối so với sự vận động, phát triển không ngừng của lực lượng sản xuất.",
+    "question_type": "sentences",
+    "question": "Quan hệ sản xuất là gì?",
+    "answer": "Hình thức xã hội của sản xuất"
+  },
+  {
+    "context": "Lịch sử phát triển của nhân loại đã chứng kiến có hai loại hình sở hữu cơ bản về tư liệu sản xuất: sở hữu tư nhân và sở hữu công cộng. Sở hữu tư nhân là loại hình sở hữu mà trong đó tư liệu sản xuất tập trung vào trong tay một số ít người, còn đại đa số không có hoặc có rất ít tư liệu sản xuất. Do đó, quan hệ giữa người với người trong sản xuất vật chất và trong đời sống xã hội là quan hệ thống trị và bị trị, bóc lột và bị bóc lột. Sở hữu công cộng là loại hình sở hữu mà trong đó tư liệu sản xuất thuộc về mọi thành viên của mỗi cộng đồng. Nhờ đó, quan hệ giữa người với người trong mỗi cộng đồng là quan hệ bình đẳng, hợp tác, giúp đỡ lẫn nhau.",
+    "question_type": "sentences",
+    "question": "Lịch sử phát triển của nhân loại đã chứng kiến những loại hình sở hữu cơ bản nào về tư liệu sản xuất?",
+    "answer": "Sở hữu tư nhân và sở hữu công cộng"
+  },
+  {
+    "context": "Lịch sử phát triển của nhân loại đã chứng kiến có hai loại hình sở hữu cơ bản về tư liệu sản xuất: sở hữu tư nhân và sở hữu công cộng. Sở hữu tư nhân là loại hình sở hữu mà trong đó tư liệu sản xuất tập trung vào trong tay một số ít người, còn đại đa số không có hoặc có rất ít tư liệu sản xuất. Do đó, quan hệ giữa người với người trong sản xuất vật chất và trong đời sống xã hội là quan hệ thống trị và bị trị, bóc lột và bị bóc lột. Sở hữu công cộng là loại hình sở hữu mà trong đó tư liệu sản xuất thuộc về mọi thành viên của mỗi cộng đồng. Nhờ đó, quan hệ giữa người với người trong mỗi cộng đồng là quan hệ bình đẳng, hợp tác, giúp đỡ lẫn nhau.",
+    "question_type": "sentences",
+    "question": "Sở hữu tư nhân là gì?",
+    "answer": "Loại hình sở hữu mà trong đó tư liệu sản xuất tập trung vào trong tay một số ít người, còn đại đa số không có hoặc có rất ít tư liệu sản xuất"
+  },
+  {
+    "context": "Trình độ lực lượng sản xuất trong từng giai đoạn lịch sử thể hiện trình độ chinh phục tự nhiên của con người trong giai đoạn lịch sử đó. Trình độ lực lượng sản xuất biểu hiện ở trình độ của công cụ lao động, trình độ, kinh nghiệm và kỹ năng lao động của con người, trình độ tổ chức và phân công lao động xã hội, trình độ ứng dụng khoa học vào sản xuất.",
+    "question_type": "sentences",
+    "question": "Trình độ lực lượng sản xuất trong từng giai đoạn lịch sử thể hiện điều gì?",
+    "answer": "Trình độ chinh phục tự nhiên của con người trong giai đoạn lịch sử đó"
+  },
+  {
+    "context": "Sự vận động, phát triển của lực lượng sản xuất quyết định và làm thay đổi quan hệ sản xuất cho phù hợp với nó. Khi một phương thức sản xuất mới ra đời, khi đó quan hệ sản xuất cần phù hợp với trình độ phát triển của lực lượng sản xuất. Đó là một trạng thái mà trong đó quan hệ sản xuất là hình thức phát triển của lực lượng sản xuất. Trong trạng thái đó, tất cả các mặt của quan hệ sản xuất đều tạo địa bàn đầy đủ cho lực lượng sản xuất phát triển. Điều đó có nghĩa là, nó tạo điều kiện sử dụng và kết hợp một cách tối ưu giữa người lao động với tư liệu sản xuất và do đó lực lượng sản xuất có cơ sở để phát triển hết khả năng của nó.",
+    "question_type": "sentences",
+    "question": "Quan hệ sản xuất cần phù hợp với điều gì?",
+    "answer": "Trình độ phát triển của lực lượng sản xuất"
+  },
+  {
+    "context": "Ngược lại, quan hệ sản xuất lỗi thời, lạc hậu hoặc tiên tiến hơn một cách giả tạo so với trình độ phát triển của lực lượng sản xuất sẽ kìm hãm sự phát triển của lực lượng sản xuất. Khi quan hệ sản xuất kìm hãm sự phát triển của lực lượng sản xuất, thì theo quy luật chung, quan hệ sản xuất cũ sẽ được thay thế bằng quan hệ sản xuất mới phù hợp với trình độ phát triển của lực lượng sản xuất để thúc đẩy lực lượng sản xuất phát triển. Tuy nhiên, việc giải quyết mâu thuẫn giữa lực lượng sản xuất với quan hệ sản xuất không phải giản đơn. Nó phải thông qua nhận thức và hoạt động cải tạo xã hội của con người. Trong xã hội có giai cấp phải thông qua đấu tranh giai cấp, thông qua cách mạng xã hội.",
+    "question_type": "sentences",
+    "question": "Điều gì xảy ra khi quan hệ sản xuất kìm hãm sự phát triển của lực lượng sản xuất?",
+    "answer": "Quan hệ sản xuất cũ sẽ được thay thế bằng quan hệ sản xuất mới phù hợp với trình độ phát triển của lực lượng sản xuất để thúc đẩy lực lượng sản xuất phát triển"
+  },
+  {
+    "context": "Quy luật quan hệ sản xuất phù hợp với trình độ phát triển của lực lượng sản xuất là quy luật phổ biến tác động trong toàn bộ tiến trình lịch sử nhân loại. Sự thay thế, phát triển của lịch sử nhân loại từ chế độ công xã nguyên thuỷ, qua chế độ chiếm hữu nô lệ, chế độ phong kiến, chế độ tư bản chủ nghĩa và đến xã hội cộng sản tương lai là do sự tác động của hệ thống các quy luật xã hội, trong đó quy luật quan hệ sản xuất phù hợp với trình độ phát triển của lực lượng sản xuất là quy luật cơ bản nhất.",
+    "question_type": "sentences",
+    "question": "Quy luật quan hệ sản xuất phù hợp với trình độ phát triển của lực lượng sản xuất có vai trò như thế nào trong lịch sử nhân loại?",
+    "answer": "Là quy luật phổ biến tác động trong toàn bộ tiến trình lịch sử nhân loại"
+  },
+  {
+    "context": "Như vậy, xét trong nội bộ phương thức sản xuất thì quan hệ sản xuất là hình thức phát triển của lực lượng sản xuất, nhưng xét trong tổng thể các quan hệ xã hội thì các quan hệ sản xuất hợp thành cơ sở kinh tế của xã hội, tức là cơ sở hiện thực, trên đó hình thành nên kiến trúc thượng tầng tương ứng.",
+    "question_type": "sentences",
+    "question": "Xét trong nội bộ phương thức sản xuất thì quan hệ sản xuất là gì?",
+    "answer": "Hình thức phát triển của lực lượng sản xuất"
+  },
+  {
+    "context": "Trong mỗi chế độ xã hội, sự tác động của các bộ phận của kiến trúc thượng tầng không phải bao giờ cũng theo một xu hướng. Chức năng xã hội cơ bản của kiến trúc thượng tầng thống trị là xây dựng, bảo vệ và phát triển cơ sở hạ tầng đã sinh ra nó, chống lại mọi nguy cơ làm suy yếu hoặc phá hoại chế độ kinh tế đó. Một giai cấp chỉ có thể giữ vững được sự thống trị về kinh tế chừng nào xác lập và củng cố được sự thống trị về chính trị, tư tưởng.",
+    "question_type": "sentences",
+    "question": "Chức năng xã hội cơ bản của kiến trúc thượng tầng thống trị là gì?",
+    "answer": "Xây dựng, bảo vệ và phát triển cơ sở hạ tầng đã sinh ra nó, chống lại mọi nguy cơ làm suy yếu hoặc phá hoại chế độ kinh tế"
+  },
+  {
+    "context": "Giữa các mặt trong đời sống xã hội thống nhất biện chứng với nhau tạo thành các xã hội cụ thể tồn tại trong từng giai đoạn lịch sử nhất định. Các xã hội cụ thể đó được chủ nghĩa duy vật lịch sử khái quát thành phạm trù hình thái kinh tế - xã hội. Hình thái kinh tế - xã hội là một phạm trù của chủ nghĩa duy vật lịch sử dùng để chỉ xã hội ở từng giai đoạn lịch sử nhất định, với một kiểu quan hệ sản xuất đặc trưng cho xã hội đó, phù hợp với một trình độ nhất định của lực lượng sản xuất, và với một kiến trúc thượng tầng tương ứng được xây dựng trên những quan hệ sản xuất ấy.",
+    "question_type": "sentences",
+    "question": "Hình thái kinh tế - xã hội là gì?",
+    "answer": "Một phạm trù của chủ nghĩa duy vật lịch sử dùng để chỉ xã hội ở từng giai đoạn lịch sử nhất định"
+  },
+  {
+    "context": "Lực lượng sản xuất là nền tảng vật chất - kỹ thuật của mỗi hình thái kinh tế - xã hội. Hình thái kinh tế - xã hội khác nhau có lực lượng sản xuất khác nhau. Suy đến cùng, sự phát triển của lực lượng sản xuất quyết định sự hình thành, phát triển và thay thế lẫn nhau của các hình thái kinh tế - xã hội.",
+    "question_type": "sentences",
+    "question": "Lực lượng sản xuất có vai trò gì trong mỗi hình thái kinh tế - xã hội?",
+    "answer": "Nền tảng vật chất - kỹ thuật của mỗi hình thái kinh tế - xã hội"
+  },
+  {
+    "context": "Hình thái kinh tế - xã hội là một hệ thống, trong đó, các mặt tác động qua lại lẫn nhau tạo thành các quy luật vận động, phát triển khách quan của xã hội. Đó là quy luật về sự phù hợp của quan hệ sản xuất với trình độ phát triển của lực lượng sản xuất, quy luật cơ sở hạ tầng quyết định kiến trúc thượng tầng và các quy luật xã hội khác. Chính sự tác động của các quy luật khách quan đó mà các hình thái kinh tế - xã hội vận động phát triển từ thấp đến cao.",
+    "question_type": "sentences",
+    "question": "Các hình thái kinh tế - xã hội vận động phát triển từ thấp đến cao là do sự tác động của các quy luật nào?",
+    "answer": "Quy luật về sự phù hợp của quan hệ sản xuất với trình độ phát triển của lực lượng sản xuất"
+  },
+  {
+    "context": "Học thuyết đó còn chỉ ra: sự phát triển của các hình thái kinh tế - xã hội là một quá trình lịch sử - tự nhiên, tức diễn ra theo các quy luật khách quan chứ không phải theo ý muốn chủ quan. Cho nên, muốn nhận thức đúng đời sống xã hội phải đi sâu nghiên cứu các quy luật vận động phát triển của xã hội. V.I.Lênin viết: Xã hội là một cơ thể sống đang phát triển không ngừng (chứ không phải là một cái gì được kết thành một cách máy móc và do đó cho phép có thể tùy ý phối hợp các yếu tố xã hội như thế nào cũng được), một cơ thể mà muốn nghiên cứu nó thì cần phải phân tích một cách khách quan những quan hệ sản xuất cấu thành một hình thái xã hội nhất định và cần phải nghiên cứu những quy luật vận hành và phát triển của hình thái xã hội đó.",
+    "question_type": "sentences",
+    "question": "Theo V.I.Lênin, muốn nghiên cứu xã hội cần phải làm gì?",
+    "answer": "Phải phân tích một cách khách quan những quan hệ sản xuất cấu thành một hình thái xã hội nhất định và cần phải nghiên cứu những quy luật vận hành và phát triển của hình thái xã hội đó"
+  },  
+  {
+    "context": "Học thuyết đó còn chỉ ra: sự phát triển của các hình thái kinh tế - xã hội là một quá trình lịch sử - tự nhiên, tức diễn ra theo các quy luật khách quan chứ không phải theo ý muốn chủ quan. Cho nên, muốn nhận thức đúng đời sống xã hội phải đi sâu nghiên cứu các quy luật vận động phát triển của xã hội. V.I.Lênin viết: Xã hội là một cơ thể sống đang phát triển không ngừng (chứ không phải là một cái gì được kết thành một cách máy móc và do đó cho phép có thể tùy ý phối hợp các yếu tố xã hội như thế nào cũng được), một cơ thể mà muốn nghiên cứu nó thì cần phải phân tích một cách khách quan những quan hệ sản xuất cấu thành một hình thái xã hội nhất định và cần phải nghiên cứu những quy luật vận hành và phát triển của hình thái xã hội đó.",
+    "question_type": "sentences",
+    "question": "V.I.Lênin cho rằng xã hội là gì?",
+    "answer": "Một cơ thể sống đang phát triển không ngừng"
+  },
+  {
+    "context": "Kể từ khi học thuyết hình thái kinh tế - xã hội của Mác ra đời cho đến nay, loài người đã có những bước phát triển hết sức to lớn về mọi mặt, nhưng học thuyết đó vẫn là phương pháp thực sự khoa học để nhận thức một cách đúng đắn về đời sống xã hội. Đương nhiên, học thuyết đó không bao giờ có tham vọng giải thích tất cả, mà chỉ có ý muốn vạch ra một phương pháp... duy nhất khoa học để giải thích lịch sử.",
+    "question_type": "sentences",
+    "question": "Học thuyết hình thái kinh tế - xã hội của Mác được coi là gì?",
+    "answer": "Phương pháp thực sự khoa học để nhận thức một cách đúng đắn về đời sống xã hội"
+  },
+  {
+    "context": "Con đường đi lên của nước ta là sự phát triển quá độ lên chủ nghĩa xã hội bỏ qua chế độ tư bản chủ nghĩa, tức là bỏ qua việc xác lập vị trí thống trị của quan hệ sản xuất và kiến trúc thượng tầng tư bản chủ nghĩa, nhưng tiếp thu, kế thừa những thành tựu mà nhân loại đã đạt được dưới chế độ tư bản chủ nghĩa, đặc biệt về khoa học và công nghệ, để phát triển nhanh lực lượng sản xuất, xây dựng nền kinh tế hiện đại.",
+    "question_type": "sentences",
+    "question": "Con đường đi lên của nước ta là gì?",
+    "answer": "Sự phát triển quá độ lên chủ nghĩa xã hội bỏ qua chế độ tư bản chủ nghĩa"
+  },
+  {
+    "context": "Nước ta tiến lên chủ nghĩa xã hội từ một nền kinh tế phổ biến là sản xuất nhỏ, lao động thủ công là phổ biến. Chính vì vậy, chúng ta phải tiến hành công nghiệp hóa, hiện đại hóa. Trong thời đại ngày nay, công nghiệp hóa phải gắn liền với hiện đại hóa. Công nghiệp hóa, hiện đại hóa ở nước ta là nhằm xây dựng cơ sở vật chất kỹ thuật cho chủ nghĩa xã hội. Đó là nhiệm vụ trung tâm trong suốt thời kỳ quá độ tiến lên chủ nghĩa xã hội ở nước ta.",
+    "question_type": "sentences",
+    "question": "Nhiệm vụ trung tâm trong suốt thời kỳ quá độ tiến lên chủ nghĩa xã hội ở nước ta là gì?",
+    "answer": "Công nghiệp hóa, hiện đại hóa"
+  },
+  {
+    "context": "Thị tộc là cộng đồng người (gồm khoảng vài trăm người) có cùng một huyết thống. Thị tộc là một đơn vị sản xuất và là một hình thức tồn tại cơ bản của xã hội nguyên thuỷ. Do trình độ của lực lượng sản xuất chưa phát triển, nguồn sống chủ yếu dựa vào trồng trọt và chăn nuôi, vì vậy vai trò của người phụ nữ trong thị tộc có một vị trí đặc biệt. Chế độ quần hôn thời kỳ đầu và địa vị độc tôn của người phụ nữ trong sản xuất chính là cơ sở hình thành hình thức thị tộc mẫu quyền đầu tiên trong lịch sử. Sự phát triển của lực lượng sản xuất đã làm thay đổi vị trí của người đàn ông trong chế độ thị tộc. Hình thức thị tộc phụ quyền đã ra đời thay thế hình thức thị tộc mẫu quyền. Thị tộc là hình thức cộng đồng người đầu tiên trong lịch sử.",
+    "question_type": "sentences",
+    "question": "Tại sao vai trò của người phụ nữ trong thị tộc có một vị trí đặc biệt trong thời kỳ đầu?",
+    "answer": "Do trình độ của lực lượng sản xuất chưa phát triển, nguồn sống chủ yếu dựa vào trồng trọt và chăn nuôi, vì vậy vai trò của người phụ nữ trong thị tộc có một vị trí đặc biệt"
+  },
+  {
+    "context": "Trong xã hội nguyên thuỷ, bộ lạc là hình thức tốt nhất để phát triển sản xuất. Chính trong thời kỳ này, công cụ sản xuất bằng kim loại đã được hình thành tạo nên hình thức phân công lao động xã hội đầu tiên giữa trồng trọt và chăn nuôi, nông nghiệp với thủ công nghiệp... Đó là tiền đề khách quan của sự xuất hiện sở hữu tư nhân. Dựa trên sở hữu tư nhân, bộ tộc ra đời thay thế cho hình thức bộ lạc và liên minh các bộ lạc.",
+    "question_type": "sentences",
+    "question": "Công cụ sản xuất bằng kim loại tạo nên hình thức phân công lao động xã hội đầu tiên giữa những ngành nào?",
+    "answer": "Trồng trọt và chăn nuôi, nông nghiệp với thủ công nghiệp"
+  },
+  {
+    "context": "Bộ tộc là một cộng đồng dân cư được hình thành từ sự liên kết của nhiều bộ lạc và liên minh các bộ lạc trên cùng một vùng lãnh thổ nhất định. Bộ tộc đông đảo hơn bộ lạc. Mỗi bộ tộc có tên gọi và có những đặc điểm về kinh tế, văn hóa riêng. Khác với bộ lạc và thị tộc, bộ tộc có vùng lãnh thổ tương đối ổn định, dân cư đa dạng và đan xen, đa ngôn ngữ và văn hóa, trong đó ngôn ngữ của bộ lạc nào chiếm vị trí trung tâm của sự giao lưu và phát triển kinh tế sẽ trở thành ngôn ngữ chung của cả bộ tộc.",
+    "question_type": "sentences",
+    "question": "Ngôn ngữ của bộ lạc nào sẽ trở thành ngôn ngữ chung của cả bộ tộc?",
+    "answer": "Bộ lạc chiếm vị trí trung tâm của sự giao lưu và phát triển kinh tế"
+  },
+  {
+    "context": "Thời kỳ hình thành bộ tộc là thời kỳ đánh dấu sự tan rã hoàn toàn của xã hội công xã nguyên thuỷ; sở hữu tư nhân và chế độ tư hữu ra đời thay thế sở hữu tập thể của thị tộc, bộ lạc. Nhà nước, tổ chức chính trị xã hội có giai cấp đầu tiên được hình thành. Phạm vi thống trị của nhà nước có thể không trùng với bộ tộc. Có nhà nước một bộ tộc, cũng có nhà nước nhiều bộ tộc, sắc tộc. Sự xuất hiện nhà nước đã góp phần rất quan trọng vào quá trình phát triển kinh tế - xã hội, thúc đẩy sự thống nhất về kinh tế và văn hóa, mở rộng giao lưu giữa các bộ tộc.",
+    "question_type": "sentences",
+    "question": "Sở hữu tư nhân và chế độ tư hữu ra đời thay thế cái gì?",
+    "answer": "Sở hữu tập thể của thị tộc, bộ lạc"
+  },  
+  {
+    "context": "Thị tộc là cộng đồng người (gồm khoảng vài trăm người) có cùng một huyết thống. Thị tộc là một đơn vị sản xuất và là một hình thức tồn tại cơ bản của xã hội nguyên thuỷ. Do trình độ của lực lượng sản xuất chưa phát triển, nguồn sống chủ yếu dựa vào trồng trọt và chăn nuôi, vì vậy vai trò của người phụ nữ trong thị tộc có một vị trí đặc biệt. Chế độ quần hôn thời kỳ đầu và địa vị độc tôn của người phụ nữ trong sản xuất chính là cơ sở hình thành hình thức thị tộc mẫu quyền đầu tiên trong lịch sử. Sự phát triển của lực lượng sản xuất đã làm thay đổi vị trí của người đàn ông trong chế độ thị tộc. Hình thức thị tộc phụ quyền đã ra đời thay thế hình thức thị tộc mẫu quyền. Thị tộc là hình thức cộng đồng người đầu tiên trong lịch sử.",
+    "question_type": "sentences",
+    "question": "Thị tộc là gì?",
+    "answer": "Cộng đồng người có cùng một huyết thống"
+  },  
+  {
+    "context": "Thời kỳ hình thành bộ tộc là thời kỳ đánh dấu sự tan rã hoàn toàn của xã hội công xã nguyên thuỷ; sở hữu tư nhân và chế độ tư hữu ra đời thay thế sở hữu tập thể của thị tộc, bộ lạc. Nhà nước, tổ chức chính trị xã hội có giai cấp đầu tiên được hình thành. Phạm vi thống trị của nhà nước có thể không trùng với bộ tộc. Có nhà nước một bộ tộc, cũng có nhà nước nhiều bộ tộc, sắc tộc. Sự xuất hiện của nhà nước đã góp phần rất quan trọng vào quá trình phát triển kinh tế - xã hội, thúc đẩy sự thống nhất về kinh tế và văn hóa, mở rộng giao lưu giữa các bộ tộc.",
+    "question_type": "sentences",
+    "question": "Sự xuất hiện của nhà nước đã góp phần quan trọng vào điều gì?",
+    "answer": "Quá trình phát triển kinh tế - xã hội"
+  },
+  {
+    "context": "Lãnh thổ là sự biểu hiện cụ thể về mặt chủ quyền của một dân tộc trong quan hệ với các quốc gia dân tộc khác. Lãnh thổ bao gồm chủ quyền cả về vùng đất, vùng trời, vùng biển và các hải đảo, thềm lục địa... Trong một quốc gia nhiều dân tộc thì lãnh thổ quốc gia gồm lãnh thổ của tất cả các dân tộc thuộc quốc gia ấy hợp thành. Chủ quyền quốc gia dân tộc về lãnh thổ là kết quả lao động kiến tạo của cả một dân tộc trong suốt quá trình hình thành dân tộc. Nó được thể chế bằng luật pháp quốc gia và quốc tế. Lãnh thổ là chủ quyền không thể chia cắt, là nơi sinh tồn phát triển và là nền tảng hình thành nên tổ quốc của mỗi quốc gia dân tộc.",
+    "question_type": "sentences",
+    "question": "Lãnh thổ bao gồm những cái gì?",
+    "answer": "Chủ quyền cả về vùng đất, vùng trời, vùng biển và các hải đảo, thềm lục địa..."
+  },
+  {
+    "context": "Văn hóa là yếu tố đặc biệt trong sự gắn kết cộng đồng dân tộc thành một khối thống nhất. Lịch sử phát triển văn hóa của mỗi dân tộc rất phong phú và đa dạng. Ngay từ thời nguyên thuỷ, mỗi thị tộc, bộ lạc, bộ tộc... có những điều kiện sinh sống riêng, nên văn hóa cũng có những sắc thái riêng. Văn hóa của một dân tộc phản ánh khái quát tính đa dạng chung của các sắc tộc, các cộng đồng dân cư trên cùng một vùng lãnh thổ. Đặc trưng chung của văn hóa dân tộc là thống nhất trong tính đa dạng. Nó được chắt lọc trải dài trong suốt lịch sử đấu tranh để sinh tồn của mỗi dân tộc.",
+    "question_type": "sentences",
+    "question": "Đặc trưng chung của văn hóa dân tộc là gì?",
+    "answer": "Thống nhất trong tính đa dạng"
+  },
+  {
+    "context": "Trong quá trình phát triển, các thành viên của dân tộc thuộc các tầng lớp xã hội khác nhau, một mặt giữ gìn bảo vệ những di sản văn hóa riêng của mình, mặt khác tham gia vào sự sáng tạo ra những giá trị văn hóa chung của cả cộng đồng. Xã hội càng phát triển nhu cầu về văn hóa càng cao. Hơn thế nữa, văn hóa còn là động lực của sự phát triển, là công cụ bảo vệ độc lập và chủ quyền của mỗi quốc gia. Đấu tranh bảo vệ chủ quyền dân tộc phải được thể hiện thông qua cuộc đấu tranh chống lại nguy cơ đồng hóa về văn hóa. Giao lưu văn hóa giữa các dân tộc vừa là nhu cầu, vừa là động lực không thể thiếu được của sự phát triển. Thông qua giao lưu về văn hóa, mỗi dân tộc tự nâng mình lên, tự hoàn thiện mình nhờ học hỏi những tinh hoa văn hóa của dân tộc khác.",
+    "question_type": "sentences",
+    "question": "Giao lưu văn hóa giữa các dân tộc có vai trò gì?",
+    "answer": "Vừa là nhu cầu, vừa là động lực không thể thiếu được của sự phát triển"
+  },
+  {
+    "context": "Trong quá trình phát triển, các thành viên của dân tộc thuộc các tầng lớp xã hội khác nhau, một mặt giữ gìn bảo vệ những di sản văn hóa riêng của mình, mặt khác tham gia vào sự sáng tạo ra những giá trị văn hóa chung của cả cộng đồng. Xã hội càng phát triển nhu cầu về văn hóa càng cao. Hơn thế nữa, văn hóa còn là động lực của sự phát triển, là công cụ bảo vệ độc lập và chủ quyền của mỗi quốc gia. Đấu tranh bảo vệ chủ quyền dân tộc phải được thể hiện thông qua cuộc đấu tranh chống lại nguy cơ đồng hóa về văn hóa. Giao lưu văn hóa giữa các dân tộc vừa là nhu cầu, vừa là động lực không thể thiếu được của sự phát triển. Thông qua giao lưu về văn hóa, mỗi dân tộc tự nâng mình lên, tự hoàn thiện mình nhờ học hỏi những tinh hoa văn hóa của dân tộc khác.",
+    "question_type": "sentences",
+    "question": "Đấu tranh bảo vệ chủ quyền dân tộc phải thể hiện qua điều gì?",
+    "answer": "Đấu tranh chống lại nguy cơ đồng hóa về văn hóa"
+  },
+  {
+    "context": "Trong xã hội có giai cấp, mỗi giai cấp có những điều kiện vật chất riêng nên văn hóa cũng không đồng nhất. Mặc dù vậy, các giai cấp, các lực lượng xã hội ấy vẫn phải chịu sự tác động và chi phối bởi những yếu tố văn hóa chung của cộng đồng. Mỗi dân tộc còn có tâm lý lối sống và những nét tính cách riêng. Tâm lý và nét tính cách riêng của mỗi dân tộc trước hết là sự phản ánh những điều kiện kinh tế, điều kiện địa lý, dân cư và nét đặc thù văn hóa riêng của dân tộc ấy.",
+    "question_type": "sentences",
+    "question": "Tâm lý và nét tính cách riêng của mỗi dân tộc phản ánh điều gì?",
+    "answer": "Điều kiện kinh tế, điều kiện địa lý, dân cư và nét đặc thù văn hóa riêng của dân tộc ấy"
+  },
+  {
+    "context": "Trong tác phẩm Sáng kiến vĩ đại, Lênin định nghĩa: Người ta gọi là giai cấp, những tập đoàn to lớn gồm những người khác nhau về địa vị của họ trong một hệ thống sản xuất xã hội nhất định trong lịch sử, khác nhau về quan hệ của họ (thường thường thì những quan hệ này được pháp luật quy định và thừa nhận) đối với những tư liệu sản xuất, về vai trò của họ trong tổ chức lao động xã hội, và như vậy là khác nhau về cách thức hưởng thụ và về phần của cải xã hội ít hoặc nhiều mà họ được hưởng. Giai cấp là những tập đoàn người, mà tập đoàn này có thể chiếm đoạt lao động của tập đoàn khác, do chỗ các tập đoàn đó có địa vị khác nhau trong một chế độ kinh tế xã hội nhất định.",
+    "question_type": "sentences",
+    "question": "Giai cấp có thể chiếm đoạt lao động của tập đoàn khác do điều gì?",
+    "answer": "Do địa vị khác nhau trong một chế độ kinh tế xã hội nhất định"
+  },
+  {
+    "context": "Sản xuất ngày càng phát triển với sự phát triển của lực lượng sản xuất. Công cụ sản xuất bằng kim loại ra đời thay thế công cụ bằng đá, năng suất lao động nhờ đó tăng lên đáng kể, phân công lao động xã hội từng bước hình thành, của cải dư thừa xuất hiện, những người có chức quyền trong các thị tộc, bộ lạc đã chiếm đoạt của cải dư thừa làm của riêng; chế độ tư hữu ra đời, bất bình đẳng về kinh tế nảy sinh trong nội bộ công xã, đó chính là cơ sở của sự xuất hiện giai cấp.",
+    "question_type": "sentences",
+    "question": "Cơ sở của sự xuất hiện giai cấp là gì?",
+    "answer": "Chế độ tư hữu ra đời, bất bình đẳng về kinh tế nảy sinh trong nội bộ công xã"
+  },
+  {
+    "context": "Giai cấp thống trị là giai cấp tiêu biểu cho bản chất của chế độ kinh tế - xã hội đang tồn tại. Ngoài hai giai cấp cơ bản, mỗi kết cấu xã hội - giai cấp còn bao gồm một số giai cấp không cơ bản và tầng lớp trung gian. Trong những tập đoàn xã hội này có tập đoàn là tàn dư của phương thức sản xuất cũ (như nô lệ trong buổi đầu của xã hội tư bản), có tập đoàn là mầm mống của phương thức sản xuất tương lai (như giai cấp tư sản và giai cấp công nhân công trường thủ công trong giai đoạn cuối của xã hội phong kiến). Ngoài ra bất cứ xã hội có giai cấp nào cũng có một số tầng lớp trung gian là sản phẩm của chính phương thức sản xuất đang thống trị, là kết quả của quá trình phân hóa xã hội không ngừng diễn ra trong xã hội.",
+    "question_type": "sentences",
+    "question": "Giai cấp thống trị tiêu biểu cho điều gì?",
+    "answer": "Bản chất của chế độ kinh tế - xã hội"
+  },
+  {
+    "context": "Trong xã hội có giai cấp tất yếu nảy sinh đấu tranh giai cấp. V.I.Lênin định nghĩa đấu tranh giai cấp là cuộc đấu tranh của quần chúng bị tước hết quyền, bị áp bức và lao động, chống bọn có đặc quyền, đặc lợi, bọn áp bức và bọn ăn bám, cuộc đấu tranh của những người công nhân làm thuê hay những người vô sản chống những người hữu sản hay giai cấp tư sản. Thực chất của đấu tranh giai cấp là cuộc đấu tranh giải quyết mâu thuẫn về mặt lợi ích giữa quần chúng bị áp bức, vô sản đi làm thuê chống lại giai cấp thống trị, chống lại bọn đặc quyền, đặc lợi, những kẻ đi áp bức và bóc lột.",
+    "question_type": "sentences",
+    "question": "Thực chất của đấu tranh giai cấp là gì?",
+    "answer": "Giải quyết mâu thuẫn về mặt lợi ích giữa quần chúng bị áp bức"
+  },
+  {
+    "context": "Đấu tranh giai cấp có nguyên nhân khách quan từ sự phát triển mang tính xã hội hóa ngày càng sâu rộng của lực lượng sản xuất với quan hệ chiếm hữu tư nhân về tư liệu sản xuất. Biểu hiện của mâu thuẫn này về phương diện xã hội: Mâu thuẫn giữa một bên là giai cấp cách mạng, tiến bộ, đại diện cho phương thức sản xuất mới, với một bên là giai cấp thống trị, bóc lột, đại biểu cho những lợi ích gắn với quan hệ sản xuất lỗi thời, lạc hậu.",
+    "question_type": "sentences",
+    "question": "Đấu tranh giai cấp có nguyên nhân khách quan từ điều gì?",
+    "answer": "Sự phát triển mang tính xã hội hóa ngày càng sâu rộng của lực lượng sản xuất với quan hệ chiếm hữu tư nhân về tư liệu sản xuất"
+  },
+  {
+    "context": "Đấu tranh giai cấp giữa giai cấp vô sản và giai cấp tư sản là cuộc đấu tranh sau cùng trong lịch sử xã hội có giai cấp. Nó là cuộc đấu tranh khác về chất so với các cuộc đấu tranh trước đó trong lịch sử. Bởi vì mục tiêu của nó là thay đổi về căn bản sở hữu tư nhân bằng sở hữu xã hội. Trước khi giành được chính quyền, nội dung của đấu tranh giai cấp giữa giai cấp vô sản và giai cấp tư sản là đấu tranh kinh tế, đấu tranh tư tưởng, đấu tranh chính trị. Sau khi giành chính quyền, thiết lập nền chuyên chính của giai cấp vô sản, mục tiêu và hình thức đấu tranh giai cấp cũng thay đổi. V.I.Lênin viết Trong điều kiện chuyên chính vô sản, những hình thức đấu tranh giai cấp của giai cấp vô sản không thể giống như trước được.",
+    "question_type": "sentences",
+    "question": "Mục tiêu của cuộc đấu tranh giai cấp giữa giai cấp vô sản và giai cấp tư sản là gì?",
+    "answer": "Thay đổi về căn bản sở hữu tư nhân bằng sở hữu xã hội"
+  },
+  {
+    "context": "Trong cuộc đấu tranh này, giai cấp vô sản phải biết cách sử dụng tổng hợp mọi nguồn lực, vận dụng linh hoạt các hình thức đấu tranh. Mục tiêu của cuộc đấu tranh này là giữ vững thành quả cách mạng, xây dựng và củng cố chính quyền của nhân dân; tổ chức quản lý sản xuất, quản lý xã hội, bảo đảm tạo ra một năng suất lao động xã hội cao hơn, trên cơ sở đó thủ tiêu chế độ người bóc lột người, xây dựng một xã hội mới, công bằng, dân chủ và văn minh. Vì vậy, trong khi khẳng định rằng đấu tranh giai cấp tất yếu dẫn đến chuyên chính vô sản, C. Mác cũng chỉ rõ: bản thân nền chuyên chính này chỉ là bước quá độ tiến tới thủ tiêu mọi giai cấp và tiến tới xã hội không có giai cấp.",
+    "question_type": "sentences",
+    "question": "Mục tiêu của cuộc đấu tranh giai cấp vô sản là gì?",
+    "answer": "Giữ vững thành quả cách mạng, xây dựng và củng cố chính quyền của nhân dân"
+  },
+  {
+    "context": "Nội dung chủ yếu của đấu tranh giai cấp trong giai đoạn hiện nay ở nước ta là thực hiện thắng lợi sự nghiệp công nghiệp hóa, hiện đại hóa theo định hướng xã hội chủ nghĩa, khắc phục tình trạng nước nghèo, kém phát triển, thực hiện công bằng xã hội, chống áp bức, bất công, đấu tranh ngăn chặn, khắc phục những tư tưởng và hành động tiêu cực, sai trái, đấu tranh làm thất bại mọi âm mưu và hành động chống phá của các thế lực thù địch; bảo vệ độc lập dân tộc, xây dựng nước ta thành một nước xã hội chủ nghĩa phồn vinh, nhân dân hạnh phúc. Đồng thời Đảng ta cũng khẳng định: Động lực chủ yếu để phát triển đất nước là đại đoàn kết toàn dân trên cơ sở liên minh giữa công nhân với nông dân và trí thức do Đảng lãnh đạo, kết hợp hài hoà các lợi ích cá nhân, tập thể và xã hội, phát huy mọi tiềm năng và nguồn lực của các thành phần kinh tế, của toàn xã hội.",
+    "question_type": "multiple_choice",
+    "question": "Động lực chủ yếu để phát triển đất nước là gì?",
+    "options": ["Đại đoàn kết toàn dân", "Phát triển khoa học công nghệ", "Mở rộng quan hệ quốc tế", "Nâng cao trình độ giáo dục"],
+    "answer": "A"
+  },  
+  {
+    "context": "Đấu tranh giai cấp góp phần xoá bỏ các thế lực phản động và lạc hậu, đồng thời cải tạo cả bản thân giai cấp cách mạng. Giai cấp nào đại biểu cho phương thức sản xuất mới, giai cấp đó sẽ lãnh đạo cách mạng. Thành tựu mà loài người đạt được trong tiến trình phát triển của lực lượng sản xuất, cách mạng khoa học và công nghệ, cải cách về dân chủ và tiến bộ xã hội... không tách rời cuộc đấu tranh giai cấp giữa các giai cấp tiến bộ chống các thế lực thù địch, phản động.",
+    "question_type": "multiple_choice",
+    "question": "Đấu tranh giai cấp góp phần xoá bỏ các thế lực nào?",
+    "options": ["Phản động và lạc hậu", "Cách mạng và tiến bộ", "Dân chủ và công bằng", "Khoa học và công nghệ"],
+    "answer": "A"
+  },  
+  {
+    "context": "Đỉnh cao của cuộc đấu tranh giai cấp tất yếu sẽ dẫn đến cách mạng xã hội, thay thế phương thức sản xuất cũ bằng một phương thức sản xuất mới tiến bộ hơn. Phương thức sản xuất mới ra đời mở ra địa bàn mới cho sự phát triển của sản xuất xã hội. Sản xuất phát triển sẽ là động lực thúc đẩy sự phát triển của toàn bộ đời sống xã hội. Dựa vào tiến trình phát triển của lịch sử, C.Mác và Ph.Ăngghen đã chứng minh rằng, đỉnh cao của đấu tranh giai cấp là cách mạng xã hội. Cách mạng xã hội như là đòn bẩy thay đổi các hình thái kinh tế - xã hội.",
+    "question_type": "multiple_choice",
+    "question": "Đỉnh cao của cuộc đấu tranh giai cấp sẽ dẫn đến điều gì?",
+    "options": ["Thay đổi phương thức sản xuất", "Phát triển lực lượng sản xuất", "Cách mạng xã hội", "Phát triển đời sống xã hội"],
+    "answer": "C"
+  },  
+  {
+    "context": "Các xã hội có đối kháng giai cấp lần lượt thay thế nhau trong lịch sử. Mỗi kiểu xã hội đó có kết cấu xã hội - giai cấp riêng của nó. Mỗi kết cấu xã hội - giai cấp của một xã hội nhất định bao gồm hai giai cấp cơ bản đối lập nhau. Đó là chủ nô và nô lệ trong chế độ nô lệ, địa chủ và nông nô trong chế độ phong kiến, tư sản và vô sản trong chế độ tư bản chủ nghĩa. Hai giai cấp cơ bản của mỗi chế độ kinh tế - xã hội là sản phẩm đích thực của chế độ kinh tế - xã hội đó, đồng thời là những giai cấp quyết định sự tồn tại, sự phát triển của hệ thống sản xuất trong xã hội đó.",
+    "question_type": "multiple_choice",
+    "question": "Hai giai cấp cơ bản trong chế độ phong kiến là gì?",
+    "options": ["Chủ nô và nô lệ", "Địa chủ và nông nô", "Tư sản và vô sản", "Địa chủ và tư sản"],
+    "answer": "B"
+  },
+  {
+    "context": "Do có của cải dư thừa, tù binh bắt được trong các cuộc chiến tranh không bị giết như trước. Họ được sử dụng làm nô lệ phục vụ những người giàu và có địa vị trong xã hội, chế độ có giai cấp chính thức hình thành kể từ đó. Như vậy, sự xuất hiện chế độ tư hữu là nguyên nhân quyết định trực tiếp sự ra đời giai cấp. Sự tồn tại các giai cấp đối kháng gắn với chế độ chiếm hữu nô lệ, chế độ phong kiến và chế độ tư bản chủ nghĩa. Chủ nghĩa tư bản phát triển cao lại tạo tiền đề khiến cho sự thủ tiêu chế độ tư hữu, cái cơ sở kinh tế của sự đối kháng giai cấp trở thành xu thế khách quan trong sự phát triển xã hội. Đó là lôgíc khách quan của tiến trình phát triển lịch sử.",
+    "question_type": "multiple_choice",
+    "question": "Nguyên nhân quyết định trực tiếp sự ra đời giai cấp là gì?",
+    "options": ["Chế độ tư bản", "Chế độ độc tài", "Chế độ tư hữu", "Chế độ phong kiến"],
+    "answer": "C"
+  },  
+  {
+    "context": "Trong xã hội có nhiều nhóm xã hội khác nhau. Sự khác nhau ấy được phân biệt bởi những đặc trưng khác nhau như giới tính, nghề nghiệp, chủng tộc, dân tộc... Những khác biệt ấy tự nó không tạo ra sự đối lập về mặt xã hội. Chỉ có những giai cấp xuất phát từ sự khác biệt căn bản về lợi ích mới tạo ra những xung đột xã hội mang tính chất đối kháng. Mác chỉ ra rằng: Sự tồn tại của các giai cấp chỉ gắn với những giai đoạn phát triển lịch sử nhất định của sản xuất. Sự phân chia một xã hội thành giai cấp trước hết là do nguyên nhân kinh tế.",
+    "question_type": "multiple_choice",
+    "question": "Nguyên nhân chính dẫn đến sự phân chia một xã hội thành giai cấp là gì?",
+    "options": ["Giới tính", "Nghề nghiệp", "Chủng tộc", "Kinh tế"],
+    "answer": "D"
+  },  
+  {
+    "context": "Trong các xã hội có giai cấp, ngoài giai cấp thống trị và giai cấp bị trị, còn có các giai cấp và tầng lớp trung gian khác. Bộ phận này không có vị trí cơ bản trong phương thức sản xuất, nó thường xuyên bị phân hóa. Nhân tố chi phối sự phân hóa của các tầng lớp trung gian là lợi ích. Các giai cấp và tầng lớp trung gian ngả về phía giai cấp thống trị hay bị trị là tùy thuộc vào vị trí lợi ích của họ.",
+    "question_type": "multiple_choice",
+    "question": "Nhân tố chi phối sự phân hóa của các tầng lớp trung gian trong các xã hội có giai cấp là gì?",
+    "options": ["Lợi ích", "Tôn giáo", "Chủng tộc", "Chính trị"],
+    "answer": "A"
+  },  
+  {
+    "context": "Các hình thức cộng đồng chung của dân tộc có vai trò rất to lớn đối với sự phát triển của con người và xã hội. Dân tộc hình thành đã thực sự tạo ra động lực cho sự phát triển. Đấu tranh chống lại sự nô dịch và áp bức dân tộc chính là đấu tranh vì sự phát triển và tiến bộ chung của nhân loại.",
+    "question_type": "multiple_choice",
+    "question": "Các hình thức cộng đồng chung của dân tộc có vai trò như thế nào đối với sự phát triển của con người và xã hội?",
+    "options": ["To lớn", "Nhỏ bé", "Thiết yếu", "Không cần thiết"],
+    "answer": "A"
+  },  
+  {
+    "context": "Cộng đồng về lãnh thổ, cộng đồng về kinh tế, cộng đồng về ngôn ngữ, về văn hóa, tâm lý và tính cách là bốn đặc trưng không thể thiếu của mỗi dân tộc. Đó chính là những yếu tố có mối quan hệ nội lực mạnh mẽ. Nó vừa kết dính dân tộc thành một khối vừa tạo ra động lực để liên kết và phát triển cho mỗi quốc gia dân tộc. Với những đặc trưng trên, dân tộc hình thành thường gắn liền với quá trình hình thành và phát triển của giai cấp tư sản, song cũng có những dân tộc hình thành không gắn với sự ra đời của chủ nghĩa tư bản. Việt Nam và Triều Tiên là một ví dụ.",
+    "question_type": "multiple_choice",
+    "question": "Dân tộc hình thành thường gắn liền với quá trình phát triển của giai cấp nào?",
+    "options": ["Giai cấp tư sản", "Giai cấp vô sản", "Giai cấp nông dân", "Giai cấp địa chủ"],
+    "answer": "A"
+  },
+  {
+    "context": "Xã hội càng phát triển, ngôn ngữ càng phong phú. Một dân tộc có thể sử dụng nhiều loại ngôn ngữ trong quan hệ và giao tiếp với các quốc gia dân tộc khác, nhưng tiếng mẹ đẻ - ngôn ngữ chung của một dân tộc, một quốc gia thống nhất là đặc trưng bản chất và là nhân tố kết nối các dân tộc thành một quốc gia có chủ quyền. Ngôn ngữ là nền tảng văn hóa, đồng thời là di sản tinh thần của mỗi dân tộc.",
+    "question_type": "multiple_choice",
+    "question": "Ngôn ngữ được coi là gì của mỗi dân tộc?",
+    "options": ["Nền tảng văn hóa", "Phương tiện giao tiếp", "Công cụ thương mại", "Phương tiện giáo dục"],
+    "answer": "A"
+  },
+  {
+    "context": "Ngôn ngữ là công cụ quan trọng nhất trong giao tiếp của các dân tộc. Mỗi dân tộc đều có ngôn ngữ riêng của dân tộc mình, nhưng trong một quốc gia nhiều dân tộc bao giờ cũng có một ngôn ngữ chung thống nhất. Ngôn ngữ được chọn làm ngôn ngữ thống nhất thường là sản phẩm và là kết quả tất yếu của một quá trình phát triển lâu dài về kinh tế - xã hội của các dân tộc trong một quốc gia.",
+    "question_type": "multiple_choice",
+    "question": "Trong một quốc gia nhiều dân tộc, thường có bao nhiêu ngôn ngữ chung?",
+    "options": ["Một", "Hai", "Ba", "Năm"],
+    "answer": "A"
+  },
+  {
+    "context": "Cộng đồng kinh tế là nhân tố bảo đảm cho sự tồn tại và thống nhất của mỗi quốc gia dân tộc. Trong mỗi một dân tộc thường tồn tại nhiều giai cấp, nhiều tầng lớp xã hội có lợi ích riêng khác nhau, thậm chí đối lập nhau. Mặc dù vậy, trong sự khác biệt ấy vẫn phải có những tương đồng nhất định về mặt lợi ích. Lịch sử cho thấy, sự tương đồng và phù hợp về lợi ích càng lớn, tính thống nhất của dân tộc càng cao, sự cách biệt và đối lập về lợi ích giữa các bộ tộc dân tộc càng cao, nguy cơ tan rã dân tộc càng lớn. Một quốc gia thống nhất, một dân tộc thống nhất phải được bảo đảm và phải dựa trên cơ sở cộng đồng chung về kinh tế. Tính thống nhất, tính tương đồng và ổn định chung về kinh tế luôn luôn là nhân tố bảo đảm cho sự thống nhất của mỗi quốc gia dân tộc.",
+    "question_type": "multiple_choice",
+    "question": "Nhân tố nào bảo đảm cho sự tồn tại và thống nhất của mỗi quốc gia dân tộc?",
+    "options": ["Cộng đồng kinh tế", "Cộng đồng văn hóa", "Cộng đồng tôn giáo", "Cộng đồng ngôn ngữ"],
+    "answer": "A"
+  },
+  {
+    "context": "Cộng đồng chung về kinh tế là nhân tố bảo đảm cho sự tồn tại và thống nhất của mỗi quốc gia dân tộc. Trong mỗi một dân tộc thường tồn tại nhiều giai cấp, nhiều tầng lớp xã hội có lợi ích riêng khác nhau, thậm chí đối lập nhau. Mặc dù vậy, trong sự khác biệt ấy vẫn phải có những tương đồng nhất định về mặt lợi ích. Lịch sử cho thấy, sự tương đồng và phù hợp về lợi ích càng lớn, tính thống nhất của dân tộc càng cao, sự cách biệt và đối lập về lợi ích giữa các bộ tộc dân tộc càng cao, nguy cơ tan rã dân tộc càng lớn. Một quốc gia thống nhất, một dân tộc thống nhất phải được bảo đảm và phải dựa trên cơ sở cộng đồng chung về kinh tế. Tính thống nhất, tính tương đồng và ổn định chung về kinh tế luôn luôn là nhân tố bảo đảm cho sự thống nhất của mỗi quốc gia dân tộc.",
+    "question_type": "multiple_choice",
+    "question": "Sự tương đồng và phù hợp về lợi ích càng lớn thì điều gì càng cao?",
+    "options": ["Tính thống nhất của dân tộc", "Tính cách biệt của dân tộc", "Tính độc lập của dân tộc", "Tính đa dạng của dân tộc"],
+    "answer": "A"
+  },    
+  {
+    "context": "Dân tộc Là một cộng đồng dân cư hình thành từ một bộ tộc hoặc từ sự liên kết của tất cả các bộ tộc sống trên cùng một vùng lãnh thổ. Cũng như bộ tộc, dân tộc là hình thức cộng đồng người gắn liền với xã hội có giai cấp, có các thể chế chính trị và nhà nước. Nếu trong bộ tộc các cộng đồng dân cư liên kết với nhau chưa dựa trên những nguyên tắc pháp lý, chưa thực sự là một cộng đồng dân cư ổn định và bền vững; thì ngược lại, dân tộc là một cộng đồng dân cư có tính thống nhất cao, ổn định và tương đối bền vững dựa trên những nguyên tắc pháp lý cao.",
+    "question_type": "multiple_choice",
+    "question": "Dân tộc được hình thành từ đâu?",
+    "options": ["Một bộ tộc", "Một gia đình", "Một thành phố", "Một nhóm nhỏ"],
+    "answer": "A"
+  },  
+  {
+    "context": "Bộ tộc là một cộng đồng dân cư được hình thành từ sự liên kết của nhiều bộ lạc và liên minh các bộ lạc trên cùng một vùng lãnh thổ nhất định. Bộ tộc đông đảo hơn bộ lạc. Mỗi bộ tộc có tên gọi và có những đặc điểm về kinh tế, văn hóa riêng. Khác với bộ lạc và thị tộc, bộ tộc có vùng lãnh thổ tương đối ổn định, dân cư đa dạng và đan xen, đa ngôn ngữ và văn hóa, trong đó ngôn ngữ của bộ lạc nào chiếm vị trí trung tâm của sự giao lưu và phát triển kinh tế sẽ trở thành ngôn ngữ chung của cả bộ tộc.",
+    "question_type": "multiple_choice",
+    "question": "Bộ tộc có đặc điểm gì so với bộ lạc và thị tộc?",
+    "options": ["Đông đảo hơn", "vắng vẻ hơn", "Không có tên gọi riêng", "Không có ngôn ngữ chung"],
+    "answer": "A"
+  },  
+  {
+    "context": "Trong xã hội nguyên thuỷ, bộ lạc là hình thức tốt nhất để phát triển sản xuất. Chính trong thời kỳ này, công cụ sản xuất bằng kim loại đã được hình thành tạo nên hình thức phân công lao động xã hội đầu tiên giữa trồng trọt và chăn nuôi, nông nghiệp với thủ công nghiệp... Đó là tiền đề khách quan của sự xuất hiện sở hữu tư nhân. Dựa trên sở hữu tư nhân, bộ tộc ra đời thay thế cho hình thức bộ lạc và liên minh các bộ lạc.",
+    "question_type": "multiple_choice",
+    "question": "Bộ tộc ra đời thay thế cho hình thức nào?",
+    "options": ["Thị tộc", "Bộ lạc", "Cộng đồng làng", "Nhóm gia đình"],
+    "answer": "B"
+  },  
+  {
+    "context": "Bộ lạc có hình thức sở hữu cao hơn thị tộc. Ngoài sở hữu riêng của thị tộc, bộ lạc còn có những sở hữu khác bao gồm vùng lãnh thổ, nơi trồng trọt, săn bắt và chăn nuôi. Lãnh đạo bộ lạc là một hội đồng các tộc trưởng. Trong bộ lạc có một thủ lĩnh tối cao nhưng mọi quyền hành quản lý bộ lạc đều do hội nghị của hội đồng các tộc trưởng và thủ lĩnh quân sự quyết định. Hình thức phát triển cao nhất của bộ lạc là liên minh bộ lạc được hình thành từ sự liên kết nhiều bộ lạc.",
+    "question_type": "multiple_choice",
+    "question": "Hình thức phát triển cao nhất của bộ lạc là gì?",
+    "options": ["Thị tộc", "Liên minh bộ lạc", "Hội đồng tộc trưởng", "Thủ lĩnh quân sự"],
+    "answer": "B"
+  },  
+  {
+    "context": "Bộ lạc có hình thức sở hữu cao hơn thị tộc. Ngoài sở hữu riêng của thị tộc, bộ lạc còn có những sở hữu khác bao gồm vùng lãnh thổ, nơi trồng trọt, săn bắt và chăn nuôi. Lãnh đạo bộ lạc là một hội đồng các tộc trưởng. Trong bộ lạc có một thủ lĩnh tối cao nhưng mọi quyền hành quản lý bộ lạc đều do hội nghị của hội đồng các tộc trưởng và thủ lĩnh quân sự quyết định. Hình thức phát triển cao nhất của bộ lạc là liên minh bộ lạc được hình thành từ sự liên kết nhiều bộ lạc.",
+    "question_type": "multiple_choice",
+    "question": "Ngoài sở hữu riêng của thị tộc, bộ lạc còn có những sở hữu nào khác?",
+    "options": ["Vùng lãnh thổ", "Nhà cửa", "Đất đai", "Công cụ lao động"],
+    "answer": "A"
+  },
+  {
+    "context": "Bộ lạc là một tập hợp dân cư được tạo thành từ nhiều thị tộc do có quan hệ huyết thống hoặc quan hệ hôn nhân liên kết với nhau, trong đó có một thị tộc gốc tạo thành bộ lạc gọi là bào tộc. Đặc trưng của bộ lạc là có cùng ngôn ngữ, phong tục tập quán, văn hóa, tín ngưỡng và cùng chung sống trên một vùng lãnh thổ. Mặc dù chưa thật sự ổn định nhưng việc xác lập chủ quyền về mặt lãnh thổ là đặc trưng mới của bộ lạc so với thị tộc.",
+    "question_type": "multiple_choice",
+    "question": "Đặc trưng mới của bộ lạc so với thị tộc là gì?",
+    "options": ["Cùng ngôn ngữ", "Phong tục tập quán", "Chủ quyền lãnh thổ", "Tín ngưỡng"],
+    "answer": "C"
+  },  
+  {
+    "context": "Bộ lạc là một tập hợp dân cư được tạo thành từ nhiều thị tộc do có quan hệ huyết thống hoặc quan hệ hôn nhân liên kết với nhau, trong đó có một thị tộc gốc tạo thành bộ lạc gọi là bào tộc. Đặc trưng của bộ lạc là có cùng ngôn ngữ, phong tục tập quán, văn hóa, tín ngưỡng và cùng chung sống trên một vùng lãnh thổ. Mặc dù chưa thật sự ổn định nhưng việc xác lập chủ quyền về mặt lãnh thổ là đặc trưng mới của bộ lạc so với thị tộc.",
+    "question_type": "multiple_choice",
+    "question": "Bộ lạc được tạo thành từ nhiều nhóm nào?",
+    "options": ["Thị tộc", "Gia đình", "Làng mạc", "Quốc gia"],
+    "answer": "A"
+  },  
+  {
+    "context": "thị tộc còn có những quan hệ cộng đồng về ngôn ngữ, tập quán, tín ngưỡng, văn hóa. Mỗi thị tộc có khu vực cư trú, vùng săn bắt và tên gọi riêng. Cơ sở tồn tại về kinh tế của thị tộc là quyền sở hữu chung về tư liệu sản xuất và tài sản. Họ cùng lao động và mọi sản phẩm được chia đều cho tất cả các thành viên trong thị tộc. Lãnh đạo thị tộc là một hội đồng thị tộc, đứng đầu là tộc trưởng được mọi người bầu ra. Việc quản lý điều hành thị tộc dựa trên nghị quyết của hội nghị thị tộc gồm các nam nữ đã thành niên trong thị tộc. Khi tộc trưởng đã được bầu, các thành viên trong thị tộc tôn kính và chấp hành sự điều khiển của tộc trưởng một cách tự nguyện.",
+    "question_type": "multiple_choice",
+    "question": "Ai đứng đầu hội đồng thị tộc?",
+    "options": ["Người lớn tuổi nhất", "Tộc trưởng", "Người giàu nhất", "Người mạnh nhất"],
+    "answer": "B"
+  },  
+  {
+    "context": "thị tộc còn có những quan hệ cộng đồng về ngôn ngữ, tập quán, tín ngưỡng, văn hóa. Mỗi thị tộc có khu vực cư trú, vùng săn bắt và tên gọi riêng. Cơ sở tồn tại về kinh tế của thị tộc là quyền sở hữu chung về tư liệu sản xuất và tài sản. Họ cùng lao động và mọi sản phẩm được chia đều cho tất cả các thành viên trong thị tộc. Lãnh đạo thị tộc là một hội đồng thị tộc, đứng đầu là tộc trưởng được mọi người bầu ra. Việc quản lý điều hành thị tộc dựa trên nghị quyết của hội nghị thị tộc gồm các nam nữ đã thành niên trong thị tộc. Khi tộc trưởng đã được bầu, các thành viên trong thị tộc tôn kính và chấp hành sự điều khiển của tộc trưởng một cách tự nguyện.",
+    "question_type": "multiple_choice",
+    "question": "Cơ sở tồn tại về kinh tế của thị tộc là gì?",
+    "options": ["Sở hữu tư nhân", "Sở hữu chung", "Sở hữu cá nhân", "Sở hữu nhà nước"],
+    "answer": "B"
+  },  
+  {
+    "context": "Xây dựng chủ nghĩa xã hội bỏ qua chế độ tư bản chủ nghĩa, tạo ra sự biến đổi về chất của xã hội trên tất cả các lĩnh vực là sự nghiệp rất khó khăn, phức tạp, cho nên phải trải qua một thời kỳ quá độ lâu dài với nhiều chặng đường, nhiều hình thức tổ chức kinh tế, xã hội có tính chất quá độ. Trong các lĩnh vực của đời sống xã hội diễn ra sự đan xen và đấu tranh giữa cái mới và cái cũ.",
+    "question_type": "multiple_choice",
+    "question": "Xây dựng chủ nghĩa xã hội bỏ qua chế độ tư bản chủ nghĩa đòi hỏi phải trải qua thời kỳ gì?",
+    "options": ["Thời kỳ phát triển", "Thời kỳ quá độ lâu dài", "Thời kỳ hòa bình", "Thời kỳ ổn định"],
+    "answer": "B"
+  },   
+  {
+    "context": "Vận dụng chủ nghĩa Mác - Lênin vào điều kiện cụ thể của nước ta, Đảng ta khẳng định: độc lập dân tộc và chủ nghĩa xã hội không tách rời nhau. Đó là quy luật phát triển của cách mạng Việt Nam, là sợi chỉ đỏ xuyên suốt đường lối cách mạng của Đảng. Việc Đảng ta luôn luôn kiên định con đường tiến lên chủ nghĩa xã hội là phù hợp với xu hướng của thời đại và điều kiện cụ thể của nước ta.",
+    "question_type": "multiple_choice",
+    "question": "Đảng ta khẳng định điều gì về độc lập dân tộc và chủ nghĩa xã hội?",
+    "options": ["Tách rời nhau", "Không tách rời nhau", "Đối lập nhau", "Thay thế cho nhau"],
+    "answer": "B"
+  },  
+  {
+    "context": "Học thuyết còn chỉ ra: sự phát triển của các hình thái kinh tế - xã hội là một quá trình lịch sử - tự nhiên, tức diễn ra theo các quy luật khách quan chứ không phải theo ý muốn chủ quan. Cho nên, muốn nhận thức đúng đời sống xã hội phải đi sâu nghiên cứu các quy luật vận động phát triển của xã hội. V.I.Lênin viết: Xã hội là một cơ thể sống đang phát triển không ngừng (chứ không phải là một cái gì được kết thành một cách máy móc và do đó cho phép có thể tùy ý phối hợp các yếu tố xã hội như thế nào cũng được), một cơ thể mà muốn nghiên cứu nó thì cần phải phân tích một cách khách quan những quan hệ sản xuất cấu thành một hình thái xã hội nhất định và cần phải nghiên cứu những quy luật vận hành và phát triển của hình thái xã hội đó.",
+    "question_type": "multiple_choice",
+    "question": "Theo học thuyết, sự phát triển của các hình thái kinh tế - xã hội là gì?",
+    "options": ["Quá trình lịch sử - tự nhiên", "Quá trình chủ quan", "Quá trình ngẫu nhiên", "Quá trình tùy ý"],
+    "answer": "A"
+  },  
+  {
+    "context": "Học thuyết đó cũng chỉ ra: xã hội không phải là sự kết hợp một cách ngẫu nhiên, máy móc giữa các cá nhân, mà là một cơ thể sống sinh động, các mặt thống nhất chặt chẽ với nhau, tác động qua lại lẫn nhau. Trong đó, quan hệ sản xuất là quan hệ cơ bản, quyết định các quan hệ xã hội khác, là tiêu chuẩn khách quan để phân biệt các chế độ xã hội. Điều đó cho thấy, muốn nhận thức đúng đời sống xã hội, phải phân tích một cách sâu sắc các mặt của đời sống xã hội và mối quan hệ lẫn nhau giữa chúng. Đặc biệt phải đi sâu phân tích về quan hệ sản xuất thì mới có thể hiểu một cách đúng đắn về đời sống xã hội. Chính quan hệ sản xuất cũng là tiêu chuẩn khách quan để phân kỳ lịch sử một cách đúng đắn, khoa học.",
+    "question_type": "multiple_choice",
+    "question": "Quan hệ nào là tiêu chuẩn khách quan để phân biệt các chế độ xã hội?",
+    "options": ["Quan hệ cá nhân", "Quan hệ sản xuất", "Quan hệ kinh tế", "Quan hệ chính trị"],
+    "answer": "B"
+  },  
+  {
+    "context": "Sự tác động của các quy luật khách quan làm cho các hình thái kinh tế - xã hội phát triển thay thế nhau từ thấp đến cao - đó là con đường phát triển chung của nhân loại. Song, con đường phát triển của mỗi dân tộc không chỉ bị chi phối bởi các quy luật chung, mà còn bị tác động bởi các điều kiện về tự nhiên, về chính trị, về truyền thống văn hóa, về điều kiện quốc tế, v.v.. Chính vì vậy, lịch sử phát triển của nhân loại hết sức phong phú, đa dạng. Mỗi dân tộc đều có nét độc đáo riêng trong lịch sử phát triển của mình. Có những dân tộc lần lượt trải qua các hình thái kinh tế - xã hội từ thấp đến cao; nhưng cũng có những dân tộc bỏ qua một hay một số hình thái kinh tế - xã hội nào đó. Tuy nhiên, việc bỏ qua đó cũng diễn ra theo một quá trình lịch sử - tự nhiên chứ không phải theo ý muốn chủ quan.",
+    "question_type": "multiple_choice",
+    "question": "Việc bỏ qua một hay một số hình thái kinh tế - xã hội diễn ra theo cách nào?",
+    "options": ["Quá trình lịch sử - tự nhiên", "Ý muốn chủ quan", "Chính trị", "Can thiệp ngoài"],
+    "answer": "A"
+  },
+  {
+    "context": "Nguồn gốc sâu xa của sự vận động phát triển của xã hội là ở sự phát triển của lực lượng sản xuất. Chính sự phát triển của lực lượng sản xuất đã quyết định, làm thay đổi quan hệ sản xuất. Đến lượt mình, quan hệ sản xuất thay đổi sẽ làm cho kiến trúc thượng tầng thay đổi theo, và do đó mà hình thái kinh tế - xã hội cũ được thay thế bằng hình thái kinh tế - xã hội mới cao hơn, tiến bộ hơn. Quá trình đó diễn ra một cách khách quan chứ không phải theo ý muốn chủ quan. V.I.Lênin viết: Chỉ có đem quy những quan hệ xã hội vào những quan hệ sản xuất, và đem quy những quan hệ sản xuất vào trình độ của những lực lượng sản xuất thì người ta mới có được một cơ sở vững chắc để quan niệm sự phát triển của những hình thái xã hội là một quá trình lịch sử - tự nhiên.",
+    "question_type": "multiple_choice",
+    "question": "Quá trình thay thế hình thái kinh tế - xã hội cũ bằng hình thái kinh tế - xã hội mới diễn ra theo cách nào?",
+    "options": ["Theo ý muốn chủ quan", "Một cách khách quan", "Do sự can thiệp bên ngoài", "Do thay đổi chính trị"],
+    "answer": "C"
+  },  
+  {
+    "context": "Nguồn gốc sâu xa của sự vận động phát triển của xã hội là ở sự phát triển của lực lượng sản xuất. Chính sự phát triển của lực lượng sản xuất đã quyết định, làm thay đổi quan hệ sản xuất. Đến lượt mình, quan hệ sản xuất thay đổi sẽ làm cho kiến trúc thượng tầng thay đổi theo, và do đó mà hình thái kinh tế - xã hội cũ được thay thế bằng hình thái kinh tế - xã hội mới cao hơn, tiến bộ hơn. Quá trình đó diễn ra một cách khách quan chứ không phải theo ý muốn chủ quan. V.I.Lênin viết: Chỉ có đem quy những quan hệ xã hội vào những quan hệ sản xuất, và đem quy những quan hệ sản xuất vào trình độ của những lực lượng sản xuất thì người ta mới có được một cơ sở vững chắc để quan niệm sự phát triển của những hình thái xã hội là một quá trình lịch sử - tự nhiên.",
+    "question_type": "multiple_choice",
+    "question": "Nguồn gốc sự vận động phát triển của xã hội là gì?",
+    "options": ["Quan hệ sản xuất", "Kiến trúc thượng tầng", "Lực lượng sản xuất", "Quan hệ xã hội"],
+    "answer": "C"
+  },
+  {
+    "context": "Sự tác động của kiến trúc thượng tầng đối với cơ sở hạ tầng diễn ra theo hai chiều. Nếu kiến trúc thượng tầng tác động phù hợp với các quy luật kinh tế khách quan thì nó là động lực mạnh mẽ thúc đẩy kinh tế phát triển; nếu tác động ngược lại, nó sẽ kìm hãm phát triển kinh tế, kìm hãm phát triển xã hội.",
+    "question_type": "multiple_choice",
+    "question": "Sự tác động của kiến trúc thượng tầng đối với cơ sở hạ tầng diễn ra theo mấy chiều?",
+    "options": ["Một chiều", "Hai chiều", "Ba chiều", "Bốn chiều"],
+    "answer": "B"
+  },  
+  {
+    "context": "Vai trò quyết định của cơ sở hạ tầng đối với kiến trúc thượng tầng trước hết thể hiện ở chỗ: Mỗi cơ sở hạ tầng sẽ hình thành nên một kiến trúc thượng tầng tương ứng với nó. Tính chất của kiến trúc thượng tầng là do tính chất của cơ sở hạ tầng quyết định. Trong xã hội có giai cấp, giai cấp nào thống trị về kinh tế thì cũng chiếm địa vị thống trị về mặt chính trị và đời sống tinh thần của xã hội. Các mâu thuẫn trong kinh tế, xét đến cùng, quyết định các mâu thuẫn trong lĩnh vực chính trị tư tưởng; cuộc đấu tranh giai cấp về chính trị tư tưởng là biểu hiện những đối kháng trong đời sống kinh tế. Tất cả các yếu tố của kiến trúc thượng tầng như nhà nước, pháp quyền, triết học, tôn giáo, v.v. đều trực tiếp hay gián tiếp phụ thuộc vào cơ sở hạ tầng, do cơ sở hạ tầng quyết định.",
+    "question_type": "multiple_choice",
+    "question": "Mỗi cơ sở hạ tầng sẽ hình thành nên cái gì tương ứng với nó?",
+    "options": ["Một tầng lớp xã hội", "Một nền kinh tế", "Một kiến trúc thượng tầng", "Một hệ thống pháp luật"],
+    "answer": "C"
+  },
+  {
+    "context": "Vai trò quyết định của cơ sở hạ tầng đối với kiến trúc thượng tầng trước hết thể hiện ở chỗ: Mỗi cơ sở hạ tầng sẽ hình thành nên một kiến trúc thượng tầng tương ứng với nó. Tính chất của kiến trúc thượng tầng là do tính chất của cơ sở hạ tầng quyết định. Trong xã hội có giai cấp, giai cấp nào thống trị về kinh tế thì cũng chiếm địa vị thống trị về mặt chính trị và đời sống tinh thần của xã hội. Các mâu thuẫn trong kinh tế, xét đến cùng, quyết định các mâu thuẫn trong lĩnh vực chính trị tư tưởng; cuộc đấu tranh giai cấp về chính trị tư tưởng là biểu hiện những đối kháng trong đời sống kinh tế. Tất cả các yếu tố của kiến trúc thượng tầng như nhà nước, pháp quyền, triết học, tôn giáo, v.v. đều trực tiếp hay gián tiếp phụ thuộc vào cơ sở hạ tầng, do cơ sở hạ tầng quyết định.",
+    "question_type": "multiple_choice",
+    "question": "Giai cấp nào thống trị về kinh tế thì chiếm địa vị thống trị về mặt nào?",
+    "options": ["Quân sự", "Chính trị", "Giáo dục", "Khoa học"],
+    "answer": "B"
+  },  
+  {
+    "context": "Trong xã hội có giai cấp, kiến trúc thượng tầng mang tính giai cấp, trong đó, nhà nước có vai trò đặc biệt quan trọng. Nó tiêu biểu cho chế độ chính trị của một xã hội nhất định. Nhờ có nhà nước, giai cấp thống trị mới thực hiện được sự thống trị của mình về tất cả các mặt của đời sống xã hội.",
+    "question_type": "multiple_choice",
+    "question": "Yếu tố nào tiêu biểu cho chế độ chính trị của một xã hội nhất định trong xã hội có giai cấp?",
+    "options": ["Triết học", "Tôn giáo", "Nhà nước", "Nghệ thuật"],
+    "answer": "C"
+  },  
+  {
+    "context": "Mỗi yếu tố của kiến trúc thượng tầng có đặc điểm riêng, có quy luật vận động phát triển riêng, nhưng chúng liên hệ với nhau, tác động qua lại lẫn nhau và đều hình thành trên cơ sở hạ tầng. Song, mỗi yếu tố khác nhau có quan hệ khác nhau đối với cơ sở hạ tầng. Có những yếu tố như chính trị có quan hệ trực tiếp với cơ sở hạ tầng; còn những yếu tố như triết học, tôn giáo, nghệ thuật chỉ quan hệ gián tiếp với nó.",
+    "question_type": "multiple_choice",
+    "question": "Yếu tố nào có quan hệ trực tiếp với cơ sở hạ tầng?",
+    "options": ["Triết học", "Tôn giáo", "Nghệ thuật", "Chính trị"],
+    "answer": "D"
+  },  
+  {
+    "context": "Cơ sở hạ tầng của một xã hội cụ thể bao gồm quan hệ sản xuất thống trị, quan hệ sản xuất tàn dư của xã hội cũ và quan hệ sản xuất mầm mống của xã hội tương lai. Trong đó, quan hệ sản xuất thống trị bao giờ cũng giữ vai trò chủ đạo, chi phối các quan hệ sản xuất khác, nó quy định xu hướng chung của đời sống kinh tế - xã hội. Bởi vậy, cơ sở hạ tầng của một xã hội cụ thể được đặc trưng bởi quan hệ sản xuất thống trị trong xã hội đó. Tuy nhiên, quan hệ sản xuất tàn dư và quan hệ sản xuất mầm mống cũng có vai trò nhất định.",
+    "question_type": "multiple_choice",
+    "question": "Quan hệ sản xuất nào giữ vai trò chủ đạo trong cơ sở hạ tầng của một xã hội cụ thể?",
+    "options": ["Quan hệ sản xuất thống trị", "Quan hệ sản xuất tàn dư", "Quan hệ sản xuất mầm mống", "Quan hệ sản xuất phụ thuộc"],
+    "answer": "A"
+  },  
+  {
+    "context": "Quan hệ sản xuất được hình thành một cách khách quan trong quá trình sản xuất tạo thành quan hệ vật chất của xã hội. Trên cơ sở quan hệ sản xuất hình thành nên các quan hệ về chính trị và tinh thần của xã hội. Hai mặt đó của đời sống xã hội được khái quát thành cơ sở hạ tầng và kiến trúc thượng tầng của xã hội. C.Mác viết: Toàn bộ những quan hệ sản xuất ấy hợp thành cơ cấu kinh tế của xã hội, tức là cái cơ sở hiện thực trên đó dựng lên một kiến trúc thượng tầng pháp lý và chính trị và những hình thái ý thức xã hội nhất định tương ứng với cơ sở hiện thực đó.",
+    "question_type": "multiple_choice",
+    "question": "C.Mác cho rằng toàn bộ những quan hệ sản xuất hợp thành cái gì của xã hội?",
+    "options": ["Cơ sở hạ tầng", "Kiến trúc thượng tầng", "Cơ cấu kinh tế", "Hình thái ý thức"],
+    "answer": "C"
+  },  
+  {
+    "context": "Lực lượng sản xuất quyết định quan hệ sản xuất, nhưng quan hệ sản xuất cũng có tính độc lập tương đối và tác động trở lại sự phát triển của lực lượng sản xuất. Quan hệ sản xuất quy định mục đích của sản xuất, tác động đến thái độ của con người trong lao động sản xuất, đến tổ chức phân công lao động xã hội, đến phát triển và ứng dụng khoa học và công nghệ, v.v. và do đó tác động đến sự phát triển của lực lượng sản xuất. Quan hệ sản xuất phù hợp với trình độ phát triển của lực lượng sản xuất là động lực thúc đẩy lực lượng sản xuất phát triển.",
+    "question_type": "multiple_choice",
+    "question": "Quan hệ sản xuất quy định điều gì trong quá trình sản xuất?",
+    "options": ["Mục đích của sản xuất", "Công cụ lao động", "Kỹ năng lao động", "Kết quả sản xuất"],
+    "answer": "A"
+  },
+  {
+    "context": "Sự phát triển của lực lượng sản xuất đến một trình độ nhất định làm cho quan hệ sản xuất từ chỗ phù hợp trở thành không phù hợp với sự phát triển của lực lượng sản xuất. Khi đó, quan hệ sản xuất trở thành xiềng xích của lực lượng sản xuất, kìm hãm lực lượng sản xuất phát triển. Yêu cầu khách quan của sự phát triển lực lượng sản xuất tất yếu dẫn đến thay thế quan hệ sản xuất cũ bằng quan hệ sản xuất mới phù hợp với trình độ phát triển mới của lực lượng sản xuất để thúc đẩy lực lượng sản xuất tiếp tục phát triển.",
+    "question_type": "multiple_choice",
+    "question": "Khi sự phát triển của lực lượng sản xuất đến một trình độ nhất định, quan hệ xã hội trở thành cái gì của lực lượng sản xuất?",
+    "options": ["Động lực", "Cản trở", "Xiềng xích", "Hỗ trợ"],
+    "answer": "C"
+  },
+  {
+    "context": "Gắn liền với trình độ của lực lượng sản xuất là tính chất của lực lượng sản xuất. Trong lịch sử xã hội, lực lượng sản xuất đã phát triển từ chỗ có tính chất cá nhân lên tính chất xã hội hóa. Khi sản xuất dựa trên công cụ thủ công, phân công lao động kém phát triển thì lực lượng sản xuất chủ yếu có tính chất cá nhân. Khi sản xuất đạt tới trình độ cơ khí, hiện đại thì lực lượng sản xuất có tính chất xã hội hóa.",
+    "question_type": "multiple_choice",
+    "question": "Tính chất của lực lượng sản xuất khi sản xuất đạt tới trình độ cơ khí, hiện đại là gì?",
+    "options": ["Tính chất cá nhân", "Tính chất xã hội hóa", "Tính chất tự phát", "Tính chất tập thể"],
+    "answer": "B"
+  },
+  {
+    "context": "Lực lượng sản xuất và quan hệ sản xuất là hai mặt của phương thức sản xuất, chúng tồn tại không tách rời nhau, tác động qua lại lẫn nhau một cách biện chứng, tạo thành quy luật sự phù hợp của quan hệ sản xuất với trình độ phát triển của lực lượng sản xuất - quy luật cơ bản nhất của sự vận động, phát triển xã hội.",
+    "question_type": "multiple_choice",
+    "question": "Lực lượng sản xuất và quan hệ sản xuất tác động như thế nào?",
+    "options": ["Một cách tách rời", "Một cách biện chứng", "Một cách ngẫu nhiên", "Một cách độc lập"],
+    "answer": "B"
+  },
+  {
+    "context": "Quan hệ về phân phối sản phẩm sản xuất ra mặc dù do quan hệ sở hữu về tư liệu sản xuất và quan hệ tổ chức quản lý sản xuất chi phối, song nó kích thích trực tiếp đến lợi ích của con người, nên nó tác động đến thái độ của con người trong lao động sản xuất, và do đó có thể thúc đẩy hoặc kìm hãm sản xuất phát triển.",
+    "question_type": "multiple_choice",
+    "question": "Quan hệ về phân phối sản phẩm kích thích trực tiếp đến điều gì?",
+    "options": ["Lợi ích của con người", "Quan hệ sở hữu", "Tư liệu sản xuất", "Kỹ năng lao động"],
+    "answer": "A"
+  },
+  {
+    "context": "Quan hệ tổ chức và quản lý sản xuất trực tiếp tác động đến quá trình sản xuất, đến việc tổ chức, điều khiển quá trình sản xuất. Nó có thể thúc đẩy hoặc kìm hãm quá trình sản xuất. Quan hệ tổ chức và quản lý sản xuất do quan hệ sở hữu quyết định và nó phải thích ứng với quan hệ sở hữu. Tuy nhiên có trường hợp, quan hệ tổ chức và quản lý không thích ứng với quan hệ sở hữu, làm biến dạng quan hệ sở hữu.",
+    "question_type": "multiple_choice",
+    "question": "Quan hệ tổ chức và quản lý sản xuất trực tiếp tác động đến điều gì?",
+    "options": ["Quá trình sản xuất", "Quan hệ sở hữu", "Lợi nhuận", "Giá cả sản phẩm"],
+    "answer": "A"
+  },
+  {
+    "context": "Cùng với người lao động, công cụ lao động cũng là một yếu tố cơ bản của lực lượng sản xuất, đóng vai trò quyết định trong tư liệu sản xuất. Công cụ lao động do con người sáng tạo ra, là sức mạnh của tri thức đã được vật thể hóa, nó nhân sức mạnh của con người trong quá trình lao động sản xuất. Công cụ lao động là yếu tố động nhất của lực lượng sản xuất. Cùng với quá trình tích luỹ kinh nghiệm, với những phát minh và sáng chế kỹ thuật, công cụ lao động không ngừng được cải tiến và hoàn thiện. Chính sự cải tiến và hoàn thiện không ngừng công cụ lao động đã làm biến đổi toàn bộ tư liệu sản xuất. Xét đến cùng, đó là nguyên nhân sâu xa của mọi biến đổi xã hội. Trình độ phát triển của công cụ lao động là thước đo trình độ chinh phục tự nhiên của con người, là tiêu chuẩn phân biệt các thời đại kinh tế trong lịch sử.",
+    "question_type": "multiple_choice",
+    "question": "Yếu tố nào đóng vai trò quyết định trong tư liệu sản xuất?",
+    "options": ["Người lao động", "Công cụ lao động", "Tư liệu lao động", "Kỹ năng lao động"],
+    "answer": "B"
+  },
+  {
     "context": "Tuy nhiên không nên cường điệu, tuyệt đối hóa và thần bí vô thức. Không nên coi vô thức là hiện tượng tâm lý cô lập, hoàn toàn tách khỏi hoàn cảnh xã hội xung quanh không liên quan gì đến ý thức. Thực ra, vô thức là vô thức nằm trong con người có ý thức. Giữ vai trò chủ đạo trong con người là ý thức chứ không phải vô thức. Nhờ có ý thức mới điều khiển được các hiện tượng vô thức hướng tới chân, thiện, mỹ. Vô thức chỉ là một mắt khâu trong cuộc sống có ý thức của con người.",
     "question_type": "multiple_choice",
     "question": "Vai trò chủ đạo trong con người là gì?",
     "options": ["Vô thức", "Ý thức", "Bản năng", "Trí tuệ"],
     "answer": "B"
-  },  
+  },
   {
     "context": "Sản xuất là hoạt động đặc trưng của con người và xã hội loài người. Sản xuất xã hội bao gồm: sản xuất vật chất, sản xuất tinh thần và sản xuất ra bản thân con người. Ba quá trình đó gắn bó chặt chẽ với nhau, tác động qua lại lẫn nhau, trong đó sản xuất vật chất là cơ sở của sự tồn tại và phát triển của xã hội.",
     "question_type": "multiple_choice",
@@ -1177,14 +1712,14 @@
     "question": "Đảng ta đã vận dụng tư tưởng nào vào trong những điều kiện lịch sử cụ thể của đất nước?",
     "options": ["Tư tưởng Mác-Lênin", "Tư tưởng Hồ Chí Minh", "Tư tưởng Phật giáo", "Tư tưởng Khổng Tử"],
     "answer": "B"
-  },  
+  },
   {
     "context": "Điều đó đã được Chủ tịch Hồ Chí Minh khẳng định: Có kinh nghiệm mà không có lý luận, cũng như một mắt sáng, một mắt mờ. Ngược lại nếu tuyệt đối hóa vai trò của nhận thức lý luận, hạ thấp kinh nghiệm, không quan tâm đến nhận thức kinh nghiệm sẽ dẫn đến căn bệnh giáo điều.",
     "question_type": "multiple_choice",
     "question": "Ai đã khẳng định: Có kinh nghiệm mà không có lý luận, cũng như một mắt sáng, một mắt mờ?",
     "options": ["Chủ tịch Hồ Chí Minh", "C.Mác", "V.I.Lênin", "Ph.Ăngghen"],
     "answer": "A"
-  },    
+  },  
   {
     "context": "Theo trình độ phát triển của nhận thức, phán đoán được phân chia làm ba loại là phán đoán đơn nhất (ví dụ: đồng dẫn điện), phán đoán đặc thù (ví dụ: đồng là kim loại) và phán đoán phổ biến (ví dụ: mọi kim loại đều dẫn điện). Phán đoán phổ biến là hình thức thể hiện sự bao quát rộng lớn nhất về đối tượng.",
     "question_type": "multiple_choice",
@@ -1205,7 +1740,7 @@
     "question": "Nhận thức kinh nghiệm là cơ sở của nhận thức nào?",
     "options": ["Nhận thức lý luận", "Nhận thức trực tiếp", "Nhận thức gián tiếp", "Nhận thức thực tiễn"],
     "answer": "A"
-  },    
+  },  
   {
     "context": "Trực quan sinh động còn được gọi là giai đoạn nhận thức cảm tính; đây là giai đoạn con người sử dụng các giác quan để tác động trực tiếp vào các sự vật nhằm nắm bắt các sự vật ấy. Trực quan sinh động bao gồm 3 hình thức là cảm giác, tri giác và biểu tượng.",
     "question_type": "multiple_choice",
@@ -1219,7 +1754,7 @@
     "question": "Tri giác nảy sinh dựa trên cơ sở của giác quan nào?",
     "options": ["Thị giác", "Thính giác", "Cảm giác", "Khứu giác"],
     "answer": "C"
-  },  
+  },
   {
     "context": "Thực nghiệm khoa học là hình thức đặc biệt của thực tiễn. Đây là hoạt động được tiến hành trong những điều kiện do con người tạo ra gần giống, giống hoặc lặp lại những trạng thái của tự nhiên và xã hội nhằm xác định các quy luật biến đổi và phát triển của đối tượng nghiên cứu. Dạng hoạt động thực tiễn này ngày càng có vai trò quan trọng trong sự phát triển của xã hội, đặc biệt là trong thời kỳ cách mạng khoa học và công nghệ hiện đại.",
     "question_type": "multiple_choice",
@@ -1240,7 +1775,7 @@
     "question": "Việc nghiên cứu lý luận phải liên hệ với cái gì?",
     "options": ["Lý thuyết", "Thực tiễn", "Giáo dục", "Chính trị"],
     "answer": "B"
-  },  
+  },
   {
     "context": "Xuất phát từ chỗ phủ nhận sự tồn tại khách quan của thế giới vật chất, chủ nghĩa duy tâm chủ quan cho rằng nhận thức chỉ là sự phức hợp những cảm giác của con người. Chủ nghĩa duy tâm khách quan lại coi nhận thức là sự hồi tưởng lại của linh hồn bất tử về thế giới các ý niệm mà nó đã từng chiêm ngưỡng được nhưng đã bị lãng quên, hoặc cho rằng nhận thức là sự tự ý thức về mình của ý niệm tuyệt đối.",
     "question_type": "multiple_choice",
@@ -1261,7 +1796,7 @@
     "question": "Hoạt động nào là hình thức hoạt động cơ bản?",
     "options": ["Sản xuất vật chất", "Chính trị xã hội", "Thực nghiệm khoa học", "Văn hóa nghệ thuật"],
     "answer": "A"
-  },  
+  },
   {
     "context": "Sự phát triển biện chứng thông qua những lần phủ định như trên là sự thống nhất hữu cơ giữa lọc bỏ, bảo tồn và bổ sung thêm những nhân tố tích cực mới. Do vậy, thông qua những lần phủ định biện chứng sự vật sẽ ngày càng phát triển.",
     "question_type": "multiple_choice",
@@ -1289,7 +1824,7 @@
     "question": "Chu kỳ sau như thế nào so với chu kỳ trước?",
     "options": ["Giảm sút", "Không đổi", "Thụt lùi", "Tiến bộ hơn"],
     "answer": "D"
-  },  
+  },
   {
     "context": "Khả năng và hiện thực tồn tại trong mối quan hệ chặt chẽ. Điều đó có nghĩa là trong sự vật hiện đang tồn tại chứa đựng khả năng, sự vận động phát triển của sự vật chính là quá trình biến khả năng thành hiện thực. Trong hiện thực mới đó lại nảy sinh khả năng mới, khả năng mới này nếu có những điều kiện lại biến thành hiện thực mới.",
     "question_type": "multiple_choice",
@@ -1324,7 +1859,7 @@
     "question": "Phủ định biện chứng có tính chất gì?",
     "options": ["Khách quan", "Chủ quan", "Tùy ý", "Tạm thời"],
     "answer": "A"
-  },    
+  },  
   {
     "context": "Mâu thuẫn giữa bản chất và hiện tượng còn thể hiện ở chỗ, bản chất là mặt bên trong ẩn giấu sâu xa của hiện thực khách quan; còn hiện tượng là mặt bên ngoài của hiện thực khách quan đó. Bản chất không được biểu lộ hoàn toàn ở một hiện tượng mà biểu hiện ở rất nhiều hiện tượng khác nhau. Hiện tượng không biểu hiện hoàn toàn bản chất mà chỉ biểu hiện một khía cạnh của bản chất, biểu hiện bản chất dưới hình thức đã biến đổi, nhiều khi xuyên tạc bản chất.",
     "question_type": "multiple_choice",
@@ -1338,7 +1873,7 @@
     "question": "Khái niệm nào chỉ các sự vật tồn tại độc lập với ý thức của con người?",
     "options": ["Hiện thực khách quan", "Hiện thực chủ quan", "Hiện thực", "Khái niệm"],
     "answer": "A"
-  },  
+  },
   {
     "context": "Vì khuynh hướng chủ đạo của nội dung là biến đổi, còn khuynh hướng chủ đạo của hình thức là tương đối bền vững, chậm biến đổi hơn so với nội dung. Dưới sự tác động lẫn nhau của những mặt trong sự vật, hoặc giữa các sự vật với nhau trước hết làm cho các yếu tố của nội dung biến đổi trước.",
     "question_type": "multiple_choice",
@@ -1366,7 +1901,7 @@
     "question": "Phạm trù nào gắn liền với phạm trù cái chung?",
     "options": ["Phạm trù hiện tượng", "Phạm trù bản chất", "Phạm trù đơn nhất", "Phạm trù riêng"],
     "answer": "B"
-  },    
+  },  
   {
     "context": "Phái duy danh cho rằng chỉ có cái riêng tồn tại thực sự, còn cái chung là những tên gọi trống rỗng, do con người đặt ra, không phản ánh cái gì trong hiện thực. Quan điểm này không thừa nhận nội dung khách quan của các khái niệm.",
     "question_type": "multiple_choice",
@@ -1401,7 +1936,7 @@
     "question": "Ranh giới giữa tất nhiên và ngẫu nhiên có ý nghĩa như thế nào?",
     "options": ["Tuyệt đối", "Không có ý nghĩa", "Tương đối", "Chắc chắn"],
     "answer": "C"
-  },    
+  },  
   {
     "context": "Tùy theo mức độ bao quát của khái niệm mà chúng ta có các khái niệm rộng hay hẹp khác nhau. Khái niệm rộng nhất thì được gọi là phạm trù. Vậy, phạm trù là những khái niệm rộng nhất phản ánh những mặt, những thuộc tính, những mối liên hệ chung, cơ bản nhất của các sự vật và hiện tượng thuộc một lĩnh vực nhất định.",
     "question_type": "multiple_choice",
@@ -1436,7 +1971,7 @@
     "question": "Chúng ta thường tiếp xúc với những sự vật, hiện tượng, quá trình khác nhau ở đâu?",
     "options": ["Trong sách vở", "Trong phim ảnh", "Trong cuộc sống hàng ngày", "Trong giấc mơ"],
     "answer": "C"
-  },  
+  },
   {
     "context": "Sự phân chia từng cặp mối liên hệ chỉ mang tính tương đối, vì mỗi loại mối liên hệ chỉ là một hình thức, một bộ phận, một mắt xích của mối liên hệ phổ biến. Mỗi loại mối liên hệ trong từng cặp có thể chuyển hóa lẫn nhau tùy theo phạm vi bao quát của mối liên hệ hoặc do kết quả vận động và phát triển của chính các sự vật.",
     "question_type": "multiple_choice",
@@ -1471,7 +2006,7 @@
     "question": "Quan điểm nào đòi hỏi con người phải đặt chúng ở trạng thái động?",
     "options": ["Quan điểm tĩnh", "Quan điểm phát triển", "Quan điểm cố định", "Quan điểm bảo thủ"],
     "answer": "B"
-  },  
+  },
   {
     "context": "Phép biện chứng duy vật được xây dựng trên cơ sở một hệ thống những nguyên lý, những phạm trù cơ bản, những quy luật phổ biến phản ánh đúng đắn hiện thực. Trong hệ thống đó nguyên lý về mối liên hệ phổ biến và nguyên lý về sự phát triển là hai nguyên lý khái quát nhất. Vì thế Ph.Ăngghen đã định nghĩa: phép biện chứng chẳng qua chỉ là môn khoa học về những quy luật phổ biến của sự vận động và sự phát triển của tự nhiên, của xã hội loài người và của tư duy.",
     "question_type": "multiple_choice",
@@ -1506,21 +2041,21 @@
     "question": "Ai đã xác nhận không gian và thời gian không tự nó tồn tại?",
     "options": ["Lôbatsépxki", "Cantơ", "Bútlêrốp", "Anhxtanh"],
     "answer": "D"
-  },  
+  },
   {
     "context": "Theo quan điểm này, phát triển không bao quát toàn bộ sự vận động nói chung. Nó chỉ khái quát xu hướng chung của sự vận động - xu hướng vận động đi lên của sự vật, sự vật mới ra đời thay thế cho sự vật cũ. Sự phát triển chỉ là một trường hợp đặc biệt của sự vận động. Trong quá trình phát triển của mình trong sự vật sẽ hình thành dần dần những quy định mới cao hơn về chất, sẽ làm thay đổi mối liên hệ, cơ cấu, phương thức tồn tại và vận động, chức năng vốn có theo chiều hướng ngày càng hoàn thiện hơn.",
     "question_type": "multiple_choice",
     "question": "Trường hợp đặc biệt của sự vận động là gì?",
     "options": ["Sự thay đổi", "Sự phát triển", "Sự di chuyển", "Sự chuyển hóa"],
     "answer": "B"
-  },  
+  },
   {
     "context": "Không gian luôn có ba chiều (chiều dài, chiều rộng, chiều cao), còn thời gian chỉ có một chiều (từ quá khứ tới tương lai). Khái niệm không gian nhiều chiều mà ta thường thấy trong tài liệu khoa học hiện nay là một trừu tượng khoa học dùng để chỉ tập hợp một số đại lượng đặc trưng cho các thuộc tính khác nhau của khách thể nghiên cứu và tuân theo những quy tắc biến đổi nhất định. Đó là một công cụ toán học hỗ trợ dùng trong quá trình nghiên cứu chứ không phải để chỉ không gian thực, không gian thực chỉ có ba chiều.",
     "question_type": "multiple_choice",
     "question": "Thời gian có bao nhiêu chiều?",
     "options": ["Ba chiều", "Hai chiều", "Một chiều", "Nhiều chiều"],
     "answer": "C"
-  },  
+  },
   {
     "context": "Chính bằng sự phân loại các hình thức vận động cơ bản, Ăngghen đã đặt cơ sở cho sự phân loại các khoa học tương ứng với đối tượng nghiên cứu của chúng và chỉ ra cơ sở của khuynh hướng phân ngành và hợp ngành của các khoa học. Ngoài ra, tư tưởng về sự khác nhau về chất và thống nhất của các hình thức vận động cơ bản còn là cơ sở để chống lại khuynh hướng sai lầm trong nhận thức là quy hình thức vận động cao vào hình thức vận động thấp và ngược lại.",
     "question_type": "multiple_choice",
@@ -1534,42 +2069,42 @@
     "question": "Trạng thái đặc biệt của vận động là gì?",
     "options": ["Đứng im", "Chuyển động", "Biến đổi", "Phát triển"],
     "answer": "A"
-  },  
+  },
   {
     "context": "Tuy vậy, khoa học thời kỳ này chỉ có cơ học cổ điển phát triển nhất, còn các ngành khoa học khác như vật lý học, hóa học, sinh học, địa chất học... còn ở trình độ thấp. Khoa học lúc này chủ yếu còn dừng lại ở trình độ sưu tập, mô tả. Tương ứng với trình độ trên của khoa học thì quan điểm thống trị trong triết học và khoa học tự nhiên thời bấy giờ là quan điểm siêu hình - máy móc. Quan điểm đó đã chi phối những hiểu biết triết học về vật chất. Người ta giải thích mọi hiện tượng của tự nhiên bằng sự tác động qua lại của lực hấp dẫn và lực đẩy của các phân tử của vật thể, theo đó, các phần tử của vật trong quá trình vận động là bất biến, còn cái thay đổi chỉ là trạng thái không gian và tập hợp của chúng. Mọi phân biệt về chất giữa các vật thể đều bị quy giản về sự phân biệt về lượng; mọi sự vận động đều bị quy về sự dịch chuyển vị trí trong không gian; mọi hiện tượng phức tạp bị quy về cái giản đơn mà từ đó chúng được tạo thành.",
     "question_type": "multiple_choice",
     "question": "Quan điểm thống trị trong triết học và khoa học tự nhiên thời bấy giờ là gì?",
     "options": ["Quan điểm biện chứng", "Quan điểm siêu hình - máy móc", "Quan điểm duy tâm", "Quan điểm thực nghiệm"],
     "answer": "B"
-  },  
+  },
   {
     "context": "Những người thuộc phái duy thực cho rằng: Phạm trù là những thực thể ý niệm, tồn tại bên ngoài và độc lập với ý thức của con người. Ngược lại những người thuộc phái duy danh lại cho rằng: Phạm trù chỉ là những từ trống rỗng, do con người tưởng tượng ra, không biểu hiện một cái gì của hiện thực. Cantơ lại coi phạm trù chỉ là những hình thức tư duy vốn có của con người, có trước kinh nghiệm, không phụ thuộc vào kinh nghiệm, được lý trí của con người đưa vào giới tự nhiên.",
     "question_type": "multiple_choice",
     "question": "Ai coi phạm trù là những hình thức tư duy vốn có của con người?",
     "options": ["Hêghen", "Cantơ", "Platôn", "Đềcáctơ"],
     "answer": "B"
-  },    
+  },  
   {
     "context": "Trong giới tự nhiên vô sinh có hai dạng vật chất cơ bản là chất và trường. Chất là cái gián đoạn, được tạo ra từ các hạt, có khối lượng, có cấu trúc thứ bậc từ nguyên tử cho đến các thiên thể cực kỳ lớn. Còn trường là môi trường vật chất liên tục, không có khối lượng tĩnh. Trường làm cho các hạt của nguyên tử liên kết với nhau, tác động với nhau và nhờ đó mà tồn tại được.",
     "question_type": "multiple_choice",
     "question": "Hai dạng vật chất cơ bản trong giới tự nhiên vô sinh là gì?",
     "options": ["Chất và trường", "Chất và sóng", "Trường và năng lượng", "Hạt và sóng"],
     "answer": "A"
-  },  
+  },
   {
     "context": "Các Mác (1818-1883) sinh trưởng trong một gia đình trí thức (bố là luật sư), ở thành phố Tơrevơ, tỉnh Ranh, một vùng có nhiều ảnh hưởng của Cách mạng tư sản Pháp. ở thành phố Tơrevơ hồi đó, đạo Kitô là tôn giáo độc tôn; vì thế, cũng như gia đình, Mác đã là tín đồ Kitô giáo.",
     "question_type": "multiple_choice",
     "question": "Mác là tín đồ của tôn giáo nào?",
     "options": ["Phật giáo", "Kitô giáo", "Hồi giáo", "Do Thái giáo"],
     "answer": "B"
-  },  
+  },
   {
     "context": "Một là, triết học này có ý đồ vượt lên trên sự đối lập giữa chủ nghĩa duy vật và chủ nghĩa duy tâm. Trào lưu chủ nghĩa duy khoa học nhấn mạnh việc chống siêu hình, trào lưu chủ nghĩa nhân bản nhấn mạnh việc chống nhất nguyên luận, đều là nhằm phủ nhận vấn đề quan hệ giữa tư duy và tồn tại là vấn đề cơ bản của triết học. Họ tuyên bố chống cả chủ nghĩa duy vật và chủ nghĩa duy tâm và coi triết học của họ là toàn diện nhất, công bằng nhất, mới nhất. Trên thực tế bằng cách này hay cách khác họ vẫn không tránh khỏi giải đáp một cách duy tâm về vấn đề cơ bản của triết học.",
     "question_type": "multiple_choice",
     "question": "Trào lưu chủ nghĩa duy khoa học nhấn mạnh việc gì?",
     "options": ["Chống siêu hình", "Chống nhất nguyên luận", "Chống nhị nguyên luận", "Chống duy tâm"],
     "answer": "A"
-  },  
+  },
   {
     "context": "Chủ nghĩa thực dụng, với tư cách là một trường phái triết học, đã ra đời trong các năm 1871 - 1874, khi Câu lạc bộ siêu hình học ở trường Đại học Cambrit được thành lập. Đó là một hội học thuật do một số giáo viên của trường tổ chức ra. Người sáng lập ra chủ nghĩa thực dụng là Piếcxơ và trong số những thành viên của nó, người sau đó trở thành một trong những đại biểu chủ yếu là Giêmxơ.",
     "question_type": "multiple_choice",
@@ -1758,7 +2293,7 @@
     "question": "Thiên mệnh là điều thường được nhắc tới ở đâu?",
     "options": ["Trong triết học", "Trong văn học", "Trong lịch sử", "Trong nghệ thuật"],
     "answer": "C"
-  },  
+  },
   {
     "context": "Triết học Cantơ là triết học nhị nguyên. Một mặt ông thừa nhận sự tồn tại của thế giới các vật tự nó ở bên ngoài con người. Thế giới đó có thể tác động tới các giác quan của chúng ta. ở điểm này, Cantơ là nhà duy vật. Nhưng mặt khác thế giới các vật thể quanh ta mà ta thấy được lại không liên quan gì đến cái gọi là thế giới vật tự nó, chúng chỉ là các hiện tượng... phù hợp với cái cảm giác và cái tri thức do lý tính của ta tạo ra. Nhưng các cảm giác và tri thức không cung cấp cho ta hiểu biết gì về thế giới vật tự nó. Nói cách khác, theo Cantơ nhận thức con người chỉ biết được hiện tượng bề ngoài mà không xâm nhập được vào bản chất đích thực của sự vật, không phán xét được gì về sự vật như chúng tự thân tồn tại. Như vậy trong lĩnh vực nhận thức luận, Cantơ là một đại biểu tiêu biểu của thuyết không thể biết (mặc dù có khác với thuyết không thể biết của Hium). Nhận thức luận của Cantơ có tính chất duy tâm là sự phản ứng đối với chủ nghĩa duy vật Pháp, là sự khôi phục Thượng đế. Ông nói rằng, trong nhận thức cần hạn chế phạm vi của lý tính để dành cho đức tin.",
     "question_type": "multiple_choice",
@@ -1772,7 +2307,7 @@
     "question": "Hêghen là nhà triết học trường phái nào?",
     "options": ["Duy vật biện chứng", "Duy tâm chủ quan", "Duy tâm khách quan", "Duy tâm hiện sinh"],
     "answer": "C"
-  },  
+  },
   {
     "context": "Xã hội Pháp nửa cuối thế kỷ XVIII chứa đựng những mâu thuẫn sâu sắc. Giai cấp phong kiến Pháp đứng đầu là vua Lu-i XVI đã thâu tóm vào tay mình những quyền lực vô hạn. Chỗ dựa xã hội của nhà vua là các đẳng cấp đặc quyền và chiếm số ít trong dân cư: quý tộc và tăng lữ. Đời sống của đại đa số nhân dân lao động, trước hết là nông dân hết sức khốn khổ, nạn đói do mất mùa hoành hành, những cuộc nổi dậy của nông dân chống chế độ phong kiến xảy ra thường xuyên. Tất cả cái đó là nguyên nhân kinh tế - xã hội của cuộc Cách mạng tư sản Pháp (1789 - 1794). Và các nhà duy vật Pháp thế kỷ XVIII là những người chuẩn bị về mặt tư tưởng cho cuộc cách mạng về chính trị sôi động đó.",
     "question_type": "multiple_choice",
@@ -1835,14 +2370,14 @@
     "question": "Brunô sinh ra ở đâu?",
     "options": ["Ba Lan", "Pháp", "Italia", "Anh"],
     "answer": "C"
-  },    
+  },  
   {
     "context": "Theo Platôn, cái chung là những ý niệm tồn tại vĩnh viễn bên cạnh những cái riêng chỉ có tính chất tạm thời. Cái cây, cái nhà riêng lẻ có ra đời, tồn tại tạm thời và mất đi, nhưng ý niệm cái cây, cái nhà nói chung thì tồn tại mãi mãi. Từ đó Platôn cho rằng cái cây, cái nhà riêng lẻ là do ý niệm cái cây, cái nhà nói chung sinh ra. Như vậy theo Platôn cái riêng do cái chung sinh ra.",
     "question_type": "multiple_choice",
     "question": "Ai cho rằng cái riêng do cái chung sinh ra?",
     "options": ["Côpécních", "Lênin", "Platôn", "Đêcáctơ"],
     "answer": "C"
-  },  
+  },
   {
     "context": "Platôn là nhà triết học duy tâm khách quan. Điểm nổi bật trong hệ thống triết học duy tâm của Platôn là học thuyết về ý niệm. Trong học thuyết này, Platôn đưa ra quan niệm về hai thế giới: thế giới các sự vật cảm biết và thế giới ý niệm. Theo ông, thế giới các sự vật cảm biết là không chân thực, không đúng đắn, vì các sự vật không ngừng sinh ra và mất đi, luôn luôn thay đổi, vận động, trong chúng không có cái gì ổn định, bền vững, hoàn thiện. Còn thế giới ý niệm là thế giới của những cái phi cảm tính, phi vật thể, là thế giới của đúng đắn, chân thực và các sự vật cảm biết chỉ là cái bóng của ý niệm. Nhận thức của con người, theo Platôn không phải là phản ánh các sự vật cảm biết của thế giới khách quan, mà là nhận thức về ý niệm. Thế giới ý niệm có trước thế giới các vật cảm biết, sinh ra thế giới cảm biết. Ví dụ: cái cây, con ngựa, nước là do ý niệm siêu tự nhiên về cái cây, con ngựa, nước sinh ra. Hoặc khi nhìn các sự vật thấy bằng nhau là vì trong đầu ta đã có sẵn ý niệm về sự bằng nhau.",
     "question_type": "multiple_choice",
@@ -1856,14 +2391,14 @@
     "question": "Vũ trụ là gì?",
     "options": ["Một thể thống nhất", "Một sự hỗn loạn", "Một sự tĩnh lặng", "Một sự ngẫu nhiên"],
     "answer": "A"
-  },      
+  },    
   {
     "context": "Quá trình bổ sung và hoàn thiện Nho gia thời trung đại được tiến hành theo hai xu hướng cơ bản: Một là hệ thống hóa kinh điển và chuẩn mực hóa những quan điểm triết học Nho gia theo mục đích ứng dụng vào đời sống xã hội, phục vụ lợi ích thống trị của giai cấp phong kiến. Đổng Trọng Thư (thời Hán) người mở đầu xu hướng này đã làm nghèo nàn đi nhiều giá trị nhân bản và biện chứng của Nho gia cổ đại. Tính duy tâm thần bí của Nho gia trong các quan điểm về xã hội cũng được đề cao. Tính khắc nghiệt một chiều trong các quan hệ Tam cương, Ngũ thường thường được nhấn mạnh. Hai là hoàn thiện các quan điểm triết học về xã hội của Nho gia thông qua con đường dung hợp nhiều lần giữa Nho, Đạo, Pháp, Âm Dương, Ngũ hành và Phật giáo.",
     "question_type": "multiple_choice",
     "question": "Ai là người mở đầu xu hướng hệ thống hóa kinh điển và chuẩn mực hóa quan điểm triết học Nho gia?",
     "options": ["Đổng Trọng Thư", "Mạnh Tử", "Tuân Tử", "Khổng Tử"],
     "answer": "A"
-  },    
+  },  
   {
     "context": "Tuân Tử đã phát triển truyền thống trọng lễ của Nho gia, nhưng trái với Mạnh Tử, ông cho rằng con người vốn có tính ác, coi thế giới khách quan có quy luật riêng. Theo ông sức người có thể thắng trời. Tư tưởng triết học của Tuân Tử thuộc chủ nghĩa duy vật thô sơ.",
     "question_type": "multiple_choice",
@@ -1877,7 +2412,7 @@
     "question": "Đức tính nào đứng đầu ngũ thường?",
     "options": ["Nhân nghĩa", "Lễ", "Trí", "Tín"],
     "answer": "A"
-  },      
+  },    
   {
     "context": "Thuyết Âm Dương và Ngũ hành được kết hợp làm một vào thời Chiến Quốc đại biểu lớn nhất là Trâu Diễn. Ông đã dùng hệ thống lý luận Âm Dương Ngũ hành tương sinh tương khắc để giải thích mọi vật trong trời đất và giữa nhân gian. Từ đó phát sinh ra quan điểm duy tâm Ngũ đức có trước có sau. Từ thời Tần Hán về sau, các nhà thống trị có ý thức phát triển thuyết Âm Dương Ngũ hành, biến thành một thứ thần học, chẳng hạn thuyết thiên nhân cảm ứng của Đổng Trọng Thư, hoặc Phụng mệnh trời của các triều đại sau đời Hán.",
     "question_type": "multiple_choice",
@@ -1891,7 +2426,7 @@
     "question": "Ai là người sáng lập của Nho gia?",
     "options": ["Trâu Diễn", "Đổng Trọng Thư", "Khổng Tử", "Tuân Tử"],
     "answer": "C"
-  },  
+  },
   {
     "context": "Triết học ra đời ở cả phương Đông và phương Tây gần như cùng một thời gian (khoảng từ thế kỷ VIII đến thế kỷ VI trước Công nguyên) tại một số trung tâm văn minh cổ đại của nhân loại như Trung Quốc, ấn Độ, Hy Lạp. ở Trung Quốc, thuật ngữ triết học có gốc ngôn ngữ là chữ triết; người Trung Quốc hiểu triết học không phải là sự miêu tả mà là sự truy tìm bản chất của đối tượng, triết học chính là sự hiểu biết sâu sắc của con người.",
     "question_type": "multiple_choice",
@@ -1912,7 +2447,7 @@
     "question": "Ai là người đứng đầu bộ tộc Thương?",
     "options": ["Chu Văn Vương", "Bàn Canh", "Thành Thang", "Vua Kiệt"],
     "answer": "C"
-  },    
+  },  
   {
     "context": "Sự phát triển mạnh mẽ của khoa học vào thế kỷ XV, XVI đã tạo một cơ sở tri thức vững chắc cho sự phục hưng triết học. Để đáp ứng yêu cầu của thực tiễn, đặc biệt yêu cầu của sản xuất công nghiệp, các bộ môn khoa học chuyên ngành nhất là các khoa học thực nghiệm đã ra đời với tính cách là những khoa học độc lập. Sự phát triển xã hội được thúc đẩy bởi sự hình thành và củng cố quan hệ sản xuất tư bản chủ nghĩa, bởi những phát hiện lớn về địa lý và thiên văn cùng những thành tựu khác của cả khoa học tự nhiên và khoa học nhân văn đã mở ra một thời kỳ mới cho sự phát triển triết học. Triết học duy vật chủ nghĩa dựa trên cơ sở tri thức của khoa học thực nghiệm đã phát triển nhanh chóng trong cuộc đấu tranh với chủ nghĩa duy tâm và tôn giáo và đã đạt tới đỉnh cao mới trong chủ nghĩa duy vật thế kỷ XVII - XVIII ở Anh, Pháp, Hà Lan, với những đại biểu tiêu biểu như Ph.Bêcơn, T.Hốpxơ (Anh), Điđrô, Henvêtiuýt (Pháp), Xpinôda (Hà Lan)... Lênin đặc biệt đánh giá cao công lao của các nhà duy vật.",
     "question_type": "multiple_choice",
