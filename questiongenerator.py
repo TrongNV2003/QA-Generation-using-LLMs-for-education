@@ -18,12 +18,12 @@ class QuestionAnswerGenerator:
         self.qg_model.to(self.device)
         self.qg_model.eval()
 
-    def generate(self, context: str, num_questions: bool = None, answer_style: str = "all") -> List:
+    def generate(self, context: str, num_questions: int = 5, answer_style: str = "sentences") -> List:
         """Takes a context and generates a set of question and answer pairs."""
 
         print("Generating questions...\n")
 
-        inputs, questions, answers = self.generate_qa_from_inputs(context, answer_style)
+        inputs, questions, answers = self.generate_qa_from_inputs(context, answer_style, num_questions)
         qa_list = self._get_all_qa_pairs(questions, answers)
 
         return qa_list
@@ -72,29 +72,19 @@ class QuestionAnswerGenerator:
         for segment in context:
             qg_input = f"Tự luận: {segment}"
             encoded_input = self._encode_qg_input(qg_input)
-            output = self.qg_model.generate(input_ids=encoded_input["input_ids"], max_new_tokens=128, num_return_sequences=num_questions)
-            correct_answer = self.qg_tokenizer.decode(output[0], skip_special_tokens=False)
-            correct_answer = correct_answer.replace(self.qg_tokenizer.pad_token, "").replace(self.qg_tokenizer.eos_token, "")
-            question_answer_split = correct_answer.split(self.qg_tokenizer.sep_token)
-            if len(question_answer_split) == 2:
-                # valid Question + Annswer output
-                question, answer = question_answer_split[0].strip(), question_answer_split[1].strip()
-                inputs.append(qg_input)
-                questions.append(question)
-                answers.append(answer)
-            else:
-                raise Exception("max_repeated_sampling exceeded")
+            outputs = self.qg_model.generate(input_ids=encoded_input["input_ids"], max_new_tokens=128, num_return_sequences=num_questions)
+            for output in outputs:
+                correct_answer = self.qg_tokenizer.decode(output, skip_special_tokens=False)
+                correct_answer = correct_answer.replace(self.qg_tokenizer.pad_token, "").replace(self.qg_tokenizer.eos_token, "")
+                question_answer_split = correct_answer.split(self.qg_tokenizer.sep_token)
+                if len(question_answer_split) == 2:
+                    # valid Question + Answer output
+                    question, answer = question_answer_split[0].strip(), question_answer_split[1].strip()
+                    inputs.append(qg_input)
+                    questions.append(question)
+                    answers.append(answer)
 
         return inputs, questions, answers
-    
-        # inputs, questions, answers = [], [], []
-
-        # for segment in context:
-        #     qg_input = f"Tự luận: {segment}"
-        #     inputs.append(qg_input)
-        #     answers.append(segment)
-
-        # return inputs, answers
 
     @torch.no_grad()
     def _generate_qa_mcq(self, context: List[str], num_questions: int) -> Tuple[List[str], List[str], List[str]]:
@@ -103,18 +93,17 @@ class QuestionAnswerGenerator:
         for segment in context:
             qg_input = f"Trắc nghiệm: {segment}"
             encoded_input = self._encode_qg_input(qg_input)
-            output = self.qg_model.generate(input_ids=encoded_input["input_ids"], max_new_tokens=128, num_return_sequences=num_questions)
-            correct_answer = self.qg_tokenizer.decode(output[0], skip_special_tokens=False)
-            correct_answer = correct_answer.replace(self.qg_tokenizer.pad_token, "").replace(self.qg_tokenizer.eos_token, "")
-            question_answer_split = correct_answer.split(self.qg_tokenizer.sep_token)
-            if len(question_answer_split) == 2:
-                # valid Question + Annswer output
-                question, answer = question_answer_split[0].strip(), question_answer_split[1].strip()
-                inputs.append(qg_input)
-                questions.append(question)
-                answers.append(answer)
-            else:
-                raise Exception("Invalid Question-Answer format")
+            outputs = self.qg_model.generate(input_ids=encoded_input["input_ids"], max_new_tokens=128, num_return_sequences=num_questions)
+            for output in outputs:
+                correct_answer = self.qg_tokenizer.decode(output, skip_special_tokens=False)
+                correct_answer = correct_answer.replace(self.qg_tokenizer.pad_token, "").replace(self.qg_tokenizer.eos_token, "")
+                question_answer_split = correct_answer.split(self.qg_tokenizer.sep_token)
+                if len(question_answer_split) == 2:
+                    # valid Question + Answer output
+                    question, answer = question_answer_split[0].strip(), question_answer_split[1].strip()
+                    inputs.append(qg_input)
+                    questions.append(question)
+                    answers.append(answer)
 
         return inputs, questions, answers
 
