@@ -38,14 +38,14 @@ class QGDataset(torch.utils.data.Dataset):
             answer = options[self.label_mapping[label_answer]]
             
             target_text = f"Question: {question} {self.separator} Multiple choice: {answer}"
-            input_ids, attention_mask = self._encode_text(f"multiple choice: {context}")
+            input_ids, attention_mask = self._encode_text(f"Multiple choice: {context}")
             
         elif question_type == "sentences":
             question = item["question"]
             answer = item["answer"]
             
             target_text = f"Question: {question} {self.separator} Essay: {answer}"
-            input_ids, attention_mask = self._encode_text(f"essay: {context}")
+            input_ids, attention_mask = self._encode_text(f"Essay: {context}")
 
         labels, _ = self._encode_text(target_text)
         masked_labels = self._mask_label_padding(labels)

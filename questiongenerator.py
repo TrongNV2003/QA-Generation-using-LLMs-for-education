@@ -70,9 +70,17 @@ class QuestionAnswerGenerator:
         inputs, questions, answers = [], [], []
 
         for segment in context:
-            qg_input = f"essay: {segment}"
+            qg_input = f"Essay: {segment}"
             encoded_input = self._encode_qg_input(qg_input)
-            outputs = self.qg_model.generate(input_ids=encoded_input["input_ids"], max_new_tokens=128, num_beams=num_questions, num_return_sequences=num_questions, temperature=0.5)
+            outputs = self.qg_model.generate(
+                input_ids=encoded_input["input_ids"], 
+                max_new_tokens=128, 
+                num_return_sequences=num_questions, 
+                do_sample=True, 
+                top_k=50, 
+                top_p=0.95, 
+                temperature=0.7
+            )
             for output in outputs:
                 correct_answer = self.qg_tokenizer.decode(output, skip_special_tokens=False)
                 correct_answer = correct_answer.replace(self.qg_tokenizer.pad_token, "").replace(self.qg_tokenizer.eos_token, "")
@@ -91,9 +99,17 @@ class QuestionAnswerGenerator:
         inputs, questions, answers = [], [], []
 
         for segment in context:
-            qg_input = f"multiple choice: {segment}"
+            qg_input = f"Multiple choice: {segment}"
             encoded_input = self._encode_qg_input(qg_input)
-            outputs = self.qg_model.generate(input_ids=encoded_input["input_ids"], max_new_tokens=128, num_beams=num_questions, num_return_sequences=num_questions, temperature=0.5)
+            outputs = self.qg_model.generate(
+                input_ids=encoded_input["input_ids"], 
+                max_new_tokens=128, 
+                num_return_sequences=num_questions, 
+                do_sample=True, 
+                top_k=50, 
+                top_p=0.95, 
+                temperature=0.6
+            )
             for output in outputs:
                 correct_answer = self.qg_tokenizer.decode(output, skip_special_tokens=False)
                 correct_answer = correct_answer.replace(self.qg_tokenizer.pad_token, "").replace(self.qg_tokenizer.eos_token, "")
@@ -152,7 +168,6 @@ class DistractorGenerator:
             attempts += 1
 
         return list(distractors)
-
 
 
 def print_qa(qa_list: List[Mapping[str, str]], show_answers: bool = True) -> None:
