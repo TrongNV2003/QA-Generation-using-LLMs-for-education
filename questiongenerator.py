@@ -130,6 +130,7 @@ class DistractorGenerator:
         self.SEQ_LENGTH = 512
         self.device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
         self.qd_tokenizer = AutoTokenizer.from_pretrained("VietAI/vit5-base", use_fast=False)
+        self.qd_tokenizer.add_special_tokens({"sep_token": "<sep>"})
         self.qd_model = AutoModelForSeq2SeqLM.from_pretrained(QD_PRETRAINED)
         self.qd_model.to(self.device)
         self.qd_model.eval()
@@ -138,18 +139,21 @@ class DistractorGenerator:
     def _generate_distractors(self, question: str, correct_answer: str, context: str) -> List[str]:
         distractors = set()
         attempts = 0
-        distractor_input = f"{question} <sep> {correct_answer} <sep> {context}"
+        distractor_input = f"{question} {self.qd_tokenizer.sep_token} {correct_answer} {self.qd_tokenizer.sep_token} {context}"
 
         while len(distractors) < 3 and attempts < 10:
             input_ids = self.qd_tokenizer(distractor_input, return_tensors='pt').input_ids.to(self.device)
-            outputs = self.qd_model.generate(input_ids, max_new_tokens=128, num_return_sequences=1)
-            generated_text = self.qd_tokenizer.decode(outputs[0], skip_special_tokens=True).strip()
-
-            if generated_text.lower() != correct_answer.lower() and generated_text not in distractors:
+            outputs = self.qd_model.generate(input_ids, max_new_tokens=128, num_return_sequences=1, temperature=1.0)
+            generated_text = self.qd_tokenizer.decode(outputs[0], skip_special_tokens=False)
+            generated_text = generated_text.replace(self.qd_tokenizer.pad_token, "").replace(self.qd_tokenizer.eos_token, "")
+            distractor_split = generated_text.split(self.qd_tokenizer.sep_token)
+            if distractor_split[0].lower() != correct_answer.lower() and generated_text not in distractors:
                 distractors.add(generated_text)
             attempts += 1
 
         return list(distractors)
+
+
 
 def print_qa(qa_list: List[Mapping[str, str]], show_answers: bool = True) -> None:
     """Formats and prints a list of generated questions and answers."""
