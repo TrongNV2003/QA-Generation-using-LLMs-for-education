@@ -72,7 +72,7 @@ class QuestionAnswerGenerator:
         for segment in context:
             qg_input = f"essay: {segment}"
             encoded_input = self._encode_qg_input(qg_input)
-            outputs = self.qg_model.generate(input_ids=encoded_input["input_ids"], max_new_tokens=128, num_beams=num_questions, num_return_sequences=num_questions)
+            outputs = self.qg_model.generate(input_ids=encoded_input["input_ids"], max_new_tokens=128, num_beams=num_questions, num_return_sequences=num_questions, temperature=0.5)
             for output in outputs:
                 correct_answer = self.qg_tokenizer.decode(output, skip_special_tokens=False)
                 correct_answer = correct_answer.replace(self.qg_tokenizer.pad_token, "").replace(self.qg_tokenizer.eos_token, "")
@@ -93,7 +93,7 @@ class QuestionAnswerGenerator:
         for segment in context:
             qg_input = f"multiple choice: {segment}"
             encoded_input = self._encode_qg_input(qg_input)
-            outputs = self.qg_model.generate(input_ids=encoded_input["input_ids"], max_new_tokens=128, num_beams=num_questions, num_return_sequences=num_questions)
+            outputs = self.qg_model.generate(input_ids=encoded_input["input_ids"], max_new_tokens=128, num_beams=num_questions, num_return_sequences=num_questions, temperature=0.5)
             for output in outputs:
                 correct_answer = self.qg_tokenizer.decode(output, skip_special_tokens=False)
                 correct_answer = correct_answer.replace(self.qg_tokenizer.pad_token, "").replace(self.qg_tokenizer.eos_token, "")
