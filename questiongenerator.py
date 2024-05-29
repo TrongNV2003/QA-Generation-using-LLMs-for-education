@@ -78,8 +78,7 @@ class QuestionAnswerGenerator:
                 num_return_sequences=num_questions, 
                 do_sample=True, 
                 top_k=50, 
-                top_p=0.95, 
-                temperature=0.7
+                top_p=0.95
             )
             for output in outputs:
                 correct_answer = self.qg_tokenizer.decode(output, skip_special_tokens=False)
@@ -107,8 +106,7 @@ class QuestionAnswerGenerator:
                 num_return_sequences=num_questions, 
                 do_sample=True, 
                 top_k=50, 
-                top_p=0.95, 
-                temperature=0.6
+                top_p=0.95
             )
             for output in outputs:
                 correct_answer = self.qg_tokenizer.decode(output, skip_special_tokens=False)
