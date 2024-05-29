@@ -10,7 +10,7 @@ class QuestionAnswerGenerator:
 
     def __init__(self) -> None:
         self.SEQ_LENGTH = 512
-        self.qg_tokenizer = T5Tokenizer.from_pretrained("VietAI/vit5-base", use_fast=False)
+        self.qg_tokenizer = T5Tokenizer.from_pretrained("VietAI/vit5-base")
         self.qg_tokenizer.add_special_tokens({"sep_token": "<sep>"})
         
         self.device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
@@ -19,6 +19,11 @@ class QuestionAnswerGenerator:
         self.qg_model = AutoModelForSeq2SeqLM.from_pretrained(QG_PRETRAINED)
         self.qg_model.to(self.device)
         self.qg_model.eval()
+        
+        MCQ_QG_PRETRAINED = "t5-base-question-mcq-generator"
+        self.mcq_qg_model = AutoModelForSeq2SeqLM.from_pretrained(MCQ_QG_PRETRAINED)
+        self.mcq_qg_model.to(self.device)
+        self.mcq_qg_model.eval()
 
     def generate(self, context: str, num_questions: int = 5, answer_style: str = "sentences") -> List:
         """Takes a context and generates a set of question and answer pairs."""
@@ -128,7 +133,7 @@ class QuestionAnswerGenerator:
         for sentences in context:
             qg_input = f"Multiple choice: {sentences}"
             encoded_input = self._encode_qg_input(qg_input)
-            outputs = self.qg_model.generate(
+            outputs = self.mcq_qg_model.generate(
                 input_ids=encoded_input["input_ids"], 
                 max_new_tokens=128,
                 num_beams=5,  # Số lượng câu hỏi tối đa để sinh ra từ mỗi đoạn
