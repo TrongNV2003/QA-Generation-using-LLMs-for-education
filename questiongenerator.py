@@ -104,9 +104,9 @@ class QuestionAnswerGenerator:
                 num_beams=5,  # Số lượng câu hỏi tối đa để sinh ra từ mỗi đoạn
                 no_repeat_ngram_size=2,
                 num_return_sequences=1,
-                do_sample=True, 
-                top_k=75, 
-                top_p=0.9
+                do_sample=True,
+                top_k=60,
+                top_p=0.95
             )
             for output in outputs:
                 correct_answer = self.qg_tokenizer.decode(output, skip_special_tokens=False)

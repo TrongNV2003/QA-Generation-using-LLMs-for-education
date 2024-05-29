@@ -4,13 +4,13 @@ from questiongenerator import save_qa_to_txt
 
 qg = QuestionAnswerGenerator()
 
-with open('articles/military.txt', 'r',encoding='utf-8') as a:
+with open('articles/philosophy.txt', 'r',encoding='utf-8') as a:
     article = a.read()
 
 qa_list = qg.generate(
     article,
     num_questions=5,
-    answer_style='sentences'
+    answer_style='multiple_choice'
 )
 
 print_qa(qa_list, show_answers=True)
