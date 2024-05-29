@@ -101,12 +101,12 @@ class QuestionAnswerGenerator:
     def _generate_qa(self, context: List[str]) -> Tuple[List[str], List[str], List[str]]:
         inputs, questions, answers = [], [], []
         for sentences in context:
-            qg_input = f"Essay: {sentences}"
+            qg_input = sentences
             encoded_input = self._encode_qg_input(qg_input)
             outputs = self.qg_model.generate(
                 input_ids=encoded_input["input_ids"], 
                 max_new_tokens=128, 
-                num_beams=5,  # Số lượng câu hỏi tối đa để sinh ra từ mỗi đoạn
+                num_beams=5,
                 no_repeat_ngram_size=2,
                 num_return_sequences=1,
                 do_sample=True,
@@ -116,7 +116,6 @@ class QuestionAnswerGenerator:
             for output in outputs:
                 correct_answer = self.qg_tokenizer.decode(output, skip_special_tokens=False)
                 correct_answer = correct_answer.replace(self.qg_tokenizer.pad_token, "").replace(self.qg_tokenizer.eos_token, "")
-                correct_answer = correct_answer.replace("Essay:", "").replace("Question: ", "").strip()
                 question_answer_split = correct_answer.split(self.qg_tokenizer.sep_token)
                 if len(question_answer_split) == 2:
                     # valid Question + Answer output
@@ -131,12 +130,12 @@ class QuestionAnswerGenerator:
     def _generate_qa_mcq(self, context: List[str]) -> Tuple[List[str], List[str], List[str]]:
         inputs, questions, answers = [], [], []
         for sentences in context:
-            qg_input = f"Multiple choice: {sentences}"
+            qg_input = sentences
             encoded_input = self._encode_qg_input(qg_input)
             outputs = self.mcq_qg_model.generate(
                 input_ids=encoded_input["input_ids"], 
                 max_new_tokens=128,
-                num_beams=5,  # Số lượng câu hỏi tối đa để sinh ra từ mỗi đoạn
+                num_beams=5,
                 no_repeat_ngram_size=2,
                 num_return_sequences=1, 
                 do_sample=True,
@@ -146,7 +145,6 @@ class QuestionAnswerGenerator:
             for output in outputs:
                 correct_answer = self.qg_tokenizer.decode(output, skip_special_tokens=False)
                 correct_answer = correct_answer.replace(self.qg_tokenizer.pad_token, "").replace(self.qg_tokenizer.eos_token, "")
-                correct_answer = correct_answer.replace("Multiple choice: ", "").replace("Question: ", "").strip()
                 question_answer_split = correct_answer.split(self.qg_tokenizer.sep_token)
                 if len(question_answer_split) == 2:
                     # valid Question + Answer output

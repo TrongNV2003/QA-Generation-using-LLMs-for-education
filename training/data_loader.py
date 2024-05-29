@@ -9,7 +9,7 @@ class QGDataset(torch.utils.data.Dataset):
         """
         task:
             - input: article (i.e. context)
-            - output: question <sep> answer
+            - output: question <sep> answer (sentences type)
         args:
             tokenizer: tokenizer
             data_split: train, validation, test
@@ -30,12 +30,11 @@ class QGDataset(torch.utils.data.Dataset):
     def __getitem__(self, index: int) -> Mapping[str, torch.Tensor]:
         item = self.data[index]
         context = item["context"]
-
         question = item["question"]
         answer = item["answer"]
         
-        target_text = f"{question} {self.separator} {answer}"
-        input_ids, attention_mask = self._encode_text(f"Essay: {context}")
+        target_text = question + ' ' + self.separator + ' ' + answer
+        input_ids, attention_mask = self._encode_text(f"qa: {context}")
 
         labels, _ = self._encode_text(target_text)
         masked_labels = self._mask_label_padding(labels)
@@ -69,7 +68,7 @@ class MCQ_QGDataset(torch.utils.data.Dataset):
         """
         task:
             - input: article (i.e. context)
-            - output: question <sep> answer
+            - output: question <sep> answer (MCQ type)
         args:
             tokenizer: tokenizer
             data_split: train, validation, test
@@ -95,8 +94,8 @@ class MCQ_QGDataset(torch.utils.data.Dataset):
         label_answer =  item["answer"]
         answer = options[self.label_mapping[label_answer]]
             
-        target_text = f"{question} {self.separator} {answer}"
-        input_ids, attention_mask = self._encode_text(f"Multiple choice: {context}")
+        target_text = question + ' ' + self.separator + ' ' + answer
+        input_ids, attention_mask = self._encode_text(f"qa: {context}")
 
         labels, _ = self._encode_text(target_text)
         masked_labels = self._mask_label_padding(labels)
@@ -166,8 +165,8 @@ class DistractorDataset(torch.utils.data.Dataset):
             random.shuffle(distractor_ids)
         distractors = [options[i] for i in distractor_ids]
         
-        input_text = f"Question: {question} {self.separator} Answer: {answer} {self.separator} Context: {context}"
-        target_text = f"Distractor: {distractors[0]} {self.separator} Distractor: {distractors[1]} {self.separator} Distractor: {distractors[2]}"
+        input_text = question + ' ' + self.separator + ' ' + answer + ' ' + self.separator + ' ' + context
+        target_text = distractors[0] + ' ' + self.separator + ' ' + distractors[1] + ' ' + self.separator + ' ' + distractors[2]
 
         input_ids, attention_mask = self._encode_text(input_text)
         labels, _ = self._encode_text(target_text)
