@@ -1,8 +1,18 @@
 import argparse
+import random
+import numpy as np
+import torch
 from transformers import T5Config, T5ForConditionalGeneration, T5Tokenizer
 
 from data_loader import DistractorDataset
 from trainer import Trainer
+
+def set_seed(seed: int) -> None:
+    random.seed(seed)
+    np.random.seed(seed)
+    torch.manual_seed(seed)
+    if torch.cuda.is_available():
+        torch.cuda.manual_seed_all(seed)
 
 
 def parse_args() -> argparse.Namespace:
@@ -21,6 +31,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--log_file", type=str, default="result/train_distractor_log.csv")
     parser.add_argument("--train_file", type=str, default="datasets/train/qg_train.json")
     parser.add_argument("--valid_file", type=str, default="datasets/validation/qg_valid.json")
+    parser.add_argument("--seed", type=int, default=369, help="Random seed for reproducibility")
     return parser.parse_args()
 
 
@@ -46,6 +57,10 @@ def get_model(checkpoint: str, device: str, tokenizer: T5Tokenizer) -> T5ForCond
 
 if __name__ == "__main__":
     args = parse_args()
+    
+    # Set the seed for reproducibility
+    set_seed(args.seed)
+    
     tokenizer = get_tokenizer(args.distractor_model)
     
     train_set = DistractorDataset(

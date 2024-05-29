@@ -9,7 +9,7 @@ class QuestionAnswerGenerator:
 
     def __init__(self) -> None:
         self.SEQ_LENGTH = 512
-        self.qg_tokenizer = AutoTokenizer.from_pretrained("VietAI/vit5-base", use_fast=False)
+        self.qg_tokenizer = T5Tokenizer.from_pretrained("VietAI/vit5-base", use_fast=False)
         self.qg_tokenizer.add_special_tokens({"sep_token": "<sep>"})
         self.device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
         
@@ -145,7 +145,7 @@ class DistractorGenerator:
         QD_PRETRAINED = "t5-base-distractor-generator"
         self.SEQ_LENGTH = 512
         self.device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-        self.qd_tokenizer = AutoTokenizer.from_pretrained("VietAI/vit5-base", use_fast=False)
+        self.qd_tokenizer = T5Tokenizer.from_pretrained("VietAI/vit5-base", use_fast=False)
         self.qd_tokenizer.add_special_tokens({"sep_token": "<sep>"})
         self.qd_model = AutoModelForSeq2SeqLM.from_pretrained(QD_PRETRAINED)
         self.qd_model.to(self.device)

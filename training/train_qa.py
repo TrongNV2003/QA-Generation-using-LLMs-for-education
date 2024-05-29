@@ -14,6 +14,7 @@ def set_seed(seed: int) -> None:
     if torch.cuda.is_available():
         torch.cuda.manual_seed_all(seed)
 
+
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser()
     parser.add_argument("--dataloader_workers", type=int, default=2)
@@ -30,7 +31,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--log_file", type=str, default="result/qg_training_log.csv")
     parser.add_argument("--train_file", type=str, default="datasets/train/qg_train.json")
     parser.add_argument("--valid_file", type=str, default="datasets/validation/qg_valid.json")
-    parser.add_argument("--seed", type=int, default=42, help="Random seed for reproducibility")
+    parser.add_argument("--seed", type=int, default=369, help="Random seed for reproducibility")
     return parser.parse_args()
 
 def get_tokenizer(checkpoint: str) -> T5Tokenizer:
@@ -43,6 +44,10 @@ def get_tokenizer(checkpoint: str) -> T5Tokenizer:
 def get_model(checkpoint: str, device: str, tokenizer: T5Tokenizer) -> T5ForConditionalGeneration:
     config = T5Config.from_pretrained(checkpoint)
     model = T5ForConditionalGeneration.from_pretrained(checkpoint, config=config)
+    
+    # config = T5Config(decoder_start_token_id=tokenizer.pad_token_id)
+    # model = T5ForConditionalGeneration(config).from_pretrained(checkpoint)
+    
     model.resize_token_embeddings(len(tokenizer))
     model = model.to(device)
     return model
