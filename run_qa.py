@@ -1,33 +1,24 @@
 from questiongenerator import QuestionAnswerGenerator
-from questiongenerator import DistractorGenerator
 from questiongenerator import print_qa
 from questiongenerator import save_qa_to_txt
-qa_generator = QuestionAnswerGenerator()
-distractor_generator = DistractorGenerator()
 
-with open('articles/philosophy2.txt', 'r',encoding='utf-8') as a:
-    context = a.read()
+qg = QuestionAnswerGenerator()
 
-# Generate questions and answers
-qa_pairs = qa_generator.generate(context, answer_style="multiple_choice")
+with open('articles/military.txt', 'r',encoding='utf-8') as a:
+    article = a.read()
 
-# Generate distractors for each QA pair
-for qa in qa_pairs:
-    question = qa["question"]
-    correct_answer = qa["answer"]
-    distractors = distractor_generator.generate_distractors(correct_answer, context)
-    qa["answer"] = {
-        "options": distractors + [correct_answer],
-        "correct": correct_answer
-    }
-print_qa(qa_pairs)
+qa_list = qg.generate(
+    article,
+    num_questions=5,
+    answer_style='sentences'
+)
+
+print_qa(qa_list, show_answers=True)
 
 
-
-# print(qa_list)
 # qg.save_questions_to_file(qa_list, "questions.txt")
 
-# # Sử dụng hàm để lưu output
+# Sử dụng hàm để lưu output
 # output_file_path = "generated_questions.txt"
 # save_qa_to_txt(qa_list, output_file_path)
-# print(f"Result has been saved in file: {output_file_path}")
+# print(f"Output đã được lưu vào file '{output_file_path}'")

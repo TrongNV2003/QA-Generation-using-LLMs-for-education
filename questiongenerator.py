@@ -1,6 +1,7 @@
 import numpy as np
 import random
 import torch
+import re
 from transformers import T5Tokenizer, AutoTokenizer, AutoModelForSeq2SeqLM
 from typing import Any, List, Mapping, Tuple
 
@@ -11,6 +12,7 @@ class QuestionAnswerGenerator:
         self.SEQ_LENGTH = 512
         self.qg_tokenizer = T5Tokenizer.from_pretrained("VietAI/vit5-base", use_fast=False)
         self.qg_tokenizer.add_special_tokens({"sep_token": "<sep>"})
+        
         self.device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
         
         QG_PRETRAINED = "t5-base-question-generator"
@@ -37,16 +39,24 @@ class QuestionAnswerGenerator:
             raise ValueError(
                 "Invalid answer style {}. Please choose from {}".format(answer_style, VALID_ANSWER_STYLES)
             )
-        segments = self._split_into_segments(context)
+        
         if answer_style == "sentences":
-            inputs, questions, answers = self._generate_qa(segments, num_questions)
-
+            segments = self._split_context(context)
+            for segment in segments:
+                sentences = self._split_into_sentences(segment)
+                inputs, questions, answers = self._generate_qa(sentences)
+            
         elif answer_style == "multiple_choice":
-            inputs, questions, answers = self._generate_qa_mcq(segments, num_questions)
+            sentences = self._split_into_sentences(context)
+            inputs, questions, answers = self._generate_qa_mcq(sentences)
+
+        # Chọn top N câu hỏi
+        if len(questions) > num_questions:
+            questions, answers = questions[:num_questions], answers[:num_questions]
 
         return inputs, questions, answers
     
-    def _split_into_segments(self, text: str) -> List[str]:
+    def _split_context(self, text: str) -> List[str]:
         """Splits a long text into segments short enough to be input into the transformer network.
         Segments are used as context for question generation.
         """
@@ -65,24 +75,43 @@ class QuestionAnswerGenerator:
 
         return [self.qg_tokenizer.decode(s, skip_special_tokens=True) for s in segments]
     
-    @torch.no_grad()
-    def _generate_qa(self, context: List[str], num_questions: int) -> Tuple[List[str], List[str], List[str]]:
-        inputs, questions, answers = [], [], []
+    def _split_into_sentences(self, text: str) -> List[str]:
+        """Splits the text into sentences, and attempts to split or truncate long sentences."""
+        MAX_SENTENCE_LEN = 128
+        sentences = re.findall(".*?[.!\?]", text)
+        cut_sentences = []
 
-        for segment in context:
-            qg_input = f"Essay: {segment}"
+        for sentence in sentences:
+            if len(sentence) > MAX_SENTENCE_LEN:
+                cut_sentences.extend(re.split("[,;:)]", sentence))
+
+        # remove useless post-quote sentence fragments
+        cut_sentences = [s for s in sentences if len(s.split(" ")) > 5]
+        sentences = sentences + cut_sentences
+
+        return list(set([s.strip(" ") for s in sentences]))
+
+
+    @torch.no_grad()
+    def _generate_qa(self, context: List[str]) -> Tuple[List[str], List[str], List[str]]:
+        inputs, questions, answers = [], [], []
+        for sentences in context:
+            qg_input = f"Essay: {sentences}"
             encoded_input = self._encode_qg_input(qg_input)
             outputs = self.qg_model.generate(
                 input_ids=encoded_input["input_ids"], 
                 max_new_tokens=128, 
-                num_return_sequences=num_questions, 
+                num_beams=5,  # Số lượng câu hỏi tối đa để sinh ra từ mỗi đoạn
+                no_repeat_ngram_size=2,
+                num_return_sequences=1,
                 do_sample=True, 
-                top_k=50, 
-                top_p=0.95
+                top_k=75, 
+                top_p=0.9
             )
             for output in outputs:
                 correct_answer = self.qg_tokenizer.decode(output, skip_special_tokens=False)
                 correct_answer = correct_answer.replace(self.qg_tokenizer.pad_token, "").replace(self.qg_tokenizer.eos_token, "")
+                correct_answer = correct_answer.replace("Essay:", "").replace("Question: ", "").strip()
                 question_answer_split = correct_answer.split(self.qg_tokenizer.sep_token)
                 if len(question_answer_split) == 2:
                     # valid Question + Answer output
@@ -94,23 +123,25 @@ class QuestionAnswerGenerator:
         return inputs, questions, answers
 
     @torch.no_grad()
-    def _generate_qa_mcq(self, context: List[str], num_questions: int) -> Tuple[List[str], List[str], List[str]]:
+    def _generate_qa_mcq(self, context: List[str]) -> Tuple[List[str], List[str], List[str]]:
         inputs, questions, answers = [], [], []
-
-        for segment in context:
-            qg_input = f"Multiple choice: {segment}"
+        for sentences in context:
+            qg_input = f"Multiple choice: {sentences}"
             encoded_input = self._encode_qg_input(qg_input)
             outputs = self.qg_model.generate(
                 input_ids=encoded_input["input_ids"], 
-                max_new_tokens=128, 
-                num_return_sequences=num_questions, 
-                do_sample=True, 
-                top_k=50, 
+                max_new_tokens=128,
+                num_beams=5,  # Số lượng câu hỏi tối đa để sinh ra từ mỗi đoạn
+                no_repeat_ngram_size=2,
+                num_return_sequences=1, 
+                do_sample=True,
+                top_k=50,
                 top_p=0.95
             )
             for output in outputs:
                 correct_answer = self.qg_tokenizer.decode(output, skip_special_tokens=False)
                 correct_answer = correct_answer.replace(self.qg_tokenizer.pad_token, "").replace(self.qg_tokenizer.eos_token, "")
+                correct_answer = correct_answer.replace("Multiple choice: ", "").replace("Question: ", "").strip()
                 question_answer_split = correct_answer.split(self.qg_tokenizer.sep_token)
                 if len(question_answer_split) == 2:
                     # valid Question + Answer output
