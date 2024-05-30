@@ -159,10 +159,10 @@ class QuestionAnswerGenerator:
         return inputs, questions, answers
     
     @torch.no_grad()
-    def _generate_distractors(self, question: str, correct_answer: str, context: str) -> List[str]:
+    def _generate_distractors(self, question: str, correct_answer: str, segment: str) -> List[str]:
         distractors = set()
         attempts = 0
-        distractor_input = f"Question: {question} {self.qg_tokenizer.sep_token} Answer: {correct_answer} {self.qg_tokenizer.sep_token} Multiple choice: {context}"
+        distractor_input = f"Question: {question} {self.qg_tokenizer.sep_token} Answer: {correct_answer} {self.qg_tokenizer.sep_token} Multiple choice: {segment}"
 
         while len(distractors) < 3 and attempts < 10:
             attempts += 1
@@ -200,9 +200,13 @@ class QuestionAnswerGenerator:
         """Formats question and answer pairs"""
         if answer_style == "multiple_choice":
             qa_list = []
+            segments = self._split_context(context)
             for question, answer in zip(questions, answers):
-                distractors = self._generate_distractors(question, answer, context)
-
+                # Find the corresponding segment for the question
+                for segment in segments:
+                    if question in segment:
+                        distractors = self._generate_distractors(question, answer, segment)
+                        break
                 # Ensure distractors are unique
                 distractors = list(set(distractors))
                 options = [answer] + distractors[:3]  # ensure we only take the first 3 unique distractors

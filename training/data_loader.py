@@ -166,8 +166,8 @@ class DistractorDataset(torch.utils.data.Dataset):
             random.shuffle(distractor_ids)
         distractors = [options[i] for i in distractor_ids]
         
-        input_text = f"Question: {question} {self.separator} Answer: {answer} {self.separator} Multiple choice: {context}"
         target_text = distractors[0] + ' ' + self.separator + ' ' + distractors[1] + ' ' + self.separator + ' ' + distractors[2]
+        input_text = f"Question: {question} {self.separator} Answer: {answer} {self.separator} Multiple choice: {context}"
 
         input_ids, attention_mask = self._encode_text(input_text)
         labels, _ = self._encode_text(target_text)
