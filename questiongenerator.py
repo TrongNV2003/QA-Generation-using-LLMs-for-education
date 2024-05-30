@@ -30,7 +30,6 @@ class QuestionAnswerGenerator:
         self.qd_model.to(self.device)
         self.qd_model.eval()
 
-
     def generate(self, context: str, num_questions: int = 5, answer_style: str = "sentences") -> List:
         """Takes a context and generates a set of question and answer pairs."""
 
@@ -111,10 +110,10 @@ class QuestionAnswerGenerator:
             encoded_input = self._encode_qg_input(qg_input)
             outputs = self.qg_model.generate(
                 input_ids=encoded_input["input_ids"], 
-                max_new_tokens=128,
-                # num_beams=5,
-                # no_repeat_ngram_size=2,
-                # num_return_sequences=1,
+                max_new_tokens=128, 
+                num_beams=5,
+                no_repeat_ngram_size=2,
+                num_return_sequences=1,
                 do_sample=True
             )
             for output in outputs:
@@ -140,9 +139,9 @@ class QuestionAnswerGenerator:
             outputs = self.mcq_qg_model.generate(
                 input_ids=encoded_input["input_ids"], 
                 max_new_tokens=128,
-                # num_beams=5,
-                # no_repeat_ngram_size=2,
-                # num_return_sequences=1, 
+                num_beams=5,
+                no_repeat_ngram_size=2,
+                num_return_sequences=1,
                 do_sample=True
             )
             for output in outputs:
@@ -163,7 +162,7 @@ class QuestionAnswerGenerator:
     def _generate_distractors(self, question: str, correct_answer: str, context: str) -> List[str]:
         distractors = set()
         attempts = 0
-        distractor_input = f"{question} {self.qg_tokenizer.sep_token} {correct_answer} {self.qg_tokenizer.sep_token} {context}"
+        distractor_input = f"Question: {question} {self.qg_tokenizer.sep_token} Answer: {correct_answer} {self.qg_tokenizer.sep_token} Multiple choice: {context}"
 
         while len(distractors) < 3 and attempts < 10:
             attempts += 1
@@ -173,7 +172,7 @@ class QuestionAnswerGenerator:
                 max_new_tokens=128, 
                 temperature=0.7,
                 num_beams=5,
-                num_return_sequences=10, # Increase the number of return sequences
+                num_return_sequences=3,
                 do_sample=True
                 )
             for output in outputs:
@@ -202,9 +201,8 @@ class QuestionAnswerGenerator:
         if answer_style == "multiple_choice":
             qa_list = []
             for question, answer in zip(questions, answers):
-                distractors = self.distractor_generator._generate_distractors(question, answer, context)
-                # Split distractors string into individual distractors
-                distractors = [d.replace("Incorrect: ", "").strip() for d in distractors[0].split(self.qg_tokenizer.sep_token)]
+                distractors = self._generate_distractors(question, answer, context)
+
                 # Ensure distractors are unique
                 distractors = list(set(distractors))
                 options = [answer] + distractors[:3]  # ensure we only take the first 3 unique distractors
