@@ -111,10 +111,10 @@ class QuestionAnswerGenerator:
             encoded_input = self._encode_qg_input(qg_input)
             outputs = self.qg_model.generate(
                 input_ids=encoded_input["input_ids"], 
-                max_new_tokens=128, 
-                num_beams=5,
-                no_repeat_ngram_size=2,
-                num_return_sequences=1,
+                max_new_tokens=128,
+                # num_beams=5,
+                # no_repeat_ngram_size=2,
+                # num_return_sequences=1,
                 do_sample=True
             )
             for output in outputs:
@@ -140,9 +140,9 @@ class QuestionAnswerGenerator:
             outputs = self.mcq_qg_model.generate(
                 input_ids=encoded_input["input_ids"], 
                 max_new_tokens=128,
-                num_beams=5,
-                no_repeat_ngram_size=2,
-                num_return_sequences=1, 
+                # num_beams=5,
+                # no_repeat_ngram_size=2,
+                # num_return_sequences=1, 
                 do_sample=True
             )
             for output in outputs:
@@ -173,7 +173,8 @@ class QuestionAnswerGenerator:
                 max_new_tokens=128, 
                 temperature=0.7,
                 num_beams=5,
-                num_return_sequences=3
+                num_return_sequences=10, # Increase the number of return sequences
+                do_sample=True
                 )
             for output in outputs:
                 generated_text = self.qg_tokenizer.decode(output, skip_special_tokens=True)
