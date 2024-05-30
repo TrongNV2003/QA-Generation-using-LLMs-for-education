@@ -25,13 +25,15 @@ class QuestionAnswerGenerator:
         self.mcq_qg_model.to(self.device)
         self.mcq_qg_model.eval()
 
+        self.distractor_generator = DistractorGenerator()
+
     def generate(self, context: str, num_questions: int = 5, answer_style: str = "sentences") -> List:
         """Takes a context and generates a set of question and answer pairs."""
 
         print("Generating questions...\n")
 
         inputs, questions, answers = self.generate_qa_from_inputs(context, answer_style, num_questions)
-        qa_list = self._get_all_qa_pairs(questions, answers)
+        qa_list = self._get_all_qa_pairs(questions, answers, context, answer_style)
 
         return qa_list
     
@@ -167,9 +169,24 @@ class QuestionAnswerGenerator:
             return_tensors="pt",
         ).to(self.device)
 
-    def _get_all_qa_pairs(self, questions: List[str], answers: List[str]) -> List[Mapping[str, str]]:
+    def _get_all_qa_pairs(self, questions: List[str], answers: List[str], context: str, answer_style: str) -> List[Mapping[str, str]]:
         """Formats question and answer pairs"""
-        qa_list = [{"question": question.split("?")[0] + "?", "answer": answer} for question, answer in zip(questions, answers)]
+        if answer_style == "multiple_choice":
+            qa_list = []
+            for question, answer in zip(questions, answers):
+                distractors = self.distractor_generator._generate_distractors(question, answer, context)
+                options = [answer] + distractors
+                random.shuffle(options)
+                qa_list.append({
+                    "question": question.split("?")[0] + "?",
+                    "answer": {
+                        "options": options,
+                        "correct": answer,
+                        "context": context
+                    }
+                })
+        else:
+            qa_list = [{"question": question.split("?")[0] + "?", "answer": answer} for question, answer in zip(questions, answers)]
         return qa_list
 
 class DistractorGenerator:
