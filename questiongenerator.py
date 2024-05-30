@@ -175,7 +175,11 @@ class QuestionAnswerGenerator:
             qa_list = []
             for question, answer in zip(questions, answers):
                 distractors = self.distractor_generator._generate_distractors(question, answer, context)
-                options = [answer] + distractors
+                # Split distractors string into individual distractors
+                distractors = [d.replace("Distractor: ", "").strip() for d in distractors[0].split(self.qg_tokenizer.sep_token)]
+                # Ensure distractors are unique
+                distractors = list(set(distractors))
+                options = [answer] + distractors[:3]  # ensure we only take the first 3 unique distractors
                 random.shuffle(options)
                 qa_list.append({
                     "question": question.split("?")[0] + "?",
@@ -210,12 +214,20 @@ class DistractorGenerator:
 
         while len(distractors) < 3 and attempts < 10:
             input_ids = self.qd_tokenizer(distractor_input, return_tensors='pt').input_ids.to(self.device)
-            outputs = self.qd_model.generate(input_ids, max_new_tokens=128, num_return_sequences=1, temperature=1.0)
-            generated_text = self.qd_tokenizer.decode(outputs[0], skip_special_tokens=False)
-            generated_text = generated_text.replace(self.qd_tokenizer.pad_token, "").replace(self.qd_tokenizer.eos_token, "")
-            distractor_split = generated_text.split(self.qd_tokenizer.sep_token)
-            if distractor_split[0].lower() != correct_answer.lower() and generated_text not in distractors:
-                distractors.add(generated_text)
+            outputs = self.qd_model.generate(
+                input_ids, 
+                max_new_tokens=128, 
+                temperature=1.0,
+                num_beams=5,
+                num_return_sequences=5
+                )
+            for output in outputs:
+                generated_text = self.qd_tokenizer.decode(output, skip_special_tokens=False)
+                generated_text = generated_text.replace(self.qd_tokenizer.pad_token, "").replace(self.qd_tokenizer.eos_token, "")
+                generated_text = generated_text.split(self.qd_tokenizer.sep_token)
+                for distractor in generated_text:
+                    if distractor.lower() != correct_answer.lower() and distractor not in distractors:
+                        distractors.add(distractor.strip())
             attempts += 1
 
         return list(distractors)
