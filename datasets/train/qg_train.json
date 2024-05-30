@@ -1584,19 +1584,24 @@
     "answer": "Tìm được những hình thức và phương thức mới thích hợp với những biến đổi lớn lao của thời đại ngày nay"
   },
   {
+    "context": "Cách mạng xã hội chỉ có thể nổ ra, việc giành chính quyền chỉ trở thành nhiệm vụ trực tiếp, khi đã có những điều kiện khách quan cần thiết đã chín muồi tạo thành tình thế cách mạng. Tình thế cách mạng sinh ra bởi sự chín muồi của mâu thuẫn giữa lực lượng sản xuất và quan hệ sản xuất, của mâu thuẫn giai cấp trong xã hội dẫn tới những đảo lộn trong nền tảng kinh tế - xã hội, tạo nên một cuộc khủng hoảng chính trị sâu sắc khiến cho việc thay thế thể chế chính trị đó bằng thể chế chính trị khác tiến bộ hơn như là một thực tế không thể đảo ngược.",
+    "question_type": "sentences",
+    "question": "Tình thế cách mạng được tạo thành bởi yếu tố nào?",
+    "answer": "Sự chín muồi của mâu thuẫn giữa lực lượng sản xuất và quan hệ sản xuất"
+  },
+  {
+    "context": "Các quy luật cơ bản của phép biện chứng duy vật phản ánh sự vận động, phát triển dưới những phương diện cơ bản nhất. Quy luật chuyển hóa từ những thay đổi về lượng thành những thay đổi về chất và ngược lại cho biết phương thức của sự vận động, phát triển; quy luật thống nhất và đấu tranh của các mặt đối lập cho biết nguồn gốc của sự vận động và phát triển; quy luật phủ định của phủ định cho biết khuynh hướng của sự phát triển.",
+    "question_type": "sentences",
+    "question": "Quy luật nào cho biết khuynh hướng của sự phát triển?",
+    "answer": "Quy luật phủ định của phủ định"
+  },
+  {
     "context": "Trong thời đại hiện nay, trước sự tác động của cuộc cách mạng khoa học công nghệ, sự biến đổi phức tạp của các trào lưu cách mạng, đặc biệt là tình trạng tạm thời khủng hoảng của chủ nghĩa xã hội, các nhà lý luận tư sản đã lớn tiếng bác bỏ lý luận cách mạng xã hội của chủ nghĩa Mác - Lênin.",
     "question_type": "multiple_choice",
     "question": "Các nhà lý luận tư sản đã làm gì trước tình trạng tạm thời khủng hoảng của chủ nghĩa xã hội?",
     "options": ["Bác bỏ lý luận cách mạng xã hội của chủ nghĩa Mác - Lênin", "Ủng hộ lý luận cách mạng xã hội của chủ nghĩa Mác - Lênin", "Không có phản ứng gì", "Thúc đẩy các trào lưu cách mạng"],
     "answer": "A"
   },
-  {
-    "context": "Cách mạng xã hội chỉ có thể nổ ra, việc giành chính quyền chỉ trở thành nhiệm vụ trực tiếp, khi đã có những điều kiện khách quan cần thiết đã chín muồi tạo thành tình thế cách mạng. Tình thế cách mạng là sự chín muồi của mâu thuẫn giữa lực lượng sản xuất và quan hệ sản xuất, của mâu thuẫn giai cấp trong xã hội dẫn tới những đảo lộn trong nền tảng kinh tế - xã hội, tạo nên một cuộc khủng hoảng chính trị sâu sắc khiến cho việc thay thế thể chế chính trị đó bằng thể chế chính trị khác tiến bộ hơn như là một thực tế không thể đảo ngược.",
-    "question_type": "multiple_choice",
-    "question": "Tình thế cách mạng được tạo thành bởi yếu tố nào?",
-    "answer": "Sự chín muồi của mâu thuẫn giữa lực lượng sản xuất và quan hệ sản xuất"
-  },
-  
   {
     "context": "Động lực của cách mạng xã hội là những giai cấp có lợi ích gắn bó chặt chẽ và lâu dài đối với cách mạng. Tùy theo điều kiện lịch sử cụ thể, động lực của cách mạng xã hội cũng thay đổi. Vai trò lãnh đạo trong cách mạng xã hội thuộc về giai cấp đứng ở vị trí trung tâm của thời đại, là giai cấp đại biểu cho phương thức sản xuất mới, là giai cấp tiến bộ nhất trong số các giai cấp đang tồn tại. Chẳng hạn, giai cấp tư sản là giai cấp lãnh đạo trong cách mạng tư sản, giai cấp vô sản là giai cấp lãnh đạo trong cách mạng vô sản.",
     "question_type": "multiple_choice",
@@ -1629,7 +1634,7 @@
     "context": "Giai cấp công nhân có vai trò lịch sử toàn thế giới. Do vậy, chuyên chính vô sản còn phải làm nghĩa vụ quốc tế của mình, bằng việc giúp đỡ từ mọi phương diện có thể được cho cuộc đấu tranh của các dân tộc vì hoà bình, độc lập dân tộc, dân chủ và tiến bộ xã hội.",
     "question_type": "multiple_choice",
     "question": "Giai cấp công nhân có vai trò lịch sử gì?",
-    "options": ["Chỉ trong nước", "Toàn thế giới", "Chỉ châu Âu", "Chỉ châu Á"],
+    "options": ["Chỉ trong nước", "Toàn thế giới", "Toàn thành phố", "Chỉ châu Á"],
     "answer": "B"
   },
   {
@@ -1888,7 +1893,7 @@
     "context": "Ngôn ngữ là công cụ quan trọng nhất trong giao tiếp của các dân tộc. Mỗi dân tộc đều có ngôn ngữ riêng của dân tộc mình, nhưng trong một quốc gia nhiều dân tộc bao giờ cũng có một ngôn ngữ chung thống nhất. Ngôn ngữ được chọn làm ngôn ngữ thống nhất thường là sản phẩm và là kết quả tất yếu của một quá trình phát triển lâu dài về kinh tế - xã hội của các dân tộc trong một quốc gia.",
     "question_type": "multiple_choice",
     "question": "Trong một quốc gia nhiều dân tộc, thường có bao nhiêu ngôn ngữ chung?",
-    "options": ["Một", "Hai", "Ba", "Năm"],
+    "options": ["Một ngôn ngữ chung", "Hai ngôn ngữ chung", "Ba ngôn ngữ chung", "Năm ngôn ngữ chung"],
     "answer": "A"
   },
   {
@@ -2056,7 +2061,7 @@
     "context": "Cơ sở hạ tầng của một xã hội cụ thể bao gồm quan hệ sản xuất thống trị, quan hệ sản xuất tàn dư của xã hội cũ và quan hệ sản xuất mầm mống của xã hội tương lai. Trong đó, quan hệ sản xuất thống trị bao giờ cũng giữ vai trò chủ đạo, chi phối các quan hệ sản xuất khác, nó quy định xu hướng chung của đời sống kinh tế - xã hội. Bởi vậy, cơ sở hạ tầng của một xã hội cụ thể được đặc trưng bởi quan hệ sản xuất thống trị trong xã hội đó. Tuy nhiên, quan hệ sản xuất tàn dư và quan hệ sản xuất mầm mống cũng có vai trò nhất định.",
     "question_type": "multiple_choice",
     "question": "Quan hệ sản xuất nào giữ vai trò chủ đạo trong cơ sở hạ tầng của một xã hội cụ thể?",
-    "options": ["Quan hệ sản xuất thống trị", "Quan hệ sản xuất tàn dư", "Quan hệ sản xuất mầm mống", "Quan hệ sản xuất phụ thuộc"],
+    "options": ["Sản xuất thống trị", "Sản xuất tàn dư", "Sản xuất mầm mống", "Sản xuất phụ thuộc"],
     "answer": "A"
   },
   {
@@ -2732,13 +2737,6 @@
     "answer": "C"
   },
   {
-    "context": "Các quy luật cơ bản của phép biện chứng duy vật phản ánh sự vận động, phát triển dưới những phương diện cơ bản nhất. Quy luật chuyển hóa từ những thay đổi về lượng thành những thay đổi về chất và ngược lại cho biết phương thức của sự vận động, phát triển; quy luật thống nhất và đấu tranh của các mặt đối lập cho biết nguồn gốc của sự vận động và phát triển; quy luật phủ định của phủ định cho biết khuynh hướng của sự phát triển.",
-    "question_type": "multiple_choice",
-    "question": "Quy luật nào cho biết khuynh hướng của sự phát triển?",
-    "options": ["Quy luật chuyển hóa từ những thay đổi về lượng thành những thay đổi về chất", "Quy luật thống nhất và đấu tranh của các mặt đối lập", "Quy luật phủ định của phủ định", "Quy luật bảo toàn năng lượng"],
-    "answer": "C"
-  },
-  {
     "context": "Như bất cứ một cộng đồng người nào phát triển trong lịch sử, cộng đồng người Việt đầu tiên cũng hình thành từ một thị tộc, tiếp đó thị tộc này liên kết với các thị tộc khác có quan hệ về huyết duyên và địa lý mà trở thành bộ lạc rồi liên minh bộ lạc, và phát triển lên thành bộ tộc rồi dân tộc. Cộng đồng người Việt được hình thành sớm trong lịch sử, có tên là Việt; phân biệt với nhiều tộc Việt ở miền Nam Trung Quốc, nó được gọi là Lạc Việt. Để bảo đảm tính ổn định của cộng đồng mình, nhiều nhà tư tưởng trong lịch sử nói tới sự cần thiết phải giữ những nét riêng của nó so với người Ngô (người Trung Quốc) và người Lào.",
     "question_type": "multiple_choice",
     "question": "Cộng đồng người Việt đầu tiên được hình thành từ đâu?",
@@ -2818,7 +2816,7 @@
   {
     "context": "Thế kỷ XV đến thế kỷ XVI ở Tây Âu được gọi là thời kỳ Phục hưng với ý nghĩa là thời kỳ có sự khôi phục lại nền văn hóa cổ đại. Về mặt hình thái kinh tế - xã hội đó là thời kỳ quá độ từ xã hội phong kiến sang xã hội tư bản. Thời kỳ này, sự phát triển của khoa học đã dần dần đoạn tuyệt với thần học và tôn giáo thời kỳ trung cổ, bước lên con đường phát triển độc lập. Giai cấp tư sản mới hình thành và là giai cấp tiến bộ, có nhu cầu phát triển khoa học tự nhiên để tạo cơ sở cho sự phát triển kỹ thuật và sản xuất. Sự phát triển của khoa học, về khách quan đã trở thành vũ khí mạnh mẽ chống thế giới quan duy tâm tôn giáo.",
     "question_type": "multiple_choice",
-    "question": "Thời kỳ Phục hưng tồn tại bao lâu?",
+    "question": "Thời kỳ Phục hưng tồn tại từ thế kỉ nào?",
     "options": ["Thế kỷ XIV đến thế kỷ XV", "Thế kỷ XV đến thế kỷ XVI", "Thế kỷ XVI đến thế kỷ XVII", "Thế kỷ XVII đến thế kỷ XVIII"],
     "answer": "B"
   },
