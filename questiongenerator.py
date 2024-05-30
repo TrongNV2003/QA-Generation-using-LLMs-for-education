@@ -24,8 +24,12 @@ class QuestionAnswerGenerator:
         self.mcq_qg_model = AutoModelForSeq2SeqLM.from_pretrained(MCQ_QG_PRETRAINED)
         self.mcq_qg_model.to(self.device)
         self.mcq_qg_model.eval()
+        
+        QD_PRETRAINED = "t5-base-distractor-generator"
+        self.qd_model = AutoModelForSeq2SeqLM.from_pretrained(QD_PRETRAINED)
+        self.qd_model.to(self.device)
+        self.qd_model.eval()
 
-        self.distractor_generator = DistractorGenerator()
 
     def generate(self, context: str, num_questions: int = 5, answer_style: str = "sentences") -> List:
         """Takes a context and generates a set of question and answer pairs."""
@@ -111,9 +115,7 @@ class QuestionAnswerGenerator:
                 num_beams=5,
                 no_repeat_ngram_size=2,
                 num_return_sequences=1,
-                do_sample=True,
-                top_k=60,
-                top_p=0.95
+                do_sample=True
             )
             for output in outputs:
                 correct_answer = self.qg_tokenizer.decode(output, skip_special_tokens=False)
@@ -141,9 +143,7 @@ class QuestionAnswerGenerator:
                 num_beams=5,
                 no_repeat_ngram_size=2,
                 num_return_sequences=1, 
-                do_sample=True,
-                top_k=50,
-                top_p=0.95
+                do_sample=True
             )
             for output in outputs:
                 correct_answer = self.qg_tokenizer.decode(output, skip_special_tokens=False)
@@ -158,6 +158,33 @@ class QuestionAnswerGenerator:
                     answers.append(answer)
 
         return inputs, questions, answers
+    
+    @torch.no_grad()
+    def _generate_distractors(self, question: str, correct_answer: str, context: str) -> List[str]:
+        distractors = set()
+        attempts = 0
+        distractor_input = f"{question} {self.qg_tokenizer.sep_token} {correct_answer} {self.qg_tokenizer.sep_token} {context}"
+
+        while len(distractors) < 3 and attempts < 10:
+            attempts += 1
+            input_ids = self._encode_qg_input(distractor_input)
+            outputs = self.qd_model.generate(
+                input_ids=input_ids["input_ids"], 
+                max_new_tokens=128, 
+                temperature=0.7,
+                num_beams=5,
+                num_return_sequences=3
+                )
+            for output in outputs:
+                generated_text = self.qg_tokenizer.decode(output, skip_special_tokens=True)
+                generated_text = generated_text.split(self.qg_tokenizer.sep_token)
+                for distractor in generated_text:
+                    if distractor.lower() != correct_answer.lower() and distractor not in distractors:
+                        distractors.add(distractor)
+                    if len(distractors) >= 3:
+                        break
+
+        return list(distractors)
 
     def _encode_qg_input(self, qg_input: str) -> torch.Tensor:
         """Tokenizes a string and returns a tensor of input ids."""
@@ -176,7 +203,7 @@ class QuestionAnswerGenerator:
             for question, answer in zip(questions, answers):
                 distractors = self.distractor_generator._generate_distractors(question, answer, context)
                 # Split distractors string into individual distractors
-                distractors = [d.replace("Distractor: ", "").strip() for d in distractors[0].split(self.qg_tokenizer.sep_token)]
+                distractors = [d.replace("Incorrect: ", "").strip() for d in distractors[0].split(self.qg_tokenizer.sep_token)]
                 # Ensure distractors are unique
                 distractors = list(set(distractors))
                 options = [answer] + distractors[:3]  # ensure we only take the first 3 unique distractors
@@ -192,45 +219,6 @@ class QuestionAnswerGenerator:
         else:
             qa_list = [{"question": question.split("?")[0] + "?", "answer": answer} for question, answer in zip(questions, answers)]
         return qa_list
-
-class DistractorGenerator:
-    """A class for generating distractor options for multiple-choice questions."""
-
-    def __init__(self) -> None:
-        QD_PRETRAINED = "t5-base-distractor-generator"
-        self.SEQ_LENGTH = 512
-        self.device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-        self.qd_tokenizer = T5Tokenizer.from_pretrained("VietAI/vit5-base", use_fast=False)
-        self.qd_tokenizer.add_special_tokens({"sep_token": "<sep>"})
-        self.qd_model = AutoModelForSeq2SeqLM.from_pretrained(QD_PRETRAINED)
-        self.qd_model.to(self.device)
-        self.qd_model.eval()
-
-    @torch.no_grad()
-    def _generate_distractors(self, question: str, correct_answer: str, context: str) -> List[str]:
-        distractors = set()
-        attempts = 0
-        distractor_input = f"{question} {self.qd_tokenizer.sep_token} {correct_answer} {self.qd_tokenizer.sep_token} {context}"
-
-        while len(distractors) < 3 and attempts < 10:
-            input_ids = self.qd_tokenizer(distractor_input, return_tensors='pt').input_ids.to(self.device)
-            outputs = self.qd_model.generate(
-                input_ids, 
-                max_new_tokens=128, 
-                temperature=1.0,
-                num_beams=5,
-                num_return_sequences=5
-                )
-            for output in outputs:
-                generated_text = self.qd_tokenizer.decode(output, skip_special_tokens=False)
-                generated_text = generated_text.replace(self.qd_tokenizer.pad_token, "").replace(self.qd_tokenizer.eos_token, "")
-                generated_text = generated_text.split(self.qd_tokenizer.sep_token)
-                for distractor in generated_text:
-                    if distractor.lower() != correct_answer.lower() and distractor not in distractors:
-                        distractors.add(distractor.strip())
-            attempts += 1
-
-        return list(distractors)
 
 
 def print_qa(qa_list: List[Mapping[str, str]], show_answers: bool = True) -> None:
@@ -248,6 +236,7 @@ def print_qa(qa_list: List[Mapping[str, str]], show_answers: bool = True) -> Non
         else:  # sentence format
             if show_answers:
                 print(f"{space}A: {answer}\n")
+
 
 def save_qa_to_txt(qa_list: List[Mapping[str, str]], file_path: str) -> None:
     """Saves a list of generated questions and answers to a text file."""
