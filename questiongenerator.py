@@ -177,7 +177,7 @@ class QuestionAnswerGenerator:
                 for output in outputs:
                     generated_distractor = self.qg_tokenizer.decode(output, skip_special_tokens=True)
                     generated_distractor = generated_distractor.replace("Incorrect: ", "").strip()
-                    generated_distractor_list  = generated_distractor.split(self.qg_tokenizer.sep_token)
+                    generated_distractor_list = generated_distractor.split(self.qg_tokenizer.sep_token)
                     for distractor in generated_distractor_list:
                         distractor = distractor.strip()
                         if distractor.lower() != correct_answer.lower() and distractor not in distractors:
