@@ -159,30 +159,31 @@ class QuestionAnswerGenerator:
         return inputs, questions, answers
     
     @torch.no_grad()
-    def _generate_distractors(self, question: str, correct_answer: str, segment: str) -> List[str]:
+    def _generate_distractors(self, question: str, correct_answer: str, context: str) -> List[str]:
         distractors = set()
         attempts = 0
-        distractor_input = f"Question: {question} {self.qg_tokenizer.sep_token} Answer: {correct_answer} {self.qg_tokenizer.sep_token} Multiple choice: {segment}"
+        for sentences in context:
+            distractor_input = f"Question: {question} {self.qg_tokenizer.sep_token} Answer: {correct_answer} {self.qg_tokenizer.sep_token} Multiple choice: {sentences}"
 
-        while len(distractors) < 3 and attempts < 10:
-            attempts += 1
-            input_ids = self._encode_qg_input(distractor_input)
-            outputs = self.qd_model.generate(
-                input_ids=input_ids["input_ids"], 
-                max_new_tokens=128, 
-                temperature=0.7,
-                num_beams=5,
-                num_return_sequences=3,
-                do_sample=True
-                )
-            for output in outputs:
-                generated_text = self.qg_tokenizer.decode(output, skip_special_tokens=True)
-                generated_text = generated_text.split(self.qg_tokenizer.sep_token)
-                for distractor in generated_text:
-                    if distractor.lower() != correct_answer.lower() and distractor not in distractors:
-                        distractors.add(distractor)
-                    if len(distractors) >= 3:
-                        break
+            while len(distractors) < 3 and attempts < 10:
+                attempts += 1
+                input_ids = self._encode_qg_input(distractor_input)
+                outputs = self.qd_model.generate(
+                    input_ids=input_ids["input_ids"], 
+                    max_new_tokens=128, 
+                    temperature=0.9,
+                    do_sample=True
+                    )
+                for output in outputs:
+                    generated_distractor = self.qg_tokenizer.decode(output, skip_special_tokens=True)
+                    generated_distractor = generated_distractor.replace("Incorrect: ", "").strip()
+                    generated_distractor_list  = generated_distractor.split(self.qg_tokenizer.sep_token)
+                    for distractor in generated_distractor_list:
+                        distractor = distractor.strip()
+                        if distractor.lower() != correct_answer.lower() and distractor not in distractors:
+                            distractors.add(distractor)
+                        if len(distractors) >= 3:
+                            break
 
         return list(distractors)
 
@@ -200,16 +201,10 @@ class QuestionAnswerGenerator:
         """Formats question and answer pairs"""
         if answer_style == "multiple_choice":
             qa_list = []
-            segments = self._split_context(context)
             for question, answer in zip(questions, answers):
-                # Find the corresponding segment for the question
-                for segment in segments:
-                    if question in segment:
-                        distractors = self._generate_distractors(question, answer, segment)
-                        break
-                # Ensure distractors are unique
-                distractors = list(set(distractors))
-                options = [answer] + distractors[:3]  # ensure we only take the first 3 unique distractors
+                distractors = self._generate_distractors(question, answer, context)
+                
+                options = [answer] + distractors[:3]
                 random.shuffle(options)
                 qa_list.append({
                     "question": question.split("?")[0] + "?",
