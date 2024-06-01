@@ -9,16 +9,14 @@ with open('articles/philosophy.txt', 'r',encoding='utf-8') as a:
 
 qa_list = qg.generate(
     article,
-    num_questions=3,
+    num_questions=5,
     answer_style='multiple_choice'
 )
 
 print_qa(qa_list, show_answers=True)
 
 
-# qg.save_questions_to_file(qa_list, "questions.txt")
-
 # Sử dụng hàm để lưu output
-# output_file_path = "generated_questions.txt"
-# save_qa_to_txt(qa_list, output_file_path)
-# print(f"Output đã được lưu vào file '{output_file_path}'")
+output_file_path = "generated_questions.txt"
+save_qa_to_txt(qa_list, output_file_path)
+print(f"Output đã được lưu vào file '{output_file_path}'")

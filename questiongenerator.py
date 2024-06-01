@@ -224,7 +224,7 @@ def print_qa(qa_list: List[Mapping[str, str]], show_answers: bool = True) -> Non
     """Formats and prints a list of generated questions and answers."""
     for i, qa in enumerate(qa_list):
         space = " " * (3 if i < 9 else 4)
-        print(f"{i + 1}) Q: {qa['question']}")
+        print(f"{i + 1}) Question: {qa['question']}")
         answer = qa["answer"]
         if isinstance(answer, dict):  # multiple choice format
             for idx, option in enumerate(answer['options']):
@@ -234,7 +234,7 @@ def print_qa(qa_list: List[Mapping[str, str]], show_answers: bool = True) -> Non
                 print(f"{space}Correct Answer: {chr(65 + correct_option_idx)}: {answer['correct']}\n")
         else:  # sentence format
             if show_answers:
-                print(f"{space}A: {answer}\n")
+                print(f"{space}Answer: {answer}\n")
 
 
 def save_qa_to_txt(qa_list: List[Mapping[str, str]], file_path: str) -> None:
@@ -242,14 +242,13 @@ def save_qa_to_txt(qa_list: List[Mapping[str, str]], file_path: str) -> None:
     with open(file_path, "w", encoding="utf-8") as file:
         for i, qa in enumerate(qa_list):
             space = " " * (3 if i < 9 else 4)
-            file.write(f"{i + 1}) Q: {qa['question']}\n")
+            file.write(f"{i + 1}) Question: {qa['question']}\n")
             answer = qa["answer"]
             if isinstance(answer, dict) and 'options' in answer and 'correct' in answer:
-                file.write(f"{space}Context: {answer['context']}\n")
                 for idx, option in enumerate(answer['options']):
                     file.write(f"{space}{idx + 1}. {option}\n")
                 correct_option_idx = answer['options'].index(answer['correct']) + 1
                 file.write(f"{space}Correct Answer: {correct_option_idx}. {answer['correct']}\n")
             else:
-                file.write(f"{space}A: {answer}\n")
+                file.write(f"{space}Answer: {answer}\n")
             file.write("\n")
