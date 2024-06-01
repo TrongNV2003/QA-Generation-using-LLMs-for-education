@@ -1,25 +1,95 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: monospace;
 }
 
-body{
-    background-color: #f8f4ec;
+body {
+    background-color: #fffdf8;
     height: 100%;
 }
 
-.header{
+.header {
     margin-top: 3vh;
     margin-bottom: 6vh;
 }
 
 .transparent-bg {
     background-color: transparent !important;
-    border-color: #000000a1
+    border-color: #000000a1;
+}
+
+.footer {
+    margin-top: 5vh;
+}
+
+.container-fluid {
+    padding: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+textarea, input, select {
+    width: 100%;
+}
+
+button {
+    margin-left: 40%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#output {
+    padding: 20px;
+    background-color: transparent;
+    border: 1px solid #3d3d3d;
+    border-radius: 4px;
+    height: 100%;
+}
+
+#multiple-choice-output p,
+#essay-output p {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#multiple-choice-output strong,
+#essay-output strong {
+    margin-bottom: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.question-answer-pair {
+    margin-bottom: 20px; /* Add space between question-answer pairs */
+}
+
+.question {
+    margin-bottom: 5px; /* Small space between question and answer */
 }
 
 
-.footer{
-    margin-top: 9vh;
+/* Custom Scrollbar */
+textarea::-webkit-scrollbar {
+    width: 6px; /* Width of the entire scrollbar */
+}
+
+textarea::-webkit-scrollbar-track {
+    background: transparent; /* Color of the scrollbar track */
+}
+
+textarea::-webkit-scrollbar-thumb {
+    background-color: #888; /* Color of the scrollbar thumb */
+    border-radius: 10px; /* Roundness of the scrollbar thumb */
+}
+
+textarea::-webkit-scrollbar-thumb:hover {
+    background: #707070; /* Color of the scrollbar thumb when hovered */
+}
+
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
 }
