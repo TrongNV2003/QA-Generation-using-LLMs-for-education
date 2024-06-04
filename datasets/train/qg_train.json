@@ -191,12 +191,7 @@
     "context": "Từ Ngũ hành được dịch là năm yếu tố. Nhưng ta không nên coi chúng là những yếu tố tĩnh mà nên coi là năm thế lực động có ảnh hưởng đến nhau. Từ Hành có nghĩa là làm, hoạt động, cho nên từ Ngũ hành theo nghĩa đen là năm hoạt động, hay năm tác nhân. Người ta cũng gọi là ngũ đức có nghĩa là năm thế lực. Thứ nhất là Thủy, hai là Hỏa, ba là Mộc, bốn là Kim, năm là Thổ. Cuối Tây Chu, xuất hiện thuyết Ngũ hành đan xen. Ngũ hành được dùng để giải thích sự sinh trưởng của vạn vật trong vũ trụ. Thổ mộc hỏa đan xen thành ra trăm vật, hoà hợp thì sinh ra vật, đồng nhất thì không tiếp nối (Quốc ngữ - trịnh ngữ). Tức là nói những vật giống nhau thì không thể kết hợp thành vật mới, chỉ có những vật có tính chất khác nhau mới có thể hóa sinh thành vật mới. Tiếp theo là thuyết Ngũ hành tương thắng, rồi xuất hiện thuyết Ngũ hành tương sinh đã bổ khuyết chỗ chưa đầy đủ của thuyết Ngũ hành đan xen.",
     "question_type": "multiple_choice",
     "question": "Thuyết Ngũ hành giải thích điều gì?",
-    "options": [
-      "Sự lụi tàn của vạn vật trong vũ trụ",
-      "Sự phân biệt giữa vật chất và ý thức",
-      "Sự tương đồng giữa vật chất và ý thức",
-      "Sự sinh trưởng của vạn vật trong vũ trụ"
-    ],
+    "options": ["Sự lụi tàn của vạn vật trong vũ trụ", "Sự phân biệt giữa vật chất và ý thức", "Sự tương đồng giữa vật chất và ý thức", "Sự sinh trưởng của vạn vật trong vũ trụ"],
     "answer": "D"
   },
   {
@@ -246,12 +241,7 @@
     "context": "Từ kinh nghiệm của mình, Khổng Tử đã tổng kết được nhiều quy luật nhận thức, nhưng chủ yếu là thực tiễn giáo dục và về phương pháp học hỏi. Để đạt tới đạo nhân, Nho gia rất quan tâm tới giáo dục. Do không coi trọng cơ sở kinh tế - kỹ thuật của xã hội, cho nên giáo dục của Nho gia chủ yếu hướng vào rèn luyện đạo đức con người. Nhưng, tư tưởng về giáo dục, về thái độ và phương pháp học tập của Khổng Tử chính là bộ phận giàu sức sống nhất trong tư tưởng Nho gia.",
     "question_type": "multiple_choice",
     "question": "Giáo dục của Nho gia hướng đến điều gì?",
-    "options": [
-      "Rèn luyện đạo đức con người",
-      "Rèn luyện kỹ thuật sáng tạo",
-      "Rèn luyện kinh tế - kỹ thuật",
-      "Rèn luyện văn hóa nghệ thuật"
-    ],
+    "options": ["Rèn luyện đạo đức con người", "Rèn luyện kỹ thuật sáng tạo", "Rèn luyện kinh tế - kỹ thuật", "Rèn luyện văn hóa nghệ thuật"],
     "answer": "A"
   },
   {
@@ -271,12 +261,7 @@
     "context": "Trang Tử thổi phồng một cách phiến diện tính tương đối của sự vật cho rằng trong phạm trù đạo vạn vật đều thống nhất. Ông đề ra tư tưởng triết học nhân sinh tề vật, tức là đối xử như một (tề nhất) đối với những cái tương phản, xoá bỏ đúng sai. Mục đích của ông là đặt phú quý, vinh nhục ra một bên tiến vào vương quốc tiêu dao, thanh đạm, đạm bạc, lặng lẽ, vô vi...",
     "question_type": "multiple_choice",
     "question": "Quan điểm của Trang Tử về sự vật trong phạm trù đạo là gì?",
-    "options": [
-      "Vạn vật đều thống nhất",
-      "Vạn vật đều tương phản",
-      "Vạn vật đều tương đối",
-      "Vạn vật đều tương phản và tương đối"
-    ],
+    "options": ["Vạn vật đều thống nhất", "Vạn vật đều tương phản", "Vạn vật đều tương đối", "Vạn vật đều tương phản và tương đối"],
     "answer": "A"
   },
   {
@@ -289,12 +274,7 @@
     "context": "Sự ra đời và phát triển của triết học Hy Lạp cổ đại có một số đặc điểm như: gắn hữu cơ với khoa học tự nhiên, hầu hết các nhà triết học duy vật đều là các nhà khoa học tự nhiên; sự ra đời rất sớm chủ nghĩa duy vật mộc mạc, thô sơ và phép biện chứng tự phát; cuộc đấu tranh giữa chủ nghĩa duy vật và chủ nghĩa duy tâm biểu hiện qua cuộc đấu tranh giữa đường lối triết học của Đêmôcrít và đường lối triết học của Platôn, đại diện cho hai tầng lớp chủ nô dân chủ và chủ nô quý tộc; về mặt nhận thức, triết học Hy Lạp cổ đại đã theo khuynh hướng của chủ nghĩa duy giác.",
     "question_type": "multiple_choice",
     "question": "Sự ra đời và phát triển của triết học Hy Lạp cổ đại có đặc điểm gì?",
-    "options": [
-      "Gắn hữu cơ với khoa học tự nhiên",
-      "Gắn hữu cơ với khoa học xã hội",
-      "Gắn hữu cơ với khoa học siêu hình",
-      "Gắn hữu cơ với khoa học tâm lý"
-    ],
+    "options": ["Gắn hữu cơ với khoa học tự nhiên", "Gắn hữu cơ với khoa học xã hội", "Gắn hữu cơ với khoa học siêu hình", "Gắn hữu cơ với khoa học tâm lý"],
     "answer": "A"
   },
   {
@@ -337,12 +317,7 @@
     "context": "Sự phê phán của Arixtốt đối với Platôn là sự đóng góp quan trọng trong lịch sử triết học. Đặc biệt là sự phê phán đối với học thuyết ý niệm của Platôn. Theo Arixtốt, ý niệm của Platôn là không có lợi cho nhận thức của con người, vì nó thuộc về thế giới bên kia - là cái phi thực thể, do đó nó không có lợi cho cắt nghĩa tri thức về các sự vật của thế giới quanh ta, dựa vào nó con người không thể nhận biết được thế giới bên ngoài. Giá trị của triết học Arixtốt còn thể hiện ở quan điểm về thế giới tự nhiên. Tự nhiên là toàn bộ những sự vật có một bản thể vật chất mãi mãi vận động và biến đổi. Thông qua vận động mà giới tự nhiên được biểu hiện ra. Vận động không tách rời vật thể tự nhiên. Vận động của giới tự nhiên có nhiều hình thức: sự tăng và giảm; sự thay đổi về chất hay sự chuyển hóa; sự ra đời và tiêu diệt; sự thay đổi trong không gian, ....",
     "question_type": "multiple_choice",
     "question": "Giá trị của triết học Arixtốt được thể hiện ở đâu?",
-    "options": [
-      "Quan điểm về ý niệm",
-      "Quan điểm về thế giới tự nhiên",
-      "Quan điểm về đời sống xã hội",
-      "Quan điểm về thế giới xã hội"
-    ],
+    "options": ["Quan điểm về ý niệm", "Quan điểm về thế giới tự nhiên", "Quan điểm về đời sống xã hội", "Quan điểm về thế giới xã hội"],
     "answer": "B"
   },
   {
@@ -361,12 +336,7 @@
     "context": "Xã hội Tây Âu vào thế kỷ II - V là xã hội đánh dấu sự tan rã của chế độ nô lệ và sự ra đời chế độ phong kiến. Nền kinh tế của thời kỳ này nằm trong tay những người tiểu nông, những người khốn cùng, phụ thuộc, nhục nhã về mặt cá nhân và tối tăm về trí tuệ. Thời kỳ đầu trung cổ là thời kỳ của sự suy đồi toàn bộ đời sống xã hội. ở những thế kỷ tiếp theo, chế độ phong kiến cũng tạo ra được một sự phát triển xã hội cao hơn xã hội cổ đại: kỹ thuật và nghề thủ công dần dần được phát triển; dân cư tăng nhanh, các thành thị ra đời, tạo ra những tiền đề cho sự phục hưng mới của khoa học và văn hóa. Nhà thờ thời trung cổ là một tổ chức tập quyền hùng mạnh, tôn giáo bao trùm lên mọi lĩnh vực của đời sống xã hội làm cho triết học, luật học, chính trị học biến thành các bộ môn của thần học. Đặc điểm của triết học thời kỳ này có khuynh hướng phát triển của chủ nghĩa kinh viện. Chủ nghĩa kinh viện Thiên chúa giáo thể hiện tập trung ở học thuyết của Tômát Đacanh. Trong lĩnh vực triết học, Tômát Đacanh có mưu đồ làm cho học thuyết của Arixtốt thích hợp với giáo lý đạo Thiên Chúa, biến triết học của mình thành cơ sở giáo lý của nhà thờ.",
     "question_type": "multiple_choice",
     "question": "Triết học thời kỳ trung cổ có khuynh hướng gì?",
-    "options": [
-      "Phát triển của chủ nghĩa duy vật",
-      "Phát triển của chủ nghĩa duy tâm",
-      "Phát triển của chủ nghĩa duy thực",
-      "Phát triển của chủ nghĩa kinh viện"
-    ],
+    "options": ["Phát triển của chủ nghĩa duy vật", "Phát triển của chủ nghĩa duy tâm", "Phát triển của chủ nghĩa duy thực", "Phát triển của chủ nghĩa kinh viện"],
     "answer": "D"
   },
   {
@@ -391,12 +361,7 @@
     "context": "Đavít Hium (1711 - 1766) nhà triết học, nhà lịch sử, nhà kinh tế học người Anh. Ông là người sáng lập những nguyên tắc cơ bản của thuyết không thể biết ở châu Âu thời cận đại. Ông đã giải quyết vấn đề mối liên hệ nhân quả theo lập trường thuyết không thể biết. Ông cho rằng sự tồn tại của các mối liên hệ này là không thể chứng minh được, bởi vì, cái mà người ta cho là kết quả thì lại không thể chứa đựng trong cái nguyên nhân, về mặt lôgíc không thể rút kết quả từ nguyên nhân, kết quả không giống nguyên nhân. Nói cách khác, theo Hium, tính nhân quả không phải là một quy luật của tự nhiên mà chỉ là thói quen tâm lý.",
     "question_type": "multiple_choice",
     "question": "Tính nhân quả theo Hium là gì?",
-    "options": [
-      "Là quy luật của tự nhiên",
-      "Là thói quen tâm lý",
-      "Là quy luật của lôgíc",
-      "Là quy luật của triết học"
-    ],
+    "options": ["Quy luật của tự nhiên", "Thói quen tâm lý", "Quy luật của lôgíc", "Quy luật của triết học"],
     "answer": "B"
   },
   {
@@ -457,12 +422,7 @@
     "context": "Yêu nước là một truyền thống lớn của dân tộc. Nhưng yêu nước có thể là một ý chí, một tâm lý, một tình cảm xã hội, đồng thời cũng có thể là những lý luận. Với tư cách là một bộ phận của lịch sử tư tưởng triết học Việt Nam, tư tưởng yêu nước phải được xét trên bình diện lý luận, mà ở đây là lý luận về dân tộc độc lập và quốc gia có chủ quyền, về chiến lược và sách lược chiến thắng kẻ thù, về nhận thức và vận dụng quy luật của cuộc chiến tranh giữ nước, tức là những vấn đề lý luận lớn làm cơ sở cho chủ nghĩa yêu nước.",
     "question_type": "multiple_choice",
     "question": "Yêu nước là gì?",
-    "options": [
-      "Một truyền thống lớn của dân tộc",
-      "Một ý chí mạnh mẽ",
-      "Một tâm lý cá nhân",
-      "Một tình cảm xã hội chung"
-    ],
+    "options": ["Một truyền thống lớn của dân tộc", "Một ý chí mạnh mẽ", "Một tâm lý cá nhân", "Một tình cảm xã hội chung"],
     "answer": "A"
   },
   {
@@ -475,12 +435,7 @@
     "context": "Nguyễn Trãi là người đã thực hiện được sứ mệnh này. Trong các bức thư gửi quân Minh và nhất là trong tác phẩm Đại cáo bình Ngô, Nguyễn Trãi chứng minh rằng, cộng đồng tộc Việt có đủ các yếu tố: Văn hiến, lãnh thổ, phong tục, lịch sử, nhân tài, nên nó đã là một cộng đồng người có bề dày lịch sử ngang hàng với cộng đồng người của phương Bắc, không thể phụ thuộc vào phương Bắc. Nhận thức đó của Nguyễn Trãi đã nêu lên được các yếu tố cần thiết làm nên một dân tộc, đã đặt cơ sở lý luận cho sự độc lập của một dân tộc.",
     "question_type": "multiple_choice",
     "question": "Nguyễn Trãi đã đặt cơ sở lý luận cho điều gì?",
-    "options": [
-      "Sự độc lập của một dân tộc",
-      "Sự phụ thuộc vào phương Bắc",
-      "Sự phát triển của một dân tộc",
-      "Sự ngang hàng với cộng đồng người của phương Bắc"
-    ],
+    "options": ["Sự độc lập của một dân tộc", "Sự phụ thuộc vào phương Bắc", "Sự phát triển của một dân tộc", "Sự ngang hàng với cộng đồng người của phương Bắc"],
     "answer": "A"
   },
   {
@@ -529,12 +484,7 @@
     "context": "Triết học, theo cách nói của Hêghen, là sự nắm bắt thời đại bằng tư tưởng. Vì vậy, thực tiễn xã hội nói chung, nhất là thực tiễn cách mạng vô sản, đòi hỏi phải được soi sáng bởi lý luận nói chung và triết học nói riêng. Những vấn đề của thời đại do sự phát triển của chủ nghĩa tư bản đặt ra đã được phản ánh bởi tư duy lý luận từ những lập trường giai cấp khác nhau, làm hình thành những học thuyết với tính cách là một hệ thống những quan điểm lý luận về triết học, kinh tế và chính trị xã hội khác nhau. Điều đó được thể hiện rất rõ qua các trào lưu khác nhau của chủ nghĩa xã hội thời đó. Sự lý giải về những khuyết tật của xã hội tư bản đương thời, về sự cần thiết phải thay thế nó bằng xã hội tốt đẹp, thực hiện được sự bình đẳng xã hội theo những lập trường giai cấp khác nhau đã sản sinh ra nhiều biến chủng của chủ nghĩa xã hội như: chủ nghĩa xã hội phong kiến, chủ nghĩa xã hội tư sản, chủ nghĩa xã hội tiểu tư sản...",
     "question_type": "multiple_choice",
     "question": "Triết học được định nghĩa như thế nào theo Hêghen?",
-    "options": [
-      "Sự nắm bắt thời đại bằng tư tưởng",
-      "Sự nắm bắt thời đại bằng lý luận",
-      "Sự nắm bắt thời đại bằng tri thức",
-      "Sự nắm bắt thời đại bằng kiến thức"
-    ],
+    "options": ["Sự nắm bắt thời đại bằng tư tưởng", "Sự nắm bắt thời đại bằng lý luận", "Sự nắm bắt thời đại bằng tri thức", "Sự nắm bắt thời đại bằng kiến thức"],
     "answer": "A"
   },
   {
@@ -559,12 +509,7 @@
     "context": "Cùng với những nguồn gốc lý luận trên, những thành tựu khoa học tự nhiên là những tiền đề cho sự ra đời triết học Mác. Điều đó được cắt nghĩa bởi mối liên hệ khăng khít giữa triết học và khoa học nói chung, khoa học tự nhiên nói riêng. Sự phát triển tư duy triết học phải dựa trên cơ sở tri thức do các khoa học cụ thể đem lại. Vì thế, như Ăngghen đã chỉ rõ, mỗi khi khoa học tự nhiên có những phát minh mang tính chất vạch thời đại thì chủ nghĩa duy vật không thể không thay đổi hình thức của nó.",
     "question_type": "multiple_choice",
     "question": "Những thành tựu nào là tiền đề cho sự ra đời triết học Mác?",
-    "options": [
-      "Những nguồn gốc lý luận",
-      "Những thành tựu khoa học tự nhiên",
-      "Những quan điểm lý luận về chủ nghĩa xã hội",
-      "Những học thuyết của những đại biểu xuất sắc nhất"
-    ],
+    "options": ["Những nguồn gốc lý luận", "Những thành tựu khoa học tự nhiên", "Những quan điểm lý luận về chủ nghĩa xã hội", "Những học thuyết của những đại biểu xuất sắc nhất"],
     "answer": "B"
   },
   {
@@ -613,12 +558,7 @@
     "context": "Tư tưởng xuyên suốt của Luận cương là vai trò quyết định của thực tiễn đối với đời sống xã hội; từ đó nêu lên sứ mệnh góp phần cải tạo thế giới của triết học Mác (luận đề thứ 11). Với quan điểm thực tiễn đúng đắn, Mác đã vạch ra khuyết điểm chủ yếu của toàn bộ chủ nghĩa duy vật trước kia, kể cả chủ nghĩa duy vật của Phoiơbắc; đồng thời cũng phê phán và bác bỏ quan điểm của chủ nghĩa duy tâm về tính năng động, sáng tạo của tư duy. Cũng từ quan điểm duy vật biện chứng về thực tiễn, Mác đi tới nhận thức về mặt xã hội của bản chất con người Trong tính hiện thực của nó, - Mác viết - bản chất con người là tổng hoà những quan hệ xã hội.",
     "question_type": "multiple_choice",
     "question": "Theo Mác, bản chất con người là gì?",
-    "options": [
-      "Tổng hoà những quan hệ xã hội",
-      "Tổng hoà những quan hệ tình cảm",
-      "Tổng hoà những quan hệ cộng đồng",
-      "Tổng hoà những quan hệ tình cảm"
-    ],
+    "options": ["Tổng hoà những quan hệ xã hội", "Tổng hoà những quan hệ tình cảm", "Tổng hoà những quan hệ cộng đồng", "Tổng hoà những quan hệ tình cảm"],
     "answer": "A"
   },
   {
@@ -643,12 +583,7 @@
     "context": "Năm 1875, C.Mác viết Phê phán Cương lĩnh Gôta, đây là tác phẩm lý luận quan trọng nhất sau Tuyên ngôn của Đảng Cộng sản và bộ Tư bản. Trong tác phẩm đó, C.Mác làm sâu sắc và phong phú thêm học thuyết về hình thái kinh tế - xã hội, phát triển hơn nữa học thuyết mác xít về nhà nước và cách mạng, và lần đầu trình bày tư tưởng về hai giai đoạn phát triển của hình thái kinh tế - xã hội cộng sản chủ nghĩa.",
     "question_type": "multiple_choice",
     "question": "Năm 1875, C.Mác đã làm gì?",
-    "options": [
-      "Viết Phê phán Cương lĩnh Gôta",
-      "Viết Tuyên ngôn của Đảng Cộng sản",
-      "Viết Bản thảo kinh tế - triết học",
-      "Viết Lịch sử triết học"
-    ],
+    "options": ["Viết Phê phán Cương lĩnh Gôta", "Viết Tuyên ngôn của Đảng Cộng sản", "Viết Bản thảo kinh tế - triết học", "Viết Lịch sử triết học"],
     "answer": "A"
   },
   {
@@ -715,11 +650,7 @@
     "context": "Sự khủng hoảng của chủ nghĩa xã hội làm cho yêu cầu phát triển triết học Mác - Lênin càng trở nên cấp bách. Thực tiễn cuộc đấu tranh bảo vệ những thành quả mà chủ nghĩa xã hội đã giành được, nhất là công cuộc đấu tranh bảo vệ để đưa sự nghiệp xây dựng chủ nghĩa xã hội vượt qua thách thức to lớn hiện nay và tiếp tục tiến lên, đòi hỏi các Đảng Cộng sản phải nắm vững lý luận của chủ nghĩa Mác - Lênin. Trước hết, phải thấm nhuần thế giới quan duy vật và phương pháp biện chứng khoa học của nó. Cả những thành công cũng như thất bại trong quá trình đổi mới, cải tổ chủ nghĩa xã hội chứng tỏ sự cần thiết phải kiên quyết đấu tranh chống chủ nghĩa xét lại, đồng thời phải khắc phục bệnh giáo điều trong việc vận dụng lý luận của chủ nghĩa Mác - Lênin.",
     "question_type": "multiple_choice",
     "question": "Các Đảng Cộng sản phải làm gì để phát triển chủ nghĩa Mác - Lênin?",
-    "options":[
-      "Nắm vững lý luận của chủ nghĩa Mác - Lênin",
-      "Nắm vững chủ nghĩa duy lý",
-      "Nắm vững chủ nghĩa nhân đạo",
-      "Nắm vững chủ nghĩa tư bản"],
+    "options":["Nắm vững lý luận của chủ nghĩa Mác - Lênin", "Nắm vững chủ nghĩa duy lý", "Nắm vững chủ nghĩa nhân đạo", "Nắm vững chủ nghĩa tư bản"],
     "answer": "A"
   },
   {
@@ -738,12 +669,7 @@
     "context": "Các triết gia thuộc trào lưu chủ nghĩa duy khoa học chủ trương xây dựng triết học theo mô hình các khoa học thực chứng. Theo họ, triết học không nên nghiên cứu những vấn đề như bản chất của sự vật, các quy luật chung của thế giới, ... mà đi tìm phương pháp khoa học có hiệu quả nhất, đáng tin cậy nhất mới là nội dung chủ yếu của việc nghiên cứu triết học.",
     "question_type": "multiple_choice",
     "question": "Các triết gia duy khoa học chủ trương xây dựng triết học theo mô hình nào?",
-    "options": [
-      "Mô hình các khoa học thực chứng",
-      "Mô hình các khoa học duy lý",
-      "Mô hình các khoa học nhân đạo",
-      "Mô hình các khoa học duy vật"
-    ],
+    "options": ["Mô hình các khoa học thực chứng", "Mô hình các khoa học duy lý", "Mô hình các khoa học nhân đạo", "Mô hình các khoa học duy vật"],
     "answer": "A"
   },
   {
@@ -756,12 +682,7 @@
     "context": "Trong sự phân tích đối với tri thức, chủ nghĩa Tôma mới một mặt thừa nhận tính khách quan của nhận thức và tính đúng đắn của các phán đoán khoa học, mặt khác lại mưu toan dùng nguyên tắc tương đồng loại suy để từ chỗ thừa nhận bản thể của thế giới hiện thực mà xác nhận bản thể của Chúa. Vì bản thể do Chúa sáng tạo ra ắt phải chứng minh cho bản thể của Chúa nên trong sự tồn tại hữu hạn của thế giới hiện thực phải có phần của sự tồn tại vô hạn của Chúa. Từ đó rút ra kết luận là tri thức lý tính phù hợp với đức tin của con người.",
     "question_type": "multiple_choice",
     "question": "Chủ nghĩa Tôma mới dùng nguyên tắc nào để xác nhận bản thể của Chúa?",
-    "options": [
-      "Nguyên tắc tương đồng loại suy",
-      "Nguyên tắc công bằng",
-      "Nguyên tắc tuân thủ luật pháp",
-      "Nguyên tắc tương đồng ngoại hình"
-    ],
+    "options": ["Nguyên tắc tương đồng loại suy", "Nguyên tắc công bằng", "Nguyên tắc tuân thủ luật pháp", "Nguyên tắc tương đồng ngoại hình"],
     "answer": "A"
   },
   {
@@ -780,12 +701,7 @@
     "context": "Chủ nghĩa thực dụng nói đến một phương thức tư duy đặc thù. Phương thức tư duy đó không xem xét khái niệm ở bản thân khái niệm mà đi sâu nghiên cứu xem khi được sử dụng thì nó sản sinh ra hậu quả gì. Khái niệm và lý luận không phải là sự giải đáp về thế giới. Các cuộc tranh luận giữa chủ nghĩa duy vật và chủ nghĩa duy tâm trong triết học truyền thống là các cuộc đấu tranh có tính chất siêu hình, chẳng có ý nghĩa gì. Lấy hiệu quả thực tế mà xét thì dù thế giới là vật chất hay là tinh thần cũng chẳng có sự khác biệt gì. Nếu xuất phát từ hiệu quả để khẳng định giá trị của tôn giáo và khoa học thì niềm tin khoa học và tín ngưỡng tôn giáo đều có giá trị thiết thực vì cả hai đều là công cụ để đạt đến mục đích của đời sống con người.",
     "question_type": "multiple_choice",
     "question": "Chủ nghĩa thực dụng nói đến điều gì?",
-    "options": [
-      "Phương thức tư duy đặc thù",
-      "Phương thức tư duy thông thường",
-      "Phương thức tư duy duy vật",
-      "Phương thức tư duy duy tâm"
-    ],
+    "options": ["Phương thức tư duy đặc thù", "Phương thức tư duy thông thường", "Phương thức tư duy duy vật", "Phương thức tư duy duy tâm"],
     "answer": "A"
   },
   {
@@ -798,12 +714,7 @@
     "context": "Hai là, phê phán và từ bỏ chủ nghĩa lý tính cực đoan, siêu hình của triết học (phương Tây, truyền thống) để chuyển mạnh sang thế giới đời sống hiện thực với hai loại chủ đề nổi bật: con người và khoa học. Khuynh hướng thế tục hóa chuyển sang văn hóa của phương Tây hiện đại là một khuynh hướng tích cực và đúng đắn. Điều đó giải thích vì sao nhiều học thuyết triết học phương Tây có ảnh hưởng rộng rãi và mạnh mẽ trong đông đảo quần chúng bình thường, vốn không thành thạo về mặt lý luận triết học.",
     "question_type": "multiple_choice",
     "question": "Khuynh hướng thế tục hóa chuyển sang văn hóa là khuynh hướng như thế nào?",
-    "options": [
-      "Tích cực và đúng đắn",
-      "Tiêu cực và sai lầm",
-      "Tích cực và sai lầm",
-      "Tiêu cực và đúng đắn"
-    ],
+    "options": ["Tích cực và đúng đắn", "Tiêu cực và sai lầm", "Tích cực và sai lầm", "Tiêu cực và đúng đắn"],
     "answer": "A"
   },
   {
@@ -834,13 +745,9 @@
     "context": "Xã hội loài người là cấp độ cao nhất của cấu tạo vật chất, là cấp độ đặc biệt của tổ chức vật chất. Xã hội là một bộ phận của thế giới vật chất, có nền tảng tự nhiên có kết cấu và quy luật vận động khách quan không phụ thuộc vào ý thức con người. Vật chất dưới dạng xã hội là kết quả hoạt động của con người. Quan niệm duy vật về lịch sử của triết học Mác - Lênin đã đóng góp quan trọng trong việc chứng minh vị trí hàng đầu, ưu thế của các quan hệ kinh tế trong hệ thống các quan hệ xã hội đã tạo cơ sở khoa học để nhận thức đúng đắn các hiện tượng xã hội, để nghiên cứu những quy luật khách quan của xã hội.",
     "question_type": "multiple_choice",
     "question": "Vật chất dưới dạng xã hội là gì?",
-    "options": [
-      "Kết quả hoạt động của con người",
-      "Kết quả hoạt động của động vật",
-      "Kết quả hoạt động của khoa học",
-      "Kết quả hoạt động của tôn giáo"
-    ],
-    "answer": "Kết quả hoạt động của con người"
+    "options": ["Kết quả hoạt động của con người",
+      "Kết quả hoạt động của động vật", "Kết quả hoạt động của khoa học", "Kết quả hoạt động của tôn giáo"],
+    "answer": "A"
   },
   {
     "context": "Vật chất với tư cách là phạm trù triết học đã có lịch sử khoảng 2.500 năm. Ngay từ lúc mới ra đời, xung quanh phạm trù vật chất đã diễn ra cuộc đấu tranh không khoan nhượng giữa chủ nghĩa duy vật và chủ nghĩa duy tâm. Giống như mọi phạm trù khác, phạm trù vật chất phát triển gắn liền với hoạt động thực tiễn của con người và với sự hiểu biết của con người về giới tự nhiên",
@@ -906,12 +813,7 @@
     "context": "Dựa trên cơ sở những thành tựu của khoa học tự nhiên, nhất là sinh lý học thần kinh, chủ nghĩa duy vật biện chứng cho rằng, ý thức không phải có nguồn gốc siêu tự nhiên, không phải ý thức sản sinh ra vật chất như các nhà thần học và duy tâm khách quan đã khẳng định mà ý thức là một thuộc tính của vật chất, nhưng không phải là của mọi dạng vật chất, mà chỉ là thuộc tính của một dạng vật chất có tổ chức cao là bộ óc con người. Bộ óc người là cơ quan vật chất của ý thức. ý thức là chức năng của bộ óc con người. Ý thức phụ thuộc vào hoạt động bộ óc người, do đó khi bộ óc bị tổn thương thì hoạt động của ý thức sẽ không bình thường. Vì vậy, không thể tách rời ý thức ra khỏi hoạt động của bộ óc. ý thức không thể diễn ra, tách rời hoạt động sinh lý thần kinh của bộ óc người.",
     "question_type": "multiple_choice",
     "question": "Bộ óc người là gì?",
-    "options": [
-      "Cơ quan vật chất của ý thức",
-      "Cơ quan vật chất của vật chất",
-      "Cơ quan vật chất của tâm hồn",
-      "Cơ quan vật chất của tư duy"
-    ],
+    "options": ["Cơ quan vật chất của ý thức", "Cơ quan vật chất của vật chất", "Cơ quan vật chất của tâm hồn", "Cơ quan vật chất của tư duy"],
     "answer": "A"
   },
   {
@@ -924,12 +826,7 @@
     "context": "Trong quá trình tiến hóa của thế giới vật chất, các vật thể càng ở bậc thang cao bao nhiêu thì hình thức phản ánh của nó càng phức tạp bấy nhiêu. Hình thức phản ánh đơn giản nhất, đặc trưng cho giới tự nhiên vô sinh là những phản ánh vật lý, hóa học. Những hình thức phản ánh này có tính chất thụ động, chưa có định hướng sự lựa chọn. Hình thức phản ánh sinh học đặc trưng cho giới tự nhiên sống là bước phát triển mới về chất trong sự tiến hóa của các hình thức phản ánh. Hình thức phản ánh của các cơ thể sống đơn giản nhất là biểu hiện ở tính kích thích, tức là phản ứng trả lời tác động của môi trường ở bên ngoài có ảnh hưởng trực tiếp đến quá trình trao đổi chất của chúng. Hình thức phản ánh tiếp theo của các động vật chưa có hệ thần kinh là tính cảm ứng, tính nhạy cảm đối với sự thay đổi của môi trường. Hình thức phản ánh của các động vật có hệ thống thần kinh là các phản xạ. Hình thức phản ánh ở động vật bậc cao khi có hệ thần kinh trung ương xuất hiện là tâm lý. Tâm lý động vật chưa phải là ý thức, nó mới là sự phản ánh có tính chất bản năng do nhu cầu trực tiếp của sinh lý cơ thể và do quy luật sinh học chi phối.",
     "question_type": "multiple_choice",
     "question": "Những hình thức phản ánh đơn giản nhất có tính chất gì?",
-    "options": [
-      "Thụ động, chưa có định hướng sự lựa chọn",
-      "Chủ động, có định hướng sự lựa chọn",
-      "Chủ động, chưa có định hướng sự lựa chọn",
-      "Thụ động, có định hướng sự lựa chọn"
-    ],
+    "options": ["Thụ động, chưa có định hướng sự lựa chọn", "Chủ động, có định hướng sự lựa chọn", "Chủ động, chưa có định hướng sự lựa chọn", "Thụ động, có định hướng sự lựa chọn"],
     "answer": "A"
   },
   {
@@ -948,12 +845,7 @@
     "context": "Sự hình thành ý thức không phải là quá trình thu nhận thụ động, mà đó là kết quả hoạt động chủ động của con người. Nhờ có lao động, con người tác động vào thế giới khách quan, bắt thế giới khách quan bộc lộ những thuộc tính, những kết cấu, những quy luật vận động của mình thành những hiện tượng nhất định, và các hiện tượng ấy tác động vào bộ óc người, hình thành dần những tri thức về tự nhiên và xã hội. Như vậy, ý thức được hình thành chủ yếu do hoạt động cải tạo thế giới khách quan của con người, làm biến đổi thế giới đó. Ý thức với tư cách là hoạt động phản ánh sáng tạo không thể có được ở bên ngoài quá trình con người lao động làm biến đổi thế giới xung quanh. Vì thế có thể nói khái quát rằng lao động tạo ra ý thức tư tưởng, hoặc nguồn gốc cơ bản của ý thức tư tưởng là sự phản ánh thế giới khách quan vào đầu óc con người trong quá trình lao động của con người.",
     "question_type": "multiple_choice",
     "question": "Mối quan hệ giữa lao động và ý thức là gì?",
-    "options": [
-      "Lao động tạo ra ý thức tư tưởng",
-      "Lao động tạo ra vật chất",
-      "Lao động tạo ra tâm hồn",
-      "Lao động tạo ra tư duy"
-    ],
+    "options": ["Lao động tạo ra ý thức tư tưởng", "Lao động tạo ra vật chất", "Lao động tạo ra tâm hồn", "Lao động tạo ra tư duy"],
     "answer": "A"
   },
   {
@@ -1014,12 +906,7 @@
     "context": "Để suy nghĩ và trao đổi tư tưởng cho nhau, con người thường phải sử dụng những khái niệm nhất định, chẳng hạn khái niệm cái cây, cái nhà, thực vật, động vật, con người. Những khái niệm đó là hình thức của tư duy phản ánh những mặt, những thuộc tính cơ bản của một lớp những sự vật hiện tượng nhất định của hiện thực khách quan.",
     "question_type": "multiple_choice",
     "question": "Con người phải sử dụng cái gì để suy nghĩ và trao đổi tư tưởng cho nhau?",
-    "options": [
-      "Những khái niệm nhất định",
-      "Những khái niệm không nhất định",
-      "Những khái niệm tùy ý",
-      "Những khái niệm ngẫu nhiên"
-    ],
+    "options": ["Những khái niệm nhất định", "Những khái niệm không nhất định", "Những khái niệm tùy ý", "Những khái niệm ngẫu nhiên"],
     "answer": "A"
   },
   {
@@ -1050,13 +937,8 @@
     "context": "Vì nội dung là những mặt, những yếu tố, những quá trình tạo nên sự vật, còn hình thức là hệ thống các mối liên hệ tương đối bền vững giữa các yếu tố của nội dung. Nên nội dung và hình thức luôn gắn bó chặt chẽ với nhau trong một thể thống nhất. Không có hình thức nào tồn tại thuần túy không chứa đựng nội dung, ngược lại cũng không có nội dung nào lại không tồn tại trong một hình thức xác định. Nội dung nào có hình thức đó.",
     "question_type": "multiple_choice",
     "question": "Yếu tố nào luôn gắn bó chặt chẽ với nhau trong một thể thống nhất?",
-    "options": [
-      "Nội dung và hình thức",
-      "Nội dung và ngẫu nhiên",
-      "Hình thức và ngẫu nhiên",
-      "Nội dung và tất nhiên"
-    ],
-    "answer": "Nội dung và hình thức"
+    "options": ["Nội dung và hình thức", "Nội dung và ngẫu nhiên", "Hình thức và ngẫu nhiên", "Nội dung và tất nhiên"],
+    "answer": "A"
   },
   {
     "context": "Bản chất một nguyên tố hóa học là mối liên hệ giữa điện tử và hạt nhân, còn những tính chất hóa học của nguyên tố đó khi tương tác với các nguyên tố khác là hiện tượng thể hiện ra bên ngoài của mối liên kết giữa điện tử và hạt nhân. Trong xã hội có giai cấp, bản chất của nhà nước là công cụ thống trị giai cấp, bảo vệ lợi ích của giai cấp thống trị. Nhưng tùy theo tương quan giai cấp và địa vị của giai cấp trong lịch sử mà sự thống trị đó được thể hiện dưới hình thức khác nhau.",
@@ -1116,12 +998,7 @@
     "context": "Ngược lại, hoạt động chính trị có tác động kìm hãm hoặc thúc đẩy hoạt động sản xuất phát triển. Chẳng hạn, nếu hoạt động chính trị xã hội mang tính chất tiến bộ, cách mạng và nếu hoạt động thực nghiệm khoa học mà đúng đắn sẽ tạo đà cho hoạt động sản xuất phát triển. Còn nếu hoạt động chính trị xã hội mà lạc hậu, phản cách mạng và nếu hoạt động thực nghiệm mà sai lầm, không khoa học sẽ kìm hãm sự phát triển của hoạt động sản xuất vật chất.",
     "question_type": "multiple_choice",
     "question": "Hoạt động chính trị có tác động như thế nào đối với hoạt động sản xuất phát triển?",
-    "options": [
-      "Kìm hãm hoặc thúc đẩy",
-      "Kìm hãm và ngăn chặn",
-      "Thúc đẩy hoặc ngăn chặn",
-      "Kìm hãm, thúc đẩy hoặc ngăn chặn"
-    ],
+    "options": ["Kìm hãm hoặc thúc đẩy", "Kìm hãm và ngăn chặn", "Thúc đẩy hoặc ngăn chặn", "Kìm hãm, thúc đẩy hoặc ngăn chặn"],
     "answer": "A"
   },
   {
@@ -1170,12 +1047,7 @@
     "context": "Nhận thức kinh nghiệm là loại nhận thức hình thành từ sự quan sát trực tiếp các sự vật hiện tượng trong tự nhiên, xã hội hay trong các thí nghiệm khoa học. Kết quả của nhận thức kinh nghiệm là những tri thức kinh nghiệm. Tri thức này có hai loại là tri thức kinh nghiệm thông thường và tri thức kinh nghiệm khoa học. Tri thức kinh nghiệm thông thường là loại tri thức được hình thành từ sự quan sát trực tiếp hàng ngày về cuộc sống và lao động sản xuất.",
     "question_type": "multiple_choice",
     "question": "Kết quả của nhận thức kinh nghiệm là gì?",
-    "options": [
-      "Những tri thức lý tính",
-      "Những tri thức thông thường",
-      "Những tri thức khoa học",
-      "Những tri thức kinh nghiệm"
-    ],
+    "options": ["Những tri thức lý tính", "Những tri thức thông thường", "Những tri thức khoa học", "Những tri thức kinh nghiệm"],
     "answer": "D"
   },
   {
@@ -1218,24 +1090,14 @@
     "context": "Trong quá trình trao đổi chất này, nếu con người không kiểm tra, điều tiết việc sử dụng, khai thác, bảo quản các nguồn vật chất của tự nhiên thì khủng hoảng sinh thái sẽ xảy ra, sự cân bằng của hệ thống tự nhiên - xã hội bị phá vỡ, sự sống của con người và xã hội loài người bị đe dọa.",
     "question_type": "multiple_choice",
     "question": "Nếu con người không điều tiết việc sử dụng các nguồn vật chất của tự nhiên thì điều gì sẽ xảy ra?",
-    "options": [
-      "Khủng hoảng sinh thái",
-      "Khủng hoảng kinh tế",
-      "Khủng hoảng xã hội",
-      "Khủng hoảng môi trường"
-    ],
+    "options": ["Khủng hoảng sinh thái", "Khủng hoảng kinh tế", "Khủng hoảng xã hội", "Khủng hoảng môi trường"],
     "answer": "A"
   },
   {
     "context": "Ngược lại, nếu con người bất chấp quy luật phá vỡ cân bằng hệ thống tự nhiên - xã hội thì con người sẽ phải gánh chịu hậu quả khôn lường. Sự việc đó nhắc nhở chúng ta từng giờ từng phút rằng chúng ta hoàn toàn không thống trị được giới tự nhiên như một kẻ xâm lược thống trị một dân tộc khác, như một người sống bên ngoài tự nhiên, mà trái lại, bản thân chúng ta, với cả xương thịt, máu mủ và đầu óc chúng ta, là thuộc về giới tự nhiên. Chúng ta nằm trong lòng giới tự nhiên, và tất cả sự thống trị của chúng ta đối với giới tự nhiên là ở chỗ chúng ta, khác với tất cả sinh vật khác, là chúng ta nhận thức được quy luật của giới tự nhiên và có thể sử dụng được những quy luật đó một cách chính xác.",
     "question_type": "multiple_choice",
     "question": "Nếu con người bất chấp quy luật phá vỡ cân bằng hệ thống tự nhiên - xã hội thì sẽ xảy ra điều gì?",
-    "options": [
-      "Gánh chịu hậu quả khôn lường",
-      "Gánh chịu hậu quả kinh tế",
-      "Gánh chịu hậu quả xã hội",
-      "Gánh chịu hậu quả môi trường"
-    ],
+    "options": ["Gánh chịu hậu quả khôn lường", "Gánh chịu hậu quả kinh tế", "Gánh chịu hậu quả xã hội", "Gánh chịu hậu quả môi trường"],
     "answer": "A"
   },
   {
@@ -1248,12 +1110,7 @@
     "context": "Lực lượng sản xuất biểu hiện mối quan hệ giữa con người với tự nhiên trong quá trình sản xuất. Trong quá trình sản xuất, con người kết hợp sức lao động của mình với tư liệu sản xuất, trước hết là công cụ lao động, tạo thành sức mạnh khai thác giới tự nhiên, làm ra sản phẩm cần thiết cho cuộc sống của mình.",
     "question_type": "multiple_choice",
     "question": "Lực lượng sản xuất biểu hiện mối quan hệ nào trong quá trình sản xuất?",
-    "options": [
-      "Con người với tự nhiên",
-      "Con người với con người",
-      "Tự nhiên với xã hội",
-      "Con người với xã hội"
-    ],
+    "options": ["Con người với tự nhiên", "Con người với con người", "Tự nhiên với xã hội", "Con người với xã hội"],
     "answer": "A"
   },
   {
@@ -1614,12 +1471,7 @@
     "context": "Nhà nước vô sản có thể tồn tại dưới các hình thức khác nhau. Công xã Pari năm 1871 đã sản sinh ra nhà nước vô sản kiểu Công xã. Hình thức thứ hai của chuyên chính vô sản là Xôviết. ở một số nước, nhà nước vô sản còn tồn tại dưới hình thức nhà nước dân chủ nhân dân. ",
     "question_type": "multiple_choice",
     "question": "Công xã Pari đã sản sinh ra nhà nước vô sản kiểu Công xã vào năm nào?",
-    "choices": [
-      "Năm 1871",
-      "Năm 1917",
-      "Năm 1945",
-      "Năm 1954"
-    ],
+    "options": ["Năm 1871", "Năm 1917", "Năm 1945", "Năm 1954"],
     "answer": "A"
   },
   {
