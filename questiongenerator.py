@@ -60,7 +60,6 @@ class QuestionAnswerGenerator:
             sentences = self._split_into_sentences(context)
             inputs, questions, answers = self._generate_qa_mcq(sentences)
 
-        # Chọn top N câu hỏi
         if len(questions) > num_questions:
             questions, answers = questions[:num_questions], answers[:num_questions]
 
@@ -140,8 +139,8 @@ class QuestionAnswerGenerator:
                 input_ids=encoded_input["input_ids"], 
                 max_new_tokens=128,
                 num_beams=5,
-                no_repeat_ngram_size=2,
-                num_return_sequences=1,
+                # no_repeat_ngram_size=2,
+                # num_return_sequences=1,
                 do_sample=True
             )
             for output in outputs:
@@ -163,7 +162,7 @@ class QuestionAnswerGenerator:
         distractors = set()
         attempts = 0
         for sentences in context:
-            distractor_input = f"Question: {question} {self.qg_tokenizer.sep_token} Answer: {correct_answer} {self.qg_tokenizer.sep_token} Multiple choice: {sentences}"
+            distractor_input = f"{question} {self.qg_tokenizer.sep_token} {correct_answer} {self.qg_tokenizer.sep_token} {sentences}"
 
             while len(distractors) < 3 and attempts < 10:
                 attempts += 1
