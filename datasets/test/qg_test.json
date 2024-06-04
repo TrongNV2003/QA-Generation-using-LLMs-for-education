@@ -473,6 +473,31 @@
     "question": "Trong xã hội có giai cấp, nghệ thuật bao giờ cũng mang tính gì?",
     "options": ["Giai cấp", "Tự nhiên", "Trung lập", "Cá nhân"],
     "answer": "A"
+  },
+  {
+    "context": "Ý thức tôn giáo với tính cách là hình thái ý thức xã hội bao gồm tâm lý tôn giáo và hệ tư tưởng tôn giáo. Tâm lý tôn giáo là toàn bộ những biểu tượng, tình cảm, tâm trạng thói quen của quần chúng về tín ngưỡng tôn giáo. Hệ tư tưởng tôn giáo là hệ thống giáo lý do các giáo sĩ, các nhà thần học tạo ra và truyền bá trong xã hội. Đứng về mặt lịch sử, tâm lý tôn giáo và hệ tư tưởng tôn giáo là hai giai đoạn phát triển của ý thức tôn giáo, nhưng chúng liên hệ tác động qua lại và bổ sung nhau. Tâm lý tôn giáo đem lại cho hệ tư tưởng tôn giáo một tính chất đặc trưng, một sắc thái tình cảm riêng. Hệ tư tưởng tôn giáo thuyết minh những hiện tượng tâm lý tôn giáo, khái quát chúng, làm cho chúng biến đổi theo những chiều hướng nhất định.",
+    "question_type": "sentences",
+    "question": "Ý thức tôn giáo bao gồm những gì?",
+    "answer": "Tâm lý tôn giáo và hệ tư tưởng tôn giáo"
+  },
+  {
+    "context": "Ý thức tôn giáo với tính cách là hình thái ý thức xã hội bao gồm tâm lý tôn giáo và hệ tư tưởng tôn giáo. Tâm lý tôn giáo là toàn bộ những biểu tượng, tình cảm, tâm trạng thói quen của quần chúng về tín ngưỡng tôn giáo. Hệ tư tưởng tôn giáo là hệ thống giáo lý do các giáo sĩ, các nhà thần học tạo ra và truyền bá trong xã hội. Đứng về mặt lịch sử, tâm lý tôn giáo và hệ tư tưởng tôn giáo là hai giai đoạn phát triển của ý thức tôn giáo, nhưng chúng liên hệ tác động qua lại và bổ sung nhau. Tâm lý tôn giáo đem lại cho hệ tư tưởng tôn giáo một tính chất đặc trưng, một sắc thái tình cảm riêng. Hệ tư tưởng tôn giáo thuyết minh những hiện tượng tâm lý tôn giáo, khái quát chúng, làm cho chúng biến đổi theo những chiều hướng nhất định.",
+    "question_type": "sentences",
+    "question": "Tâm lý tôn giáo là gì?",
+    "answer": "Toàn bộ những biểu tượng, tình cảm, tâm trạng thói quen của quần chúng về tín ngưỡng tôn giáo"
+  },
+  {
+    "context": "Ý thức tôn giáo là một hình thái ý thức xã hội thực hiện chức năng chủ yếu của mình là chức năng đền bù - hư ảo trong một xã hội cần đến sự đền bù - hư ảo. Chức năng đó làm cho tôn giáo có một đời sống lâu dài, một vị trí đặc biệt trong xã hội. Chức năng đền bù - hư ảo nói lên khả năng của tôn giáo có thể bù đắp, bổ sung một cách hư ảo cái hiện thực mà trong đó con người còn bất lực trước những sức mạnh tự nhiên và những điều kiện khách quan của đời sống xã hội. Những mâu thuẫn của đời sống hiện thực, những bất lực thực tiễn của con người được giải quyết một cách hư ảo trong ý thức họ. Vì vậy, tôn giáo luôn được các giai cấp thống trị sử dụng như một công cụ áp bức tinh thần, một phương tiện củng cố địa vị thống trị của họ.",
+    "question_type": "multiple_choice",
+    "question": "Chức năng chủ yếu của ý thức tôn giáo là gì?",
+    "options": ["Chức năng đền bù - hư ảo", "Chức năng giáo dục", "Chức năng quản lý", "Chức năng khoa học"],
+    "answer": "A"
+  },
+  {
+    "context": "Chủ nghĩa Mác - Lênin cho rằng điều kiện tiên quyết để khắc phục tôn giáo như một hình thái ý thức có tính chất tiêu cực là phải xoá bỏ nguồn gốc xã hội của nó, nghĩa là phải tiến hành một cuộc cách mạng xã hội triệt để nhằm cải tạo cả tồn tại xã hội lẫn ý thức xã hội. Bằng hoạt động tích cực cách mạng của mình, quần chúng không những cải tạo xã hội mà còn cải tạo bản thân, giải phóng ý thức mình khỏi những quan niệm sai lầm, kể cả những ảo tưởng tôn giáo.",
+    "question_type": "sentences",
+    "question": "Điều kiện tiên quyết để khắc phục tôn giáo theo chủ nghĩa Mác - Lênin là gì?",
+    "answer": "Phải xoá bỏ nguồn gốc xã hội của nó"
   }
 ]
   
