@@ -1589,6 +1589,90 @@
     "answer": "Sự chín muồi của mâu thuẫn giữa lực lượng sản xuất và quan hệ sản xuất"
   },
   {
+    "context": "Trong nền triết học Trung Hoa suốt chiều dài lịch sử trên hai ngàn năm cổ - trung đại, vấn đề bản tính con người là vấn đề được quan tâm hàng đầu. Giải quyết vấn đề này, các nhà tư tưởng của Nho gia và Pháp gia đã tiếp cận từ giác độ hoạt động thực tiễn chính trị, đạo đức của xã hội và đi đến kết luận bản tính người là Thiện (Nho gia) và bản tính người là Bất Thiện (Pháp gia). Các nhà tư tưởng của Đạo gia, ngay từ Lão tử thời Xuân Thu, lại tiếp cận giải quyết vấn đề bản tính người từ giác độ khác và đi tới kết luận bản tính Tự Nhiên của con người. Sự khác nhau về giác độ tiếp cận và với những kết luận khác nhau về bản tính con người đã là tiền đề xuất phát cho những quan điểm khác nhau của các trường phái triết học này trong việc giải quyết các vấn đề về quan điểm chính trị, đạo đức và nhân sinh của họ.",
+    "question_type": "sentences",
+    "question": "Các nhà tư tưởng của Nho gia và Pháp gia đã tiếp cận vấn đề bản tính con người như thế nào?",
+    "answer": "Từ giác độ hoạt động thực tiễn chính trị, đạo đức của xã hội"
+  },
+  {
+    "context": "Nhìn chung, các quan điểm triết học trước Mác và ngoài mácxít còn có một hạn chế cơ bản là phiến diện trong phương pháp tiếp cận lý giải các vấn đề triết học về con người, cũng do vậy trong thực tế lịch sử đã tồn tại lâu dài quan niệm trừu tượng về bản chất con người và những quan niệm phi thực tiễn trong lý giải nhân sinh, xã hội cũng như những phương pháp hiện thực nhằm giải phóng con người. Những hạn chế đó đã được khắc phục và vượt qua bởi quan niệm duy vật biện chứng của triết học Mác-Lênin về con người.",
+    "question_type": "sentences",
+    "question": "Hạn chế cơ bản của các quan điểm triết học trước Mác và ngoài mácxít là gì?",
+    "answer": "Phiến diện trong phương pháp tiếp cận lý giải các vấn đề triết học về con người"
+  },
+  {
+    "context": "Đối lập với các nhà triết học duy vật, các nhà triết học duy tâm trong lịch sử triết học phương Tây lại chú trọng giác độ hoạt động lý tính của con người. Tiêu biểu cho giác độ tiếp cận này là quan điểm của Platôn thời Cổ đại Hy Lạp, Đêcáctơ trong nền triết học Pháp thời Cận đại và Hêghen trong nền triết học Cổ điển Đức. Do không đứng trên lập trường duy vật, các nhà triết học này đã lý giải bản chất lý tính của con người từ giác độ siêu tự nhiên. Với Platôn, đó là bản chất bất tử của linh hồn thuộc thế giới ý niệm tuyệt đối, với Đêcáctơ, đó là bản tính phi kinh nghiệm của lý tính, còn đối với Hêghen, thì đó chính là bản chất lý tính tuyệt đối...",
+    "question_type": "multiple_choice",
+    "question": "Các nhà triết học duy tâm trong lịch sử triết học phương Tây chú trọng giác độ nào của con người?",
+    "options": [
+      "Giác độ hoạt động lý tính",
+      "Giác độ hoạt động vật chất",
+      "Giác độ hoạt động xã hội",
+      "Giác độ hoạt động kinh tế"
+    ],
+    "answer": "A"
+  },
+  {
+    "context": "Đối lập với các nhà triết học duy vật, các nhà triết học duy tâm trong lịch sử triết học phương Tây lại chú trọng giác độ hoạt động lý tính của con người. Tiêu biểu cho giác độ tiếp cận này là quan điểm của Platôn thời Cổ đại Hy Lạp, Đêcáctơ trong nền triết học Pháp thời Cận đại và Hêghen trong nền triết học Cổ điển Đức. Do không đứng trên lập trường duy vật, các nhà triết học này đã lý giải bản chất lý tính của con người từ giác độ siêu tự nhiên. Với Platôn, đó là bản chất bất tử của linh hồn thuộc thế giới ý niệm tuyệt đối, với Đêcáctơ, đó là bản tính phi kinh nghiệm của lý tính, còn đối với Hêghen, thì đó chính là bản chất lý tính tuyệt đối...",
+    "question_type": "multiple_choice",
+    "question": "Platôn lý giải bản chất lý tính của con người như thế nào?",
+    "options": [
+      "Bản chất bất tử của linh hồn thuộc thế giới ý niệm tuyệt đối",
+      "Bản tính phi kinh nghiệm của lý tính",
+      "Bản chất lý tính tuyệt đối",
+      "Bản tính vật chất nguyên tử"
+    ],
+    "answer": "A"
+  },
+  {
+    "context": "Thực tế lịch sử đã cho thấy giác độ tiếp cận giải quyết các vấn đề triết học về con người trong nền triết học phương Tây có nhiều điểm khác với nền triết học phương Đông. Nhìn chung, các nhà triết học theo lập trường triết học duy vật đã lựa chọn giác độ khoa học tự nhiên để lý giải về bản chất con người và các vấn đề khác có liên quan. Ngay từ thời Cổ đại, các nhà triết học duy vật đã từng đưa ra quan niệm về bản chất vật chất tự nhiên của con người, coi con người cũng như vạn vật trong giới tự nhiên không có gì thần bí, đều được cấu tạo nên từ vật chất. Tiêu biểu là quan niệm của Đêmôcrit về bản tính vật chất nguyên tử cấu tạo nên thể xác và linh hồn của con người. Đây cũng là tiền đề phương pháp luận của quan điểm nhân sinh theo đường lối Êpiquya... Những quan niệm duy vật như vậy đã được tiếp tục phát triển trong nền triết học thời Phục hưng và Cận đại mà tiêu biểu là các nhà duy vật nước Anh và Pháp thế kỷ XVIII",
+    "question_type": "multiple_choice",
+    "question": "Các nhà triết học duy vật đã lựa chọn giác độ nào để lý giải về bản chất con người?",
+    "options": [
+      "Giác độ khoa học tự nhiên",
+      "Giác độ tôn giáo",
+      "Giác độ văn hoá",
+      "Giác độ chính trị"
+    ],
+    "answer": "A"
+  },
+  {
+    "context": "Thực tế lịch sử đã cho thấy giác độ tiếp cận giải quyết các vấn đề triết học về con người trong nền triết học phương Tây có nhiều điểm khác với nền triết học phương Đông. Nhìn chung, các nhà triết học theo lập trường triết học duy vật đã lựa chọn giác độ khoa học tự nhiên để lý giải về bản chất con người và các vấn đề khác có liên quan. Ngay từ thời Cổ đại, các nhà triết học duy vật đã từng đưa ra quan niệm về bản chất vật chất tự nhiên của con người, coi con người cũng như vạn vật trong giới tự nhiên không có gì thần bí, đều được cấu tạo nên từ vật chất. Tiêu biểu là quan niệm của Đêmôcrit về bản tính vật chất nguyên tử cấu tạo nên thể xác và linh hồn của con người. Đây cũng là tiền đề phương pháp luận của quan điểm nhân sinh theo đường lối Êpiquya... Những quan niệm duy vật như vậy đã được tiếp tục phát triển trong nền triết học thời Phục hưng và Cận đại mà tiêu biểu là các nhà duy vật nước Anh và Pháp thế kỷ XVIII.",
+    "question_type": "multiple_choice",
+    "question": "Đêmôcrit đưa ra quan niệm gì về bản tính con người?",
+    "options": [
+      "Bản tính vật chất nguyên tử cấu tạo nên thể xác và linh hồn của con người",
+      "Bản tính con người là vô thường",
+      "Bản tính con người là bất thiện",
+      "Bản tính con người là tự nhiên"
+    ],
+    "answer": "A"
+  },
+  {
+    "context": "Khác với nền triết học Trung Hoa, các nhà tư tưởng của các trường phái triết học Ấn Độ mà tiêu biểu là trường phái Đạo Phật lại tiếp cận từ giác độ khác, giác độ suy tư về con người và đời người ở tầm chiều sâu triết lý siêu hình (Siêu hình học) đối với những vấn đề nhân sinh quan. Kết luận về bản tính Vô ngã, Vô thường và tính hướng thiện của con người trên con đường truy tìm sự Giác Ngộ là một trong những kết luận độc đáo của triết học Đạo Phật.",
+    "question_type": "multiple_choice",
+    "question": "Các nhà tư tưởng của triết học Ấn Độ tiếp cận vấn đề nhân sinh quan từ giác độ nào?",
+    "options": [
+      "Giác độ suy tư về con người và đời người ở tầm chiều sâu triết lý siêu hình",
+      "Giác độ hoạt động thực tiễn chính trị",
+      "Giác độ đạo đức của xã hội",
+      "Giác độ khoa học tự nhiên"
+    ],
+    "answer": "A"
+  },
+  {
+    "context": "Khác với nền triết học Trung Hoa, các nhà tư tưởng của các trường phái triết học Ấn Độ mà tiêu biểu là trường phái Đạo Phật lại tiếp cận từ giác độ khác, giác độ suy tư về con người và đời người ở tầm chiều sâu triết lý siêu hình (Siêu hình học) đối với những vấn đề nhân sinh quan. Kết luận về bản tính Vô ngã, Vô thường và tính hướng thiện của con người trên con đường truy tìm sự Giác Ngộ là một trong những kết luận độc đáo của triết học Đạo Phật.",
+    "question_type": "multiple_choice",
+    "question": "Triết học Đạo Phật kết luận gì về bản tính con người?",
+    "options": [
+      "Bản tính Vô ngã, Vô thường và tính hướng thiện",
+      "Bản tính Thiện và Bất Thiện",
+      "Bản tính Tự Nhiên và Hướng Thiện",
+      "Bản tính Vô thường và Bất Thiện"
+    ],
+    "answer": "A"
+  },
+  {
     "context": "Các quy luật cơ bản của phép biện chứng duy vật phản ánh sự vận động, phát triển dưới những phương diện cơ bản nhất. Quy luật chuyển hóa từ những thay đổi về lượng thành những thay đổi về chất và ngược lại cho biết phương thức của sự vận động, phát triển; quy luật thống nhất và đấu tranh của các mặt đối lập cho biết nguồn gốc của sự vận động và phát triển; quy luật phủ định của phủ định cho biết khuynh hướng của sự phát triển.",
     "question_type": "multiple_choice",
     "question": "Quy luật nào cho biết khuynh hướng của sự phát triển?",
