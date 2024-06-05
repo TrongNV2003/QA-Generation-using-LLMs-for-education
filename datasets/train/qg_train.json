@@ -1601,6 +1601,42 @@
     "answer": "Phiến diện trong phương pháp tiếp cận lý giải các vấn đề triết học về con người"
   },
   {
+    "context": "Triết học Mác đã kế thừa quan niệm về con người trong lịch sử triết học, đồng thời khẳng định con người hiện thực là sự thống nhất giữa yếu tố sinh học và yếu tố xã hội. Tiền đề vật chất đầu tiên quy sự tồn tại của con người là giới tự nhiên. Cũng do đó, bản tính tự nhiên của con người bao hàm trong nó tất cả bản tính sinh học, tính loài của nó. Yếu tố sinh học trong con người là điều kiện đầu tiên quy định sự tồn tại của con người. Vì vậy, có thể nói, Giới tự nhiên là thân thể vô cơ của con người; con người là một bộ phận của tự nhiên, là kết quả của quá trình phát triển và tiến hoá lâu dài của môi trường tự nhiên.",
+    "question_type": "sentences",
+    "question": "Triết học Mác khẳng định điều gì về con người hiện thực?",
+    "answer": "Con người hiện thực là sự thống nhất giữa yếu tố sinh học và yếu tố xã hội"
+  },
+  {
+    "context": "Tuy nhiên, điều cần khẳng định rằng, mặt tự nhiên không phải là yếu tố duy nhất quy định bản chất con người. Đặc trưng quy định sự khác biệt giữa con người với thế giới loài vật là phương diện xã hội của nó. Trong lịch sử đã có những quan niệm khác nhau phân biệt con người với loài vật, như con người là động vật sử dụng công cụ lao động, là một động vật có tính xã hội, hoặc con người động vật có tư duy... Những quan niệm trên đều phiến diện chỉ vì nhấn mạnh một khía cạnh nào đó trong bản chất xã hội của con người mà chưa nêu lên được nguồn gốc của bản chất xã hội ấy.",
+    "question_type": "multiple_choice",
+    "question": "Điều gì quy định sự khác biệt giữa con người với thế giới loài vật?",
+    "options": [
+      "Phương diện xã hội của con người",
+      "Khả năng sinh học của con người",
+      "Sự phát triển cá nhân",
+      "Sự tiến hóa tự nhiên"
+    ],
+    "answer": "A"
+  },
+  {
+    "context": "Tuy nhiên, điều cần khẳng định rằng, mặt tự nhiên không phải là yếu tố duy nhất quy định bản chất con người. Đặc trưng quy định sự khác biệt giữa con người với thế giới loài vật là phương diện xã hội của nó. Trong lịch sử đã có những quan niệm khác nhau phân biệt con người với loài vật, những quan niệm đó đều phiến diện vì chỉ nhấn mạnh một khía cạnh nào đó trong bản chất xã hội của con người mà chưa nêu lên được nguồn gốc của bản chất xã hội ấy.",
+    "question_type": "sentences",
+    "question": "Những quan niệm phân biệt con người với loài vật trong lịch sử được diễn tả như thế nào?",
+    "answer": "Đều phiến diện vì chỉ nhấn mạnh một khía cạnh nào đó trong bản chất xã hội của con người mà chưa nêu lên được nguồn gốc của bản chất xã hội ấy"
+  },
+  {
+    "context": "Triết học Mác đã kế thừa quan niệm về con người trong lịch sử triết học, đồng thời khẳng định con người hiện thực là sự thống nhất giữa yếu tố sinh học và yếu tố xã hội. Tiền đề vật chất đầu tiên quy sự tồn tại của con người là giới tự nhiên. Cũng do đó, bản tính tự nhiên của con người bao hàm trong nó tất cả bản tính sinh học, tính loài của nó. Yếu tố sinh học trong con người là điều kiện đầu tiên quy định sự tồn tại của con người. Vì vậy, có thể nói, giới tự nhiên là thân thể vô cơ của con người; con người là một bộ phận của tự nhiên, là kết quả của quá trình phát triển và tiến hoá lâu dài của môi trường tự nhiên.",
+    "question_type": "multiple_choice",
+    "question": "Giới tự nhiên là gì trong sự tồn tại của con người theo triết học Mác?",
+    "options": [
+      "Thân thể vô cơ của con người",
+      "Không liên quan đến con người",
+      "Một phần nhỏ của con người",
+      "Tồn tại độc lập với con người"
+    ],
+    "answer": "A"
+  },
+  {
     "context": "Đối lập với các nhà triết học duy vật, các nhà triết học duy tâm trong lịch sử triết học phương Tây lại chú trọng giác độ hoạt động lý tính của con người. Tiêu biểu cho giác độ tiếp cận này là quan điểm của Platôn thời Cổ đại Hy Lạp, Đêcáctơ trong nền triết học Pháp thời Cận đại và Hêghen trong nền triết học Cổ điển Đức. Do không đứng trên lập trường duy vật, các nhà triết học này đã lý giải bản chất lý tính của con người từ giác độ siêu tự nhiên. Với Platôn, đó là bản chất bất tử của linh hồn thuộc thế giới ý niệm tuyệt đối, với Đêcáctơ, đó là bản tính phi kinh nghiệm của lý tính, còn đối với Hêghen, thì đó chính là bản chất lý tính tuyệt đối...",
     "question_type": "multiple_choice",
     "question": "Các nhà triết học duy tâm trong lịch sử triết học phương Tây chú trọng giác độ nào của con người?",

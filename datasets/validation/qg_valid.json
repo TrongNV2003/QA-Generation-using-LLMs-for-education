@@ -8,7 +8,7 @@
   {
     "context": "Trong quá trình phát triển, đối tượng của triết học thay đổi theo từng giai đoạn lịch sử. Ngay từ khi mới ra đời, triết học được xem là hình thái cao nhất của tri thức, bao hàm trong nó tri thức về tất cả các lĩnh vực không có đối tượng riêng. Đây là nguyên nhân sâu xa làm nảy sinh quan niệm cho rằng, triết học là khoa học của mọi khoa học, đặc biệt là ở triết học tự nhiên của Hy Lạp cổ đại. Thời kỳ này, triết học đã đạt được nhiều thành tựu rực rỡ mà ảnh hưởng của nó còn in đậm đối với sự phát triển của tư tưởng triết học ở Tây Âu",
     "question_type": "multiple_choice",
-    "question": "Triết học được coi là hình thái cao nhất của gì ngay từ khi ra đời?",
+    "question": "Triết học được xem là hình thái cao nhất của cái gì ngay từ khi ra đời?",
     "options": ["Tri thức", "Khoa học", "Nghệ thuật", "Văn hóa"],
     "answer": "A"
   },
@@ -53,7 +53,7 @@
   {
     "context": "Kinh điển của Nho gia thường kể tới bộ Tứ thư và Ngũ kinh. Tứ thư có Trung dung, Đại học, Luận ngữ, Mạnh Tử. Ngũ kinh có: Thi, Thư, Lễ, Dịch, Xuân Thu. Hệ thống kinh điển đó hầu hết viết về xã hội, về những kinh nghiệm lịch sử Trung Hoa, ít viết về tự nhiên. Điều này cho thấy rõ xu hướng biện luận về xã hội, về chính trị đạo đức là những tư tưởng cốt lõi của Nho gia. Những người sáng lập Nho gia nói về vũ trụ và tự nhiên không nhiều.",
     "question_type": "sentences",
-    "question": "Kinh điển của Nho gia thường kể tới cái gì?",
+    "question": "Kinh điển của Nho gia thường kể tới bộ nào?",
     "answer": "Bộ Tứ thư và Ngũ kinh"
   },
   {
@@ -65,7 +65,7 @@
   {
     "context": "Mâu thuẫn bên trong có vai trò quyết định trực tiếp đối với quá trình vận động và phát triển của sự vật. Tuy nhiên, mâu thuẫn bên trong và mâu thuẫn bên ngoài không ngừng tác động qua lại lẫn nhau. Việc giải quyết mâu thuẫn bên trong không thể tách rời việc giải quyết mâu thuẫn bên ngoài; việc giải quyết mâu thuẫn bên ngoài là điều kiện để giải quyết mâu thuẫn bên trong. Thực tiễn cách mạng nước ta cũng cho thấy: việc giải quyết những mâu thuẫn trong nước ta không tách rời việc giải quyết những mâu thuẫn giữa nước ta với các nước khác.",
     "question_type": "multiple_choice",
-    "question": "Mâu thuẫn bên trong có vai trò như thế nào?",
+    "question": "Mâu thuẫn bên trong có vai trò như thế nào đối với quá trình vận động và phát triển của sự vật?",
     "options": ["Phụ thuộc vào mâu thuẫn bên ngoài", "Quyết định trực tiếp", "Không ảnh hưởng đến sự phát triển", "Chỉ tác động gián tiếp"],
     "answer": "B"
   },  
@@ -77,21 +77,32 @@
   },  
   {
     "context": "Như vậy phương pháp biện chứng thể hiện tư duy mềm dẻo, linh hoạt. Nó thừa nhận trong những trường hợp cần thiết thì bên cạnh cái hoặc là... hoặc là... còn có cả cái vừa là... vừa là... nữa; thừa nhận một chỉnh thể trong lúc vừa là nó lại vừa không phải là nó; thừa nhận cái khẳng định và cái phủ định vừa loại trừ nhau lại vừa gắn bó với nhau . Phương pháp biện chứng phản ánh hiện thực đúng như nó tồn tại. Nhờ vậy, phương pháp tư duy biện chứng trở thành công cụ hữu hiệu giúp con người nhận thức và cải tạo thế giới.",
-    "question_type": "sentences",
+    "question_type": "multiple_choice",
     "question": "Phương pháp biện chứng thể hiện điều gì về tư duy?",
-    "answer": "Tư duy mềm dẻo, linh hoạt"
+    "options": [
+      "Tư duy mềm dẻo, linh hoạt",
+      "Tư duy cứng nhắc, cố định",
+      "Tư duy đơn giản, dễ hiểu",
+      "Tư duy phức tạp, khó hiểu"
+    ],
+    "answer": "A"
   },
   {
-    "context": "Cần thấy rõ sự khác nhau tương đối giữa ý thức xã hội và ý thức cá nhân. ý thức của cá nhân đều phản ánh tồn tại xã hội với mức độ khác nhau. Do đó, nó không thể không mang tính xã hội. Song ý thức cá nhân không phải bao giờ cũng thể hiện quan điểm tư tưởng, tình cảm phổ biến của một cộng đồng, một tập đoàn xã hội, một thời đại xã hội nhất định.",
+    "context": "Cần thấy rõ sự khác nhau tương đối giữa ý thức xã hội và ý thức cá nhân. Ý thức của cá nhân đều phản ánh tồn tại xã hội với mức độ khác nhau. Do đó, nó không thể không mang tính xã hội. Song ý thức cá nhân không phải bao giờ cũng thể hiện quan điểm tư tưởng, tình cảm phổ biến của một cộng đồng, một tập đoàn xã hội, một thời đại xã hội nhất định.",
     "question_type": "multiple_choice",
-    "question": "Ý thức của cá nhân đều phản ánh tồn tại xã hội với mức độ như thế nào?",
-    "options": ["Giống nhau", "Khác nhau", "Đồng nhất", "Tương đồng"],
-    "answer": "B"
+    "question": "Ý thức của cá nhân đều phản ánh điều gì với mức độ khác nhau?",
+    "options": [
+      "Tồn tại xã hội",
+      "Ý thức tập thể",
+      "Ý thức lịch sử",
+      "Ý thức cộng đồng"
+    ],
+    "answer": "A"
   },
   {
     "context": "Cùng với sự phát triển của tư duy con người, phương pháp biện chứng đã qua ba giai đoạn phát triển, được thể hiện trong triết học với ba hình thức lịch sử của nó: phép biện chứng tự phát, phép biện chứng duy tâm và phép biện chứng duy vật.",
     "question_type": "sentences",
-    "question": "Phương pháp biện chứng đã trải qua những giai đoạn phát triển nào?",
+    "question": "Phương pháp biện chứng đã trải qua những giai đoạn nào?",
     "answer": "Phép biện chứng tự phát, phép biện chứng duy tâm và phép biện chứng duy vật"
   },
   {
@@ -104,7 +115,7 @@
     "context": "Tính tất yếu và tính phổ biến là những đặc trưng của quy luật xã hội. Tuy nhiên, tùy thuộc vào phạm vi và cấp độ của các mối quan hệ xã hội mà các quy luật thể hiện chúng cũng có mức độ tất yếu và phổ biến khác nhau.",
     "question_type": "multiple_choice",
     "question": "Tính tất yếu và tính phổ biến là đặc trưng của quy luật nào?",
-    "options": ["Tự nhiên", "Vật lý", "Xã hội", "Sinh học"],
+    "options": ["Quy luật tự nhiên", "Quy luật vật lý", "Quy luật xã hội", "Quy luật sinh học"],
     "answer": "C"
   },
   {
@@ -115,15 +126,33 @@
   },
   {
     "context": "Các nhà chỉ đạo cuộc chiến tranh giữ nước trong lịch sử dân tộc đều thấy sự cần thiết phải có một lý luận được khái quát lên từ thực tế chiến đấu. Họ tìm nguyên nhân của những thành công và thất bại. Họ đúc kết kinh nghiệm thành lý luận, họ đem hiểu biết của một người truyền bá cho nhiều người. Và sau khi thắng lợi hoàn toàn, họ đều tiến hành việc tổng kết để nhìn nhận sự việc đã qua cho rõ và để có thêm cơ sở đối phó về sau. Không phải ngẫu nhiên mà ở họ có những ý kiến trùng hợp. Hoàn cảnh khác nhau, thời điểm khác nhau, kẻ thù khác nhau, tương quan lực lượng cũng khác nhau nhưng họ lại đi đến những nhận định như nhau. Không phải là người sau bắt chước tiếng nói của người trước, mà trước hay sau đều là tiếng nói của thực tiễn, của chân lý. Những tiếng nói giống nhau ấy phải chăng là những quy luật được rút ra từ những cuộc chiến đấu trường kỳ dựng nước và giữ nước của dân tộc.",
-    "question_type": "sentences",
-    "question": "Ai đã tìm nguyên nhân của những thành công và thất bại?",
-    "answer": "Các nhà chỉ đạo cuộc chiến tranh giữ nước"
+    "question_type": "multiple_choice",
+    "question": "Sau khi thắng lợi hoàn toàn, các nhà chỉ đạo cuộc chiến tranh đã làm gì để nhìn nhận sự việc đã qua?",
+    "options": [
+      "Tiến hành việc tổng kết",
+      "Viết sách lịch sử",
+      "Kỷ niệm chiến thắng",
+      "Truyền bá kinh nghiệm"
+    ],
+    "answer": "A"
   },
   {
     "context": "Phải coi trọng sức mạnh của cộng đồng là điều đầu tiên rút ra được của các nhà tư tưởng. Cộng đồng người Việt là một thực thể xã hội hình thành trong lịch sử và được củng cố bởi những thành viên của nó ý thức được rằng họ cùng một giống nòi, cùng một lãnh thổ, cùng một sinh hoạt và cùng một vận mệnh. Cộng đồng đó sẽ yếu ớt nếu những thành viên đó không có gì để gắn bó với nhau, và ngược lại nó sẽ trở thành một sức mạnh nếu nó được cố kết với nhau, và có điều kiện để cố kết với nhau.",
     "question_type": "sentences",
-    "question": "Điều đầu tiên rút ra của các nhà tư tưởng là gì?",
+    "question": "Điều đầu tiên các nhà tư tưởng rút ra là gì?",
     "answer": "Phải coi trọng sức mạnh của cộng đồng"
+  },
+  {
+    "context": "Các nhà chỉ đạo cuộc chiến tranh lúc bấy giờ hiểu được điều đó. Họ thấy con người ta có quyền lợi thì mới có trách nhiệm, có phần của mình trong tập thể thì mới gắn bó với tập thể, có quan hệ tốt thì mới đồng lòng. Họ nhấn mạnh yếu tố đó để phát huy sức mạnh của cộng đồng. Trần Quốc Tuấn nhấn mạnh: Trên dưới một lòng, lòng dân không chia, vì Vua tôi đồng lòng, anh em hoà mục, nước nhà góp sức giặc tự bị bắt, có thu phục được quân lính một lòng như cha con thì mới dùng được. Nguyễn Trãi nói: Thết quân rượu hoà nước, dưới trên đều một dạ cha con. Tư tưởng này đến thời cận đại, được các nhà tư tưởng nêu lên là, có hợp sức, hợp quần thì mới có sức mạnh. Và đến thời kỳ hiện đại, Hồ Chí Minh nêu lên thành nguyên lý: Đoàn kết, đoàn kết đại đoàn kết - Thành công, thành công đại thành công.",
+    "question_type": "multiple_choice",
+    "question": "Trần Quốc Tuấn nhấn mạnh điều gì để phát huy sức mạnh của cộng đồng?",
+    "options": [
+      "Trên dưới một lòng, lòng dân không chia",
+      "Quyền lợi và trách nhiệm cá nhân",
+      "Tập trung vào quyền lực",
+      "Phát triển kinh tế"
+    ],
+    "answer": "A"
   },
   {
     "context": "Các nhà chỉ đạo cuộc chiến tranh lúc bấy giờ hiểu được điều đó. Họ thấy con người ta có quyền lợi thì mới có trách nhiệm, có phần của mình trong tập thể thì mới gắn bó với tập thể, có quan hệ tốt thì mới đồng lòng. Họ nhấn mạnh yếu tố đó để phát huy sức mạnh của cộng đồng. Trần Quốc Tuấn yêu cầu: Trên dưới một lòng, lòng dân không chia, vì Vua tôi đồng lòng, anh em hoà mục, nước nhà góp sức giặc tự bị bắt, có thu phục được quân lính một lòng như cha con thì mới dùng được. Nguyễn Trãi nói: Thết quân rượu hoà nước, dưới trên đều một dạ cha con. Tư tưởng này đến thời cận đại, được các nhà tư tưởng nêu lên là, có hợp sức, hợp quần thì mới có sức mạnh. Và đến thời kỳ hiện đại, Hồ Chí Minh nêu lên thành nguyên lý: Đoàn kết, đoàn kết đại đoàn kết - Thành công, thành công đại thành công.",
@@ -141,21 +170,33 @@
   {
     "context": "Việc phân chia mâu thuẫn thành mâu thuẫn bên trong và mâu thuẫn bên ngoài chỉ là tương đối, tùy theo phạm vi xem xét. Thí dụ: Trong phạm vi nước ta, mâu thuẫn trong nội bộ nền kinh tế quốc dân là mâu thuẫn bên trong; còn mâu thuẫn về kinh tế giữa nước ta với các nước ASEAN là mâu thuẫn bên ngoài. Nếu trong phạm vi ASEAN thì mâu thuẫn giữa các nước trong khối lại là mâu thuẫn bên trong. Vì vậy, để xác định một mâu thuẫn nào đó là mâu thuẫn bên trong hay mâu thuẫn bên ngoài trước hết phải xác định phạm vi sự vật được xem xét.",
     "question_type": "multiple_choice",
-    "question": "Mâu thuẫn về kinh tế giữa nước ta với các nước nào là mâu thuẫn bên ngoài?",
+    "question": "Mâu thuẫn về kinh tế giữa nước ta với các nước nào được coi mâu thuẫn bên ngoài?",
     "options": ["ASEAN", "Châu Âu", "Mỹ", "Châu Phi"],
     "answer": "A"
   },
   {
     "context": "Đề cao sức mạnh của cộng đồng, các nhà tư tưởng đã làm một việc phù hợp với yêu cầu giải quyết mâu thuẫn giữa nhân dân ta và bọn xâm lược là mâu thuẫn chủ yếu lúc bấy giờ. Phía ta có giải quyết được mâu thuẫn nội bộ, có đoàn kết một lòng, có trở thành một sức mạnh hùng hậu thì mới có điều kiện chuyển hóa được các mặt đối lập của mâu thuẫn địch ta, mới có thể biến kẻ địch từ mạnh sang yếu và ta từ yếu sang mạnh, mới tiêu diệt được kẻ thù. Đó là ý thức tập thể trong điều kiện lúc bấy giờ.",
-    "question_type": "sentences",
+    "question_type": "multiple_choice",
     "question": "Các nhà tư tưởng đã làm gì để giải quyết mâu thuẫn giữa nhân dân ta và bọn xâm lược?",
-    "answer": "Đề cao sức mạnh của cộng đồng"
+    "options": [
+      "Đề cao sức mạnh của cộng đồng",
+      "Tăng cường quân sự",
+      "Đàm phán hòa bình",
+      "Phát triển kinh tế"
+    ],
+    "answer": "A"
   },
   {
     "context": "Phải coi trọng vai trò của nhân dân là một tư tưởng lớn trong ý thức dân tộc ở các nhà tư tưởng. Xoay quanh vấn đề dân này, đã từng có những quan niệm tiêu cực. Khổng Tử cho dân là người để sai khiến. Mạnh Tử cho dân là người bị người trị và phải nuôi người. Dĩ nhiên ngay trong hàng ngũ kháng chiến của dân tộc cũng có người miệt thị dân, như Trần Khánh Dư là một tướng lĩnh đời Trần nói: Tướng là chim ưng, quân dân là con vịt, đem con vịt mà nuôi chim ưng thì có gì là lạ. Thượng Hoàng Trần Minh Tông thì dứt khoát không thừa nhận vị trí đáng có của dân nên đã nói: Bọn gia nô dù có chút công cũng không được dự vào quan tước của triều đình.",
-    "question_type": "sentences",
+    "question_type": "multiple_choice",
     "question": "Tư tưởng lớn trong ý thức dân tộc ở các nhà tư tưởng là gì?",
-    "answer": "Phải coi trọng vai trò của nhân dân"
+    "options": [
+      "Phải coi trọng vai trò của nhân dân",
+      "Phải phát triển kinh tế",
+      "Phải tăng cường quân sự",
+      "Phải đề cao giáo dục"
+    ],
+    "answer": "A"
   },
   {
     "context": "Pốppơ phủ định phép quy nạp, nhấn mạnh rằng khoa học bắt đầu từ vấn đề chứ không phải bắt nguồn từ việc quan sát, thực nghiệm. Ông nhận định rằng, phương pháp khoa học không phải là chứng thực trực tiếp mà là chứng thực bằng sự giả hóa, tức là phê phán sai lầm của nó. Ông đưa ra nguyên tắc giả hóa của lý luận khoa học để bác bỏ nguyên tắc về tính có thể chứng thực trực tiếp được của chủ nghĩa thực chứng lôgíc. Theo ông thì sự phát triển của khoa học bắt đầu từ vấn đề mà đề ra giả thuyết có tính quy ước, tiếp đó dùng thực nghiệm để kiểm nghiệm, cố gắng chứng thực nó bằng sự giả hóa, sau đó lại xuất hiện vấn đề mới. Như vậy khoa học phát triển theo phương thức cách mạng không ngừng.",
@@ -166,9 +207,15 @@
   },
   {
     "context": "Cun dùng thuyết các giai đoạn phát triển của khoa học để thay thế cho thuyết cách mạng không ngừng của sự tăng trưởng tri thức khoa học. Ông chia sự phát triển khoa học thành hai thời kỳ, thời kỳ phát triển bình thường và thời kỳ cách mạng. Theo ông, ngay trong thời kỳ phát triển bình thường của khoa học đã xuất hiện những hiện tượng trái với bình thường. Việc tích luỹ các hiện tượng trái với bình thường, đến một chừng mực nào đó sẽ dẫn đến sự khủng hoảng trong khoa học, do đó tạo ra cuộc cách mạng khoa học.",
-    "question_type": "sentences",
+    "question_type": "multiple_choice",
     "question": "Cun dùng thuyết nào của khoa học để thay thế cho thuyết cách mạng không ngừng của sự tăng trưởng tri thức khoa học?",
-    "answer": "Thuyết các giai đoạn phát triển"
+    "options": [
+      "Thuyết các giai đoạn phát triển",
+      "Thuyết cách mạng khoa học",
+      "Thuyết tích luỹ tri thức",
+      "Thuyết khủng hoảng khoa học"
+    ],
+    "answer": "A"
   },
   {
     "context": "Chúng ta đều biết, trong xã hội tư sản hiện đại, một mặt đang tồn tại cuộc khủng hoảng xã hội trầm trọng, nhưng mặt khác, khoa học tự nhiên lại có sự tiến bộ to lớn. Đứng trước mâu thuẫn đó, một số nhà triết học cảm thấy bó tay không có cách gì giải quyết. Về mặt lý luận, họ chán ghét loại triết học thuần túy tư biện, cho rằng loại triết học này căn bản không thể góp phần giải quyết những vấn đề xã hội đặt ra. Trong khi đó, sự phát triển mạnh mẽ của khoa học tự nhiên lại đưa đến cho họ niềm hy vọng và chỗ dựa tinh thần mới. Vì vậy, họ chuyển hướng nghiên cứu triết học từ phương diện thế giới quan sang phương diện phương pháp luận của khoa học. Một loạt trường phái và phong trào được gọi là chủ nghĩa duy khoa học đã ra đời trong hoàn cảnh đó.",
@@ -191,10 +238,17 @@
   },
   {
     "context": "Chủ nghĩa duy khoa học đã có công đi sâu nghiên cứu và tiếp thu nhiều thành quả trong toán học và trong các khoa học tự nhiên hiện đại, nêu ra nhiều vấn đề mới cho triết học, mở ra nhiều hướng mới cho sự phát triển triết học duy vật và phép biện chứng. Trong đó, có thể nói những nhân tố tích cực, triết học Mác có thể tiếp thu và sử dụng. Tất nhiên, trào lưu triết học này có một mâu thuẫn, do đó cũng là sai lầm không thể khắc phục được: do muốn phá vỡ một số công thức của triết học truyền thống, nên đã cực đoan phủ nhận ý nghĩa thế giới quan của triết học, tức là phủ nhận bản thân triết học. Mặc dù những nhà triết học sau Pốppơ và Cun đã chú ý đến ý nghĩa thế giới quan của triết học đối với khoa học, nhưng do thiếu quan điểm duy vật lịch sử nên họ không có cách nào thoát khỏi tính hạn chế đó. Vì vậy chủ nghĩa duy khoa học không thể mở ra một con đường mới thực sự đúng đắn cho sự phát triển của triết học.",
-    "question_type": "sentences",
+    "question_type": "multiple_choice",
     "question": "Tại sao những nhà triết học không thể thoát khỏi tính hạn chế của chủ nghĩa duy khoa học?",
-    "answer": "Do thiếu quan điểm duy vật lịch sử"
-  },
+    "options": [
+      "Do thiếu quan điểm duy vật lịch sử",
+      "Do thiếu quan điểm khoa học",
+      "Do thiếu quan điểm duy tâm",
+      "Do thiếu quan điểm triết học truyền thống"
+    ],
+    "answer": "A"
+  }
+,  
   {
     "context": "Chủ nghĩa hiện sinh là một trường phái triết học rất phức tạp. Quan điểm của những đại biểu của triết học này thường có sự khác nhau rất lớn. Ngoài sự phân biệt về quốc gia như chủ nghĩa hiện sinh của Đức, chủ nghĩa hiện sinh của Pháp và chủ nghĩa hiện sinh của Mỹ, còn có thể phân biệt chủ nghĩa hiện sinh theo thái độ đối với tôn giáo như chủ nghĩa hiện sinh vô thần và chủ nghĩa hiện sinh hữu thần. Trên những vấn đề chính trị to lớn, giữa những nhà triết học hiện sinh cũng có những khác biệt lớn. Nhưng tất cả những người theo chủ nghĩa hiện sinh đều coi sự hiện sinh của cá nhân là nội dung cơ bản trong triết học của mình.",
     "question_type": "sentences",
@@ -260,9 +314,15 @@
   },
   {
     "context": "Phương pháp siêu hình bắt nguồn từ chỗ muốn nhận thức một đối tượng nào trước hết con người cũng phải tách đối tượng ấy ra khỏi những mối liên hệ và nhận thức nó ở trạng thái không biến đổi trong một không gian và thời gian xác định. Song phương pháp siêu hình chỉ có tác dụng trong một phạm vi nhất định bởi hiện thực không rời rạc và ngưng đọng như phương pháp này quan niệm.",
-    "question_type": "sentences",
+    "question_type": "multiple_choice",
     "question": "Phạm vi tác dụng của phương pháp siêu hình như thế nào?",
-    "answer": "Chỉ có tác dụng trong một phạm vi nhất định"
+    "options": [
+      "Chỉ có tác dụng trong một phạm vi nhất định",
+      "Có tác dụng trong mọi phạm vi lớn",
+      "Không có tác dụng",
+      "Có tác dụng trong phạm vi nhỏ"
+    ],
+    "answer": "A"
   },
   {
     "context": "Phương pháp biện chứng là phương pháp: Nhận thức đối tượng ở trong các mối liên hệ với nhau, ảnh hưởng nhau, ràng buộc nhau. Nhận thức đối tượng ở trạng thái vận động biến đổi, nằm trong khuynh hướng chung là phát triển. Đây là quá trình thay đổi về chất của các sự vật, hiện tượng mà nguồn gốc của sự thay đổi ấy là đấu tranh của các mặt đối lập để giải quyết mâu thuẫn nội tại của chúng.",
