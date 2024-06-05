@@ -19,7 +19,7 @@ def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser()
     parser.add_argument("--dataloader_workers", type=int, default=2)
     parser.add_argument("--device", type=str, default="cuda")
-    parser.add_argument("--epochs", type=int, default=5)
+    parser.add_argument("--epochs", type=int, default=7)
     parser.add_argument("--learning_rates", nargs="+", type=float, default=[2e-5, 1e-5])
     parser.add_argument("--max_length", type=int, default=512)
     parser.add_argument("--pad_mask_id", type=int, default=-100)
@@ -31,7 +31,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--log_file", type=str, default="result/qg_training_mcq_log.csv")
     parser.add_argument("--train_file", type=str, default="datasets/train/qg_train.json")
     parser.add_argument("--valid_file", type=str, default="datasets/validation/qg_valid.json")
-    parser.add_argument("--seed", type=int, default=369, help="Random seed for reproducibility")
+    parser.add_argument("--seed", type=int, default=42)
     return parser.parse_args()
 
 def get_tokenizer(checkpoint: str) -> T5Tokenizer:

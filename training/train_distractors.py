@@ -31,7 +31,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--log_file", type=str, default="result/train_distractor_log.csv")
     parser.add_argument("--train_file", type=str, default="datasets/train/qg_train.json")
     parser.add_argument("--valid_file", type=str, default="datasets/validation/qg_valid.json")
-    parser.add_argument("--seed", type=int, default=369, help="Random seed for reproducibility")
+    parser.add_argument("--seed", type=int, default=42)
     return parser.parse_args()
 
 

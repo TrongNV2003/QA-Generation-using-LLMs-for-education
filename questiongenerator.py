@@ -139,8 +139,7 @@ class QuestionAnswerGenerator:
                 input_ids=encoded_input["input_ids"], 
                 max_new_tokens=128,
                 num_beams=5,
-                # no_repeat_ngram_size=2,
-                # num_return_sequences=1,
+                no_repeat_ngram_size=2,
                 do_sample=True
             )
             for output in outputs:
@@ -149,7 +148,7 @@ class QuestionAnswerGenerator:
                 correct_answer = correct_answer.replace("Answer: ", "").replace("Question: ", "").strip()
                 question_answer_split = correct_answer.split(self.qg_tokenizer.sep_token)
                 if len(question_answer_split) == 2:
-                    # valid Question + Answer output
+
                     question, answer = question_answer_split[0].strip(), question_answer_split[1].strip()
                     inputs.append(qg_input)
                     questions.append(question)
@@ -182,8 +181,6 @@ class QuestionAnswerGenerator:
                         distractor = distractor.replace("Incorrect: ", "").strip()
                         if distractor.lower() != correct_answer.lower() and distractor not in distractors:
                             distractors.add(distractor)
-                        if len(distractors) >= 3:
-                            break
 
         return list(distractors)
 
@@ -211,7 +208,6 @@ class QuestionAnswerGenerator:
                     "answer": {
                         "options": options,
                         "correct": answer,
-                        "context": context
                     }
                 })
         else:

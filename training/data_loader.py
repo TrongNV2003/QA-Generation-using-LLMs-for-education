@@ -35,7 +35,7 @@ class QGDataset(torch.utils.data.Dataset):
         answer = item["answer"]
         
         target_text = f"{question} {self.separator} {answer}"
-        input_ids, attention_mask = self._encode_text(f"Essay: {context}")
+        input_ids, attention_mask = self._encode_text(f"{context}")
 
         labels, _ = self._encode_text(target_text)
         masked_labels = self._mask_label_padding(labels)
@@ -96,7 +96,7 @@ class MCQ_QGDataset(torch.utils.data.Dataset):
         answer = options[self.label_mapping[label_answer]]
             
         target_text = f"{question} {self.separator} {answer}"
-        input_ids, attention_mask = self._encode_text(f"Multiple choice: {context}")
+        input_ids, attention_mask = self._encode_text(f"{context}")
 
         labels, _ = self._encode_text(target_text)
         masked_labels = self._mask_label_padding(labels)
@@ -167,7 +167,7 @@ class DistractorDataset(torch.utils.data.Dataset):
         distractors = [options[i] for i in distractor_ids]
         
         input_text = f"{question} {self.separator} {answer} {self.separator} {context}"
-        target_text = f"Incorrect: {distractors[0]}"
+        target_text = f"{distractors[0]}"
 
         input_ids, attention_mask = self._encode_text(input_text)
         labels, _ = self._encode_text(target_text)
