@@ -498,6 +498,156 @@
     "question_type": "sentences",
     "question": "Điều kiện tiên quyết để khắc phục tôn giáo theo chủ nghĩa Mác - Lênin là gì?",
     "answer": "Phải xoá bỏ nguồn gốc xã hội của nó"
+  },
+  {
+    "context": "Hồ Chí Minh là một nhà lý luận - thực tiễn. Người xây dựng lý luận, vạch cương lĩnh, đường lối, chủ trương cách mạng và trực tiếp tổ chức, lãnh đạo thực hiện. Và từ thực tiễn Người tổng kết, bổ sung để hoàn chỉnh và phát triển, cho nên tư tưởng cách mạng Hồ Chí Minh luôn luôn sáng tạo, không lạc hậu, giáo điều. Nghiên cứu tư tưởng Hồ Chí Minh không chỉ căn cứ vào các tác phẩm, bài viết mà cần coi trọng hoạt động thực tiễn của Người, thực tiễn cách mạng dưới sự tổ chức và lãnh đạo của Đảng do Người đứng đầu. Hơn nữa, Hồ Chí Minh có một phong cách nói và viết rất ngắn gọn không theo lối viết kiểu hàn lâm. Vì vậy, chỉ căn cứ vào bài viết, bài nói, tác phẩm của Người là chưa đầy đủ.",
+    "question_type": "sentences",
+    "question": "Hồ Chí Minh đã làm gì để tư tưởng cách mạng luôn sáng tạo?",
+    "answer": "Từ thực tiễn Người tổng kết, bổ sung để hoàn chỉnh và phát triển"
+  },
+  {
+    "context": "Hồ Chí Minh là một nhà lý luận - thực tiễn. Người xây dựng lý luận, vạch cương lĩnh, đường lối, chủ trương cách mạng và trực tiếp tổ chức, lãnh đạo thực hiện. Và từ thực tiễn Người tổng kết, bổ sung để hoàn chỉnh và phát triển, cho nên tư tưởng cách mạng Hồ Chí Minh luôn luôn sáng tạo, không lạc hậu, giáo điều. Nghiên cứu tư tưởng Hồ Chí Minh cần căn cứ vào các tác phẩm, bài viết và coi trọng hoạt động thực tiễn của Người, thực tiễn cách mạng dưới sự tổ chức và lãnh đạo của Đảng do Người đứng đầu. Hơn nữa, Hồ Chí Minh có một phong cách nói và viết rất ngắn gọn không theo lối viết kiểu hàn lâm. Vì vậy, chỉ căn cứ vào bài viết, bài nói, tác phẩm của Người là chưa đầy đủ.",
+    "question_type": "sentences",
+    "question": "Nghiên cứu tư tưởng Hồ Chí Minh cần căn cứ vào những gì?",
+    "answer": "Các tác phẩm, bài viết và coi trọng hoạt động thực tiễn của Người"
+  },
+  {
+    "context": "Hành động thực tiễn, chủ nghĩa anh hùng cách mạng trong chiến đấu và dựng xây của nhân dân Việt Nam theo tư tưởng Hồ Chí Minh cũng chính là lời giải thích rõ ràng giá trị khoa học của tư tưởng Hồ Chí Minh. Chân lý là cụ thể, cách mạng là sáng tạo. Sự sáng tạo cách mạng của Hồ Chí Minh trước hết là sự sáng tạo về tư duy lý luận, về chiến lược, về đường lối cách mạng. Điều đó giữ vai trò quyết định hàng đầu dẫn đến thắng lợi cách mạng. Tư tưởng lý luận cách mạng Hồ Chí Minh đã góp phần phát triển phong phú thêm lý luận cách mạng của thời đại, trước hết là về cách mạng thuộc địa. Tư tưởng Hồ Chí Minh đã tỏa sáng vượt ra ngoài biên giới Việt Nam, đến với những người nô lệ ở các nước phương Đông và người lao động làm thuê ở phương Tây.",
+    "question_type": "multiple_choice",
+    "question": "Sự sáng tạo cách mạng của Hồ Chí Minh trước hết là gì?",
+    "options": ["Sáng tạo về tư duy lý luận", "Sáng tạo về nghệ thuật", "Sáng tạo về văn học", "Sáng tạo về khoa học"],
+    "answer": "A"
+  },
+  {
+    "context": "Hành động thực tiễn, chủ nghĩa anh hùng cách mạng trong chiến đấu và dựng xây của nhân dân Việt Nam theo tư tưởng Hồ Chí Minh cũng chính là lời giải thích rõ ràng giá trị khoa học của tư tưởng Hồ Chí Minh. Chân lý là cụ thể, cách mạng là sáng tạo. Sự sáng tạo cách mạng của Hồ Chí Minh trước hết là sự sáng tạo về tư duy lý luận, về chiến lược, về đường lối cách mạng. Điều đó giữ vai trò quyết định hàng đầu dẫn đến thắng lợi cách mạng. Tư tưởng lý luận cách mạng Hồ Chí Minh đã góp phần phát triển phong phú thêm lý luận cách mạng của thời đại, trước hết là về cách mạng thuộc địa. Tư tưởng Hồ Chí Minh đã tỏa sáng vượt ra ngoài biên giới Việt Nam, đến với những người nô lệ ở các nước phương Đông và người lao động làm thuê ở phương Tây.",
+    "question_type": "multiple_choice",
+    "question": "Tư tưởng Hồ Chí Minh đã tỏa sáng đến đâu?",
+    "options": ["Chỉ ở Việt Nam", "Các nước phương Đông", "Các nước phương Tây", "Vượt ra ngoài biên giới Việt Nam"],
+    "answer": "D"
+  },
+  {
+    "context": "Tư tưởng Hồ Chí Minh soi đường cho Đảng và nhân dân Việt Nam trên con đường xây dựng đất nước vì mục tiêu: dân giàu, nước mạnh, xã hội công bằng, dân chủ, văn minh. Vì vậy, phải nghiêm túc học tập tư tưởng Hồ Chí Minh để nâng cao tư duy lý luận, rèn luyện bản lĩnh chính trị, nâng cao đạo đức cách mạng, năng lực công tác, thực hiện tốt các nhiệm vụ cách mạng trọng đại của Đảng, của Nhà nước ta trên con đường quá độ lên chủ nghĩa xã hội.",
+    "question_type": "sentences",
+    "question": "Mục tiêu của tư tưởng Hồ Chí Minh trên con đường xây dựng đất nước là gì?",
+    "answer": "Dân giàu, nước mạnh, xã hội công bằng, dân chủ, văn minh"
+  },
+  {
+    "context": "Đối với thế hệ trẻ nói chung, với học sinh, sinh viên trong các trường cao đẳng và đại học nói riêng, cần đặc biệt coi trọng giáo dục chính trị, giáo dục tư tưởng Hồ Chí Minh nhằm nâng cao lý luận, phương pháp tư duy biện chứng, góp phần đào tạo sinh viên thành những chiến sĩ đi tiên phong trong công cuộc bảo vệ và xây dựng đất nước Việt Nam đàng hoàng hơn và to đẹp hơn như Di chúc của Người để lại: 'Đoàn viên và thanh niên ta nói chung là tốt, mọi việc đều hăng hái xung phong, không ngại khó khăn, có chí tiến thủ. Đảng cần phải chăm lo giáo dục đạo đức cách mạng cho họ, đào tạo họ thành những người thừa kế xây dựng chủ nghĩa xã hội vừa 'hồng' vừa 'chuyên'.",
+    "question_type": "multiple_choice",
+    "question": "Tại sao cần đặc biệt coi trọng giáo dục chính trị, giáo dục tư tưởng Hồ Chí Minh cho thế hệ trẻ?",
+    "options": ["Nhằm nâng cao lý luận, phương pháp tư duy biện chứng", "Nhằm nâng cao thể chất", "Nhằm nâng cao kiến thức kỹ thuật", "Nhằm nâng cao trình độ ngoại ngữ"],
+    "answer": "A"
+  },
+  {
+    "context": "Cùng với chủ nghĩa duy vật biện chứng, chúng ta cần vận dụng chủ nghĩa duy vật lịch sử vào việc nghiên cứu, học tập tư tưởng Hồ Chí Minh. Trong nghiên cứu khoa học, theo V.I.Lênin, chúng ta không được quên mối liên hệ lịch sử căn bản, nghĩa là phải xem xét một hiện tượng nhất định đã xuất hiện trong lịch sử như thế nào, hiện tượng đó đã trải qua những giai đoạn phát triển chủ yếu nào và đứng trên quan điểm của sự phát triển đó để xem xét hiện nay nó đã trở thành như thế nào? Nắm vững quan điểm này giúp chúng ta hiểu được tư tưởng Hồ Chí Minh mang đậm dấu ấn của quá trình phát triển lịch sử, quá trình phát triển sáng tạo, đổi mới.",
+    "question_type": "multiple_choice",
+    "question": "Việc nắm vững quan điểm của V.I.Lênin giúp chúng ta hiểu được điều gì về tư tưởng Hồ Chí Minh?",
+    "options": ["Mang tính đậm dấu ấn cố định", "Mang đậm dấu ấn của quá trình phát triển lịch sử", "Không thay đổi theo thời gian", "Không chịu ảnh hưởng của lịch sử"],
+    "answer": "B"
+  },
+  {
+    "context": "Trong giai đoạn đế quốc chủ nghĩa, cách mạng giải phóng dân tộc trở thành một bộ phận của cách mạng vô sản thế giới, V.I.Lênin có cơ sở thực tiễn để phát triển vấn đề dân tộc thuộc địa thành một hệ thống lý luận. Tuy cả C. Mác, Ph. Ăngghen và V.I.Lênin đã nêu lên những quan điểm cơ bản về mối quan hệ biện chứng giữa vấn đề dân tộc và vấn đề giai cấp, tạo cơ sở lý luận và phương pháp luận cho việc xác định chiến lược, sách lược của các Đảng Cộng sản về vấn đề dân tộc và thuộc địa, nhưng từ thực tiễn cách mạng vô sản ở châu Âu, các ông vẫn tập trung nhiều hơn vào vấn đề giai cấp. Điều kiện những năm đầu thế kỷ XX trở đi đặt ra yêu cầu cần vận dụng và phát triển sáng tạo lý luận Mác - Lênin cho phù hợp với thực tiễn ở các nước thuộc địa; chính Hồ Chí Minh là người đã đáp ứng yêu cầu đó.",
+    "question_type": "multiple_choice",
+    "question": "Trong giai đoạn đế quốc chủ nghĩa, cách mạng giải phóng dân tộc trở thành một bộ phận của cách mạng nào?",
+    "options": ["Cách mạng tư sản thế giới", "Cách mạng vô sản thế giới", "Cách mạng công nghiệp", "Cách mạng dân tộc"],
+    "answer": "B"
+  },
+  {
+    "context": "Trong giai đoạn đế quốc chủ nghĩa, cách mạng giải phóng dân tộc trở thành một bộ phận của cách mạng vô sản thế giới, V.I. Lênin có cơ sở thực tiễn để phát triển vấn đề dân tộc thuộc địa thành một hệ thống lý luận. Tuy cả C. Mác, Ph. Ăngghen và V.I. Lênin đã nêu lên những quan điểm cơ bản về mối quan hệ biện chứng giữa vấn đề dân tộc và vấn đề giai cấp, tạo cơ sở lý luận và phương pháp luận cho việc xác định chiến lược, sách lược của các Đảng Cộng sản về vấn đề dân tộc và thuộc địa, nhưng từ thực tiễn cách mạng vô sản ở châu Âu, các ông vẫn tập trung nhiều hơn vào vấn đề giai cấp. Những năm đầu thế kỷ XX, Hồ Chí Minh là người đã đáp ứng yêu cầu phát triển sáng tạo lý luận Mác - Lênin cho phù hợp với thực tiễn ở các nước thuộc địa; chính Hồ Chí Minh là người đã đáp ứng yêu cầu đó.",
+    "question_type": "multiple_choice",
+    "question": "Ai là người đã đáp ứng yêu cầu phát triển sáng tạo lý luận Mác - Lênin cho phù hợp với thực tiễn ở các nước thuộc địa?",
+    "options": ["V.I.Lênin", "C.Mác", "Ph.Ăngghen", "Hồ Chí Minh"],
+    "answer": "D"
+  },
+  {
+    "context": "Độc lập, tự do là khát vọng lớn nhất của các dân tộc thuộc địa. Hồ Chí Minh nói: 'Tự do cho đồng bào tôi, độc lập cho Tổ quốc tôi, đấy là tất cả những điều tôi muốn; đấy là tất cả những điều tôi hiểu'. Trong quá trình tìm đường cứu nước, Hồ Chí Minh đã tìm hiểu và tiếp nhận những nhân tố về quyền con người trong Tuyên ngôn độc lập năm 1776 của Mỹ, Tuyên ngôn nhân quyền và dân quyền năm 1791 của cách mạng Pháp. Từ đó, Hồ Chí Minh đã khái quát và nâng lên thành quyền của các dân tộc: 'Tất cả các dân tộc trên thế giới đều sinh ra bình đẳng, dân tộc nào cũng có quyền sống, quyền sung sướng và quyền tự do'.",
+    "question_type": "sentences",
+    "question": "Hồ Chí Minh đã khái quát và nâng lên thành những quyền gì của các dân tộc?",
+    "answer": "Quyền sống, quyền sung sướng và quyền tự do"
+  },
+  {
+    "context": "Độc lập, tự do là khát vọng lớn nhất của các dân tộc thuộc địa. Hồ Chí Minh nói: 'Tự do cho đồng bào tôi, độc lập cho Tổ quốc tôi, đấy là tất cả những điều tôi muốn; đấy là tất cả những điều tôi hiểu'. Trong quá trình tìm đường cứu nước, Hồ Chí Minh đã tìm hiểu và tiếp nhận những nhân tố về quyền con người trong Tuyên ngôn độc lập năm 1776 của Mỹ, Tuyên ngôn nhân quyền và dân quyền năm 1791 của cách mạng Pháp. Từ đó, Người đã khái quát và nâng lên thành quyền của các dân tộc: 'Tất cả các dân tộc trên thế giới đều sinh ra bình đẳng, dân tộc nào cũng có quyền sống, quyền sung sướng và quyền tự do'.",
+    "question_type": "sentences",
+    "question": "Hồ Chí Minh đã tìm hiểu và tiếp nhận những nhân tố về quyền con người từ đâu?",
+    "answer": "Trong tuyên ngôn độc lập năm 1776 của Mỹ, Tuyên ngôn nhân quyền và dân quyền năm 1791 của cách mạng Pháp"
+  },
+  {
+    "context": "Năm 1919, vận dụng nguyên tắc dân tộc tự quyết thiêng liêng đã được các nước đồng minh thắng trận trong Chiến tranh thế giới thứ nhất thừa nhận, thay mặt những người Việt Nam yêu nước, Người gửi tới Hội nghị Vécxây (Pháp) bản Yêu sách gồm tám điểm, đòi các quyền tự do, dân chủ cho nhân dân Việt Nam. Bản Yêu sách chưa đề cập vấn đề độc lập hay tự trị, mà tập trung vào hai nội dung cơ bản: Một là, đòi quyền bình đẳng về chế độ pháp lý cho người bản xứ Đông Dương như đối với người châu Âu. Cụ thể là, phải xóa bỏ các tòa án đặc biệt dùng làm công cụ khủng bố, đàn áp bộ phận trung thực nhất trong nhân dân (tức những người yêu nước); phải xóa bỏ chế độ cai trị bằng sắc lệnh và thay thế bằng chế độ ra các đạo luật. Hai là, đòi các quyền tự do dân chủ tối thiểu cho nhân dân, đó là các quyền tự do ngôn luận, tự do báo chí, tự do lập hội, tự do hội họp, tự do cư trú.",
+    "question_type": "multiple_choice",
+    "question": "Bản Yêu sách gồm tám điểm, đòi hỏi điều gì cho nhân dân Việt Nam?",
+    "options": ["Các quyền tự do, dân chủ", "Độc lập, tự trị", "Quyền tự quyết", "Quyền lập hiến"],
+    "answer": "A"
+  },
+  {
+    "context": "Tháng 5-1941, Hồ Chí Minh chủ trì Hội nghị lần thứ tám Ban Chấp hành Trung ương Đảng nêu cao vấn đề giải phóng dân tộc. Tháng 6-1941, Người viết thư Kính cáo đồng bào, chỉ rõ: 'Trong lúc này quyền lợi dân tộc giải phóng cao hơn hết thảy'. Người chỉ đạo thành lập Việt Nam độc lập đồng minh (Việt Minh), ra báo Việt Nam độc lập, ban bố Mười chính sách của Việt Minh, trong đó mục tiêu đầu tiên là: 'Cờ treo độc lập, nền xây bình quyền'.",
+    "question_type": "multiple_choice",
+    "question": "Trong thư Kính cáo đồng bào, Hồ Chí Minh chỉ rõ điều gì cao hơn hết thảy?",
+    "options": ["Quyền lợi dân tộc giải phóng", "Quyền lợi kinh tế", "Quyền lợi chính trị", "Quyền lợi giáo dục"],
+    "answer": "A"
+  },
+  {
+    "context": "Tháng 5-1941, Hồ Chí Minh chủ trì Hội nghị lần thứ tám Ban Chấp hành Trung ương Đảng nêu cao vấn đề giải phóng dân tộc. Tháng 6-1941, Người viết thư Kính cáo đồng bào, chỉ rõ: 'Trong lúc này quyền lợi dân tộc giải phóng cao hơn hết thảy'. Người chỉ đạo thành lập Việt Nam độc lập đồng minh (Việt Minh), ra báo Việt Nam độc lập, ban bố Mười chính sách của Việt Minh, trong đó mục tiêu đầu tiên là: 'Cờ treo độc lập, nền xây bình quyền'.",
+    "question_type": "multiple_choice",
+    "question": "Mục tiêu đầu tiên trong Mười chính sách của Việt Minh là gì?",
+    "options": ["Cờ treo độc lập, nền xây bình quyền", "Xây dựng kinh tế", "Cải thiện giáo dục", "Phát triển y tế"],
+    "answer": "A"
+  },
+  {
+    "context": "Cách mạng Tháng Tám thành công, Hồ Chí Minh thay mặt Chính phủ lâm thời đọc Tuyên ngôn độc lập, long trọng khẳng định trước toàn thế giới: 'Nước Việt Nam có quyền hưởng tự do và độc lập, và sự thật đã thành một nước tự do độc lập. Toàn thể dân tộc Việt Nam quyết đem tất cả tinh thần và lực lượng, tính mạng và của cải để giữ vững quyền tự do, độc lập ấy'.",
+    "question_type": "sentences",
+    "question": "Sau Cách mạng Tháng Tám thành công, Hồ Chí Minh khẳng định điều gì trước toàn thế giới?",
+    "answer": "Nước Việt Nam có quyền hưởng tự do và độc lập, và sự thật đã thành một nước tự do độc lập."
+  },
+  {
+    "context": "Trong các thư và điện văn gửi tới Liên hợp quốc và Chính phủ các nước vào thời gian sau Cách mạng Tháng Tám, Hồ Chí Minh trịnh trọng tuyên bố: Nhân dân Việt Nam thành thật mong muốn hòa bình. Nhưng nhân dân chúng tôi cũng kiên quyết chiến đấu đến cùng để bảo vệ những quyền thiêng liêng nhất: toàn vẹn lãnh thổ cho Tổ quốc và độc lập cho đất nước. Kháng chiến toàn quốc bùng nổ thể hiện quyết tâm bảo vệ độc lập và chủ quyền dân tộc, Người ra lời kêu gọi vang dội núi sông: Không! Chúng ta thà hy sinh tất cả, chứ nhất định không chịu mất nước, nhất định không chịu làm nô lệ. Khi đế quốc Mỹ mở rộng chiến tranh leo thang ra miền Bắc, Hồ Chí Minh nêu một chân lý có giá trị cho mọi thời đại: Không có gì quý hơn độc lập, tự do. Không có gì quý hơn độc lập, tự do là mục tiêu chiến đấu, là nguồn sức mạnh làm nên chiến thắng của dân tộc Việt Nam, đồng thời cũng là nguồn động viên lớn đối với các dân tộc bị áp bức trên toàn thế giới. Vì vậy, Người không chỉ được tôn vinh là Anh hùng giải phóng dân tộc của Việt Nam mà còn được thừa nhận là Người khởi xướng cuộc đấu tranh giải phóng của các dân tộc thuộc địa trong thế kỷ XX.",
+    "question_type": "multiple_choice",
+    "question": "Hồ Chí Minh trịnh trọng tuyên bố nhân dân Việt Nam mong muốn điều gì sau Cách mạng Tháng Tám?",
+    "options": ["Chiến tranh", "Hòa bình", "Sự áp bức", "Sự chiếm đóng"],
+    "answer": "B"
+  },
+  {
+    "context": "Trong các thư và điện văn gửi tới Liên hợp quốc và Chính phủ các nước vào thời gian sau Cách mạng Tháng Tám, Hồ Chí Minh trịnh trọng tuyên bố: ... Nhân dân chúng tôi thành thật mong muốn hòa bình. Nhưng nhân dân chúng tôi cũng kiên quyết chiến đấu đến cùng để bảo vệ những quyền thiêng liêng nhất: toàn vẹn lãnh thổ cho Tổ quốc và độc lập cho đất nước. Kháng chiến toàn quốc bùng nổ thể hiện quyết tâm bảo vệ độc lập và chủ quyền dân tộc, Người ra lời kêu gọi vang dội núi sông: Không! Chúng ta thà hy sinh tất cả, chứ nhất định không chịu mất nước, nhất định không chịu làm nô lệ. Khi đế quốc Mỹ mở rộng chiến tranh leo thang ra miền Bắc, Hồ Chí Minh nêu một chân lý có giá trị cho mọi thời đại: Không có gì quý hơn độc lập, tự do. Không có gì quý hơn độc lập, tự do là mục tiêu chiến đấu, là nguồn sức mạnh làm nên chiến thắng của dân tộc Việt Nam, đồng thời cũng là nguồn động viên lớn đối với các dân tộc bị áp bức trên toàn thế giới. Vì vậy, Người không chỉ được tôn vinh là Anh hùng giải phóng dân tộc của Việt Nam mà còn được thừa nhận là Người khởi xướng cuộc đấu tranh giải phóng của các dân tộc thuộc địa trong thế kỷ XX.",
+    "question_type": "multiple_choice",
+    "question": "Hồ Chí Minh nêu lên chân lý nào khi đế quốc Mỹ mở rộng chiến tranh leo thang ra miền Bắc?",
+    "options": ["Hòa bình", "Tự do", "Độc lập", "Không có gì quý hơn độc lập, tự do"],
+    "answer": "D"
+  },
+  {
+    "context": "Theo Hồ Chí Minh, do kinh tế còn lạc hậu, chưa phát triển, nên sự phân hóa giai cấp ở Đông Dương chưa triệt để, vì thế cuộc đấu tranh giai cấp không diễn ra giống như ở phương Tây. Các giai cấp vẫn có sự tương đồng lớn: dù là địa chủ hay nông dân, họ đều chịu chung số phận là người nô lệ mất nước. Từ sự phân tích đó, Người kiến nghị về Cương lĩnh hành động của Quốc tế cộng sản là: Phát động chủ nghĩa dân tộc bản xứ nhân danh Quốc tế cộng sản... Khi chủ nghĩa dân tộc của họ thắng lợi... nhất định chủ nghĩa dân tộc ấy sẽ biến thành chủ nghĩa quốc tế.",
+    "question_type": "sentences",
+    "question": "Tại sao sự phân hóa giai cấp ở Đông Dương chưa triệt để?",
+    "answer": "Do kinh tế còn lạc hậu, chưa phát triển"
+  },
+  {
+    "context": "Theo Hồ Chí Minh, do kinh tế còn lạc hậu, chưa phát triển, nên sự phân hóa giai cấp ở Đông Dương chưa triệt để, vì thế cuộc đấu tranh giai cấp không diễn ra giống như ở phương Tây. Các giai cấp vẫn có sự tương đồng lớn: dù là địa chủ hay nông dân, họ đều chịu chung số phận là người nô lệ mất nước. Từ sự phân tích đó, Người kiến nghị về Cương lĩnh hành động của Quốc tế cộng sản là: Phát động chủ nghĩa dân tộc bản xứ nhân danh Quốc tế cộng sản... Khi chủ nghĩa dân tộc của họ thắng lợi... nhất định chủ nghĩa dân tộc ấy sẽ biến thành chủ nghĩa quốc tế.",
+    "question_type": "sentences",
+    "question": "Hồ Chí Minh đã kiến nghị gì về Cương lĩnh hành động của Quốc tế cộng sản?",
+    "answer": "Phát động chủ nghĩa dân tộc bản xứ nhân danh Quốc tế cộng sản"
+  },
+  {
+    "context": "Như vậy, xuất phát từ sự phân tích quan hệ giai cấp trong xã hội thuộc địa, từ truyền thống dân tộc Việt Nam, Hồ Chí Minh đã đánh giá cao sức mạnh của chủ nghĩa dân tộc mà những người cộng sản phải nắm lấy và phát huy. Người cho đó là một chính sách mang tính hiện thực tuyệt vời. Chủ nghĩa dân tộc bản xứ nhân danh Quốc tế cộng sản mà Hồ Chí Minh đề cập ở đây là chủ nghĩa dân tộc chân chính, chứ không phải là chủ nghĩa dân tộc hẹp hòi.",
+    "question_type": "sentences",
+    "question": "Chủ nghĩa dân tộc bản xứ nhân danh Quốc tế cộng sản mà Hồ Chí Minh đề cập là loại chủ nghĩa dân tộc nào?",
+    "answer": "Chủ nghĩa dân tộc chân chính, không phải là chủ nghĩa dân tộc hẹp hòi"
+  },
+  {
+    "context": "Ngay từ khi lựa chọn con đường cách mạng vô sản, ở Hồ Chí Minh đã có sự gắn bó thống nhất giữa dân tộc và giai cấp, dân tộc và quốc tế, độc lập dân tộc và chủ nghĩa xã hội. Năm 1930, trong Cương lĩnh chính trị đầu tiên của Đảng, Người xác định phương hướng chiến lược của cách mạng Việt Nam là: làm tư sản dân quyền cách mạng và thổ địa cách mạng để đi tới xã hội cộng sản.",
+    "question_type": "multiple_choice",
+    "question": "Phương hướng chiến lược của cách mạng Việt Nam trong Cương lĩnh chính trị đầu tiên của Đảng là gì?",
+    "options": ["Tư sản dân quyền cách mạng và thổ địa cách mạng", "Tư sản dân quyền cách mạng và độc lập dân tộc", "Thổ địa cách mạng và chủ nghĩa xã hội", "Dân tộc và quốc tế"],
+    "answer": "A"
+  },
+  {
+    "context": "Xóa bỏ ách áp bức dân tộc mà không xóa bỏ tình trạng bóc lột và áp bức giai cấp thì nhân dân lao động vẫn chưa được giải phóng. Chỉ có xóa bỏ tận gốc tình trạng áp bức, bóc lột và thiết lập một nhà nước thực sự của dân, do dân, vì dân mới bảo đảm cho người lao động có quyền làm chủ và thực hiện được sự phát triển hài hòa giữa cá nhân và xã hội, giữa độc lập dân tộc với tự do và hạnh phúc của con người. Do đó, sau khi giành độc lập, phải tiến lên xây dựng chủ nghĩa xã hội, làm cho dân giàu, nước mạnh, mọi người đều được sung sướng, tự do. Sự phát triển đất nước theo con đường chủ nghĩa xã hội là một bảo đảm vững chắc cho nền độc lập của dân tộc. Hồ Chí Minh nói: yêu Tổ quốc, yêu nhân dân phải gắn liền với yêu chủ nghĩa xã hội, vì có tiến lên chủ nghĩa xã hội thì nhân dân mình mỗi ngày một no ấm thêm, Tổ quốc mỗi ngày một giàu mạnh thêm.",
+    "question_type": "sentences",
+    "question": "Cần làm gì để bảo đảm cho người lao động có quyền làm chủ và thực hiện được sự phát triển hài hòa giữa cá nhân và xã hội?",
+    "answer": "Xóa bỏ tận gốc tình trạng áp bức, bóc lột và thiết lập một nhà nước thực sự của dân, do dân, vì dân"
+  },
+  {
+    "context": "Xóa bỏ ách áp bức dân tộc mà không xóa bỏ tình trạng bóc lột và áp bức giai cấp thì nhân dân lao động vẫn chưa được giải phóng. Chỉ có xóa bỏ tận gốc tình trạng áp bức, bóc lột, chỉ có thiết lập một nhà nước thực sự của dân, do dân, vì dân mới bảo đảm cho người lao động có quyền làm chủ, mới thực hiện được sự phát triển hài hòa giữa cá nhân và xã hội, giữa độc lập dân tộc với tự do và hạnh phúc của con người. Do đó, sau khi giành độc lập, phải tiến lên xây dựng chủ nghĩa xã hội, làm cho dân giàu, nước mạnh, mọi người đều được sung sướng, tự do. Sự phát triển đất nước theo con đường chủ nghĩa xã hội là một bảo đảm vững chắc cho nền độc lập của dân tộc. Hồ Chí Minh nói: yêu Tổ quốc, yêu nhân dân phải gắn liền với yêu chủ nghĩa xã hội, vì chỉ có tiến lên chủ nghĩa xã hội thì nhân dân mình mỗi ngày một no ấm thêm, Tổ quốc mỗi ngày một giàu mạnh thêm.",
+    "question_type": "sentences",
+    "question": "Tại sao sau khi giành độc lập, phải tiến lên xây dựng chủ nghĩa xã hội?",
+    "answer": "Vì chỉ có tiến lên chủ nghĩa xã hội thì nhân dân mình mỗi ngày một no ấm thêm, Tổ quốc mỗi ngày một giàu mạnh thêm"
   }
 ]
   
