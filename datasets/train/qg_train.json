@@ -1558,21 +1558,411 @@
     "question_type": "sentences",
     "question": "Trong hoàn cảnh nào Hồ Chí Minh mới kiên quyết phát động chiến tranh?",
     "answer": "Khi không còn khả năng thương lượng, hòa hoãn, khi kẻ thù ngoan cố bám giữ lập trường thực dân, chỉ muốn giành thắng lợi bằng quân sự"
+  },
+  {
+    "context": "Trong kháng chiến chống đế quốc Mỹ, Người gửi nhiều thông điệp cho các nhà cầm quyền Mỹ, đề nghị đàm phán hòa bình để kết thúc chiến tranh. Khi quân Mỹ tăng cường chiến tranh, một mặt Người kêu gọi quân dân ta quyết tâm đánh thắng giặc Mỹ xâm lược, đồng thời chủ trương vừa đánh vừa đàm để kết thúc chiến tranh. Tư tưởng bạo lực cách mạng và tư tưởng nhân đạo hòa bình thống nhất biện chứng với nhau trong tư tưởng Hồ Chí Minh. Người chủ trương, yêu nước, thương dân, yêu thương con người, yêu chuộng hòa bình, tự do, công lý, tranh thủ mọi khả năng hòa bình để giải quyết xung đột, nhưng một khi không thể tránh khỏi chiến tranh thì phải kiên quyết tiến hành chiến tranh, kiên quyết dùng bạo lực cách mạng, dùng khởi nghĩa và chiến tranh cách mạng để giành, giữ và bảo vệ hòa bình, vì độc lập tự do.",
+    "question_type": "sentences",
+    "question": "Trong kháng chiến chống đế quốc Mỹ, Hồ Chí Minh đã làm gì để kết thúc chiến tranh?",
+    "answer": "Người gửi nhiều thông điệp cho các nhà cầm quyền Mỹ, đề nghị đàm phán hòa bình"
+  },
+  {
+    "context": "Trong khi tiến hành chiến tranh, Người vẫn tìm mọi cách vãn hồi hòa bình. Trong kháng chiến chống thực dân Pháp, Người nhiều lần gửi thư cho Chính phủ và nhân dân Pháp, cho tướng lĩnh, binh sĩ trong quân đội Pháp và những kiều dân Pháp ở Việt Nam, cho các chính phủ, các nhà hoạt động chính trị, văn hóa và nhân dân các nước, vừa tố cáo cuộc chiến tranh xâm lược của thực dân Pháp, vừa kêu gọi đàm phán hòa bình. Người viết: Chúng tôi muốn hòa bình ngay để máu người Pháp và Việt ngừng chảy. Những dòng máu đó chúng tôi đều quý như nhau. Chúng tôi mong đợi ở Chính phủ và nhân dân Pháp một cử chỉ mang lại hòa bình. Nếu không, chúng tôi bắt buộc phải chiến đấu đến cùng để giải phóng hoàn toàn đất nước.",
+    "question_type": "sentences",
+    "question": "Theo Hồ Chí Minh, tại sao Người mong muốn hòa bình ngay?",
+    "answer": "Để máu người Pháp và Việt ngừng chảy"
+  },
+  {
+    "context": "Trong kháng chiến chống Mỹ, cứu nước, Hồ Chí Minh khẳng định: Không có gì quý hơn độc lập, tự do. Chiến tranh có thể kéo dài 5 năm, 10 năm, 20 năm, hoặc lâu hơn nữa. Hà Nội, Hải Phòng và một số thành phố, xí nghiệp có thể bị tàn phá, song nhân dân Việt Nam quyết không sợ! Đến ngày thắng lợi nhân dân ta sẽ xây dựng lại đất nước ta đàng hoàng hơn, to đẹp hơn.",
+    "question_type": "sentences",
+    "question": "Hồ Chí Minh khẳng định điều gì trong kháng chiến chống Mỹ, cứu nước?",
+    "answer": "Không có gì quý hơn độc lập, tự do."
+  },
+  {
+    "context": "Tự lực cánh sinh cũng là một phương châm chiến lược rất quan trọng, nhằm phát huy cao độ nguồn sức mạnh chủ quan, tránh tư tưởng bị động trông chờ vào sự giúp đỡ bên ngoài. Trong tác phẩm Đường kách mệnh, Người chỉ rõ: muốn người ta giúp cho thì trước hết mình phải tự giúp lấy mình đã. Tháng Tám (1945) khi thời cơ tổng khởi nghĩa xuất hiện, Hồ Chí Minh kêu gọi Toàn quốc đồng bào hãy đứng dậy, đem sức ta mà tự giải phóng cho ta.",
+    "question_type": "sentences",
+    "question": "Hồ Chí Minh kêu gọi điều gì khi thời cơ tổng khởi nghĩa xuất hiện?",
+    "answer": "Toàn quốc đồng bào hãy đứng dậy, đem sức ta mà tự giải phóng cho ta."
+  },
+  {
+    "context": "Tại Hội nghị cung cấp toàn quân lần thứ nhất (tháng 6-1952), Người nói, muốn thắng lợi phải trường kỳ gian khổ, muốn trường kỳ phải tự lực cánh sinh. Mặc dù rất coi trọng sự giúp đỡ quốc tế nhưng Hồ Chí Minh luôn đề cao sức mạnh bên trong, phát huy đến mức cao nhất mọi nỗ lực của dân tộc, đề cao tinh thần độc lập tự chủ. Người nói: Kháng chiến trường kỳ gian khổ đồng thời lại phải tự lực cánh sinh. Trông vào sức mình... Cố nhiên sự giúp đỡ của các nước bạn là quan trọng, nhưng không được ỷ lại, không được ngồi mong chờ người khác.",
+    "question_type": "sentences",
+    "question": "Hồ Chí Minh luôn đề cao điều gì trong kháng chiến?",
+    "answer": "Đề cao sức mạnh bên trong, phát huy đến mức cao nhất mọi nỗ lực của dân tộc, đề cao tinh thần độc lập tự chủ"
+  },
+  {
+    "context": "Độc lập tự chủ, tự lực tự cường kết hợp với tranh thủ sự giúp đỡ quốc tế là một quan điểm nhất quán trong tư tưởng Hồ Chí Minh. Trong hai cuộc kháng chiến chống Pháp và chống Mỹ, Người đã động viên sức mạnh của toàn dân tộc, đồng thời ra sức vận động, tranh thủ sự giúp đỡ quốc tế to lớn và có hiệu quả, cả về vật chất và tinh thần, kết hợp sức mạnh dân tộc với sức mạnh thời đại để kháng chiến thắng lợi.",
+    "question_type": "sentences",
+    "question": "Quan điểm nhất quán trong tư tưởng Hồ Chí Minh là gì?",
+    "answer": "Độc lập tự chủ, tự lực tự cường kết hợp với tranh thủ sự giúp đỡ quốc tế"
+  },
+  {
+    "context": "Hồ Chí Minh tiếp thu những nguyên lý cơ bản của chủ nghĩa Mác - Lênin về chủ nghĩa xã hội, đã vận dụng và phát triển một cách sáng tạo, đưa ra nhiều kiến giải mới nhằm bổ sung vào lý luận Mác - Lênin, phù hợp với thực tế Việt Nam. Trước hết, Hồ Chí Minh luận giải sự ra đời và bản chất của chủ nghĩa xã hội từ phương diện kinh tế, trình độ phát triển của lực lượng sản xuất. Người cho rằng, sự hình thành, phát triển và chín muồi của chủ nghĩa xã hội là một tất yếu mà nguyên nhân sâu xa chính là do sự phát triển của lực lượng sản xuất xã hội. Trên cơ sở một nền tảng kinh tế mới, chủ nghĩa xã hội sẽ xác lập một hệ thống, các giá trị đặc thù mang tính nhân bản thấm sâu vào mỗi quan hệ và lĩnh vực xã hội. Sự thống nhất giữa tính khoa học và tính giá trị thể hiện rất rõ trong nhận thức của Hồ Chí Minh về chủ nghĩa xã hội.",
+    "question_type": "sentences",
+    "question": "Hồ Chí Minh đã vận dụng và phát triển những nguyên lý cơ bản của chủ nghĩa Mác - Lênin về chủ nghĩa xã hội như thế nào?",
+    "answer": "Đưa ra nhiều kiến giải mới nhằm bổ sung vào lý luận Mác - Lênin, phù hợp với thực tế Việt Nam"
+  },
+  {
+    "context": "Hồ Chí Minh luận giải tính tất yếu và bản chất của chủ nghĩa xã hội trên cơ sở kế thừa và phát triển các giá trị văn hóa truyền thống của dân tộc Việt Nam, của phương Đông. Từ việc phân tích một cách khoa học truyền thống tư tưởng - văn hóa, điều kiện kinh tế - xã hội của Việt Nam, các nước phương Đông, sự tàn bạo của chế độ thuộc địa tại các nước đó, Hồ Chí Minh đi đến một nhận thức mới lạ: Chủ nghĩa xã hội, chủ nghĩa cộng sản không những thích ứng được ở châu Á, phương Đông mà còn thích ứng dễ hơn ở châu Âu.",
+    "question_type": "sentences",
+    "question": "Hồ Chí Minh đã luận giải tính tất yếu và bản chất của chủ nghĩa xã hội trên cơ sở nào?",
+    "answer": "Kế thừa và phát triển các giá trị văn hóa truyền thống của dân tộc Việt Nam, của phương Đông."
+  },
+  {
+    "context": "Hồ Chí Minh luận giải tính tất yếu và bản chất của chủ nghĩa xã hội trên cơ sở kế thừa và phát triển các giá trị văn hóa truyền thống của dân tộc Việt Nam, của phương Đông. Từ việc phân tích một cách khoa học truyền thống tư tưởng - văn hóa, điều kiện kinh tế - xã hội của Việt Nam, các nước phương Đông, sự tàn bạo của chế độ thuộc địa tại các nước đó, Hồ Chí Minh đi đến một nhận thức mới lạ: Chủ nghĩa xã hội, chủ nghĩa cộng sản không những thích ứng được ở châu Á, phương Đông mà còn thích ứng dễ hơn ở châu Âu.",
+    "question_type": "sentences",
+    "question": "Hồ Chí Minh có nhận thức mới lạ gì về chủ nghĩa xã hội và chủ nghĩa cộng sản?",
+    "answer": "Không những thích ứng được ở châu Á, phương Đông mà còn thích ứng dễ hơn ở châu Âu"
+  },
+  {
+    "context": "Hồ Chí Minh đã nhận thức tính tất yếu và bản chất của chủ nghĩa xã hội như là kết quả tác động tổng hợp của các nhân tố: truyền thống và hiện tại; dân tộc và quốc tế; kinh tế, chính trị, đạo đức, văn hóa. Người không tuyệt đối hóa một mặt nào và đánh giá đúng vị trí của chúng. Như vậy, Hồ Chí Minh đã làm phong phú cách tiếp cận về chủ nghĩa xã hội, có những cống hiến xuất sắc vào việc phát triển lý luận Mác - Lênin.",
+    "question_type": "sentences",
+    "question": "Hồ Chí Minh đã nhận thức tính tất yếu và bản chất của chủ nghĩa xã hội như là kết quả tác động tổng hợp của những nhân tố nào?",
+    "answer": "Truyền thống và hiện tại; dân tộc và quốc tế; kinh tế, chính trị, đạo đức, văn hóa"
+  },
+  {
+    "context": "C.Mác và Ph.Ăngghen cho rằng, ngay trong điều kiện của xã hội xã hội chủ nghĩa, nhờ công cuộc cải tạo mang tính cách mạng mà xã hội đã đạt được một trạng thái phát triển mới về chất: làm cho tất cả mọi tư liệu sản xuất trở thành tài sản chung của toàn xã hội, qua đó tạo điều kiện để phát triển kinh tế theo một kế hoạch thống nhất, bảo đảm tính chất xã hội của lao động; theo nguyên tắc làm theo năng lực, hưởng theo lao động...",
+    "question_type": "sentences",
+    "question": "Theo C.Mác và Ph.Ăngghen, công cuộc cải tạo mang tính cách mạng mà xã hội đạt được những điều gì?",
+    "answer": "Làm cho tất cả mọi tư liệu sản xuất trở thành tài sản chung của toàn xã hội"
+  },
+  {
+    "context": "Phần lớn thời gian của cuộc đời mình, Hồ Chí Minh cùng với Đảng dồn tâm trí lãnh đạo cuộc cách mạng dân tộc dân chủ nhân dân ở nước ta. Tuy vậy, những quan điểm của Người về chủ nghĩa xã hội vẫn có ý nghĩa lý luận và thực tiễn sâu sắc. Hầu hết các cách tiếp cận, định nghĩa của Hồ Chí Minh về chủ nghĩa xã hội được diễn đạt, trình bày một cách dung dị, mộc mạc, dễ hiểu và mang tính phổ thông, đại chúng. Xét dưới góc độ khái quát nguyên lý thì Hồ Chí Minh về cơ bản không khác với các nhà kinh điển Mác - Lênin. Điểm đặc sắc ở Hồ Chí Minh là phát triển các nguyên lý lý luận phức tạp, khoa học bằng ngôn ngữ của cuộc sống hàng ngày.",
+    "question_type": "sentences",
+    "question": "Điểm đặc sắc ở Hồ Chí Minh trong cách diễn đạt về chủ nghĩa xã hội là gì?",
+    "answer": "Phát triển các nguyên lý lý luận phức tạp, khoa học bằng ngôn ngữ của cuộc sống hàng ngày"
+  },
+  {
+    "context": "Hồ Chí Minh viết: chủ nghĩa xã hội là lấy nhà máy, xe lửa, ngân hàng, .. làm của chung. Ai làm nhiều thì ăn nhiều, ai làm ít thì ăn ít, ai không làm thì không ăn, tất nhiên là trừ những người già cả, đau yếu và trẻ con... Khi đề cập về kinh tế, Hồ Chí Minh nhấn mạnh hai yếu tố: chế độ sở hữu (công cộng hoặc xã hội) và quan hệ phân phối: làm theo năng lực, hưởng theo lao động. Còn trong lĩnh vực chính trị, Người nhấn mạnh mặt bản chất nhất của chủ nghĩa xã hội, đó là nhà nước dân chủ kiểu mới, nhà nước của dân, do dân và vì dân. Người viết: Nhà nước xã hội chủ nghĩa và dân chủ nhân dân chỉ lo làm lợi cho nhân dân, trước hết là nhân dân lao động, ngày càng được tiến bộ về vật chất và tinh thần, làm cho trong xã hội không có người bóc lột người. Khi tìm hiểu cách định nghĩa này của Người, chúng ta phải đặt trong tổng thể quan niệm chung về chủ nghĩa xã hội, nếu tuyệt đối hóa một mặt nào đó mà Người đưa ra, dễ dẫn đến sai lầm trong chỉ đạo thực tiễn.",
+    "question_type": "sentences",
+    "question": "Hồ Chí Minh nhấn mạnh những yếu tố nào khi đề cập về kinh tế?",
+    "answer": "Chế độ sở hữu (công cộng hoặc xã hội) và quan hệ phân phối"
+  },
+  {
+    "context": "Hồ Chí Minh viết: chủ nghĩa xã hội là lấy nhà máy, xe lửa, ngân hàng, .. làm của chung. Ai làm nhiều thì ăn nhiều, ai làm ít thì ăn ít, ai không làm thì không ăn, tất nhiên là trừ những người già cả, đau yếu và trẻ con... Khi đề cập về kinh tế, Hồ Chí Minh thường nhấn mạnh hai yếu tố: chế độ sở hữu (công cộng hoặc xã hội) và quan hệ phân phối: làm theo năng lực, hưởng theo lao động. Còn trong lĩnh vực chính trị, Người nhấn mạnh mặt bản chất nhất của chủ nghĩa xã hội, đó là nhà nước dân chủ kiểu mới, nhà nước của dân, do dân và vì dân. Người viết: Nhà nước xã hội chủ nghĩa và dân chủ nhân dân chỉ lo làm lợi cho nhân dân, trước hết là nhân dân lao động, ngày càng được tiến bộ về vật chất và tinh thần, làm cho trong xã hội không có người bóc lột người. Khi tìm hiểu cách định nghĩa này của Người, chúng ta phải đặt trong tổng thể quan niệm chung về chủ nghĩa xã hội, nếu tuyệt đối hóa một mặt nào đó mà Người đưa ra, dễ dẫn đến sai lầm trong chỉ đạo thực tiễn.",
+    "question_type": "sentences",
+    "question": "Theo Hồ Chí Minh, mặt bản chất nhất của chủ nghĩa xã hội trong lĩnh vực chính trị là gì?",
+    "answer": "Nhà nước dân chủ kiểu mới, nhà nước của dân, do dân và vì dân"
+  },
+  {
+    "context": "Định nghĩa chủ nghĩa xã hội bằng cách xác định động lực xây dựng nó: Chủ nghĩa xã hội là nhằm nâng cao đời sống vật chất và văn hóa của nhân dân và do nhân dân tự xây dựng lấy. Nhấn mạnh động lực tinh thần và ý thức xã hội chủ nghĩa, Hồ Chí Minh coi: chủ nghĩa xã hội không phải là cái gì cao xa, mà đó là những gì rất cụ thể như ý thức lao động tập thể, ý thức kỷ luật, tinh thần thi đua yêu nước, tăng sản xuất cho hợp tác xã, tăng thu nhập cho xã hội, tinh thần đoàn kết tương trợ, tinh thần dám nghĩ, dám nói, dám làm, không sợ khó, ý thức cần kiệm. Tinh thần cơ bản của một luận đề mácxít về chủ nghĩa xã hội được Hồ Chí Minh nhắc lại với một quy mô lớn hơn: chủ nghĩa xã hội là của nhân dân, vì nhân dân và do nhân dân lao động.",
+    "question_type": "sentences",
+    "question": "Hồ Chí Minh định nghĩa động lực xây dựng chủ nghĩa xã hội là gì?",
+    "answer": "Nâng cao đời sống vật chất và văn hóa của nhân dân và do nhân dân tự xây dựng lấy"
+  },
+  {
+    "context": "Các đặc trưng bản chất nêu trên là hình thức thể hiện một hệ thống giá trị vừa kế thừa các di sản của quá khứ, vừa được sáng tạo mới trong quá trình xây dựng chủ nghĩa xã hội. Chủ nghĩa xã hội là hiện thân đỉnh cao của tiến trình tiến hóa lịch sử nhân loại. Hồ Chí Minh quan niệm chủ nghĩa xã hội là sự tổng hợp, quyện chặt ngay trong cấu trúc nội tại của nó, một hệ thống giá trị làm nền tảng điều chỉnh các quan hệ xã hội, đó là độc lập, tự do, bình đẳng, công bằng, dân chủ, bảo đảm quyền con người, bác ái, đoàn kết, hữu nghị... Trong đó có những giá trị tạo tiền đề, có giá trị hạt nhân. Tất cả những giá trị cơ bản này là mục tiêu chủ yếu của chủ nghĩa xã hội. Một khi tất cả các giá trị đó đã đạt được thì loài người sẽ vươn tới lý tưởng cao nhất chủ nghĩa xã hội, đó là liên hợp tự do của những người lao động mà C.Mác, Ph.Ăngghen đã dự báo. ở đó, cá tính của con người được phát triển đầy đủ, năng lực con người được phát huy cao nhất, giá trị con người được thực hiện toàn diện. Nhưng theo Hồ Chí Minh, đó là một quá trình phấn đấu khó khăn, gian khổ, lâu dài, dần dần và không thể nôn nóng.",
+    "question_type": "sentences",
+    "question": "Hệ thống giá trị làm nền tảng của các quan hệ xã hội theo Hồ Chí Minh là những gì?",
+    "answer": "Độc lập, tự do, bình đẳng, công bằng, dân chủ, bảo đảm quyền con người, bác ái, đoàn kết, hữu nghị"
+  },
+  {
+    "context": "Các đặc trưng bản chất nêu trên là hình thức thể hiện một hệ thống giá trị vừa kế thừa các di sản của quá khứ, vừa được sáng tạo mới trong quá trình xây dựng chủ nghĩa xã hội. Chủ nghĩa xã hội là hiện thân đỉnh cao của tiến trình tiến hóa lịch sử nhân loại. Hồ Chí Minh quan niệm chủ nghĩa xã hội là sự tổng hợp, quyện chặt ngay trong cấu trúc nội tại của nó, một hệ thống giá trị làm nền tảng điều chỉnh các quan hệ xã hội, đó là độc lập, tự do, bình đẳng, công bằng, dân chủ, bảo đảm quyền con người, bác ái, đoàn kết, hữu nghị... Trong đó có những giá trị tạo tiền đề, có giá trị hạt nhân. Tất cả những giá trị cơ bản này là mục tiêu chủ yếu của chủ nghĩa xã hội. Một khi tất cả các giá trị đó đã đạt được thì loài người sẽ vươn tới lý tưởng cao nhất chủ nghĩa xã hội, đó là liên hợp tự do của những người lao động mà C.Mác, Ph.Ăngghen đã dự báo. ở đó, cá tính của con người được phát triển đầy đủ, năng lực con người được phát huy cao nhất, giá trị con người được thực hiện toàn diện. Nhưng theo Hồ Chí Minh, đó là một quá trình phấn đấu khó khăn, gian khổ, lâu dài, dần dần và không thể nôn nóng.",
+    "question_type": "sentences",
+    "question": "Theo Hồ Chí Minh, để đạt được chủ nghĩa xã hội cần trải qua những quá trình nào?",
+    "answer": "Quá trình phấn đấu khó khăn, gian khổ, lâu dài, dần dần và không thể nôn nóng"
+  },
+  {
+    "context": "Theo Hồ Chí Minh, mục tiêu chung của chủ nghĩa xã hội và mục tiêu phấn đấu của Người là độc lập, tự do cho dân tộc, hạnh phúc cho nhân dân. Người nói: Tôi chỉ có một sự ham muốn, ham muốn tột bậc, là làm sao cho nước ta được hoàn toàn độc lập, dân ta được hoàn toàn tự do, đồng bào ai cũng có cơm ăn áo mặc, ai cũng được học hành. Đó cũng chính là mục tiêu tổng quát theo cách diễn đạt của Hồ Chí Minh về chủ nghĩa xã hội.",
+    "question_type": "sentences",
+    "question": "Mục tiêu chung của chủ nghĩa xã hội theo Hồ Chí Minh là gì?",
+    "answer": "Độc lập, tự do cho dân tộc, hạnh phúc cho nhân dân"
+  },
+  {
+    "context": "Từ cách đặt vấn đề này, theo Hồ Chí Minh, hiểu mục đích của chủ nghĩa xã hội, nghĩa là nắm bắt nội dung cốt lõi con đường lựa chọn và bản chất thực tế chế độ xã hội mà chúng ta phấn đấu xây dựng. Tiếp cận chủ nghĩa xã hội về phương diện mục đích là một nét đặc sắc, thể hiện phong cách và năng lực tư duy lý luận khái quát của Hồ Chí Minh. Hồ Chí Minh có nhiều cách đề cập mục đích của chủ nghĩa xã hội. Có khi Người trả lời một cách trực tiếp: Mục đích của chủ nghĩa xã hội là gì? Nói một cách đơn giản và dễ hiểu là: không ngừng nâng cao đời sống vật chất và tinh thần của nhân dân, trước hết là nhân dân lao động. Hoặc Mục đích của chủ nghĩa xã hội là không ngừng nâng cao mức sống của nhân dân. Có khi Người diễn giải mục đích tổng quát này thành các tiêu chí cụ thể: chủ nghĩa xã hội là làm sao cho nhân dân đủ ăn, đủ mặc, ngày càng sung sướng, ai nấy được đi học, ốm đau có thuốc, già không lao động được thì nghỉ, những phong tục tập quán không tốt dần dần được xóa bỏ.",
+    "question_type": "sentences",
+    "question": "Hiểu mục đích của chủ nghĩa xã hội theo Hồ Chí Minh là gì?",
+    "answer": "Nắm bắt nội dung cốt lõi con đường lựa chọn và bản chất thực tế chế độ xã hội mà chúng ta phấn đấu xây dựng"
+  },
+  {
+    "context": "Tóm lại, xã hội ngày càng tiến, vật chất ngày càng tăng, tinh thần ngày càng tốt, đó là chủ nghĩa xã hội. Có khi Người nói một cách gián tiếp, không nhắc đến chủ nghĩa xã hội, nhưng xét về bản chất, đó cũng chính là mục tiêu của chủ nghĩa xã hội theo quan niệm của Người. Kết thúc Di chúc, Hồ Chí Minh viết: Điều mong muốn cuối cùng của tôi là: Toàn Đảng, toàn dân ta đoàn kết phấn đấu, xây dựng một nước Việt Nam hòa bình, thống nhất, độc lập, dân chủ và giàu mạnh, và góp phần xứng đáng vào sự nghiệp cách mạng thế giới.",
+    "question_type": "sentences",
+    "question": "Điều mong muốn cuối cùng của Hồ Chí Minh là gì?",
+    "answer": "Toàn Đảng, toàn dân ta đoàn kết phấn đấu, xây dựng một nước Việt Nam hòa bình, thống nhất, độc lập, dân chủ và giàu mạnh, và góp phần xứng đáng vào sự nghiệp cách mạng thế giới"
+  },
+  {
+    "context": "Tóm lại, xã hội ngày càng tiến, vật chất ngày càng tăng, tinh thần ngày càng tốt, đó là chủ nghĩa xã hội. Có khi Người nói một cách gián tiếp, không nhắc đến chủ nghĩa xã hội, nhưng xét về bản chất, đó cũng chính là mục tiêu của chủ nghĩa xã hội theo quan niệm của Người. Kết thúc Di chúc, Hồ Chí Minh viết: Điều mong muốn cuối cùng của tôi là: Toàn Đảng, toàn dân ta đoàn kết phấn đấu, xây dựng một nước Việt Nam hòa bình, thống nhất, độc lập, dân chủ và giàu mạnh, và góp phần xứng đáng vào sự nghiệp cách mạng thế giới.",
+    "question_type": "sentences",
+    "question": "Hồ Chí Minh đã khẳng định chủ nghĩa xã hội là gì?",
+    "answer": "Xã hội ngày càng tiến, vật chất ngày càng tăng, tinh thần ngày càng tốt"
+  },
+  {
+    "context": "Quá trình đi tới mục tiêu cuối cùng của chủ nghĩa xã hội là một quá trình lâu dài, trải qua một thời kỳ quá độ, nhiều bước trung gian, quá độ nhỏ. Đối với cuộc cách mạng xã hội chủ nghĩa, Hồ Chí Minh cho rằng: Chúng ta phải xây dựng một xã hội hoàn toàn mới xưa nay chưa từng có trong lịch sử dân tộc ta. Chúng ta phải thay đổi triệt để những nếp sống, thói quen, ý nghĩ và thành kiến có gốc rễ sâu xa hàng ngàn năm. Chúng ta phải thay đổi quan hệ sản xuất cũ, xóa bỏ giai cấp bóc lột, xây dựng quan hệ sản xuất mới không có bóc lột áp bức. Muốn thế, chúng ta phải dần dần biến nước ta từ một nước nông nghiệp lạc hậu thành một nước công nghiệp. Chúng ta phải dần dần tập thể hóa nông nghiệp. Chúng ta phải tiến hành cải tạo xã hội chủ nghĩa đối với công thương nghiệp tư nhân, đối với thủ công nghiệp. Chúng ta phải biến một nước dốt nát, cực khổ thành một nước văn hóa cao và đời sống tươi vui hạnh phúc. Như vậy, Hồ Chí Minh đã xác định các mục tiêu cụ thể của thời kỳ quá độ lên chủ nghĩa xã hội trên tất cả các lĩnh vực của đời sống xã hội.",
+    "question_type": "sentences",
+    "question": "Quá trình đi tới mục tiêu cuối cùng của chủ nghĩa xã hội là quá trình như thế nào?",
+    "answer": "Lâu dài, trải qua một thời kỳ quá độ, nhiều bước trung gian, quá độ nhỏ"
+  },
+  {
+    "context": "Quá trình đi tới mục tiêu cuối cùng của chủ nghĩa xã hội là một quá trình lâu dài, trải qua một thời kỳ quá độ, nhiều bước trung gian, quá độ nhỏ. Đối với cuộc cách mạng xã hội chủ nghĩa, Hồ Chí Minh cho rằng: Chúng ta phải xây dựng một xã hội hoàn toàn mới xưa nay chưa từng có trong lịch sử dân tộc ta, cần phải thay đổi triệt để những nếp sống, thói quen, ý nghĩ và thành kiến có gốc rễ sâu xa hàng ngàn năm. Chúng ta phải thay đổi quan hệ sản xuất cũ, xóa bỏ giai cấp bóc lột, xây dựng quan hệ sản xuất mới không có bóc lột áp bức. Muốn thế, chúng ta phải dần dần biến nước ta từ một nước nông nghiệp lạc hậu thành một nước công nghiệp. Chúng ta phải dần dần tập thể hóa nông nghiệp. Chúng ta phải tiến hành cải tạo xã hội chủ nghĩa đối với công thương nghiệp tư nhân, đối với thủ công nghiệp. Chúng ta phải biến một nước dốt nát, cực khổ thành một nước văn hóa cao và đời sống tươi vui hạnh phúc. Như vậy, Hồ Chí Minh đã xác định các mục tiêu cụ thể của thời kỳ quá độ lên chủ nghĩa xã hội trên tất cả các lĩnh vực của đời sống xã hội.",
+    "question_type": "sentences",
+    "question": "Hồ Chí Minh cho rằng việc xây dựng một xã hội hoàn toàn mới cần phải làm gì?",
+    "answer": "Thay đổi triệt để những nếp sống, thói quen, ý nghĩ và thành kiến có gốc rễ sâu xa hàng ngàn năm"
+  },
+  {
+    "context": "Mục tiêu kinh tế: Theo Hồ Chí Minh, chế độ chính trị của chủ nghĩa xã hội chỉ được bảo đảm và đứng vững trên cơ sở một nền kinh tế vững mạnh. Nền kinh tế mà chúng ta xây dựng là nền kinh tế xã hội chủ nghĩa với công - nông nghiệp hiện đại, khoa học và kỹ thuật tiên tiến, cách bóc lột theo chủ nghĩa tư bản được xóa bỏ dần, đời sống vật chất của nhân dân ngày càng được cải thiện. Nền kinh tế xã hội chủ nghĩa ở nước ta cần phát triển toàn diện các ngành mà những ngành chủ yếu là công nghiệp, nông nghiệp, thương nghiệp, trong đó công nghiệp và nông nghiệp là hai chân của nền kinh tế nước nhà. Kết hợp các loại lợi ích kinh tế là vấn đề rất được Hồ Chí Minh quan tâm. Người đặc biệt nhấn mạnh chế độ khoán là một trong những hình thức của sự kết hợp lợi ích kinh tế.",
+    "question_type": "sentences",
+    "question": "Theo Hồ Chí Minh, nền kinh tế xã hội chủ nghĩa ở nước ta cần phát triển như thế nào?",
+    "answer": "Cần phát triển toàn diện các ngành mà những ngành chủ yếu là công nghiệp, nông nghiệp, thương nghiệp"
+  },
+  {
+    "context": "Về bản chất của nền văn hóa xã hội chủ nghĩa Việt Nam, Người khẳng định: phải xã hội chủ nghĩa về nội dung; để có một nền văn hóa như thế ta phải phát huy vốn văn hóa truyền thống quý báu của dân tộc, đồng thời học tập và tiếp thu có chọn lọc văn hóa tiên tiến của thế giới. Phương châm xây dựng nền văn hóa mới là: dân tộc, khoa học, đại chúng. Hồ Chí Minh nhắc nhở phải làm cho phong trào văn hóa có bề rộng, đồng thời phải có bề sâu. Trong khi đáp ứng mặt giải trí thì không được xem nhẹ việc nâng cao tri thức của quần chúng, đồng thời Người luôn luôn nhắc nhở phải làm cho văn hóa gắn liền với lao động sản xuất.",
+    "question_type": "sentences",
+    "question": "Phương châm xây dựng nền văn hóa mới là gì?",
+    "answer": "Dân tộc, khoa học, đại chúng"
+  },
+  {
+    "context": "Về bản chất của nền văn hóa xã hội chủ nghĩa Việt Nam, Người khẳng định: phải xã hội chủ nghĩa về nội dung; để có một nền văn hóa như thế ta phải phát huy vốn văn hóa truyền thống quý báu của dân tộc, đồng thời học tập và tiếp thu có chọn lọc văn hóa tiên tiến của thế giới. Phương châm xây dựng nền văn hóa mới là: dân tộc, khoa học, đại chúng. Hồ Chí Minh nhắc nhở phải làm cho phong trào văn hóa có bề rộng, trong khi đáp ứng mặt giải trí thì không được xem nhẹ việc nâng cao tri thức của quần chúng, đồng thời Người luôn luôn nhắc nhở phải làm cho văn hóa gắn liền với lao động sản xuất.",
+    "question_type": "sentences",
+    "question": "Hồ Chí Minh nhắc nhở điều gì trong khi đáp ứng mặt giải trí?",
+    "answer": "Không được xem nhẹ việc nâng cao tri thức của quần chúng"
+  },
+  {
+    "context": "Hồ Chí Minh luôn luôn nhấn mạnh đến trau dồi, rèn luyện đạo đức cách mạng; đồng thời Người cũng rất quan tâm đến mặt tài năng, luôn tạo điều kiện để mỗi người rèn luyện tài năng, đem tài năng cống hiến cho xã hội. Tuy vậy, Hồ Chí Minh luôn gắn tài năng với đạo đức. Theo Người, có tài mà không có đức là hỏng; dĩ nhiên đức phải đi đôi với tài, nếu không có tài thì không thể làm việc được. Cũng như vậy, Người luôn gắn phẩm chất chính trị với trình độ học vấn, chuyên môn, nghiệp vụ trong đó chính trị là tinh thần, chuyên môn là thể xác. Hai mặt đó gắn bó thống nhất trong một con người. Do vậy, tất cả mọi người đều phải luôn luôn trau dồi đạo đức và tài năng.",
+    "question_type": "sentences",
+    "question": "Theo Hồ Chí Minh, tài năng với đạo đức có mối quan hệ như thế nào?",
+    "answer": "Có tài mà không có đức là hỏng; dĩ nhiên đức phải đi đôi với tài, nếu không có tài thì không thể làm việc được"
+  },
+  {
+    "context": "Hồ Chí Minh luôn luôn nhấn mạnh đến trau dồi, rèn luyện đạo đức cách mạng; đồng thời Người cũng rất quan tâm đến mặt tài năng, luôn tạo điều kiện để mỗi người rèn luyện tài năng, đem tài năng cống hiến cho xã hội. Tuy vậy, Hồ Chí Minh luôn gắn tài năng với đạo đức. Theo Người, có tài mà không có đức là hỏng; dĩ nhiên đức phải đi đôi với tài, nếu không có tài thì không thể làm việc được. Cũng như vậy, Người luôn gắn phẩm chất chính trị với trình độ học vấn, chuyên môn, nghiệp vụ trong đó chính trị là tinh thần, chuyên môn là thể xác. Hai mặt đó gắn bó thống nhất trong một con người. Do vậy, tất cả mọi người đều phải luôn luôn trau dồi đạo đức và tài năng.",
+    "question_type": "sentences",
+    "question": "Hồ Chí Minh luôn luôn nhấn mạnh điều gì?",
+    "answer": "Trau dồi, rèn luyện đạo đức cách mạng"
+  },
+  {
+    "context": "Nói con người là động lực của chủ nghĩa xã hội, hơn nữa là động lực quan trọng nhất, Hồ Chí Minh đã nhận thấy ở động lực này có sự kết hợp giữa cá nhân (sức mạnh cá thể) với xã hội (sức mạnh cộng đồng). Truyền thống yêu nước của dân tộc, sự đoàn kết cộng đồng, sức lao động sáng tạo của nhân dân, đó là sức mạnh tổng hợp tạo nên động lực quan trọng của chủ nghĩa xã hội.",
+    "question_type": "sentences",
+    "question": "Hồ Chí Minh đã nhận thấy gì ở động lực của chủ nghĩa xã hội?",
+    "answer": "Sự kết hợp giữa cá nhân (sức mạnh cá thể) với xã hội (sức mạnh cộng đồng)."
+  },
+  {
+    "context": "Nhà nước đại diện cho ý chí và quyền lực của nhân dân dưới sự lãnh đạo của Đảng, đưa sự nghiệp xây dựng chủ nghĩa xã hội đến thắng lợi. Khi thực hiện chức năng quản lý xã hội, Người đặc biệt quan tâm đến hiệu lực của tổ chức, bộ máy, tính nghiêm minh của kỷ luật, pháp luật, sự trong sạch, liêm khiết của đội ngũ công chức các cấp từ Trung ương tới địa phương.",
+    "question_type": "sentences",
+    "question": "Hồ Chí Minh đặc biệt quan tâm đến những yếu tố nào của đội ngũ công chức các cấp từ Trung ương tới địa phương?",
+    "answer": "Hiệu lực của tổ chức, bộ máy, tính nghiêm minh của kỷ luật, pháp luật, sự trong sạch, liêm khiết"
   },  
+  {
+    "context": "Để thực hiện những mục tiêu đó, cần phát hiện những động lực và những điều kiện bảo đảm cho động lực đó thực sự trở thành sức mạnh thúc đẩy công cuộc xây dựng chủ nghĩa xã hội, nhất là những động lực bên trong, nguồn nội lực của chủ nghĩa xã hội. Theo Hồ Chí Minh, những động lực đó biểu hiện ở hai phương diện: vật chất và tư tưởng. Người khẳng định, động lực quan trọng và quyết định nhất là con người, nhân dân lao động, nòng cốt là công - nông - trí thức. Con người là động lực quan trọng nhất, Hồ Chí Minh thường xuyên quan tâm đến lợi ích chính đáng, thiết thân của họ; đồng thời chăm lo bồi dưỡng sức dân. Đó là lợi ích của nhân dân và từng cá nhân.",
+    "question_type": "multiple_choice",
+    "question": "Động lực quan trọng và quyết định nhất trong xây dựng chủ nghĩa xã hội là gì?",
+    "options": ["Tài nguyên thiên nhiên", "Con người, nhân dân lao động", "Khoa học kỹ thuật", "Kinh tế thị trường"],
+    "answer": "Con người, nhân dân lao động"
+  },
+  {
+    "context": "Để thực hiện những mục tiêu đó, cần phát hiện những động lực và những điều kiện bảo đảm cho động lực đó thực sự trở thành sức mạnh thúc đẩy công cuộc xây dựng chủ nghĩa xã hội, nhất là những động lực bên trong, nguồn nội lực của chủ nghĩa xã hội. Theo Hồ Chí Minh, những động lực đó biểu hiện ở hai phương diện: vật chất và tư tưởng. Người khẳng định, động lực quan trọng và quyết định nhất là con người, là nhân dân lao động, nòng cốt là công - nông - trí thức. Con người là động lực quan trọng nhất, Hồ Chí Minh thường xuyên quan tâm đến lợi ích chính đáng, thiết thân của họ; đồng thời chăm lo bồi dưỡng sức dân. Đó là lợi ích của nhân dân và từng cá nhân.",
+    "question_type": "multiple_choice",
+    "question": "Hồ Chí Minh cho rằng động lực của chủ nghĩa xã hội biểu hiện ở hai phương diện nào?",
+    "options": ["Vật chất và tư tưởng", "Kinh tế và chính trị", "Khoa học và công nghệ", "Giáo dục và văn hóa"],
+    "answer": "A"
+  },  
+  {
+    "context": "Hồ Chí Minh đặt lên hàng đầu nhiệm vụ của cách mạng xã hội chủ nghĩa là đào tạo con người. Bởi lẽ, mục tiêu cao nhất, động lực quyết định nhất công cuộc xây dựng chủ nghĩa xã hội chính là con người. Trong lý luận xây dựng con người xã hội chủ nghĩa, Hồ Chí Minh quan tâm trước hết đến mặt tư tưởng. Người cho rằng: Muốn có con người xã hội chủ nghĩa, phải có tư tưởng xã hội chủ nghĩa. Tư tưởng xã hội chủ nghĩa ở mỗi con người là kết quả của việc học tập, vận dụng, phát triển chủ nghĩa Mác - Lênin, nâng cao lòng yêu nước, yêu chủ nghĩa xã hội.",
+    "question_type": "multiple_choice",
+    "question": "Hồ Chí Minh đặt nhiệm vụ nào lên hàng đầu của cách mạng xã hội chủ nghĩa?",
+    "options": ["Đào tạo con người", "Phát triển kinh tế", "Xây dựng quân đội", "Mở rộng ngoại giao"],
+    "answer": "Đào tạo con người"
+  },
+  {
+    "context": "Hồ Chí Minh đặt lên hàng đầu nhiệm vụ của cách mạng xã hội chủ nghĩa là đào tạo con người. Bởi lẽ, mục tiêu cao nhất, động lực quyết định nhất công cuộc xây dựng chủ nghĩa xã hội chính là con người. Trong lý luận xây dựng con người xã hội chủ nghĩa, Hồ Chí Minh quan tâm trước hết đến mặt tư tưởng. Người cho rằng: Muốn có con người xã hội chủ nghĩa, phải có tư tưởng xã hội chủ nghĩa. Tư tưởng xã hội chủ nghĩa ở mỗi con người là kết quả của việc học tập, vận dụng, phát triển chủ nghĩa Mác - Lênin, nâng cao lòng yêu nước, yêu chủ nghĩa xã hội.",
+    "question_type": "multiple_choice",
+    "question": "Theo Hồ Chí Minh, tư tưởng xã hội chủ nghĩa ở mỗi con người là kết quả của việc gì?",
+    "options": ["Học tập, vận dụng, phát triển chủ nghĩa Mác - Lênin", "Phát triển kinh tế", "Tăng cường giáo dục", "Phát triển khoa học"],
+    "answer": "Học tập, vận dụng, phát triển chủ nghĩa Mác - Lênin"
+  },  
+  {
+    "context": "Mục tiêu văn hóa - xã hội: Theo Hồ Chí Minh, văn hóa là một mục tiêu cơ bản của cách mạng xã hội chủ nghĩa. Văn hóa thể hiện trong mọi hoạt động của xã hội, đó là xóa nạn mù chữ, xây dựng, phát triển giáo dục, nâng cao dân trí, xây dựng phát triển văn hóa nghệ thuật, thực hiện nếp sống mới, thực hành vệ sinh phòng bệnh, giải trí lành mạnh, bài trừ mê tín dị đoan, khắc phục phong tục tập quán lạc hậu.",
+    "question_type": "multiple_choice",
+    "question": "Theo Hồ Chí Minh, văn hoá là gì?",
+    "options": ["Mục tiêu cơ bản của cách mạng xã hội chủ nghĩa", "Phương tiện để giải trí", "Công cụ tuyên truyền", "Một phần của đời sống tinh thần"],
+    "answer": "A"
+  },
+  {
+    "context": "Mục tiêu kinh tế: Theo Hồ Chí Minh, chế độ chính trị của chủ nghĩa xã hội chỉ được bảo đảm và đứng vững trên cơ sở một nền kinh tế vững mạnh. Nền kinh tế mà chúng ta xây dựng là nền kinh tế xã hội chủ nghĩa với công - nông nghiệp hiện đại, khoa học và kỹ thuật tiên tiến, cách bóc lột theo chủ nghĩa tư bản được xóa bỏ dần, đời sống vật chất của nhân dân ngày càng được cải thiện. Nền kinh tế xã hội chủ nghĩa ở nước ta cần phát triển toàn diện các ngành mà những ngành chủ yếu là công nghiệp, nông nghiệp, thương nghiệp, trong đó công nghiệp và nông nghiệp là hai chân của nền kinh tế nước nhà. Kết hợp các loại lợi ích kinh tế là vấn đề rất được Hồ Chí Minh quan tâm. Người đặc biệt nhấn mạnh chế độ khoán là một trong những hình thức của sự kết hợp lợi ích kinh tế.",
+    "question_type": "multiple_choice",
+    "question": "Hồ Chí Minh đặc biệt nhấn mạnh hình thức nào trong sự kết hợp lợi ích kinh tế?",
+    "options": ["Kinh tế hợp tác xã", "Chế độ khoán", "Kinh tế tư nhân", "Kinh tế nhà nước"],
+    "answer": "B"
+  },  
+  {
+    "context": "Mục tiêu chính trị: Theo tư tưởng Hồ Chí Minh, trong thời kỳ quá độ lên chủ nghĩa xã hội, Nhà nước có hai chức năng: dân chủ với nhân dân, chuyên chính với kẻ thù của nhân dân. Hai chức năng đó không tách rời nhau, mà luôn luôn đi đôi với nhau. Một mặt, Hồ Chí Minh nhấn mạnh phải phát triển quyền dân chủ và sinh hoạt chính trị của nhân dân; mặt khác, lại yêu cầu phải chuyên chính với thiểu số phản động chống lại lợi ích của nhân dân, chống lại chế độ xã hội chủ nghĩa. Để phát huy quyền làm chủ của nhân dân, Hồ Chí Minh chỉ rõ con đường và biện pháp thực hiện các hình thức dân chủ trực tiếp, nâng cao năng lực hoạt động của các tổ chức chính trị - xã hội của quần chúng; củng cố các hình thức dân chủ gián tiếp, tăng cường hiệu lực và hiệu quả quản lý của các cơ quan lập pháp, hành pháp và tư pháp, xử lý và phân định rõ chức năng của chúng.",
+    "question_type": "multiple_choice",
+    "question": "Theo tư tưởng Hồ Chí Minh, nhà nước trong thời kỳ quá độ lên chủ nghĩa xã hội phải có chức năng gì?",
+    "options": ["Dân chủ với nhân dân, chuyên chính với kẻ thù của nhân dân", "Dân chủ với mọi người", "Chuyên chính với tất cả", "Dân chủ với kẻ thù"],
+    "answer": "A"
+  },
+  {
+    "context": "Mục tiêu chính trị: Theo tư tưởng Hồ Chí Minh, trong thời kỳ quá độ lên chủ nghĩa xã hội, chế độ chính trị phải là do nhân dân lao động làm chủ, nhà nước là của dân, do dân và vì dân. Nhà nước có hai chức năng: dân chủ với nhân dân, chuyên chính với kẻ thù của nhân dân. Hai chức năng đó không tách rời nhau, mà luôn luôn đi đôi với nhau. Một mặt, Hồ Chí Minh nhấn mạnh phải phát triển quyền dân chủ và sinh hoạt chính trị của nhân dân; mặt khác, lại yêu cầu phải chuyên chính với thiểu số phản động chống lại lợi ích của nhân dân, chống lại chế độ xã hội chủ nghĩa. Để phát huy quyền làm chủ của nhân dân, Hồ Chí Minh chỉ rõ con đường và biện pháp thực hiện các hình thức dân chủ trực tiếp, nâng cao năng lực hoạt động của các tổ chức chính trị - xã hội của quần chúng; củng cố các hình thức dân chủ gián tiếp, tăng cường hiệu lực và hiệu quả quản lý của các cơ quan lập pháp, hành pháp và tư pháp, xử lý và phân định rõ chức năng của chúng.",
+    "question_type": "multiple_choice",
+    "question": "Để phát huy quyền làm chủ của nhân dân, Hồ Chí Minh chỉ ra con đường và biện pháp gì?",
+    "options": ["Thực hiện các hình thức dân chủ trực tiếp", "Chuyên chính với tất cả", "Tăng cường hiệu lực của hành pháp", "Chỉ nâng cao năng lực của các tổ chức xã hội"],
+    "answer": "A"
+  },
+  {
+    "context": "Chỉ rõ và nêu bật mục tiêu của chủ nghĩa xã hội, Hồ Chí Minh đã khẳng định tính ưu việt của chủ nghĩa xã hội so với các chế độ xã hội đã tồn tại trong lịch sử, chỉ ra nhiệm vụ giải phóng con người một cách toàn diện, theo các cấp độ: từ giải phóng dân tộc, giải phóng giai cấp, xã hội đến giải phóng từng cá nhân con người, hình thành các nhân cách phát triển tự do.",
+    "question_type": "multiple_choice",
+    "question": "Hồ Chí Minh khẳng định điều gì về chủ nghĩa xã hội so với các chế độ xã hội khác?",
+    "options": ["Tính ưu việt của chủ nghĩa xã hội", "Sự tương đồng với các chế độ xã hội khác", "Sự khó khăn trong việc thực hiện", "Chủ nghĩa xã hội không cần thiết"],
+    "answer": "A"
+  },  
+  {
+    "context": "Hồ Chí Minh quan niệm mục tiêu cao nhất của chủ nghĩa xã hội là nâng cao đời sống nhân dân. Đó là sự tin tưởng cao độ vào lý tưởng vì dân, vừa là một sự mạnh dạn trong lý luận. Theo Người, muốn nâng cao đời sống nhân dân thì phải tiến lên chủ nghĩa xã hội, chủ nghĩa xã hội là nâng cao đời sống nhân dân có ý nghĩa sâu sắc đối với chúng ta. Cách tư duy lấy chủ nghĩa xã hội làm điểm xuất phát tuyệt đối, làm cơ sở cho mọi hoạt động thực tiễn cần phải được bổ sung bằng sự tác động trở lại và chủ nghĩa xã hội cũng phải được làm rõ bởi hàng loạt quan hệ khác. Mục đích nâng cao đời sống toàn dân đó là tiêu chí tổng quát để khẳng định và kiểm nghiệm tính chất xã hội chủ nghĩa của các lý luận chủ nghĩa xã hội và chính sách thực tiễn. Trượt ra khỏi quỹ đạo đó thì hoặc là chủ nghĩa xã hội giả hiệu hoặc không có gì tương hợp với chủ nghĩa xã hội.",
+    "question_type": "multiple_choice",
+    "question": "Theo Hồ Chí Minh, mục tiêu cao nhất của chủ nghĩa xã hội là gì?",
+    "options": ["Nâng cao đời sống nhân dân", "Phát triển kinh tế", "Xây dựng chính quyền vững mạnh", "Thúc đẩy khoa học kỹ thuật"],
+    "answer": "A"
+  },
+  {
+    "context": "Hồ Chí Minh quan niệm mục tiêu cao nhất của chủ nghĩa xã hội là nâng cao đời sống nhân dân. Đó là sự tin tưởng cao độ vào lý tưởng vì dân, vừa là một sự mạnh dạn trong lý luận. Theo Người, muốn nâng cao đời sống nhân dân thì phải tiến lên chủ nghĩa xã hội, chủ nghĩa xã hội là nâng cao đời sống nhân dân có ý nghĩa sâu sắc đối với chúng ta. Cách tư duy lấy chủ nghĩa xã hội làm điểm xuất phát tuyệt đối, làm cơ sở cho mọi hoạt động thực tiễn cần phải được bổ sung bằng sự tác động trở lại và chủ nghĩa xã hội cũng phải được làm rõ bởi hàng loạt quan hệ khác. Mục đích nâng cao đời sống toàn dân đó là tiêu chí tổng quát để khẳng định và kiểm nghiệm tính chất xã hội chủ nghĩa của các lý luận chủ nghĩa xã hội và chính sách thực tiễn. Trượt ra khỏi quỹ đạo đó thì hoặc là chủ nghĩa xã hội giả hiệu hoặc không có gì tương hợp với chủ nghĩa xã hội.",
+    "question_type": "multiple_choice",
+    "question": "Hồ Chí Minh cho rằng việc nâng cao đời sống nhân dân có ý nghĩa như thế nào?",
+    "options": ["Ý nghĩa sâu sắc đối với chúng ta", "Là nhiệm vụ thứ yếu", "Chỉ là một trong nhiều mục tiêu", "Không liên quan đến chủ nghĩa xã hội"],
+    "answer": "A"
+  },
+  {
+    "context": "Từ cách đặt vấn đề này, theo Hồ Chí Minh, hiểu mục đích của chủ nghĩa xã hội, nghĩa là nắm bắt nội dung cốt lõi con đường lựa chọn và bản chất thực tế chế độ xã hội mà chúng ta phấn đấu xây dựng. Tiếp cận chủ nghĩa xã hội về phương diện mục đích là một nét đặc sắc, thể hiện phong cách và năng lực tư duy lý luận khái quát của Hồ Chí Minh. Hồ Chí Minh có nhiều cách đề cập mục đích của chủ nghĩa xã hội. Có khi Người trả lời một cách trực tiếp: Mục đích của chủ nghĩa xã hội là không ngừng nâng cao đời sống vật chất và tinh thần của nhân dân, trước hết là nhân dân lao động. Có khi Người diễn giải mục đích tổng quát này thành các tiêu chí cụ thể: chủ nghĩa xã hội là làm sao cho nhân dân đủ ăn, đủ mặc, ngày càng sung sướng, ai nấy được đi học, ốm đau có thuốc, già không lao động được thì nghỉ, những phong tục tập quán không tốt dần dần được xóa bỏ.",
+    "question_type": "multiple_choice",
+    "question": "Theo Hồ Chí Minh, mục đích của chủ nghĩa xã hội là không ngừng nâng cao điều gì?",
+    "options": ["Quyền lực của Đảng", "Đời sống vật chất và tinh thần của nhân dân", "Sự giàu có của nhà nước", "Tỷ lệ xuất khẩu công nghiệp"],
+    "answer": "B"
+  },  
+  {
+    "context": "Hồ Chí Minh ý thức được rõ ràng giá trị của chủ nghĩa xã hội về mặt lý luận là quan trọng, nhưng vấn đề quan trọng hơn là tìm ra con đường để thực hiện những giá trị này. Điểm then chốt, có ý nghĩa phương pháp luận quan trọng trong quan niệm của Hồ Chí Minh là Người đã đề ra các mục tiêu chung và mục tiêu cụ thể xây dựng chủ nghĩa xã hội ở nước ta trong mỗi giai đoạn cách mạng khác nhau. Chính thông qua quá trình đề ra các mục tiêu đó, chủ nghĩa xã hội được biểu hiện với việc thỏa mãn các nhu cầu, lợi ích thiết yếu của người lao động, theo các nấc thang từ thấp đến cao, tạo ra tính hấp dẫn, năng động của chế độ xã hội mới.",
+    "question_type": "multiple_choice",
+    "question": "Hồ Chí Minh cho rằng vấn đề quan trọng hơn lý luận về chủ nghĩa xã hội là gì?",
+    "options": ["Tìm ra con đường để thực hiện những giá trị", "Lý luận về chủ nghĩa xã hội", "Học thuyết về chủ nghĩa xã hội", "Phát triển kinh tế"],
+    "answer": "A"
+  },
+  {
+    "context": "Hồ Chí Minh ý thức được rõ ràng giá trị của chủ nghĩa xã hội về mặt lý luận là quan trọng, nhưng vấn đề quan trọng hơn là tìm ra con đường để thực hiện những giá trị này. Điểm then chốt, có ý nghĩa phương pháp luận quan trọng trong quan niệm của Hồ Chí Minh là Người đã đề ra các mục tiêu chung và mục tiêu cụ thể xây dựng chủ nghĩa xã hội ở nước ta trong mỗi giai đoạn cách mạng khác nhau. Chính thông qua quá trình đề ra các mục tiêu đó, chủ nghĩa xã hội được biểu hiện với việc thỏa mãn các nhu cầu, lợi ích thiết yếu của người lao động, theo các nấc thang từ thấp đến cao, tạo ra tính hấp dẫn, năng động của chế độ xã hội mới.",
+    "question_type": "multiple_choice",
+    "question": "Theo Hồ Chí Minh, chủ nghĩa xã hội được biểu hiện với việc thỏa mãn điều gì?",
+    "options": ["Các nhu cầu, lợi ích thiết yếu của người lao động", "Các nhu cầu của lãnh đạo", "Các nhu cầu của nhà nước", "Các nhu cầu của quốc tế"],
+    "answer": "A"
+  },
+  {
+    "context": "Định nghĩa chủ nghĩa xã hội bằng cách xác định động lực xây dựng nó: Chủ nghĩa xã hội là nhằm nâng cao đời sống vật chất và văn hóa của nhân dân và do nhân dân tự xây dựng lấy. Nhấn mạnh động lực tinh thần và ý thức xã hội chủ nghĩa, Hồ Chí Minh coi: chủ nghĩa xã hội không phải là cái gì cao xa, mà đó là những gì rất cụ thể như ý thức lao động tập thể, ý thức kỷ luật, tinh thần thi đua yêu nước, tăng sản xuất cho hợp tác xã, tăng thu nhập cho xã hội, tinh thần đoàn kết tương trợ, tinh thần dám nghĩ, dám nói, dám làm, không sợ khó, ý thức cần kiệm. Tinh thần cơ bản của một luận đề mácxít về chủ nghĩa xã hội được Hồ Chí Minh nhắc lại với một quy mô lớn hơn: chủ nghĩa xã hội là của nhân dân, vì nhân dân và do nhân dân lao động.",
+    "question_type": "multiple_choice",
+    "question": "Theo Hồ Chí Minh, tinh thần cơ bản của một luận đề mácxít về chủ nghĩa xã hội là gì?",
+    "options": ["Của nhân dân, vì nhân dân và do nhân dân lao động", "Của Đảng, vì Đảng và do Đảng lãnh đạo", "Của nhà nước, vì nhà nước và do nhà nước quản lý", "Của chính phủ, vì chính phủ và do chính phủ điều hành"],
+    "answer": "A"
+  },  
+  {
+    "context": "Định nghĩa bằng cách xác định mục tiêu của chủ nghĩa xã hội, chỉ rõ phương hướng, phương tiện để đạt được mục tiêu đó. Đây là cách định nghĩa phổ biến mà Hồ Chí Minh hay dùng nhất. Trong hơn 20 định nghĩa về chủ nghĩa xã hội thống kê được thì hơn 2/3 định nghĩa thuộc loại này. Chẳng hạn, Hồ Chí Minh hỏi: chủ nghĩa xã hội là mọi người được ăn no mặc ấm, sung sướng tự do, là đoàn kết, vui khỏe.",
+    "question_type": "multiple_choice",
+    "question": "Hồ Chí Minh định nghĩa chủ nghĩa xã hội là gì?",
+    "options": ["Mọi người được ăn no mặc ấm, sung sướng tự do", "Một hệ thống chính trị mới", "Một hệ tư tưởng", "Một phương pháp quản lý xã hội"],
+    "answer": "A"
+  },  
+  {
+    "context": "Định nghĩa tổng quát, xem xét chủ nghĩa xã hội, chủ nghĩa cộng sản như là một chế độ xã hội hoàn chỉnh, bao gồm nhiều mặt khác nhau của đời sống, là con đường giải phóng nhân loại cần lao, áp bức. Hồ Chí Minh viết: Chỉ có chủ nghĩa cộng sản mới cứu nhân loại, đem lại cho mọi người sự tự do, bình đẳng, bác ái, đoàn kết, ấm no trên quả đất, việc làm cho mọi người và vì mọi người, niềm vui, hòa bình, hạnh phúc, nói tóm lại là nền cộng hòa thế giới chân chính, xóa bỏ những biên giới tư bản chủ nghĩa cho đến nay chỉ là những vách tường dài ngăn cản những người lao động trên thế giới hiểu nhau và yêu thương nhau. Hoặc ở dưới dạng tổng hợp hơn, Người cho rằng: Muốn cho chủ nghĩa cộng sản thực hiện được, cần phải có kỹ nghệ, nông nghiệp và tất cả mọi người đều được phát triển hết khả năng của mình. Cách định nghĩa chủ nghĩa xã hội, chủ nghĩa cộng sản như trên thường được Người sử dụng thời kỳ trước năm 1954, khi chủ nghĩa xã hội là xu thế tất yếu mà quá trình cách mạng Việt Nam cần đạt tới.",
+    "question_type": "multiple_choice",
+    "question": "Hồ Chí Minh cho rằng chỉ có chủ nghĩa cộng sản mới đem lại điều gì cho mọi người?",
+    "options": ["Sự tự do, bình đẳng, bác ái, đoàn kết, ấm no", "Sự phát triển kinh tế", "Sự phát triển cá nhân", "Sự phát triển khoa học"],
+    "answer": "A"
+  },
+  {
+    "context": "Định nghĩa tổng quát, xem xét chủ nghĩa xã hội, chủ nghĩa cộng sản như là một chế độ xã hội hoàn chỉnh, bao gồm nhiều mặt khác nhau của đời sống, là con đường giải phóng nhân loại cần lao, áp bức. Hồ Chí Minh viết: Chỉ có chủ nghĩa cộng sản mới cứu nhân loại, đem lại cho mọi người không phân biệt chủng tộc và nguồn gốc sự tự do, bình đẳng, bác ái, đoàn kết, ấm no trên quả đất, việc làm cho mọi người và vì mọi người, niềm vui, hòa bình, hạnh phúc, nói tóm lại là nền cộng hòa thế giới chân chính, xóa bỏ những biên giới tư bản chủ nghĩa cho đến nay chỉ là những vách tường dài ngăn cản những người lao động trên thế giới hiểu nhau và yêu thương nhau. Hoặc ở dưới dạng tổng hợp hơn, Người cho rằng: Muốn cho chủ nghĩa cộng sản thực hiện được, cần phải có kỹ nghệ, nông nghiệp và mọi người đều được phát triển. Cách định nghĩa chủ nghĩa xã hội, chủ nghĩa cộng sản như trên thường được Người sử dụng thời kỳ trước năm 1954, khi chủ nghĩa xã hội là xu thế tất yếu mà quá trình cách mạng Việt Nam cần đạt tới.",
+    "question_type": "multiple_choice",
+    "question": "Hồ Chí Minh cho rằng cần phải có gì để chủ nghĩa cộng sản thực hiện được?",
+    "options": ["Kỹ nghệ, nông nghiệp và mọi người đều được phát triển", "Giáo dục, y tế và văn hóa", "Tài nguyên thiên nhiên và nhân lực", "Khoa học và công nghệ"],
+    "answer": "A"
+  },  
+  {
+    "context": "Từ những điểm đã trình bày ở trên, có thể rút ra một số kết luận: Một là, thực tiễn sinh động là cơ sở xây dựng quan điểm về các đặc trưng bản chất của chủ nghĩa xã hội. Hai là, các đặc trưng của chủ nghĩa xã hội được các nhà kinh điển đưa ra có ý nghĩa trong cuộc đấu tranh chống lại tư tưởng, học thuyết phi mácxít nhằm giành thắng lợi quyết định cho học thuyết cách mạng. Vì thế, những đặc trưng ấy sẽ dần dần được nhận thức thêm, phù hợp với biện chứng khách quan của hiện thực.",
+    "question_type": "multiple_choice",
+    "question": "Thực tiễn sinh động có vai trò gì đối với chủ nghĩa xã hội?",
+    "options": ["Cơ sở lý luận của chủ nghĩa xã hội", "Cơ sở xây dựng quan điểm về các đặc trưng bản chất", "Cơ sở phát triển kinh tế xã hội chủ nghĩa", "Cơ sở giáo dục chủ nghĩa xã hội"],
+    "answer": "B"
+  },  
+  {
+    "context": "V.I.Lênin đã phát triển học thuyết của C.Mác và Ph.Ăngghen, Người cho rằng, trong xã hội xã hội chủ nghĩa, một mặt, có chế độ sở hữu nhà nước về tư liệu sản xuất quan trọng, mặt khác, có các xí nghiệp hợp tác (nghĩa là xí nghiệp không phải của toàn dân), xã viên hợp tác xã. Như vậy họ cũng như công nhân đều là những người đại biểu cho phương thức sản xuất xã hội chủ nghĩa. Theo V.I.Lênin, việc tiến lên chủ nghĩa xã hội không loại trừ nền sản xuất hàng hóa do giai cấp công nhân tổ chức. V.I.Lênin đề ra việc sử dụng các quan hệ hàng hóa - tiền tệ và những phạm trù liên quan tới chúng như hàng hóa, giá cả, lợi nhuận, hạch toán kinh tế. Đồng thời, việc phân phối phải được xây dựng nhờ các quan hệ hàng hóa - tiền tệ, thương nghiệp, chứ không phải xây dựng trên việc cung cấp trực tiếp từ nguồn dự trữ của xã hội, trên việc trao đổi sản phẩm trực tiếp.",
+    "question_type": "multiple_choice",
+    "question": "Theo V.I.Lênin, trong xã hội xã hội chủ nghĩa có chế độ sở hữu nào?",
+    "options": ["Sở hữu nhà nước về tư liệu sản xuất quan trọng", "Các công ty tư nhân hợp tác", "Sở hữu tư nhân về tư liệu sản xuất", "Sở hữu tư nhân về tư liệu lao động"],
+    "answer": "A"
+  },
+  {
+    "context": "V.I.Lênin đã phát triển học thuyết của C.Mác và Ph.Ăngghen, Người cho rằng, trong xã hội xã hội chủ nghĩa, một mặt, có chế độ sở hữu nhà nước về tư liệu sản xuất quan trọng, mặt khác, có các xí nghiệp hợp tác (nghĩa là xí nghiệp không phải của toàn dân), xã viên hợp tác xã. Như vậy họ cũng như công nhân đều là những người đại biểu cho phương thức sản xuất xã hội chủ nghĩa. Theo V.I.Lênin, việc tiến lên chủ nghĩa xã hội không loại trừ nền sản xuất hàng hóa do giai cấp công nhân tổ chức. V.I.Lênin đề ra việc sử dụng các quan hệ hàng hóa - tiền tệ và những phạm trù liên quan tới chúng như hàng hóa, giá cả, lợi nhuận, hạch toán kinh tế. Đồng thời, việc phân phối phải được xây dựng nhờ các quan hệ hàng hóa - tiền tệ, thương nghiệp, chứ không phải xây dựng trên việc cung cấp trực tiếp từ nguồn dự trữ của xã hội, trên việc trao đổi sản phẩm trực tiếp.",
+    "question_type": "multiple_choice",
+    "question": "V.I.Lênin đề ra việc sử dụng các quan hệ hàng hóa - tiền tệ và những phạm trù nào trong xã hội xã hội chủ nghĩa?",
+    "options": ["Hàng hóa, giá cả, lợi nhuận, hạch toán kinh tế", "Hàng hóa, giá cả, lợi nhuận, cung cấp trực tiếp từ nguồn dự trữ", "Hạch toán kinh tế, phân phối trực tiếp từ nguồn dự trữ", "Giá cả, lợi nhuận, trao đổi sản phẩm trực tiếp"],
+    "answer": "A"
+  },  
+  {
+    "context": "Hồ Chí Minh còn tiếp cận chủ nghĩa xã hội từ văn hóa, đã đưa văn hóa thâm nhập vào chính trị và kinh tế, tạo nên một sự thống nhất biện chứng giữa văn hóa và chính trị, kinh tế, giữa các mục tiêu phát triển xã hội. Điều này cho thấy, ở Hồ Chí Minh, chủ nghĩa xã hội chính là một hình thái phát triển của văn hóa, một đỉnh cao của nền văn minh nhân loại. Do đó, quá trình hình thành và phát triển của chủ nghĩa xã hội lại càng phải gắn với văn hóa, và chỉ có đứng trên đỉnh cao của văn hóa, chủ nghĩa xã hội mới có thể phát triển theo đúng quy luật xã hội khách quan, phù hợp với tiến trình phát triển chung của nhân loại.",
+    "question_type": "multiple_choice",
+    "question": "Điều gì tạo nên sự thống nhất biện chứng giữa văn hóa và chính trị, kinh tế trong tư tưởng Hồ Chí Minh?",
+    "options": ["Đưa văn hóa thâm nhập vào chính trị và kinh tế", "Kinh tế phát triển nhanh chóng", "Chính trị ổn định", "Sự phát triển của khoa học kỹ thuật"],
+    "answer": "A"
+  },  
+  {
+    "context": "Người còn tiếp cận chủ nghĩa xã hội từ văn hóa, đã đưa văn hóa thâm nhập vào bên trong của chính trị và kinh tế, tạo nên một sự thống nhất biện chứng giữa văn hóa và chính trị, kinh tế, giữa các mục tiêu phát triển xã hội. Điều này cho thấy, ở Hồ Chí Minh, chủ nghĩa xã hội chính là một hình thái phát triển của văn hóa, một đỉnh cao của nền văn minh nhân loại. Do đó, quá trình hình thành và phát triển của chủ nghĩa xã hội lại càng phải gắn với văn hóa, và chỉ có đứng trên đỉnh cao của văn hóa, chủ nghĩa xã hội mới có thể phát triển theo đúng quy luật xã hội khách quan, phù hợp với tiến trình phát triển chung của nhân loại.",
+    "question_type": "multiple_choice",
+    "question": "Theo Hồ Chí Minh, chủ nghĩa xã hội là gì?",
+    "options": ["Một hình thái phát triển của văn hóa", "Một hình thái phát triển của kinh tế", "Một hệ thống chính trị", "Một hình thức quản lý xã hội"],
+    "answer": "A"
+  },  
+  {
+    "context": "Hồ Chí Minh tiếp thu những nguyên lý cơ bản của chủ nghĩa Mác - Lênin về chủ nghĩa xã hội, đã vận dụng và phát triển một cách sáng tạo, đưa ra nhiều kiến giải mới nhằm bổ sung vào lý luận Mác - Lênin, phù hợp với thực tế Việt Nam. Trước hết, Hồ Chí Minh luận giải sự ra đời và bản chất của chủ nghĩa xã hội từ phương diện kinh tế, trình độ phát triển của lực lượng sản xuất. Người cho rằng, sự hình thành, phát triển và chín muồi của chủ nghĩa xã hội là nguyên nhân sâu xa chính là do sự phát triển của lực lượng sản xuất xã hội. Trên cơ sở một nền tảng kinh tế mới, chủ nghĩa xã hội sẽ xác lập một hệ thống, các giá trị đặc thù mang tính nhân bản thấm sâu vào mỗi quan hệ và lĩnh vực xã hội. Sự thống nhất giữa tính khoa học và tính giá trị thể hiện rất rõ trong nhận thức của Hồ Chí Minh về chủ nghĩa xã hội.",
+    "question_type": "multiple_choice",
+    "question": "Hồ Chí Minh cho rằng nguyên nhân sâu xa của sự hình thành, phát triển và chín muồi của chủ nghĩa xã hội là gì?",
+    "options": ["Do sự phát triển của lực lượng sản xuất xã hội", "Do sự thay đổi của hệ thống chính trị", "Do sự tiến bộ của khoa học kỹ thuật", "Do sự phát triển của nền văn hóa"],
+    "answer": "A"
+  },
+  {
+    "context": "Hồ Chí Minh giải quyết vấn đề dân tộc và vấn đề giai cấp trong mối quan hệ thống nhất biện chứng. Trong khi rất coi trọng vấn đề dân tộc, đề cao sức mạnh của chủ nghĩa yêu nước, thì Người cũng luôn luôn đứng vững trên quan điểm giai cấp để nhận thức và giải quyết vấn đề dân tộc. Mục tiêu của cách mạng do Hồ Chí Minh và Đảng ta nêu lên thể hiện kết hợp vấn đề dân tộc và vấn đề giai cấp. Nó chứng tỏ ở Việt Nam chỉ có Đảng Cộng sản và giai cấp công nhân mới là lực lượng đại biểu trung thành cho lợi ích của dân tộc, mới xây dựng được mặt trận đại đoàn kết dân tộc để thực hiện được mục tiêu trên.",
+    "question_type": "multiple_choice",
+    "question": "Mục tiêu của cách mạng do Hồ Chí Minh và Đảng ta nêu lên thể hiện điều gì?",
+    "options": ["Kết hợp vấn đề dân tộc và vấn đề giai cấp", "Chỉ chú trọng vấn đề dân tộc", "Chỉ chú trọng vấn đề giai cấp", "Xây dựng mặt trận dân tộc"],
+    "answer": "A"
+  },  
+  {
+    "context": "Trong sự nghiệp đổi mới, càng phải xác định rõ các nguồn lực và phải phát huy tối đa các nguồn nội lực (bao gồm con người, trí tuệ, truyền thống dân tộc, truyền thống cách mạng, đất đai, tài nguyên, vốn liếng...), trong đó yếu tố quan trọng nhất, quyết định nhất vẫn là nguồn lực con người với tất cả sức mạnh thể chất và tinh thần của nó.",
+    "question_type": "multiple_choice",
+    "question": "Nguồn lực quan trọng nhất, quyết định nhất là gì?",
+    "options": ["Nguồn lực tài nguyên", "Nguồn lực đất đai", "Nguồn lực con người", "Nguồn lực vốn liếng"],
+    "answer": "C"
+  },  
+  {
+    "context": "Trước những kẻ thù lớn mạnh, Hồ Chí Minh chủ trương sử dụng phương châm chiến lược đánh lâu dài. Trong kháng chiến chống thực dân Pháp, Người nói: Địch muốn tốc chiến, tốc thắng. Ta lấy trường kỳ kháng chiến trị nó, thì địch nhất định thua, ta nhất định thắng. Trường kỳ kháng chiến... nhất định thắng lợi. Kháng chiến phải trường kỳ vì đất ta hẹp, dân ta ít, nước ta nghèo, ta phải chuẩn bị lâu dài và phải có sự chuẩn bị toàn diện của toàn dân. Theo Người, họa thực dân cũng như một chứng bệnh trầm trọng. Muốn chữa bệnh ấy, ta phải thật gan dạ để chịu đau đớn khi mổ xẻ, phải có đủ thời giờ để bồi dưỡng lại sức, kết quả nhất định tẩy trừ được bệnh ấy. Công cuộc kháng chiến cũng như vậy. Người phân tích: Với binh nhiều, tướng đủ, khí giới tối tân, chúng định đánh mau thắng mau.",
+    "question_type": "multiple_choice",
+    "question": "Hồ Chí Minh chủ trương sử dụng phương châm nào trước những kẻ thù lớn mạnh?",
+    "options": ["Tốc chiến, tốc thắng", "Đánh nhanh, thắng nhanh", "Chiến lược đánh lâu dài", "Đánh du kích"],
+    "answer": "C"
+  },
+  {
+    "context": "Trước những kẻ thù lớn mạnh, Hồ Chí Minh chủ trương sử dụng phương châm chiến lược đánh lâu dài. Trong kháng chiến chống thực dân Pháp, Người nói: Địch muốn tốc chiến, tốc thắng. Ta lấy trường kỳ kháng chiến trị nó, thì địch nhất định thua, ta nhất định thắng. Trường kỳ kháng chiến... nhất định thắng lợi. Kháng chiến phải trường kỳ vì đất ta hẹp, dân ta ít, nước ta nghèo, ta phải chuẩn bị lâu dài và phải có sự chuẩn bị toàn diện của toàn dân. Theo Người, họa thực dân cũng như một chứng bệnh trầm trọng. Muốn chữa bệnh ấy, ta phải thật gan dạ để chịu đau đớn khi mổ xẻ, phải có đủ thời giờ để bồi dưỡng lại sức, kết quả nhất định tẩy trừ được bệnh ấy. Công cuộc kháng chiến cũng như vậy. Người phân tích: Với binh nhiều, tướng đủ, khí giới tối tân, chúng định đánh mau thắng mau.",
+    "question_type": "multiple_choice",
+    "question": "Theo Hồ Chí Minh, tại sao kháng chiến phải trường kỳ?",
+    "options": ["Đất ta rộng, dân ta nhiều", "Đất ta hẹp, dân ta ít, nước ta nghèo", "Nước ta giàu có, quân đội mạnh", "Nước ta có nhiều đồng minh"],
+    "answer": "B"
+  },  
+  {
+    "context": "Trong kháng chiến chống đế quốc Mỹ, Người gửi nhiều thông điệp cho các nhà cầm quyền Mỹ, đề nghị đàm phán hòa bình để kết thúc chiến tranh. Khi quân Mỹ tăng cường chiến tranh, một mặt Người kêu gọi quân dân ta quyết tâm đánh thắng giặc Mỹ xâm lược, đồng thời chủ trương vừa đánh vừa đàm để kết thúc chiến tranh. Tư tưởng bạo lực cách mạng và tư tưởng nhân đạo hòa bình thống nhất biện chứng với nhau trong tư tưởng Hồ Chí Minh. Người chủ trương, yêu nước, thương dân, yêu thương con người, yêu chuộng hòa bình, tự do, công lý, tranh thủ mọi khả năng hòa bình để giải quyết xung đột, nhưng một khi không thể tránh khỏi chiến tranh thì phải kiên quyết tiến hành chiến tranh, kiên quyết dùng bạo lực cách mạng, dùng khởi nghĩa và chiến tranh cách mạng để giành, giữ và bảo vệ hòa bình, vì độc lập tự do.",
+    "question_type": "multiple_choice",
+    "question": "Tư tưởng bạo lực cách mạng và tư tưởng nhân đạo hòa bình của Hồ Chí Minh có quan hệ như thế nào?",
+    "options": ["Tách biệt hoàn toàn", "Mâu thuẫn với nhau", "Thống nhất biện chứng với nhau", "Không liên quan đến nhau"],
+    "answer": "C"
+  },  
+  {
+    "context": "Trong khi tiến hành chiến tranh, Người tìm mọi cách vãn hồi hòa bình. Trong kháng chiến chống thực dân Pháp, Hồ Chí Minh nhiều lần gửi thư kêu gọi đàm phán hòa bình cho Chính phủ và nhân dân Pháp, cho tướng lĩnh, binh sĩ trong quân đội Pháp và những kiều dân Pháp ở Việt Nam, cho các chính phủ, các nhà hoạt động chính trị, văn hóa và nhân dân các nước, vừa tố cáo cuộc chiến tranh xâm lược của thực dân Pháp, vừa . Người viết: Chúng tôi muốn hòa bình ngay để máu người Pháp và Việt ngừng chảy. Những dòng máu đó chúng tôi đều quý như nhau. Chúng tôi mong đợi ở Chính phủ và nhân dân Pháp một cử chỉ mang lại hòa bình. Nếu không, chúng tôi bắt buộc phải chiến đấu đến cùng để giải phóng hoàn toàn đất nước.",
+    "question_type": "multiple_choice",
+    "question": "Trong kháng chiến chống thực dân Pháp, Hồ Chí Minh đã làm gì để tìm cách vãn hồi hòa bình?",
+    "options": ["Gửi thư kêu gọi đàm phán hòa bình", "Tấn công các căn cứ quân sự", "Kêu gọi sự giúp đỡ từ các nước đồng minh", "Yêu cầu thêm viện trợ quân sự"],
+    "answer": "A"
+  }, 
   {
     "context": "Sau khi miền Bắc nước ta được giải phóng, Người kiên trì yêu cầu đối phương thi hành Hiệp định Giơnevơ 1954 về Đông Dương, thực hiện hiệp thương tổng tuyển cử thống nhất nước nhà.",
     "question_type": "multiple_choice",
     "question": "Sau khi miền Bắc được giải phóng, Hồ Chí Minh yêu cầu đối phương thi hành điều gì?",
     "options": ["Hiệp định Giơnevơ 1954", "Hiệp định Paris", "Hiệp định Việt - Pháp", "Hiệp định Đông Dương"],
     "answer": "A"
-  },  
+  },
   {
     "context": "Việc tiến hành các hội nghị Việt - Pháp và ký các hiệp định trong năm 1946 là thể hiện tư tưởng nhân đạo và hòa bình của Hồ Chí Minh. Theo Người, tinh thần thiện chí của Việt Nam khi ký hiệp ước còn giá trị hơn mọi văn bản và lời nói, vì chúng ta bảo đảm những lợi ích tinh thần, văn hóa và vật chất của Pháp, và ngược lại, Pháp phải bảo đảm nền độc lập của chúng ta. Một chữ Độc lập là đủ để đưa lại một sự tín nhiệm đang cần được khẳng định. Tôi không muốn trở về Hà Nội tay không. Tôi muốn khi trở về nước sẽ đem về cho nhân dân Việt Nam những kết quả cụ thể với sự cộng tác chắc chắn mà chúng tôi mong đợi ở nước Pháp.",
     "question_type": "multiple_choice",
     "question": "Việc tiến hành các hội nghị Việt - Pháp và ký các hiệp định trong năm 1946 thể hiện điều gì trong tư tưởng của Hồ Chí Minh?",
     "options": ["Tư tưởng nhân đạo và hòa bình", "Tinh thần quyết chiến", "Lợi ích văn hóa", "Sự tín nhiệm"],
     "answer": "A"
-  },  
+  },
   {
     "context": "Các thế lực đế quốc sử dụng bạo lực để xâm lược và thống trị thuộc địa, đàn áp dã man các phong trào yêu nước. Chế độ thực dân, tự bản thân nó đã là một hành động bạo lực của kẻ mạnh đối với kẻ yếu. Chưa đè bẹp ý chí xâm lược của chúng thì chưa thể có thắng lợi hoàn toàn. Vì thế con đường để giành và giữ độc lập dân tộc chỉ có thể là con đường cách mạng bạo lực. Đánh giá đúng bản chất cực kỳ phản động của bọn đế quốc và tay sai, Hồ Chí Minh cho rằng: Trong cuộc đấu tranh gian khổ chống kẻ thù của giai cấp và của dân tộc, cần dùng bạo lực cách mạng chống lại bạo lực phản cách mạng, giành lấy chính quyền và bảo vệ chính quyền.",
     "question_type": "multiple_choice",
@@ -1586,7 +1976,7 @@
     "question": "Hồ Chí Minh đánh giá như thế nào về bản chất của bọn đế quốc và tay sai?",
     "options": ["Cực kỳ phản động", "Ôn hòa", "Tiến bộ", "Thân thiện"],
     "answer": "A"
-  },  
+  },
   {
     "context": "Theo Hồ Chí Minh, giữa cách mạng giải phóng dân tộc ở thuộc địa và cách mạng vô sản ở chính quốc có mối quan hệ mật thiết với nhau, tác động qua lại lẫn nhau trong cuộc đấu tranh chống kẻ thù chung là chủ nghĩa đế quốc. Đó là mối quan hệ bình đẳng chứ không phải là quan hệ lệ thuộc, hoặc quan hệ chính - phụ. Năm 1925, Hồ Chí Minh viết: Chủ nghĩa tư bản là một con đỉa có một cái vòi bám vào giai cấp vô sản ở chính quốc và một cái vòi khác bám vào giai cấp vô sản ở các thuộc địa. Nếu người ta muốn giết con vật ấy, người ta phải đồng thời cắt cả hai vòi. Nếu người ta chỉ cắt một vòi thôi, thì cái vòi kia vẫn tiếp tục hút máu của giai cấp vô sản; con vật vẫn tiếp tục sống và cái vòi bị cắt đứt lại sẽ mọc ra1.",
     "question_type": "multiple_choice",
@@ -1607,7 +1997,7 @@
     "question": "Nguyễn Ái Quốc cho rằng cách mạng giải phóng dân tộc ở thuộc địa có thể giành thắng lợi trước cách mạng nào?",
     "options": ["Cách mạng vô sản ở chính quốc", "Cách mạng tư sản", "Cách mạng nông dân", "Cách mạng công nghiệp"],
     "answer": "A"
-  },  
+  },
   {
     "context": "Các nhà yêu nước Việt Nam đã ý thức được tầm quan trọng và vai trò của tổ chức cách mạng. Phan Châu Trinh cho rằng: ngày nay, muốn độc lập, tự do, phải có đoàn thể. Rất tiếc là ông chưa kịp thực hiện ý tưởng của mình. Phan Bội Châu đã tổ chức ra Duy tân hội (1904) và Việt Nam Quang phục hội (1912), dự định sau sẽ cải tổ thành Việt Nam quốc dân đảng theo kiểu Tôn Trung Sơn, chưa kịp thực hiện thì ông đã bị bắt và giam lỏng tại Huế.",
     "question_type": "multiple_choice",
