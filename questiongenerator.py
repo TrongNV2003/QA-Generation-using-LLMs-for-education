@@ -60,10 +60,21 @@ class QuestionAnswerGenerator:
             sentences = self._split_into_sentences(context)
             inputs, questions, answers = self._generate_qa_mcq(sentences)
 
-        if len(questions) > num_questions:
-            questions, answers = questions[:num_questions], answers[:num_questions]
+        # if len(questions) > num_questions:
+        #     questions, answers = questions[:num_questions], answers[:num_questions]
 
-        return inputs, questions, answers
+        # return inputs, questions, answers
+    
+        question_lengths = [len(q.split()) for q in questions]
+        sorted_indices = np.argsort(question_lengths)[::-1]  # Sort questions by length in descending order
+
+        sorted_questions = [questions[i] for i in sorted_indices]
+        sorted_answers = [answers[i] for i in sorted_indices]
+
+        if len(sorted_questions) > num_questions:
+            sorted_questions, sorted_answers = sorted_questions[:num_questions], sorted_answers[:num_questions]
+
+        return inputs, sorted_questions, sorted_answers
     
     def _split_context(self, text: str) -> List[str]:
         """Splits a long text into segments short enough to be input into the transformer network.
