@@ -1,6 +1,8 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
+# run test_qa.py first, then this model will plot the result of test model
+
 def plot_results(csv_file: str, output_file: str) -> None:
     # Đọc dữ liệu từ file CSV
     df = pd.read_csv(csv_file)
