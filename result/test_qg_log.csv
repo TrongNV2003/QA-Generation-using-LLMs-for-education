@@ -1,4 +1,3 @@
 model_type,loss,accuracy
-Model sentences,0.385,0.672
-Model multiple choice,0.589,0.501
-Model distractor,0.877,0.147
+Model sentences,0.466,0.607
+Model multiple choice,0.487,0.623

@@ -15,21 +15,21 @@ def plot_results(csv_file: str, output_file: str) -> None:
     width = 0.4
 
     # Tạo biểu đồ cột cho loss
-    ax1.bar([i - width/2 for i in x], df['loss'], width=width, label='Loss', color='blue')
-    ax1.set_ylabel('Loss', color='blue')
-    ax1.tick_params(axis='y', labelcolor='blue')
+    ax1.bar([i - width/2 for i in x], df['loss'], width=width, label='Loss', color='blue', alpha=0.6)
+    ax1.set_ylabel('Values')
+    ax1.tick_params(axis='y')
 
-    # Tạo axis thứ hai cho accuracy
-    ax2 = ax1.twinx()
-    ax2.bar([i + width/2 for i in x], df['accuracy'], width=width, label='Accuracy', color='orange')
-    ax2.set_ylabel('Accuracy', color='orange')
-    ax2.tick_params(axis='y', labelcolor='orange')
+    # Tạo biểu đồ cột cho accuracy trên cùng trục Y
+    ax1.bar([i + width/2 for i in x], df['accuracy'], width=width, label='Accuracy', color='orange', alpha=1)
 
     # Thiết lập tên trục x
-    plt.xticks(x, df['model_type'], rotation=45, ha='right')
+    plt.xticks(x, df['model_type'], ha='center')
 
     # Thiết lập tiêu đề
     plt.title('Loss and Accuracy of Different Models')
+
+    # Thêm chú thích (legend)
+    ax1.legend(loc='upper left')
 
     # Lưu biểu đồ thành file
     plt.tight_layout()
