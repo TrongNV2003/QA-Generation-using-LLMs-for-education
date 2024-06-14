@@ -13,7 +13,7 @@ def extract_questions_answers(json_file, output_file):
             answer = options[answer_index]
             
             # answer = item['answer']
-            f.write(f"{question} || {answer} \n")
+            f.write(f"{question}; {answer} \n")
 
 # Đường dẫn đến tập dữ liệu JSON và tệp văn bản đầu ra
 json_file = 'datasets/test/qg_test.json'
