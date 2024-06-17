@@ -77,8 +77,8 @@
   {
     "context": "Những quan niệm của con người ở trình độ tâm lý xã hội còn mang tính kinh nghiệm, chưa được thể hiện về mặt lý luận, yếu tố trí tuệ đan xen với yếu tố tình cảm. Tuy nhiên, không thể phủ nhận vai trò quan trọng của tâm lý xã hội trong sự phát triển của ý thức xã hội. Hồ Chí Minh rất coi trọng việc nghiên cứu trạng thái tâm lý xã hội của nhân dân để hiểu nhân dân, giáo dục nhân dân, đưa nhân dân tham gia tích cực, tự giác vào cuộc đấu tranh cho một xã hội tốt đẹp.",
     "question_type": "multiple_choice",
-    "question": "Ai rất coi trọng việc nghiên cứu trạng thái tâm lý xã hội của nhân dân?",
-    "options": ["Hồ Chí Minh", "Lênin", "Ăngghen", "Mác"],
+    "question": "Hồ Chí Minh rất coi trọng việc nghiên cứu trạng thái tâm lý xã hội của nhân dân để làm gì?",
+    "options": ["Hiểu nhân dân, giáo dục nhân dân", "Phát triển kinh tế", "Xây dựng cơ sở hạ tầng", "Cải cách chính trị"],
     "answer": "A"
   },
   {
@@ -116,9 +116,9 @@
   {
     "context": "Tính giai cấp của ý thức xã hội biểu hiện ở tâm lý xã hội cũng như ở hệ tư tưởng. Về mặt tâm lý xã hội, mỗi giai cấp đều có tình cảm, tâm trạng, thói quen riêng, có thiện cảm hay ác cảm với tập đoàn xã hội này hoặc tập đoàn xã hội khác. Ở trình độ hệ tư tưởng thì tính giai cấp của ý thức xã hội biểu hiện sâu sắc hơn nhiều. Trong xã hội có đối kháng giai cấp bao giờ cũng có những quan điểm tư tưởng hoặc những hệ tư tưởng đối lập nhau: tư tưởng của giai cấp bóc lột và giai cấp bị bóc lột, của giai cấp thống trị và giai cấp bị trị. Những tư tưởng thống trị của một thời đại bao giờ cũng là tư tưởng của giai cấp thống trị về kinh tế và chính trị ở thời đại đó.",
     "question_type": "multiple_choice",
-    "question": "Tính giai cấp của ý thức xã hội biểu hiện sâu sắc hơn ở đâu?",
-    "options": ["Trình độ hệ tư tưởng", "Trình độ ý thức", "Trình độ hệ thống", "Trình độ xã hội"],
-    "answer": "A"
+    "question": "Những tư tưởng thống trị của một thời đại bao giờ cũng là tư tưởng của giai cấp nào?",
+    "options": ["Giai cấp bị trị", "Giai cấp bị bóc lột", "Giai cấp thống trị về kinh tế và chính trị", "Giai cấp trung lưu"],
+    "answer": "C"
   },
   {
     "context": "Chủ nghĩa Mác - Lênin là hệ tư tưởng khoa học và cách mạng của giai cấp công nhân, ngọn cờ giải phóng của quần chúng bị áp bức, bóc lột, phản ánh tiến trình khách quan của sự phát triển lịch sử. Hệ tư tưởng Mác - Lênin đối lập với hệ tư tưởng tư sản - hệ tư tưởng bảo vệ lợi ích của giai cấp tư sản, bảo vệ chế độ người bóc lột người. Cuộc đấu tranh giai cấp giữa giai cấp tư sản và giai cấp vô sản hàng thế kỷ nay diễn ra gay gắt trên tất cả các lĩnh vực, trong đó có lĩnh vực hệ tư tưởng.",
@@ -137,9 +137,9 @@
   {
     "context": "Trong điều kiện xã hội ngày nay, cuộc đấu tranh giai cấp trên lĩnh vực ý thức hệ vẫn đang tiếp tục diễn ra. Trước những khó khăn và thử thách trên con đường phát triển của chủ nghĩa xã hội, các thế lực thù địch đang ra sức tiến công vào chủ nghĩa Mác - Lênin, muốn phủ nhận, xoá bỏ nó. Do vậy bảo vệ và phát triển chủ nghĩa Mác - Lênin trong điều kiện thế giới ngày nay, là một nhiệm vụ quan trọng của cuộc đấu tranh vì mục tiêu độc lập dân tộc, dân chủ và chủ nghĩa xã hội của nhân dân ta và nhân dân tiến bộ trên thế giới nói chung.",
     "question_type": "multiple_choice",
-    "question": "Cuộc đấu tranh giai cấp trên lĩnh vực nào vẫn đang tiếp tục diễn ra?",
-    "options": ["Ý thức hệ", "Kinh tế", "Chính trị", "Quân sự"],
-    "answer": "A"
+    "question": "Các thế lực thù địch đang ra sức tiến công vào chủ nghĩa nào?",
+    "options": ["Chủ nghĩa tư bản", "Chủ nghĩa thực dân", "Chủ nghĩa Mác - Lênin", "Chủ nghĩa tự do"],
+    "answer": "C"
   },
   {
     "context": "Trong điều kiện xã hội ngày nay, cuộc đấu tranh giai cấp trên lĩnh vực ý thức hệ vẫn đang tiếp tục diễn ra. Trước những khó khăn và thử thách trên con đường phát triển của chủ nghĩa xã hội, các thế lực thù địch đang ra sức tiến công vào chủ nghĩa Mác - Lênin, muốn phủ nhận, xoá bỏ nó. Do vậy bảo vệ và phát triển chủ nghĩa Mác - Lênin trong điều kiện thế giới ngày nay, là một nhiệm vụ quan trọng của cuộc đấu tranh vì mục tiêu độc lập dân tộc, dân chủ và chủ nghĩa xã hội của nhân dân ta và nhân dân tiến bộ trên thế giới nói chung.",
@@ -366,8 +366,8 @@
   {
     "context": "Trong xã hội có giai cấp và đấu tranh giai cấp thì nội dung chủ yếu của đạo đức phản ánh quan hệ giai cấp, nó có tính giai cấp. Trong các phạm trù đạo đức luôn luôn phản ánh địa vị và lợi ích của giai cấp. Mỗi giai cấp trong những giai đoạn phát triển nhất định của lịch sử xã hội đều có những quan niệm đạo đức riêng của mình. Giai cấp tiêu biểu cho xu thế phát triển đi lên của xã hội thì đại diện cho một nền đạo đức tiến bộ, còn các giai cấp phản động thì đại diện cho một nền đạo đức suy thoái.",
     "question_type": "multiple_choice",
-    "question": "Giai cấp phản động đại diện cho nền đạo đức nào?",
-    "options": ["Suy thoái", "Tiến bộ", "Trung lập", "Cải cách"],
+    "question": "Giai cấp tiêu biểu cho xu thế phát triển đi lên của xã hội thì đại diện cho điều gì?",
+    "options": ["Một nền đạo đức tiến bộ", "Một nền đạo đức suy thoái", "Một nền đạo đức truyền thống", "Một nền đạo đức trung lập"],
     "answer": "A"
   },
   {
@@ -443,8 +443,8 @@
   {
     "context": "Ý thức thẩm mỹ là sự phản ánh hiện thực vào ý thức con người trong quan hệ với nhu cầu thưởng thức và sáng tạo Cái Đẹp. Trong các hình thức hoạt động thưởng thức và sáng tạo Cái Đẹp thì nghệ thuật là hình thức biểu hiện cao nhất của ý thức thẩm mỹ. Nghệ thuật ra đời từ rất sớm ngay từ khi xã hội chưa phân chia thành giai cấp. Quá trình hình thành nghệ thuật gắn liền với lao động của con người, với thực tiễn xã hội. Những dấu vết đầu tiên của nghệ thuật đều thuộc về thời kỳ con người đã biết sản xuất ra những công cụ bằng đá, bằng xương, bằng sừng,...",
     "question_type": "multiple_choice",
-    "question": "Hình thức biểu hiện cao nhất của ý thức thẩm mỹ là gì?",
-    "options": ["Nghệ thuật", "Khoa học", "Chính trị", "Kinh tế"],
+    "question": "Ý thức thẩm mỹ là sự phản ánh thực vào ý thức con người trong quan hệ với nhu cầu nào?",
+    "options": ["Thưởng thức và sáng tạo Cái Đẹp", "Thưởng thức cái xấu", "Phân chia giai cấp", "Được lao động của con người"],
     "answer": "A"
   },
   {
