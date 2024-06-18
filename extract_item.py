@@ -11,9 +11,11 @@ def extract_questions_answers(json_file, output_file):
             options = item['options']
             answer_index = ord(item['answer']) - ord('A')  # Convert letter to index
             answer = options[answer_index]
+
+            distractor_ids = [i for i in range(len(options)) if i != answer_index]
+            distractors = [options[i] for i in distractor_ids]
             
-            # answer = item['answer']
-            f.write(f"{question}; {answer} \n")
+            f.write(f"{distractors[0]}; {distractors[1]}; {distractors[2]}\n")
 
 # Đường dẫn đến tập dữ liệu JSON và tệp văn bản đầu ra
 json_file = 'datasets/test/qg_test.json'
