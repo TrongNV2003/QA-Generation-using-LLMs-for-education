@@ -34,7 +34,7 @@
   {
     "context": "Lĩnh vực tinh thần của đời sống xã hội có cấu trúc hết sức phức tạp. Có thể tiếp cận kết cấu của ý thức xã hội từ những phương diện khác nhau. Theo nội dung và lĩnh vực phản ánh đời sống xã hội, ý thức xã hội bao gồm các hình thái khác nhau: ý thức chính trị, ý thức pháp quyền, ý thức đạo đức, ý thức tôn giáo, ý thức thẩm mỹ, triết học,... Theo trình độ phản ánh có thể phân biệt ý thức xã hội thông thường và ý thức lý luận.",
     "question_type": "multiple_choice",
-    "question": "Có thể phân biệt ý thức xã hội thông thường và ý thức gì?",
+    "question": "Theo trình độ phản ánh có thể phân biệt ý thức xã hội thông thường với ý thức nào?",
     "options": ["Ý thức lý luận", "Ý thức khoa học", "Ý thức thực tiễn", "Ý thức tâm linh"],
     "answer": "A"
   },
@@ -181,15 +181,15 @@
   {
     "context": "Do ý thức có tính kế thừa trong sự phát triển, nên không thể giải thích được một tư tưởng nào đó nếu chỉ dựa vào những quan hệ kinh tế hiện có, không chú ý đến các giai đoạn phát triển tư tưởng trước đó. Lịch sử phát triển của tư tưởng cho thấy những giai đoạn hưng thịnh hoặc suy tàn của triết học, văn học, nghệ thuật, ... nhiều khi không phù hợp hoàn toàn với những giai đoạn hưng thịnh hoặc suy tàn của kinh tế. Tính chất kế thừa trong sự phát triển của tư tưởng là một trong những nguyên nhân nói rõ vì sao một nước có trình độ phát triển tương đối kém về kinh tế nhưng tư tưởng lại ở trình độ phát triển cao. Thí dụ, nước Pháp thế kỷ XVIII có nền kinh tế phát triển kém nước Anh, nhưng tư tưởng thì lại tiên tiến hơn nước Anh; so với Anh, Pháp thì nước Đức ở nửa đầu thế kỷ XIX lạc hậu về kinh tế, nhưng đã đứng ở trình độ cao hơn về triết học.",
     "question_type": "multiple_choice",
-    "question": "Nước Pháp vào thời kì nào có nền kinh tế phát triển kém nước Anh?",
-    "options": ["Thế kỷ XVIII", "Thế kỷ XVII", "Thế kỷ XVI", "Thế kỷ XV"],
+    "question": "Lịch sử phát triển của tư tưởng cho thấy điều gì?",
+    "options": ["Những giai đoạn hưng thịnh hoặc suy tàn của triết học, văn học, nghệ thuật", "Sự phát triển của kinh tế và tư tưởng luôn song hành", "Không thể giải thích tư tưởng chỉ dựa vào quan hệ kinh tế hiện có", "Tư tưởng không chịu ảnh hưởng từ kinh tế"],
     "answer": "A"
-  },
+  },  
   {
     "context": "Trong xã hội có giai cấp, tính chất kế thừa của ý thức xã hội gắn với tính chất giai cấp của nó. Những giai cấp khác nhau kế thừa những nội dung ý thức khác nhau của các thời đại trước. Các giai cấp tiên tiến tiếp nhận những di sản tư tưởng tiến bộ của xã hội cũ để lại. Thí dụ, khi làm cách mạng tư sản chống phong kiến, các nhà tư tưởng tiên tiến của giai cấp tư sản đã khôi phục những tư tưởng duy vật và nhân bản của thời cổ đại.",
     "question_type": "multiple_choice",
     "question": "Tính chất kế thừa của ý thức xã hội gắn với điều gì trong xã hội có giai cấp?",
-    "options": ["Tính chất giai cấp của nó", "Tình hình kinh tế", "Điều kiện tự nhiên", "Quan hệ gia đình"],
+    "options": ["Tính chất giai cấp", "Tình hình kinh tế", "Điều kiện tự nhiên", "Quan hệ gia đình"],
     "answer": "A"
   },
   {
@@ -224,14 +224,14 @@
     "answer": "Đặc biệt quan tâm giữ gìn và nâng cao bản sắc văn hoá dân tộc"
   },
   {
-    "context": "Lịch sử phát triển của ý thức xã hội cho thấy, thông thường ở mỗi thời đại, tùy theo những hoàn cảnh lịch sử cụ thể có những hình thái ý thức nào đó nổi lên hàng đầu và tác động mạnh đến các hình thái ý thức khác. Ở Hy Lạp cổ đại, triết học và nghệ thuật đóng vai trò đặc biệt to lớn; còn ở Tây Âu trung cổ thì tôn giáo ảnh hưởng mạnh mẽ đến mọi mặt tinh thần xã hội như triết học, đạo đức, nghệ thuật, chính trị, pháp quyền. Ở giai đoạn lịch sử sau này thì ý thức chính trị lại đóng vai trò to lớn tác động đến các hình thái ý thức xã hội khác.",
+    "context": "Lịch sử phát triển của ý thức xã hội cho thấy, thông thường ở mỗi thời đại, tùy theo những hoàn cảnh lịch sử cụ thể có những hình thái ý thức nổi lên hàng đầu và tác động mạnh đến các hình thái ý thức khác. Ở Hy Lạp cổ đại, triết học và nghệ thuật đóng vai trò đặc biệt to lớn; còn ở Tây Âu trung cổ thì tôn giáo ảnh hưởng mạnh mẽ đến mọi mặt tinh thần xã hội như triết học, đạo đức, nghệ thuật, chính trị, pháp quyền. Ở giai đoạn lịch sử sau này thì ý thức chính trị lại đóng vai trò to lớn tác động đến các hình thái ý thức xã hội khác.",
     "question_type": "multiple_choice",
     "question": "Ở Hy Lạp cổ đại, hình thái ý thức nào đóng vai trò đặc biệt to lớn?",
     "options": ["Triết học và nghệ thuật", "Tôn giáo", "Chính trị", "Pháp quyền"],
     "answer": "A"
   },
   {
-    "context": "Lịch sử phát triển của ý thức xã hội cho thấy, thông thường ở mỗi thời đại, tùy theo những hoàn cảnh lịch sử cụ thể có những hình thái ý thức nào đó nổi lên hàng đầu và tác động mạnh đến các hình thái ý thức khác. Ở Hy Lạp cổ đại, triết học và nghệ thuật đóng vai trò đặc biệt to lớn; còn ở Tây Âu trung cổ thì tôn giáo ảnh hưởng mạnh mẽ đến mọi mặt tinh thần xã hội như triết học, đạo đức, nghệ thuật, chính trị, pháp quyền. Ở giai đoạn lịch sử sau này thì ý thức chính trị lại đóng vai trò to lớn tác động đến các hình thái ý thức xã hội khác.",
+    "context": "Lịch sử phát triển của ý thức xã hội cho thấy, thông thường ở mỗi thời đại, tùy theo những hoàn cảnh lịch sử cụ thể có những hình thái ý thức nổi lên hàng đầu và tác động mạnh đến các hình thái ý thức khác. Ở Hy Lạp cổ đại, triết học và nghệ thuật đóng vai trò đặc biệt to lớn; còn ở Tây Âu trung cổ thì tôn giáo ảnh hưởng mạnh mẽ đến mọi mặt tinh thần xã hội như triết học, đạo đức, nghệ thuật, chính trị, pháp quyền. Ở giai đoạn lịch sử sau này thì ý thức chính trị lại đóng vai trò to lớn tác động đến các hình thái ý thức xã hội khác.",
     "question_type": "multiple_choice",
     "question": "Ở Tây Âu trung cổ, hình thái ý thức nào ảnh hưởng mạnh mẽ đến mọi mặt tinh thần xã hội?",
     "options": ["Tôn giáo", "Triết học", "Nghệ thuật", "Chính trị"],
@@ -251,7 +251,7 @@
     "answer": "Định hướng cho sự phát triển theo chiều hướng tiến bộ của các hình thái ý thức khác"
   },
   {
-    "context": "Chủ nghĩa duy vật lịch sử không những chống lại quan điểm duy tâm tuyệt đối hóa vai trò của ý thức xã hội, mà còn bác bỏ quan điểm duy vật tầm thường, hay chủ nghĩa duy vật kinh tế phủ nhận tác dụng tích cực của ý thức xã hội trong đời sống xã hội. Ăngghen viết: Sự phát triển của các lĩnh vực như chính trị, pháp luật, triết học, tôn giáo, văn học, nghệ thuật... đều dựa trên cơ sở sự phát triển kinh tế. Nhưng tất cả chúng cũng có ảnh hưởng lẫn nhau và ảnh hưởng đến cơ sở kinh tế.",
+    "context": "Chủ nghĩa duy vật lịch sử không những chống lại quan điểm duy tâm tuyệt đối hóa vai trò của ý thức xã hội, mà còn bác bỏ quan điểm duy vật tầm thường, hay chủ nghĩa duy vật kinh tế phủ nhận tác dụng tích cực của ý thức xã hội trong đời sống xã hội. Ăngghen viết: Sự phát triển của các lĩnh vực như chính trị, pháp luật, triết học, tôn giáo, văn học, nghệ thuật, đều dựa trên cơ sở sự phát triển kinh tế. Nhưng tất cả chúng cũng có ảnh hưởng lẫn nhau và ảnh hưởng đến cơ sở kinh tế.",
     "question_type": "multiple_choice",
     "question": "Theo Ăngghen, sự phát triển của các lĩnh vực đều dựa trên cơ sở gì?",
     "options": ["Sự phát triển kinh tế", "Sự phát triển xã hội", "Sự phát triển tự nhiên", "Sự phát triển công nghệ"],
@@ -379,10 +379,10 @@
   {
     "context": "Ăngghen viết: Xét cho đến cùng, mọi học thuyết về đạo đức đã có từ trước đến nay đều là sản phẩm của tình hình kinh tế của xã hội lúc bấy giờ. Và vì cho tới nay xã hội đã vận động trong những sự đối lập giai cấp, cho nên đạo đức cũng luôn luôn là đạo đức của giai cấp: hoặc là nó biện hộ cho sự thống trị và lợi ích của giai cấp thống trị, hoặc là, khi giai cấp bị trị đã trở nên khá mạnh thì nó tiêu biểu cho sự nổi dậy chống lại sự thống trị nói trên và tiêu biểu cho lợi ích tương lai của những người bị áp bức.",
     "question_type": "multiple_choice",
-    "question": "Theo Ăngghen, khi giai cấp bị trị trở nên khá mạnh thì nó tiêu biểu cho điều gì?",
-    "options": ["Sự nổi dậy chống lại sự thống trị", "Sự biện hộ cho sự thống trị", "Sự duy trì trật tự xã hội", "Sự phát triển kinh tế"],
-    "answer": "A"
-  },
+    "question": "Theo Ăngghen, mọi học thuyết về đạo đức đã có từ trước đến nay đều là sản phẩm của tình hình nào?",
+    "options": ["Tình hình chính trị của xã hội lúc bấy giờ", "Tình hình kinh tế của xã hội lúc bấy giờ", "Sự phát triển của văn hóa và giáo dục", "Mối quan hệ giữa các quốc gia"],
+    "answer": "B"
+  },  
   {
     "context": "Ý thức khoa học vừa là một hình thái ý thức xã hội, vừa là một hiện tượng xã hội đặc biệt. Xem xét khoa học như một hình thái ý thức xã hội không thể tách rời xem xét nó như một hiện tượng xã hội. Ý thức khoa học - với tính cách là một hình thái ý thức xã hội - là hệ thống tri thức phản ánh chân thực dưới dạng lôgic trừu tượng về thế giới đã được kiểm nghiệm qua thực tiễn. Đối tượng phản ánh của ý thức khoa học bao quát mọi lĩnh vực của tự nhiên, xã hội và tư duy. Đó là một trong những sự khác biệt giữa ý thức khoa học với các hình thái ý thức xã hội khác.",
     "question_type": "sentences",
@@ -416,7 +416,7 @@
     "answer": "Những tư liệu hiện thực đã tích luỹ được - sự tổng kết các quan sát và thí nghiệm"
   },
   {
-    "context": "Trong mỗi khoa học người ta phân thành các cấp độ: kinh nghiệm, tức là những tư liệu hiện thực đã tích luỹ được - sự tổng kết các quan sát và thí nghiệm; lý luận là sự khái quát kinh nghiệm thể hiện trong những lý thuyết về quy luật và nguyên lý tương ứng, cấp độ lý luận của các khoa học cụ thể hợp lực với nhau trong sự giải thích các nguyên lý và quy luật đã phát hiện trên bình diện lý luận chung - bình diện triết học, hình thành mặt thế giới quan và phương pháp luận của toàn bộ nhận thức khoa học.",
+    "context": "Trong mỗi khoa học người ta phân thành các cấp độ: kinh nghiệm, tức là những tư liệu hiện thực đã tích luỹ được - sự tổng kết các quan sát và thí nghiệm; lý luận là sự khái quát kinh nghiệm thể hiện trong những lý thuyết về quy luật và nguyên lý tương ứng, cấp độ lý luận của các khoa học cụ thể hợp lực với nhau để giải thích các nguyên lý và quy luật đã phát hiện trên bình diện lý luận chung - bình diện triết học, hình thành mặt thế giới quan và phương pháp luận của toàn bộ nhận thức khoa học.",
     "question_type": "multiple_choice",
     "question": "Cấp độ lý luận của các khoa học cụ thể hợp lực với nhau để làm gì?",
     "options": ["Giải thích các nguyên lý và quy luật", "Tạo ra các thí nghiệm mới", "Phát triển công nghệ", "Quan sát hiện tượng tự nhiên"],
@@ -450,8 +450,8 @@
   {
     "context": "Cũng như các hình thái ý thức xã hội khác, nghệ thuật bắt nguồn từ tồn tại xã hội. Khác với khoa học và triết học, phản ánh thế giới hiện thực bằng khái niệm, phạm trù, quy luật, nghệ thuật phản ánh thế giới một cách sinh động, cụ thể bằng hình tượng nghệ thuật. Hình tượng nghệ thuật tuy cũng phản ánh cái bản chất của đời sống hiện thực nhưng phản ánh thông qua cái cá biệt, cụ thể - cảm tính, sinh động. Hình tượng nghệ thuật cũng nhận thức cái chung trong cái riêng, nhận thức cái bản chất trong cái hiện tượng, nhận thức cái phổ biến trong cái cá biệt, song cái cá biệt trong nghệ thuật phải là cái cá biệt có tính điển hình và nếu nhà nghệ thuật tạo ra cái điển hình thì phải là cái điển hình đã được cá biệt hóa.",
     "question_type": "multiple_choice",
-    "question": "Nghệ thuật phản ánh thế giới bằng cách nào?",
-    "options": ["Hình tượng nghệ thuật", "Khái niệm", "Quy luật", "Phạm trù"],
+    "question": "Nghệ thuật phản ánh thế giới một cách sinh động, cụ thể bằng hình tượng nào?",
+    "options": ["Hình tượng nghệ thuật", "Hình tượng khái niệm", "Hình tượng quy luật", "Hình tượng phạm trù"],
     "answer": "A"
   },
   {
@@ -521,10 +521,10 @@
   {
     "context": "Hành động thực tiễn, chủ nghĩa anh hùng cách mạng trong chiến đấu và dựng xây của nhân dân Việt Nam theo tư tưởng Hồ Chí Minh cũng chính là lời giải thích rõ ràng giá trị khoa học của tư tưởng Hồ Chí Minh. Chân lý là cụ thể, cách mạng là sáng tạo. Sự sáng tạo cách mạng của Hồ Chí Minh trước hết là sự sáng tạo về tư duy lý luận, về chiến lược, về đường lối cách mạng. Điều đó giữ vai trò quyết định hàng đầu dẫn đến thắng lợi cách mạng. Tư tưởng lý luận cách mạng Hồ Chí Minh đã góp phần phát triển phong phú thêm lý luận cách mạng của thời đại, trước hết là về cách mạng thuộc địa. Tư tưởng Hồ Chí Minh đã tỏa sáng vượt ra ngoài biên giới Việt Nam, đến với những người nô lệ ở các nước phương Đông và người lao động làm thuê ở phương Tây.",
     "question_type": "multiple_choice",
-    "question": "Tư tưởng Hồ Chí Minh đã tỏa sáng như thế nào?",
-    "options": ["Chỉ ở Việt Nam", "Các nước phương Đông", "Các nước phương Tây", "Vượt ra ngoài biên giới Việt Nam"],
-    "answer": "D"
-  },
+    "question": "Tư tưởng lý luận cách mạng Hồ Chí Minh đã góp phần phát triển phong phú thêm điều gì?",
+    "options": ["Lý luận cách mạng của thời đại", "Chiến lược quân sự", "Chính sách kinh tế", "Phong trào văn hóa"],
+    "answer": "A"
+  },  
   {
     "context": "Tư tưởng Hồ Chí Minh soi đường cho Đảng và nhân dân Việt Nam trên con đường xây dựng đất nước vì mục tiêu: dân giàu, nước mạnh, xã hội công bằng, dân chủ, văn minh. Vì vậy, phải nghiêm túc học tập tư tưởng Hồ Chí Minh để nâng cao tư duy lý luận, rèn luyện bản lĩnh chính trị, nâng cao đạo đức cách mạng, năng lực công tác, thực hiện tốt các nhiệm vụ cách mạng trọng đại của Đảng, của Nhà nước ta trên con đường quá độ lên chủ nghĩa xã hội.",
     "question_type": "sentences",
@@ -541,9 +541,9 @@
   {
     "context": "Cùng với chủ nghĩa duy vật biện chứng, chúng ta cần vận dụng chủ nghĩa duy vật lịch sử vào việc nghiên cứu, học tập tư tưởng Hồ Chí Minh. Trong nghiên cứu khoa học, theo Lênin, chúng ta không được quên mối liên hệ lịch sử căn bản, nghĩa là phải xem xét một hiện tượng nhất định đã xuất hiện trong lịch sử như thế nào, hiện tượng đó đã trải qua những giai đoạn phát triển chủ yếu nào và đứng trên quan điểm của sự phát triển đó để xem xét hiện nay nó đã trở thành như thế nào? Nắm vững quan điểm này giúp chúng ta hiểu được tư tưởng Hồ Chí Minh mang đậm dấu ấn của quá trình phát triển lịch sử, quá trình phát triển sáng tạo, đổi mới.",
     "question_type": "multiple_choice",
-    "question": "Việc nắm vững quan điểm của Lênin giúp chúng ta hiểu được điều gì về tư tưởng Hồ Chí Minh?",
-    "options": ["Mang tính đậm dấu ấn cố định", "Mang đậm dấu ấn của quá trình phát triển lịch sử", "Không thay đổi theo thời gian", "Không chịu ảnh hưởng của lịch sử"],
-    "answer": "B"
+    "question": "Tư tưởng Hồ Chí Minh mang đậm dấu ấn của quá trình nào?",
+    "options": ["Quá trình phát triển lịch sử", "Quá trình cách mạng", "Quá trình đổi mới", "Quá trình hội nhập"],
+    "answer": "A"
   },
   {
     "context": "Trong giai đoạn đế quốc chủ nghĩa, cách mạng giải phóng dân tộc trở thành một bộ phận của cách mạng vô sản thế giới, Lênin có cơ sở thực tiễn để phát triển vấn đề dân tộc thuộc địa thành một hệ thống lý luận. Tuy cả Mác, Ăngghen và Lênin đã nêu lên những quan điểm cơ bản về mối quan hệ biện chứng giữa vấn đề dân tộc và vấn đề giai cấp, tạo cơ sở lý luận và phương pháp luận cho việc xác định chiến lược, sách lược của các Đảng Cộng sản về vấn đề dân tộc và thuộc địa, nhưng từ thực tiễn cách mạng vô sản ở châu Âu, các ông vẫn tập trung nhiều hơn vào vấn đề giai cấp. Điều kiện những năm đầu thế kỷ XX trở đi đặt ra yêu cầu cần vận dụng và phát triển sáng tạo lý luận Mác - Lênin cho phù hợp với thực tiễn ở các nước thuộc địa; chính Hồ Chí Minh là người đã đáp ứng yêu cầu đó.",
@@ -553,7 +553,7 @@
     "answer": "B"
   },
   {
-    "context": "Trong giai đoạn đế quốc chủ nghĩa, cách mạng giải phóng dân tộc trở thành một bộ phận của cách mạng vô sản thế giới, Lênin có cơ sở thực tiễn để phát triển vấn đề dân tộc thuộc địa thành một hệ thống lý luận. Tuy cả Mác, Ăngghen và Lênin đã nêu lên những quan điểm cơ bản về mối quan hệ biện chứng giữa vấn đề dân tộc và vấn đề giai cấp, tạo cơ sở lý luận và phương pháp luận cho việc xác định chiến lược, sách lược của các Đảng Cộng sản về vấn đề dân tộc và thuộc địa, nhưng từ thực tiễn cách mạng vô sản ở châu Âu, các ông vẫn tập trung nhiều hơn vào vấn đề giai cấp. Những năm đầu thế kỷ XX, Hồ Chí Minh là người đã đáp ứng yêu cầu phát triển sáng tạo lý luận Mác - Lênin cho phù hợp với thực tiễn ở các nước thuộc địa; chính Hồ Chí Minh là người đã đáp ứng yêu cầu đó.",
+    "context": "Trong giai đoạn đế quốc chủ nghĩa, cách mạng giải phóng dân tộc trở thành một bộ phận của cách mạng vô sản thế giới, Lênin có cơ sở thực tiễn để phát triển vấn đề dân tộc thuộc địa thành một hệ thống lý luận. Tuy cả Mác, Ăngghen và Lênin đã nêu lên những quan điểm cơ bản về mối quan hệ biện chứng giữa vấn đề dân tộc và vấn đề giai cấp, tạo cơ sở lý luận và phương pháp luận cho việc xác định chiến lược, sách lược của các Đảng Cộng sản về vấn đề dân tộc và thuộc địa, nhưng từ thực tiễn cách mạng vô sản ở châu Âu, các ông vẫn tập trung nhiều hơn vào vấn đề giai cấp. Những năm đầu thế kỷ XX, Hồ Chí Minh là người đã đáp ứng yêu cầu phát triển sáng tạo lý luận Mác - Lênin cho phù hợp với thực tiễn ở các nước thuộc địa.",
     "question_type": "multiple_choice",
     "question": "Ai là người đã đáp ứng yêu cầu phát triển sáng tạo lý luận Mác - Lênin cho phù hợp với thực tiễn ở các nước thuộc địa?",
     "options": ["Lênin", "Mác", "Ăngghen", "Hồ Chí Minh"],
@@ -581,7 +581,7 @@
   {
     "context": "Tháng 5-1941, Hồ Chí Minh chủ trì Hội nghị lần thứ tám Ban Chấp hành Trung ương Đảng nêu cao vấn đề giải phóng dân tộc. Tháng 6-1941, Người viết thư Kính cáo đồng bào, chỉ rõ: Trong lúc này quyền lợi dân tộc giải phóng cao hơn hết thảy. Người chỉ đạo thành lập Việt Nam độc lập đồng minh (Việt Minh), ra báo Việt Nam độc lập, ban bố Mười chính sách của Việt Minh, trong đó mục tiêu đầu tiên là: Cờ treo độc lập, nền xây bình quyền.",
     "question_type": "multiple_choice",
-    "question": "Trong thư Kính cáo đồng bào, Hồ Chí Minh chỉ rõ điều gì cao hơn hết thảy?",
+    "question": "Trong thư Kính cáo đồng bào, Người chỉ rõ điều gì cao hơn hết thảy?",
     "options": ["Quyền lợi dân tộc giải phóng", "Quyền lợi kinh tế", "Quyền lợi chính trị", "Quyền lợi giáo dục"],
     "answer": "A"
   },
