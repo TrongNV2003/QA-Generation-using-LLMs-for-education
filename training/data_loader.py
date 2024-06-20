@@ -1,11 +1,11 @@
 import json
 import torch
-from transformers import T5Tokenizer
+from transformers import AutoTokenizer
 from typing import Mapping, Tuple
 import random
 
 class QGDataset(torch.utils.data.Dataset):
-    def __init__(self, json_file: str, max_length: int, pad_mask_id: int, tokenizer: T5Tokenizer, separator = '<sep>') -> None:
+    def __init__(self, json_file: str, max_length: int, pad_mask_id: int, tokenizer: AutoTokenizer, separator = '<sep>') -> None:
         """
         task:
             - input: article (i.e. context)
@@ -65,7 +65,7 @@ class QGDataset(torch.utils.data.Dataset):
     
     
 class MCQ_QGDataset(torch.utils.data.Dataset):
-    def __init__(self, json_file: str, max_length: int, pad_mask_id: int, tokenizer: T5Tokenizer, separator = '<sep>') -> None:
+    def __init__(self, json_file: str, max_length: int, pad_mask_id: int, tokenizer: AutoTokenizer, separator = '<sep>') -> None:
         """
         task:
             - input: article (i.e. context)
@@ -126,7 +126,7 @@ class MCQ_QGDataset(torch.utils.data.Dataset):
         
         
 class DistractorDataset(torch.utils.data.Dataset):
-    def __init__(self, json_file: str, max_length: int, pad_mask_id: int, tokenizer: T5Tokenizer, shuffle_distractors=True, separator = '<sep>') -> None:
+    def __init__(self, json_file: str, max_length: int, pad_mask_id: int, tokenizer: AutoTokenizer, shuffle_distractors=True, separator = '<sep>') -> None:
         """
         task:
             - input: question <sep> answer <sep> context
