@@ -1,7 +1,7 @@
 # Question Answering generation for Education
 
 QA generator is an NLP system for generating reading comprehension-style questions from texts such as news articles or pages excerpts from books. The system is built using pretrained models from [HuggingFace Transformers](https://github.com/huggingface/transformers). 
-There are 3 models: the Sentence-QA generator, Multiple choice-QA generator, and the Distractor generator.
+There are 3 modules: the Sentence-QA generator, Multiple choice-QA generator, and the Distractor generator.
 
 ### System architecture
 Here is architecture of my system, i seperated into 3 main modules to process 2 types of questions: Generate MCQ module, Generate Sentence-Question module, Generate Distractor module.
