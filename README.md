@@ -39,7 +39,7 @@ https://huggingface.co/Trongdz/vi-T5-QA-Distractor-in-MCQ-for-philosophy
 
 ### Custom dataset in Philosophy
 Dataset is created by extracting in 2 Philosophy books: "Marxist-Leninist philosophy" and "Ho Chi Minh ideology philosophy". Labeled by author manually for fine-tuning and evaluating models.
-
+![dataset-process](assets/process-dataset.png) 
 Public on github for all who loves NLP: [Github](https://github.com/TrongNV2003/T5-QA-Generator/tree/main/datasets)
 
 Or you can download from Huggingface: [HuggingFace](https://huggingface.co/datasets/Trongdz/Vietnamese-Philosophy-QA)
