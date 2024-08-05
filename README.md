@@ -23,12 +23,17 @@ To get model fine-tuned with custom dataset, Run:
 !python training/train_distractors.py
 ```
 
+Or you can get it on HuggingFace:
+Sentence-Question: https://huggingface.co/Trongdz/vi-T5-QA-generation-for-philosophy
+MCQ: https://huggingface.co/Trongdz/vi-T5-QA-generation-MCQ-for-philosophy
+Distractor: https://huggingface.co/Trongdz/vi-T5-QA-Distractor-in-MCQ-for-philosophy
 
 Hyperparameters can be changed using arguments. See the scripts for the list of available arguments.
 
 ### Custom dataset in Philosophy
 Dataset is created by extracting in 2 Philosophy books: "Marxist-Leninist philosophy" and "Ho Chi Minh ideology philosophy"; and labeled by author manually for fine-tuning and evaluating models.
-Public on github for all who loves NLP: https://github.com/TrongNV2003/T5-QA-Generator/tree/main/datasets
+Public on github for all who loves NLP: [Github](https://github.com/TrongNV2003/T5-QA-Generator/tree/main/datasets)
+Or you can download from Huggingface: [HuggingFace](https://huggingface.co/datasets/Trongdz/Vietnamese-Philosophy-QA)
 
 ## Usage
 
