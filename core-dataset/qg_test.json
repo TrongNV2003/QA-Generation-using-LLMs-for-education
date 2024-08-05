@@ -1,0 +1,653 @@
+[
+  {
+      "context": "Tồn tại xã hội là toàn bộ sinh hoạt vật chất và những điều kiện sinh hoạt vật chất của xã hội. Lênin khi nghiên cứu tồn tại xã hội với tính cách vừa là đời sống vật chất vừa là những quan hệ vật chất giữa người và người đã cho rằng: việc anh sống, anh hoạt động kinh tế, anh sinh đẻ con cái và anh chế tạo ra các sản phẩm, anh trao đổi sản phẩm, làm nảy sinh ra một chuỗi tất yếu khách quan gồm những biến cố, những sự phát triển, không phụ thuộc vào ý thức xã hội của anh và ý thức này không bao giờ bao quát được toàn vẹn cái chuỗi đó. Các yếu tố chính tạo thành tồn tại xã hội là phương thức sản xuất vật chất, điều kiện tự nhiên - hoàn cảnh địa lý, dân số và mật độ dân số... trong đó phương thức sản xuất vật chất là yếu tố cơ bản nhất.",
+      "question_type": "multiple_choice",
+      "question": "Yếu tố nào là yếu tố chính tạo thành tồn tại xã hội?",
+      "options": ["Phương thức sản xuất vật chất", "Điều kiện tự nhiên", "Phương thức sản xuất cá nhân", "Mật độ dân số"],
+      "answer": "A"
+  },
+  {
+      "context": "Tồn tại xã hội là toàn bộ sinh hoạt vật chất và những điều kiện sinh hoạt vật chất của xã hội. Lênin khi nghiên cứu tồn tại xã hội với tính cách vừa là đời sống vật chất vừa là những quan hệ vật chất giữa người và người đã cho rằng: việc anh sống, anh hoạt động kinh tế, anh sinh đẻ con cái và anh chế tạo ra các sản phẩm, anh trao đổi sản phẩm, làm nảy sinh ra một chuỗi tất yếu khách quan gồm những biến cố, những sự phát triển, không phụ thuộc vào ý thức xã hội và ý thức này không bao giờ bao quát được toàn vẹn cái chuỗi đó. Các yếu tố chính tạo thành tồn tại xã hội là phương thức sản xuất vật chất, điều kiện tự nhiên - hoàn cảnh địa lý, dân số và mật độ dân số... trong đó phương thức sản xuất vật chất là yếu tố cơ bản nhất.",
+      "question_type": "sentences",
+      "question": "Tồn tại xã hội là gì?",
+      "answer": "Toàn bộ sinh hoạt vật chất và những điều kiện sinh hoạt vật chất của xã hội"
+  },
+  {
+      "context": "Ý thức xã hội là mặt tinh thần của đời sống xã hội, bao gồm toàn bộ những quan điểm, tư tưởng cùng những tình cảm, tâm trạng,... của những cộng đồng xã hội, nảy sinh từ tồn tại xã hội và phản ánh tồn tại xã hội trong những giai đoạn phát triển nhất định. Cần thấy rõ sự khác nhau tương đối giữa ý thức xã hội và ý thức cá nhân. Ý thức của cá nhân đều phản ánh tồn tại xã hội với mức độ khác nhau. Do đó, nó không thể không mang tính xã hội. Song ý thức cá nhân không phải bao giờ cũng thể hiện quan điểm tư tưởng, tình cảm phổ biến của một cộng đồng, một tập đoàn xã hội, một thời đại xã hội nhất định. Ý thức xã hội và ý thức cá nhân tồn tại trong mối liên hệ hữu cơ, biện chứng với nhau, thâm nhập vào nhau và làm phong phú nhau.",
+      "question_type": "multiple_choice",
+      "question": "Ý thức xã hội là gì?",
+      "options": ["Mặt tinh thần của đời sống xã hội", "Mặt vật chất của đời sống xã hội", "Hoạt động kinh tế của xã hội", "Điều kiện tự nhiên của xã hội"],
+      "answer": "A"
+  },
+  {
+      "context": "Ý thức xã hội là mặt tinh thần của đời sống xã hội, bao gồm toàn bộ những quan điểm, tư tưởng cùng những tình cảm, tâm trạng,... của những cộng đồng xã hội, nảy sinh từ tồn tại xã hội và phản ánh tồn tại xã hội trong những giai đoạn phát triển nhất định. Cần thấy rõ sự khác nhau tương đối giữa ý thức xã hội và ý thức cá nhân. Ý thức của cá nhân đều phản ánh tồn tại xã hội với mức độ khác nhau. Do đó, nó không thể không mang tính xã hội. Song ý thức cá nhân không phải bao giờ cũng thể hiện quan điểm tư tưởng, tình cảm phổ biến của một cộng đồng, một tập đoàn xã hội, một thời đại xã hội nhất định. Ý thức xã hội và ý thức cá nhân tồn tại trong mối liên hệ hữu cơ, biện chứng với nhau, thâm nhập vào nhau và làm phong phú nhau.",
+      "question_type": "sentences",
+      "question": "Ý thức của cá nhân đều phản ánh điều gì?",
+      "answer": "Tồn tại xã hội với mức độ khác nhau"
+  },
+  {
+    "context": "Lĩnh vực tinh thần của đời sống xã hội có cấu trúc hết sức phức tạp. Có thể tiếp cận kết cấu của ý thức xã hội từ những phương diện khác nhau. Theo nội dung và lĩnh vực phản ánh đời sống xã hội, ý thức xã hội bao gồm các hình thái khác nhau: ý thức chính trị, ý thức pháp quyền, ý thức đạo đức, ý thức tôn giáo, ý thức thẩm mỹ, triết học,... Theo trình độ phản ánh có thể phân biệt ý thức xã hội thông thường và ý thức lý luận.",
+    "question_type": "sentences",
+    "question": "Lĩnh vực tinh thần của đời sống xã hội có cấu trúc như thế nào?",
+    "answer": "Cấu trúc hết sức phức tạp"
+  },
+  {
+    "context": "Lĩnh vực tinh thần của đời sống xã hội có cấu trúc hết sức phức tạp. Có thể tiếp cận kết cấu của ý thức xã hội từ những phương diện khác nhau. Theo nội dung và lĩnh vực phản ánh đời sống xã hội, ý thức xã hội bao gồm các hình thái khác nhau: ý thức chính trị, ý thức pháp quyền, ý thức đạo đức, ý thức tôn giáo, ý thức thẩm mỹ, triết học,... Theo trình độ phản ánh có thể phân biệt ý thức xã hội thông thường và ý thức lý luận.",
+    "question_type": "multiple_choice",
+    "question": "Theo trình độ phản ánh có thể phân biệt ý thức xã hội thông thường với ý thức nào?",
+    "options": ["Ý thức lý luận", "Ý thức khoa học", "Ý thức thực tiễn", "Ý thức tâm linh"],
+    "answer": "A"
+  },
+  {
+    "context": "Ý thức xã hội thông thường là toàn bộ những tri thức, những quan niệm của những con người trong một cộng đồng người nhất định, được hình thành một cách trực tiếp từ hoạt động thực tiễn hàng ngày, chưa được hệ thống hoá, khái quát hoá thành lý luận. Trong ý thức xã hội thông thường, tâm lý xã hội là bộ phận rất quan trọng.",
+    "question_type": "sentences",
+    "question": "Ý thức xã hội thông thường là gì?",
+    "answer": "Toàn bộ những tri thức, những quan niệm của những con người trong một cộng đồng người nhất định"
+  },
+  {
+    "context": "Ý thức xã hội thông thường, thường phản ánh sinh động, trực tiếp nhiều mặt cuộc sống hàng ngày của con người, thường xuyên chi phối cuộc sống đó. Ý thức thông thường tuy là trình độ thấp so với ý thức lý luận, nhưng những tri thức kinh nghiệm phong phú đó có thể trở thành tiền đề quan trọng cho sự hình thành các lý thuyết xã hội. Ý thức lý luận là những tư tưởng, quan điểm đã được hệ thống hoá, khái quát hoá thành các học thuyết xã hội, được trình bày dưới dạng những khái niệm, phạm trù, quy luật. Ý thức lý luận (lý luận khoa học) có khả năng phản ánh hiện thực khách quan một cách khái quát, sâu sắc và chính xác, vạch ra các mối liên hệ bản chất của các sự vật và hiện tượng. Ý thức lý luận đạt trình độ cao và mang tính hệ thống tạo thành các hệ tư tưởng.",
+    "question_type": "sentences",
+    "question": "Ý thức xã hội thông thường phản ánh điều gì?",
+    "answer": "Nhiều mặt cuộc sống hàng ngày của con người"
+  },
+  {
+    "context": "Ý thức xã hội thông thường, thường phản ánh sinh động, trực tiếp nhiều mặt cuộc sống hàng ngày của con người, thường xuyên chi phối cuộc sống đó. Ý thức thông thường tuy là trình độ thấp so với ý thức lý luận, nhưng những tri thức kinh nghiệm phong phú đó có thể trở thành tiền đề quan trọng cho sự hình thành các lý thuyết xã hội. Ý thức lý luận là những tư tưởng, quan điểm đã được hệ thống hoá, khái quát hoá thành các học thuyết xã hội, được trình bày dưới dạng những khái niệm, phạm trù, quy luật. Ý thức lý luận (lý luận khoa học) có khả năng phản ánh hiện thực khách quan một cách khái quát, sâu sắc và chính xác, vạch ra các mối liên hệ bản chất của các sự vật và hiện tượng. Ý thức lý luận đạt trình độ cao và mang tính hệ thống tạo thành các hệ tư tưởng.",
+    "question_type": "sentences",
+    "question": "Ý thức lý luận là gì?",
+    "answer": "Những tư tưởng, quan điểm đã được hệ thống hoá, khái quát hoá thành các học thuyết xã hội"
+  },
+  {
+    "context": "Tâm lý xã hội bao gồm toàn bộ tình cảm, ước muốn, tâm trạng, tập quán... của con người, của một bộ phận xã hội hoặc của toàn xã hội hình thành dưới ảnh hưởng trực tiếp của đời sống hàng ngày của họ và phản ánh đời sống đó. Đặc điểm của tâm lý xã hội là phản ánh một cách trực tiếp điều kiện sinh sống hàng ngày của con người, là sự phản ánh có tính chất tự phát, thường ghi lại những mặt bề ngoài của tồn tại xã hội. Nó không có khả năng vạch ra đầy đủ, rõ ràng, sâu sắc bản chất các mối quan hệ xã hội của con người.",
+    "question_type": "sentences",
+    "question": "Tâm lý xã hội bao gồm những yếu tố nào?",
+    "answer": "Tình cảm, ước muốn, tâm trạng, tập quán... của con người"
+  },
+  {
+    "context": "Tâm lý xã hội bao gồm toàn bộ tình cảm, ước muốn, tâm trạng, tập quán... của con người, của một bộ phận xã hội hoặc của toàn xã hội hình thành dưới ảnh hưởng trực tiếp của đời sống hàng ngày của họ và phản ánh đời sống đó. Đặc điểm của tâm lý xã hội là phản ánh một cách trực tiếp điều kiện sinh sống hàng ngày của con người, là sự phản ánh có tính chất tự phát, thường ghi lại những mặt bề ngoài của tồn tại xã hội. Nó không có khả năng vạch ra đầy đủ, rõ ràng, sâu sắc bản chất các mối quan hệ xã hội của con người.",
+    "question_type": "sentences",
+    "question": "Đặc điểm của tâm lý xã hội là gì?",
+    "answer": "Phản ánh một cách trực tiếp điều kiện sinh sống hàng ngày của con người"
+  },
+  {
+    "context": "Những quan niệm của con người ở trình độ tâm lý xã hội còn mang tính kinh nghiệm, chưa được thể hiện về mặt lý luận, yếu tố trí tuệ đan xen với yếu tố tình cảm. Tuy nhiên, không thể phủ nhận vai trò quan trọng của tâm lý xã hội trong sự phát triển của ý thức xã hội. Hồ Chí Minh rất coi trọng việc nghiên cứu trạng thái tâm lý xã hội của nhân dân để hiểu nhân dân, giáo dục nhân dân, đưa nhân dân tham gia tích cực, tự giác vào cuộc đấu tranh cho một xã hội tốt đẹp.",
+    "question_type": "sentences",
+    "question": "Những quan niệm của con người ở trình độ tâm lý xã hội có đặc điểm gì?",
+    "answer": "Mang tính kinh nghiệm, chưa được thể hiện về mặt lý luận, yếu tố trí tuệ đan xen với yếu tố tình cảm"
+  },
+  {
+    "context": "Những quan niệm của con người ở trình độ tâm lý xã hội còn mang tính kinh nghiệm, chưa được thể hiện về mặt lý luận, yếu tố trí tuệ đan xen với yếu tố tình cảm. Tuy nhiên, không thể phủ nhận vai trò quan trọng của tâm lý xã hội trong sự phát triển của ý thức xã hội. Hồ Chí Minh rất coi trọng việc nghiên cứu trạng thái tâm lý xã hội của nhân dân để hiểu nhân dân, giáo dục nhân dân, đưa nhân dân tham gia tích cực, tự giác vào cuộc đấu tranh cho một xã hội tốt đẹp.",
+    "question_type": "multiple_choice",
+    "question": "Hồ Chí Minh rất coi trọng việc nghiên cứu trạng thái tâm lý xã hội của nhân dân để làm gì?",
+    "options": ["Hiểu nhân dân, giáo dục nhân dân", "Phát triển kinh tế", "Xây dựng cơ sở hạ tầng", "Cải cách chính trị"],
+    "answer": "A"
+  },
+  {
+    "context": "Hệ tư tưởng là trình độ nhận thức lý luận về tồn tại xã hội, là hệ thống những quan điểm, tư tưởng (chính trị, triết học, đạo đức, nghệ thuật, tôn giáo), kết quả của sự khái quát hoá những kinh nghiệm xã hội. Hệ tư tưởng được hình thành một cách tự giác nghĩa là tạo ra bởi các nhà tư tưởng của những giai cấp nhất định và được truyền bá trong xã hội.",
+    "question_type": "sentences",
+    "question": "Hệ tư tưởng là gì?",
+    "answer": "Trình độ nhận thức lý luận về tồn tại xã hội"
+  },
+  {
+    "context": "Cần phải phân biệt hệ tư tưởng khoa học và hệ tư tưởng không khoa học. Hệ tư tưởng khoa học phản ánh chính xác, khách quan các mối quan hệ vật chất của xã hội. Hệ tư tưởng không khoa học tuy cũng phản ánh các mối quan hệ vật chất của xã hội, nhưng dưới một hình thức sai lầm, hư ảo hoặc xuyên tạc. Với tính cách là một bộ phận của ý thức xã hội, hệ tư tưởng ảnh hưởng lớn đến sự phát triển của khoa học. Lịch sử các khoa học tự nhiên đã cho thấy tác dụng quan trọng của hệ tư tưởng, đặc biệt là tư tưởng triết học đối với quá trình khái quát những tài liệu khoa học. ",
+    "question_type": "sentences",
+    "question": "Hệ tư tưởng khoa học phản ánh như thế nào trong các mối quan hệ vật chất của xã hội?",
+    "answer": "Phản ánh chính xác, khách quan"
+  },
+  {
+    "context": "Tâm lý xã hội và hệ tư tưởng xã hội tuy là hai trình độ, hai phương thức phản ánh khác nhau của ý thức xã hội, nhưng có mối quan hệ tác động qua lại với nhau, chúng có cùng một nguồn gốc là tồn tại xã hội, đều phản ánh tồn tại xã hội. Tâm lý xã hội tạo điều kiện thuận lợi cho các thành viên giai cấp tiếp thu hệ tư tưởng của giai cấp. Mối liên hệ chặt chẽ giữa hệ tư tưởng (đặc biệt là tư tưởng khoa học tiến bộ) với tâm lý xã hội, với thực tiễn cuộc sống sinh động và phong phú sẽ giúp cho hệ tư tưởng xã hội, cho lý luận bớt xơ cứng, bớt sai lầm. Trái lại hệ tư tưởng, lý luận xã hội, gia tăng yếu tố trí tuệ cho tâm lý xã hội. Hệ tư tưởng khoa học thúc đẩy tâm lý xã hội phát triển theo chiều hướng đúng đắn, lành mạnh có lợi cho tiến bộ xã hội. Hệ tư tưởng phản khoa học, phản động kích thích những yếu tố tiêu cực của tâm lý xã hội phát triển.",
+    "question_type": "multiple_choice",
+    "question": "Tâm lý xã hội và hệ tư tưởng xã hội có cùng một nguồn gốc là gì?",
+    "options": ["Tồn tại xã hội", "Ý thức cá nhân", "Quan hệ gia đình", "Đời sống tự nhiên"],
+    "answer": "A"
+  },
+  {
+    "context": "Tâm lý xã hội và hệ tư tưởng xã hội tuy là hai trình độ, hai phương thức phản ánh khác nhau của ý thức xã hội, nhưng có mối quan hệ tác động qua lại với nhau, chúng có cùng một nguồn gốc là tồn tại xã hội, đều phản ánh tồn tại xã hội. Tâm lý xã hội tạo điều kiện thuận lợi cho các thành viên giai cấp tiếp thu hệ tư tưởng của giai cấp. Mối liên hệ chặt chẽ giữa hệ tư tưởng (đặc biệt là tư tưởng khoa học tiến bộ) với tâm lý xã hội, với thực tiễn cuộc sống sinh động và phong phú sẽ giúp cho hệ tư tưởng xã hội, cho lý luận bớt xơ cứng, bớt sai lầm. Trái lại hệ tư tưởng, lý luận xã hội, gia tăng yếu tố trí tuệ cho tâm lý xã hội. Hệ tư tưởng khoa học thúc đẩy tâm lý xã hội phát triển theo chiều hướng đúng đắn, lành mạnh có lợi cho tiến bộ xã hội. Hệ tư tưởng phản khoa học, phản động kích thích những yếu tố tiêu cực của tâm lý xã hội phát triển.",
+    "question_type": "sentences",
+    "question": "Hệ tư tưởng khoa học có tác động gì đối với tâm lý xã hội?",
+    "answer": "Thúc đẩy tâm lý xã hội phát triển theo chiều hướng đúng đắn, lành mạnh có lợi cho tiến bộ xã hội"
+  },
+  {
+    "context": "Tính giai cấp của ý thức xã hội biểu hiện ở tâm lý xã hội. Về mặt tâm lý xã hội, mỗi giai cấp đều có tình cảm, tâm trạng, thói quen riêng, có thiện cảm hay ác cảm với tập đoàn xã hội này hoặc tập đoàn xã hội khác. Ở trình độ hệ tư tưởng thì tính giai cấp của ý thức xã hội biểu hiện sâu sắc hơn nhiều. Trong xã hội có đối kháng giai cấp bao giờ cũng có những quan điểm tư tưởng hoặc những hệ tư tưởng đối lập nhau: tư tưởng của giai cấp bóc lột và giai cấp bị bóc lột, của giai cấp thống trị và giai cấp bị trị. Những tư tưởng thống trị của một thời đại bao giờ cũng là tư tưởng của giai cấp thống trị về kinh tế và chính trị ở thời đại đó.",
+    "question_type": "multiple_choice",
+    "question": "Tính giai cấp của ý thức xã hội biểu hiện ở đâu?",
+    "options": ["Tâm lý xã hội", "Hoạt động kinh tế", "Điều kiện tự nhiên", "Mối quan hệ gia đình"],
+    "answer": "A"
+  },
+  {
+    "context": "Tính giai cấp của ý thức xã hội biểu hiện ở tâm lý xã hội cũng như ở hệ tư tưởng. Về mặt tâm lý xã hội, mỗi giai cấp đều có tình cảm, tâm trạng, thói quen riêng, có thiện cảm hay ác cảm với tập đoàn xã hội này hoặc tập đoàn xã hội khác. Ở trình độ hệ tư tưởng thì tính giai cấp của ý thức xã hội biểu hiện sâu sắc hơn nhiều. Trong xã hội có đối kháng giai cấp bao giờ cũng có những quan điểm tư tưởng hoặc những hệ tư tưởng đối lập nhau: tư tưởng của giai cấp bóc lột và giai cấp bị bóc lột, của giai cấp thống trị và giai cấp bị trị. Những tư tưởng thống trị của một thời đại bao giờ cũng là tư tưởng của giai cấp thống trị về kinh tế và chính trị ở thời đại đó.",
+    "question_type": "multiple_choice",
+    "question": "Những tư tưởng thống trị của một thời đại bao giờ cũng là tư tưởng của giai cấp nào?",
+    "options": ["Giai cấp bị trị", "Giai cấp bị bóc lột", "Giai cấp thống trị về kinh tế và chính trị", "Giai cấp trung lưu"],
+    "answer": "C"
+  },
+  {
+    "context": "Chủ nghĩa Mác - Lênin là hệ tư tưởng khoa học và cách mạng của giai cấp công nhân, ngọn cờ giải phóng của quần chúng bị áp bức, bóc lột, phản ánh tiến trình khách quan của sự phát triển lịch sử. Hệ tư tưởng Mác - Lênin đối lập với hệ tư tưởng tư sản - hệ tư tưởng bảo vệ lợi ích của giai cấp tư sản, bảo vệ chế độ người bóc lột người. Cuộc đấu tranh giai cấp giữa giai cấp tư sản và giai cấp vô sản hàng thế kỷ nay diễn ra gay gắt trên tất cả các lĩnh vực, trong đó có lĩnh vực hệ tư tưởng.",
+    "question_type": "multiple_choice",
+    "question": "Chủ nghĩa Mác - Lênin là hệ tư tưởng khoa học và cách mạng của giai cấp nào?",
+    "options": ["Giai cấp công nhân", "Giai cấp tư sản", "Giai cấp trung lưu", "Giai cấp địa chủ"],
+    "answer": "A"
+  },
+  {
+    "context": "Chủ nghĩa Mác - Lênin là hệ tư tưởng khoa học và cách mạng của giai cấp công nhân, ngọn cờ giải phóng của quần chúng bị áp bức, bóc lột, phản ánh tiến trình khách quan của sự phát triển lịch sử. Hệ tư tưởng Mác - Lênin đối lập với hệ tư tưởng tư sản - hệ tư tưởng bảo vệ lợi ích của giai cấp tư sản, bảo vệ chế độ người bóc lột người. Cuộc đấu tranh giai cấp giữa giai cấp tư sản và giai cấp vô sản hàng thế kỷ nay diễn ra gay gắt trên tất cả các lĩnh vực, trong đó có lĩnh vực hệ tư tưởng.",
+    "question_type": "multiple_choice",
+    "question": "Hệ tư tưởng Mác - Lênin đối lập với hệ tư tưởng nào?",
+    "options": ["Hệ tư tưởng tư sản", "Hệ tư tưởng trung lưu", "Hệ tư tưởng địa chủ", "Hệ tư tưởng phong kiến"],
+    "answer": "A"
+  },
+  {
+    "context": "Trong điều kiện xã hội ngày nay, cuộc đấu tranh giai cấp trên lĩnh vực ý thức hệ vẫn đang tiếp tục diễn ra. Trước những khó khăn và thử thách trên con đường phát triển của chủ nghĩa xã hội, các thế lực thù địch đang ra sức tiến công vào chủ nghĩa Mác - Lênin, muốn phủ nhận, xoá bỏ nó. Do vậy bảo vệ và phát triển chủ nghĩa Mác - Lênin trong điều kiện thế giới ngày nay, là một nhiệm vụ quan trọng của cuộc đấu tranh vì mục tiêu độc lập dân tộc, dân chủ và chủ nghĩa xã hội của nhân dân ta và nhân dân tiến bộ trên thế giới nói chung.",
+    "question_type": "multiple_choice",
+    "question": "Các thế lực thù địch đang ra sức tiến công vào chủ nghĩa nào?",
+    "options": ["Chủ nghĩa tư bản", "Chủ nghĩa thực dân", "Chủ nghĩa Mác - Lênin", "Chủ nghĩa tự do"],
+    "answer": "C"
+  },
+  {
+    "context": "Trong điều kiện xã hội ngày nay, cuộc đấu tranh giai cấp trên lĩnh vực ý thức hệ vẫn đang tiếp tục diễn ra. Trước những khó khăn và thử thách trên con đường phát triển của chủ nghĩa xã hội, các thế lực thù địch đang ra sức tiến công vào chủ nghĩa Mác - Lênin, muốn phủ nhận, xoá bỏ nó. Do vậy bảo vệ và phát triển chủ nghĩa Mác - Lênin trong điều kiện thế giới ngày nay, là một nhiệm vụ quan trọng của cuộc đấu tranh vì mục tiêu độc lập dân tộc, dân chủ và chủ nghĩa xã hội của nhân dân ta và nhân dân tiến bộ trên thế giới nói chung.",
+    "question_type": "sentences",
+    "question": "Mục tiêu của cuộc đấu tranh Bảo vệ và phát triển chủ nghĩa Mác - Lênin là gì?",
+    "answer": "Độc lập dân tộc, dân chủ và chủ nghĩa xã hội của nhân dân ta và nhân dân tiến bộ trên thế giới nói chung"
+  },
+  {
+    "context": "Khi khẳng định tính giai cấp của ý thức xã hội, chủ nghĩa duy vật lịch sử đồng thời còn cho rằng, ý thức của các giai cấp trong xã hội có sự tác động qua lại với nhau. Trong xã hội có áp bức giai cấp, các giai cấp bị trị do bị tước đoạt tư liệu sản xuất, phải chịu sự áp bức về vật chất nên không tránh khỏi bị áp bức về tinh thần, không tránh khỏi chịu ảnh hưởng tư tưởng của giai cấp thống trị, bóc lột. Mác và Ăngghen viết: Giai cấp nào chi phối những tư liệu sản xuất vật chất thì cũng chi phối luôn cả những tư liệu sản xuất tinh thần, thành thử nói chung tư tưởng của những người không có tư liệu sản xuất tinh thần cũng đồng thời bị giai cấp thống trị đó chi phối. Tuy nhiên, mức độ ảnh hưởng của tư tưởng giai cấp thống trị đối với xã hội tùy thuộc vào trình độ phát triển ý thức cách mạng của giai cấp bị trị.",
+    "question_type": "multiple_choice",
+    "question": "Ý thức của các giai cấp trong xã hội có đặc điểm gì?",
+    "options": ["Sự tác động qua lại với nhau", "Không ảnh hưởng đến nhau", "Hoàn toàn độc lập", "Chỉ tác động một chiều"],
+    "answer": "A"
+  },
+  {
+    "context": "Khi khẳng định tính giai cấp của ý thức xã hội, chủ nghĩa duy vật lịch sử đồng thời còn cho rằng, ý thức của các giai cấp trong xã hội có sự tác động qua lại với nhau. Trong xã hội có áp bức giai cấp, các giai cấp bị trị do bị tước đoạt tư liệu sản xuất, phải chịu sự áp bức về vật chất nên không tránh khỏi bị áp bức về tinh thần, không tránh khỏi chịu ảnh hưởng tư tưởng của giai cấp thống trị, bóc lột. Mác và Ăngghen viết: Giai cấp nào chi phối những tư liệu sản xuất vật chất thì cũng chi phối luôn cả những tư liệu sản xuất tinh thần, thành thử nói chung tư tưởng của những người không có tư liệu sản xuất tinh thần cũng đồng thời bị giai cấp thống trị đó chi phối. Tuy nhiên, mức độ ảnh hưởng của tư tưởng giai cấp thống trị đối với xã hội tùy thuộc vào trình độ phát triển ý thức cách mạng của giai cấp bị trị.",
+    "question_type": "sentences",
+    "question": "Mức độ ảnh hưởng của tư tưởng giai cấp thống trị tùy thuộc vào điều gì?",
+    "answer": "Trình độ phát triển ý thức cách mạng của giai cấp bị trị"
+  },
+  {
+    "context": "Trong xã hội có giai cấp, ý thức xã hội không chỉ mang dấu ấn của những điều kiện sinh hoạt vật chất của giai cấp, mà còn phản ánh những điều kiện sinh hoạt chung của dân tộc; những điều kiện lịch sử, kinh tế, chính trị, văn hoá, xã hội, điều kiện tự nhiên hình thành trong quá trình phát triển lâu dài của dân tộc. Vì vậy, trong ý thức xã hội, ngoài tâm lý và hệ tư tưởng xã hội của giai cấp, còn bao gồm tâm lý dân tộc, tình cảm, ước muốn, tập quán, thói quen, tính cách, ... của dân tộc, phản ánh những điều kiện sinh hoạt chung của dân tộc, thấm sâu vào mọi lĩnh vực đời sống tinh thần của dân tộc, truyền từ thế hệ này qua thế hệ khác tạo thành truyền thống dân tộc.",
+    "question_type": "sentences",
+    "question": "Những yếu tố nào của dân tộc được hình thành trong quá trình phát triển của dân tộc?",
+    "answer": "Điều kiện lịch sử, kinh tế, chính trị, văn hoá, xã hội, điều kiện tự nhiên"
+  },
+  {
+    "context": "Khi khẳng định vai trò quyết định của tồn tại xã hội đối với ý thức xã hội, và ý thức xã hội là sự phản ánh của tồn tại xã hội, phụ thuộc vào tồn tại xã hội, chủ nghĩa duy vật lịch sử không xem ý thức xã hội như một yếu tố thụ động, trái lại còn nhấn mạnh tác dụng tích cực của ý thức xã hội đối với đời sống kinh tế - xã hội, nhấn mạnh tính độc lập tương đối của ý thức xã hội trong mối quan hệ với tồn tại xã hội.",
+    "question_type": "sentences",
+    "question": "Chủ nghĩa duy vật lịch sử nhấn mạnh điều gì về ý thức xã hội?",
+    "answer": "Tác dụng tích cực của ý thức xã hội đối với đời sống kinh tế - xã hội"
+  },
+  {
+    "context": "Vì ý thức có tính kế thừa trong sự phát triển, nên không thể giải thích được một tư tưởng nào đó nếu chỉ dựa vào những quan hệ kinh tế hiện có, không chú ý đến các giai đoạn phát triển tư tưởng trước đó. Lịch sử phát triển của tư tưởng cho thấy những giai đoạn hưng thịnh hoặc suy tàn của triết học, văn học, nghệ thuật, ... nhiều khi không phù hợp hoàn toàn với những giai đoạn hưng thịnh hoặc suy tàn của kinh tế. Tính chất kế thừa trong sự phát triển của tư tưởng là một trong những nguyên nhân nói rõ vì sao một nước có trình độ phát triển tương đối kém về kinh tế nhưng tư tưởng lại ở trình độ phát triển cao. Thí dụ, nước Pháp thế kỷ XVIII có nền kinh tế phát triển kém nước Anh, nhưng tư tưởng thì lại tiên tiến hơn nước Anh; so với Anh, Pháp thì nước Đức ở nửa đầu thế kỷ XIX lạc hậu về kinh tế, nhưng đã đứng ở trình độ cao hơn về triết học.",
+    "question_type": "sentences",
+    "question": "Tại sao không thể giải thích được một tư tưởng chỉ dựa vào những quan hệ kinh tế hiện có?",
+    "answer": "Vì ý thức có tính kế thừa trong sự phát triển"
+  },
+  {
+    "context": "Do ý thức có tính kế thừa trong sự phát triển, nên không thể giải thích được một tư tưởng nào đó nếu chỉ dựa vào những quan hệ kinh tế hiện có, không chú ý đến các giai đoạn phát triển tư tưởng trước đó. Lịch sử phát triển của tư tưởng cho thấy những giai đoạn hưng thịnh hoặc suy tàn của triết học, văn học, nghệ thuật, ... nhiều khi không phù hợp hoàn toàn với những giai đoạn hưng thịnh hoặc suy tàn của kinh tế. Tính chất kế thừa trong sự phát triển của tư tưởng là một trong những nguyên nhân nói rõ vì sao một nước có trình độ phát triển tương đối kém về kinh tế nhưng tư tưởng lại ở trình độ phát triển cao. Thí dụ, nước Pháp thế kỷ XVIII có nền kinh tế phát triển kém nước Anh, nhưng tư tưởng thì lại tiên tiến hơn nước Anh; so với Anh, Pháp thì nước Đức ở nửa đầu thế kỷ XIX lạc hậu về kinh tế, nhưng đã đứng ở trình độ cao hơn về triết học.",
+    "question_type": "multiple_choice",
+    "question": "Lịch sử phát triển của tư tưởng cho thấy điều gì?",
+    "options": ["Những giai đoạn hưng thịnh hoặc suy tàn của triết học, văn học, nghệ thuật", "Sự phát triển của kinh tế và tư tưởng luôn song hành", "Không thể giải thích tư tưởng chỉ dựa vào quan hệ kinh tế hiện có", "Tư tưởng không chịu ảnh hưởng từ kinh tế"],
+    "answer": "A"
+  },  
+  {
+    "context": "Trong xã hội có giai cấp, tính chất kế thừa của ý thức xã hội gắn với tính chất giai cấp của nó. Những giai cấp khác nhau kế thừa những nội dung ý thức khác nhau của các thời đại trước. Các giai cấp tiên tiến tiếp nhận những di sản tư tưởng tiến bộ của xã hội cũ để lại. Thí dụ, khi làm cách mạng tư sản chống phong kiến, các nhà tư tưởng tiên tiến của giai cấp tư sản đã khôi phục những tư tưởng duy vật và nhân bản của thời cổ đại.",
+    "question_type": "multiple_choice",
+    "question": "Tính chất kế thừa của ý thức xã hội gắn với điều gì trong xã hội có giai cấp?",
+    "options": ["Tính chất giai cấp", "Tình hình kinh tế", "Điều kiện tự nhiên", "Quan hệ gia đình"],
+    "answer": "A"
+  },
+  {
+    "context": "Trong xã hội có giai cấp, tính chất kế thừa của ý thức xã hội gắn với tính chất giai cấp của nó. Những giai cấp khác nhau kế thừa những nội dung ý thức khác nhau của các thời đại trước. Các giai cấp tiên tiến tiếp nhận những di sản tư tưởng tiến bộ của xã hội cũ để lại. Thí dụ, khi làm cách mạng tư sản chống phong kiến, các nhà tư tưởng tiên tiến của giai cấp tư sản đã khôi phục những tư tưởng duy vật và nhân bản của thời cổ đại.",
+    "question_type": "multiple_choice",
+    "question": "Các giai cấp tiên tiến tiếp nhận những gì của xã hội cũ để lại?",
+    "options": ["Di sản tư tưởng tiến bộ", "Di sản kinh tế", "Di sản tự nhiên", "Di sản gia đình"],
+    "answer": "A"
+  },
+  {
+    "context": "Ngược lại, những giai cấp lỗi thời thì tiếp thu những lý thuyết xã hội phản tiến bộ của những thời kỳ lịch sử trước. Giai cấp phong kiến các nước Tây Âu trung cổ ở thời kỳ suy thoái đã ra sức khai thác triết học của Platôn và những yếu tố duy tâm trong hệ thống triết học của Arixtốt thời kỳ cổ đại Hy Lạp, biến chúng thành cơ sở triết học của các giáo lý đạo Thiên chúa; hoặc vào nửa sau thế kỷ XIX và đầu thế kỷ XX các thế lực tư sản phản động đã phục hồi và phát triển những trào lưu triết học duy tâm, tôn giáo dưới những cái tên mới như chủ nghĩa Cantơ mới, chủ nghĩa Tômát mới,... để chống lại phong trào cách mạng của giai cấp công nhân và hệ tư tưởng của nó là chủ nghĩa Mác.",
+    "question_type": "sentences",
+    "question": "Những giai cấp lỗi thời tiếp thu những tư tưởng nào?",
+    "answer": "Những lý thuyết xã hội phản tiến bộ của thời kỳ lịch sử trước"
+  },
+  {
+    "context": "Quan điểm của triết học Mác - Lênin về tính kế thừa của ý thức xã hội có ý nghĩa to lớn đối với sự nghiệp xây dựng nền văn hoá tinh thần của xã hội xã hội chủ nghĩa. Lênin nhấn mạnh rằng, văn hoá xã hội chủ nghĩa cần phải phát huy những thành tựu và truyền thống tốt đẹp nhất của nền văn hoá nhân loại từ cổ chí kim trên cơ sở thế giới quan mácxít. Người viết: Văn hoá vô sản phải là sự phát triển hợp quy luật của tổng số những kiến thức mà loài người đã tích luỹ được dưới ách thống trị của xã hội tư bản, xã hội của bọn địa chủ và xã hội của bọn quan liêu.",
+    "question_type": "sentences",
+    "question": "Theo Lênin, văn hoá xã hội chủ nghĩa cần phải làm gì?",
+    "answer": "Phát huy những thành tựu và truyền thống tốt đẹp nhất của nền văn hoá nhân loại"
+  },
+  {
+    "context": "Quan điểm của triết học Mác - Lênin về tính kế thừa của ý thức xã hội có ý nghĩa to lớn đối với sự nghiệp xây dựng nền văn hoá tinh thần của xã hội xã hội chủ nghĩa. Lênin nhấn mạnh rằng, văn hoá xã hội chủ nghĩa cần phải phát huy những thành tựu và truyền thống tốt đẹp nhất của nền văn hoá nhân loại từ cổ chí kim trên cơ sở thế giới quan mácxít. Lênin viết: Văn hoá vô sản phải là sự phát triển quy luật của tổng số những kiến thức mà loài người đã tích luỹ được dưới ách thống trị của xã hội tư bản, xã hội của bọn địa chủ và xã hội của bọn quan liêu.",
+    "question_type": "sentences",
+    "question": "Văn hoá vô sản theo Lênin là gì?",
+    "answer": "Sự phát triển quy luật của tổng số những kiến thức mà loài người đã tích luỹ được"
+  },
+  {
+    "context": "Nắm vững quan điểm trên đây của triết học Mác - Lênin về tính kế thừa của ý thức xã hội có ý nghĩa quan trọng đối với công cuộc đổi mới ở nước ta hiện nay trên lĩnh vực văn hoá, tư tưởng, Đảng ta khẳng định, trong điều kiện kinh tế thị trường và mở rộng giao lưu quốc tế, phải đặc biệt quan tâm giữ gìn và nâng cao bản sắc văn hoá dân tộc, kế thừa và phát huy truyền thống đạo đức, tập quán tốt đẹp và lòng tự hào dân tộc. Tiếp thu tinh hoa các dân tộc trên thế giới, làm giàu đẹp thêm nền văn hoá Việt Nam.",
+    "question_type": "sentences",
+    "question": "Trong điều kiện kinh tế thị trường và mở rộng giao lưu quốc tế, Đảng ta khẳng định cần phải làm gì?",
+    "answer": "Đặc biệt quan tâm giữ gìn và nâng cao bản sắc văn hoá dân tộc"
+  },
+  {
+    "context": "Lịch sử phát triển của ý thức xã hội cho thấy, thông thường ở mỗi thời đại, tùy theo những hoàn cảnh lịch sử cụ thể có những hình thái ý thức nổi lên hàng đầu và tác động mạnh đến các hình thái ý thức khác. Ở Hy Lạp cổ đại, triết học và nghệ thuật đóng vai trò đặc biệt to lớn; còn ở Tây Âu trung cổ thì tôn giáo ảnh hưởng mạnh mẽ đến mọi mặt tinh thần xã hội như triết học, đạo đức, nghệ thuật, chính trị, pháp quyền. Ở giai đoạn lịch sử sau này thì ý thức chính trị lại đóng vai trò to lớn tác động đến các hình thái ý thức xã hội khác.",
+    "question_type": "multiple_choice",
+    "question": "Ở Hy Lạp cổ đại, hình thái ý thức nào đóng vai trò đặc biệt to lớn?",
+    "options": ["Triết học và nghệ thuật", "Tôn giáo", "Chính trị", "Pháp quyền"],
+    "answer": "A"
+  },
+  {
+    "context": "Lịch sử phát triển của ý thức xã hội cho thấy, thông thường ở mỗi thời đại, tùy theo những hoàn cảnh lịch sử cụ thể có những hình thái ý thức nổi lên hàng đầu và tác động mạnh đến các hình thái ý thức khác. Ở Hy Lạp cổ đại, triết học và nghệ thuật đóng vai trò đặc biệt to lớn; còn ở Tây Âu trung cổ thì tôn giáo ảnh hưởng mạnh mẽ đến mọi mặt tinh thần xã hội như triết học, đạo đức, nghệ thuật, chính trị, pháp quyền. Ở giai đoạn lịch sử sau này thì ý thức chính trị lại đóng vai trò to lớn tác động đến các hình thái ý thức xã hội khác.",
+    "question_type": "multiple_choice",
+    "question": "Ở Tây Âu trung cổ, hình thái ý thức nào ảnh hưởng mạnh mẽ đến mọi mặt tinh thần xã hội?",
+    "options": ["Tôn giáo", "Triết học", "Nghệ thuật", "Chính trị"],
+    "answer": "A"
+  },
+  {
+    "context": "Ở Pháp nửa sau thế kỷ XVIII và ở Đức cuối thế kỷ XIX, triết học và văn học là công cụ quan trọng nhất để tuyên truyền những tư tưởng chính trị. Trong sự tác động lẫn nhau giữa các hình thái ý thức, ý thức chính trị có vai trò đặc biệt quan trọng, ý thức chính trị của giai cấp cách mạng định hướng cho sự phát triển theo chiều hướng tiến bộ của các hình thái ý thức khác. Trong điều kiện của nước ta hiện nay, những hoạt động tư tưởng như triết học, văn học nghệ thuật, ... mà tách rời đường lối chính trị đúng đắn của Đảng sẽ không tránh khỏi rơi vào những quan điểm sai lầm, không thể đóng góp tích cực vào sự nghiệp cách mạng của nhân dân.",
+    "question_type": "multiple_choice",
+    "question": "Ở Pháp nửa sau thế kỷ XVIII và ở Đức cuối thế kỷ XIX, công cụ quan trọng nhất để tuyên truyền những tư tưởng chính trị là gì?",
+    "options": ["Triết học và văn học", "Kinh tế", "Tôn giáo", "Chính trị"],
+    "answer": "A"
+  },
+  {
+    "context": "Ở Pháp nửa sau thế kỷ XVIII và ở Đức cuối thế kỷ XIX, triết học và văn học là công cụ quan trọng nhất để tuyên truyền những tư tưởng chính trị, là vũ đài của cuộc đấu tranh chính trị của các lực lượng xã hội tiên tiến. Trong sự tác động lẫn nhau giữa các hình thái ý thức, ý thức chính trị có vai trò đặc biệt quan trọng, ý thức chính trị của giai cấp cách mạng định hướng cho sự phát triển theo chiều hướng tiến bộ của các hình thái ý thức khác. Trong điều kiện của nước ta hiện nay, những hoạt động tư tưởng như triết học, văn học nghệ thuật, ... mà tách rời đường lối chính trị đúng đắn của Đảng sẽ không tránh khỏi rơi vào những quan điểm sai lầm, không thể đóng góp tích cực vào sự nghiệp cách mạng của nhân dân.",
+    "question_type": "sentences",
+    "question": "Ý thức chính trị của giai cấp cách mạng có vai trò gì?",
+    "answer": "Định hướng cho sự phát triển theo chiều hướng tiến bộ của các hình thái ý thức khác"
+  },
+  {
+    "context": "Chủ nghĩa duy vật lịch sử không những chống lại quan điểm duy tâm tuyệt đối hóa vai trò của ý thức xã hội, mà còn bác bỏ quan điểm duy vật tầm thường, hay chủ nghĩa duy vật kinh tế phủ nhận tác dụng tích cực của ý thức xã hội trong đời sống xã hội. Ăngghen viết: Sự phát triển của các lĩnh vực như chính trị, pháp luật, triết học, tôn giáo, văn học, nghệ thuật, đều dựa trên cơ sở sự phát triển kinh tế. Nhưng tất cả chúng cũng có ảnh hưởng lẫn nhau và ảnh hưởng đến cơ sở kinh tế.",
+    "question_type": "multiple_choice",
+    "question": "Theo Ăngghen, sự phát triển của các lĩnh vực đều dựa trên cơ sở gì?",
+    "options": ["Sự phát triển kinh tế", "Sự phát triển xã hội", "Sự phát triển tự nhiên", "Sự phát triển công nghệ"],
+    "answer": "A"
+  },
+  {
+    "context": "Mức độ ảnh hưởng của tư tưởng đối với sự phát triển xã hội phụ thuộc vào những điều kiện lịch sử cụ thể và tính chất của các mối quan hệ kinh tế mà trên đó tư tưởng nảy sinh; vai trò lịch sử của giai cấp mang ngọn cờ tư tưởng; vào mức độ phản ánh đúng đắn của tư tưởng đối với các nhu cầu phát triển xã hội; vào mức độ mở rộng của tư tưởng trong quần chúng. Cũng do đó, ở đây cần phân biệt vai trò của ý thức tư tưởng tiến bộ và ý thức tư tưởng phản tiến bộ đối với sự phát triển xã hội.",
+    "question_type": "sentences",
+    "question": "Mức độ ảnh hưởng của tư tưởng đối với sự phát triển xã hội phụ thuộc vào điều gì?",
+    "answer": "Những điều kiện lịch sử cụ thể và tính chất của các mối quan hệ kinh tế"
+  },
+  {
+    "context": "Tồn tại xã hội và ý thức xã hội là hai phương diện thống nhất biện chứng của đời sống xã hội. Vì vậy công cuộc cải tạo xã hội cũ, xây dựng xã hội mới phải được tiến hành đồng thời trên cả hai mặt tồn tại xã hội và ý thức xã hội. Cần thấy rằng, thay đổi tồn tại xã hội là điều kiện cơ bản nhất để thay đổi ý thức xã hội; mặt khác, cũng cần thấy rằng không chỉ những biến đổi trong tồn tại xã hội mới tất yếu dẫn đến những thay đổi to lớn trong đời sống tinh thần của xã hội mà ngược lại, những tác động của đời sống tinh thần xã hội, với những điều kiện xác định cũng có thể tạo ra những biến đổi mạnh mẽ, sâu sắc trong tồn tại xã hội.",
+    "question_type": "multiple_choice",
+    "question": "Công cuộc cải tạo xã hội cũ, xây dựng xã hội mới phải được tiến hành đồng thời trên những mặt nào?",
+    "options": ["Tồn tại xã hội và ý thức xã hội", "Kinh tế và chính trị", "Giáo dục và văn hóa", "Công nghệ và khoa học"],
+    "answer": "A"
+  },
+  {
+    "context": "Tồn tại xã hội và ý thức xã hội là hai phương diện thống nhất biện chứng của đời sống xã hội. Vì vậy công cuộc cải tạo xã hội cũ, xây dựng xã hội mới phải được tiến hành đồng thời trên cả hai mặt tồn tại xã hội và ý thức xã hội. Cần thấy rằng, thay đổi tồn tại xã hội là điều kiện cơ bản nhất để thay đổi ý thức xã hội; mặt khác, cũng cần thấy rằng không chỉ những biến đổi trong tồn tại xã hội mới tất yếu dẫn đến những thay đổi to lớn trong đời sống tinh thần của xã hội mà ngược lại, những tác động của đời sống tinh thần xã hội, với những điều kiện xác định cũng có thể tạo ra những biến đổi mạnh mẽ, sâu sắc trong tồn tại xã hội.",
+    "question_type": "multiple_choice",
+    "question": "Điều kiện cơ bản nhất để thay đổi ý thức xã hội là gì?",
+    "options": ["Thay đổi tồn tại xã hội", "Thay đổi kinh tế", "Thay đổi chính trị", "Thay đổi văn hóa"],
+    "answer": "A"
+  },
+  {
+    "context": "Hình thái ý thức chính trị là hình thái ý thức chỉ xuất hiện và tồn tại trong các xã hội có giai cấp và nhà nước, nó phản ánh các quan hệ chính trị, kinh tế, xã hội giữa các giai cấp, các dân tộc và các quốc gia, cũng như thái độ của các giai cấp đối với quyền lực nhà nước.",
+    "question_type": "sentences",
+    "question": "Hình thái ý thức chính trị là gì?",
+    "answer": "Chỉ xuất hiện và tồn tại trong các xã hội có giai cấp và nhà nước"
+  },
+  {
+    "context": "Ý thức chính trị thực tiễn - thông thường hình thành trực tiếp từ hoạt động thực tiễn trong môi trường chính trị của xã hội. Ở trạng thái tâm lý xã hội, những cảm xúc và tâm trạng về chính trị của quần chúng thường thiếu bền vững và không ổn định. Song, những trạng thái tâm lý xã hội như vậy lại có vai trò to lớn và trực tiếp đối với hành vi chính trị của quần chúng đông đảo; thông qua đó hệ tư tưởng chính trị tác động vào đời sống chính trị của xã hội.",
+    "question_type": "sentences",
+    "question": "Ý thức chính trị thực tiễn thường hình thành từ đâu?",
+    "answer": "Từ hoạt động thực tiễn trong môi trường chính trị của xã hội"
+  },
+  {
+    "context": "Ý thức chính trị thực tiễn - thông thường hình thành trực tiếp từ hoạt động thực tiễn trong môi trường chính trị của xã hội. Ở trạng thái tâm lý xã hội, những cảm xúc và tâm trạng về chính trị của quần chúng thường thiếu bền vững và không ổn định. Song, những trạng thái tâm lý xã hội như vậy lại có vai trò to lớn và trực tiếp đối với hành vi chính trị của quần chúng đông đảo; thông qua đó hệ tư tưởng chính trị tác động vào đời sống chính trị của xã hội.",
+    "question_type": "multiple_choice",
+    "question": "Những cảm xúc và tâm trạng về chính trị của quần chúng có đặc điểm gì?",
+    "options": ["Thiếu bền vững và không ổn định", "Luôn bền vững và ổn định", "Không có ảnh hưởng gì", "Hoàn toàn tiêu cực"],
+    "answer": "A"
+  },
+  {
+    "context": "Hệ tư tưởng chính trị của một giai cấp nhất định phản ánh trực tiếp tập trung lợi ích của giai cấp ấy. Hệ tư tưởng chính trị được thể hiện trong đường lối, cương lĩnh chính trị của các chính đảng của các giai cấp khác nhau cũng như trong luật pháp, chính sách nhà nước, công cụ của giai cấp thống trị. Hệ tư tưởng chính trị được hình thành một cách tự giác. Nó được các nhà tư tưởng của giai cấp xây dựng và truyền bá. Hệ tư tưởng chính trị gắn với các tổ chức chính trị. Thông qua các tổ chức chính trị mà một giai cấp nào đó tiến hành cuộc đấu tranh về ý thức hệ vì lợi ích của giai cấp của mình.",
+    "question_type": "multiple_choice",
+    "question": "Hệ tư tưởng chính trị của một giai cấp phản ánh điều gì?",
+    "options": ["Lợi ích của giai cấp", "Lợi ích của toàn xã hội", "Lợi ích của cá nhân", "Lợi ích của tập thể"],
+    "answer": "A"
+  },
+  {
+    "context": "Hệ tư tưởng chính trị của một giai cấp nhất định phản ánh trực tiếp tập trung lợi ích giai cấp của giai cấp ấy. Hệ tư tưởng chính trị được thể hiện trong đường lối, cương lĩnh chính trị của các chính đảng của các giai cấp khác nhau cũng như trong luật pháp, chính sách nhà nước, công cụ của giai cấp thống trị. Hệ tư tưởng chính trị được hình thành một cách tự giác. Nó được các nhà tư tưởng của giai cấp xây dựng và truyền bá. Hệ tư tưởng chính trị gắn với các tổ chức chính trị. Thông qua các tổ chức chính trị mà một giai cấp nào đó tiến hành cuộc đấu tranh về ý thức hệ vì lợi ích của giai cấp của mình.",
+    "question_type": "multiple_choice",
+    "question": "Hệ tư tưởng chính trị được hình thành như thế nào?",
+    "options": ["Một cách tự giác", "Một cách bị động", "Một cách ép buộc", "Một cách chủ động"],
+    "answer": "A"
+  },
+  {
+    "context": "Ý thức chính trị có vai trò rất quan trọng đối với sự phát triển xã hội. Thông qua tổ chức nhà nước nó tác động trở lại cơ sở kinh tế và có thể, trong những giới hạn nhất định thay đổi cơ sở kinh tế. Hệ tư tưởng chính trị cũng giữ vai trò chủ đạo trong đời sống tinh thần của xã hội. Nó thâm nhập vào các hình thái ý thức xã hội khác.",
+    "question_type": "multiple_choice",
+    "question": "Ý thức chính trị có vai trò gì đối với sự phát triển xã hội?",
+    "options": ["Rất quan trọng", "Không quan trọng", "Hoàn toàn phụ thuộc", "Không có ảnh hưởng"],
+    "answer": "A"
+  },
+  {
+    "context": "Tác động tích cực hoặc tiêu cực của hệ tư tưởng chính trị phụ thuộc vào tính chất tiến bộ, cách mạng hoặc phản tiến bộ, phản cách mạng của giai cấp mang hệ tư tưởng đó. Khi giai cấp còn tiến bộ, cách mạng - tiêu biểu cho xu thế phát triển đi lên của lịch sử thì hệ tư tưởng chính trị của nó có tác dụng tích cực đến sự phát triển xã hội. Khi giai cấp đó trở thành lạc hậu, phản động, thì hệ tư tưởng chính trị của nó tác động tiêu cực, kìm hãm phát triển xã hội.",
+    "question_type": "sentences",
+    "question": "Tác động của hệ tư tưởng chính trị phụ thuộc vào điều gì?",
+    "answer": "Tính chất tiến bộ, cách mạng hoặc phản tiến bộ, phản cách mạng của giai cấp mang hệ tư tưởng đó"
+  },
+  {
+    "context": "Pháp luật là ý chí của giai cấp thống trị được thể hiện thành luật lệ, do đó mỗi chế độ xã hội, mỗi nhà nước chỉ có một hệ thống pháp luật của giai cấp nắm chính quyền. Nhưng trong xã hội có giai cấp đối kháng, các giai cấp khác nhau lại có những ý thức khác nhau về pháp luật, phản ánh lợi ích của giai cấp mình. Do đó, hiệu lực của pháp luật không những phụ thuộc vào sức mạnh cưỡng chế của nhà nước mà còn phụ thuộc vào trình độ hiểu biết và tâm lý pháp luật của xã hội.",
+    "question_type": "sentences",
+    "question": "Pháp luật là gì?",
+    "answer": "Ý chí của giai cấp thống trị được thể hiện thành luật lệ"
+  },
+  {
+    "context": "Pháp luật là ý chí của giai cấp thống trị được thể hiện thành luật lệ, do đó mỗi chế độ xã hội, mỗi nhà nước chỉ có một hệ thống pháp luật của giai cấp nắm chính quyền. Nhưng trong xã hội có giai cấp đối kháng, các giai cấp khác nhau lại có những ý thức khác nhau về pháp luật, phản ánh lợi ích của giai cấp mình. Do đó, hiệu lực của pháp luật phụ thuộc vào sức mạnh cưỡng chế của nhà nước, trình độ hiểu biết và tâm lý pháp luật của xã hội.",
+    "question_type": "sentences",
+    "question": "Hiệu lực của pháp luật phụ thuộc vào điều gì?",
+    "answer": "Sức mạnh cưỡng chế của nhà nước, trình độ hiểu biết và tâm lý pháp luật của xã hội."
+  },
+  {
+    "context": "Ý thức đạo đức là toàn bộ những quan niệm, tri thức và các trạng thái xúc cảm tâm lý chung của các cộng đồng người về các giá trị thiện, ác, lương tâm, trách nhiệm, hạnh phúc, công bằng... và về những quy tắc đánh giá, điều chỉnh hành vi ứng xử giữa cá nhân với xã hội, giữa cá nhân với cá nhân trong xã hội. Hình thái ý thức đạo đức là một trong những hình thái ý thức ra đời từ rất sớm trong lịch sử, ngay từ xã hội nguyên thuỷ.",
+    "question_type": "multiple_choice",
+    "question": "Hình thái ý thức đạo đức ra đời từ khi nào?",
+    "options": ["Xã hội nguyên thuỷ", "Thời kỳ phong kiến", "Thời kỳ hiện đại", "Xã hội công nghiệp"],
+    "answer": "A"
+  },
+  {
+    "context": "Sự ý thức về lương tâm, danh dự và lòng tự trọng,... phản ánh khả năng tự chủ của con người là sức mạnh đặc biệt của đạo đức, là nét cơ bản quy định gương mặt đạo đức của con người, cũng là biểu hiện bản chất xã hội của con người. Với ý nghĩa đó, sự phát triển ý thức đạo đức là nhân tố biểu hiện tiến bộ xã hội. Trong ý thức đạo đức, yếu tố tình cảm đạo đức là yếu tố đặc biệt quan trọng, nếu thiếu nó thì những khái niệm, phạm trù đạo đức và mọi tri thức đạo đức thu nhận được bằng con đường lý tính không thể chuyển hóa thành hành vi đạo đức.",
+    "question_type": "multiple_choice",
+    "question": "Sự ý thức về lương tâm, danh dự và lòng tự trọng phản ánh điều gì?",
+    "options": ["Khả năng tự chủ của con người", "Khả năng tài chính của con người", "Khả năng giao tiếp của con người", "Khả năng học tập của con người"],
+    "answer": "A"
+  },
+  {
+    "context": "Sự ý thức về lương tâm, danh dự và lòng tự trọng,... phản ánh khả năng tự chủ của con người là sức mạnh đặc biệt của đạo đức, là nét cơ bản quy định gương mặt đạo đức của con người, cũng là biểu hiện bản chất xã hội của con người. Với ý nghĩa đó, sự phát triển ý thức đạo đức là nhân tố biểu hiện tiến bộ xã hội. Trong ý thức đạo đức, yếu tố tình cảm đạo đức là yếu tố đặc biệt quan trọng, nếu thiếu nó thì những khái niệm, phạm trù đạo đức và mọi tri thức đạo đức thu nhận được bằng con đường lý tính không thể chuyển hóa thành hành vi đạo đức.",
+    "question_type": "multiple_choice",
+    "question": "Trong ý thức đạo đức, yếu tố nào là đặc biệt quan trọng?",
+    "options": ["Tình cảm đạo đức", "Tài chính", "Thể chất", "Học thuật"],
+    "answer": "A"
+  },
+  {
+    "context": "Trong xã hội có giai cấp và đấu tranh giai cấp thì nội dung chủ yếu của đạo đức phản ánh quan hệ giai cấp, nó có tính giai cấp. Trong các phạm trù đạo đức luôn luôn phản ánh địa vị và lợi ích của giai cấp. Mỗi giai cấp trong những giai đoạn phát triển nhất định của lịch sử xã hội đều có những quan niệm đạo đức riêng của mình. Giai cấp tiêu biểu cho xu thế phát triển đi lên của xã hội thì đại diện cho một nền đạo đức tiến bộ, còn các giai cấp phản động thì đại diện cho một nền đạo đức suy thoái.",
+    "question_type": "multiple_choice",
+    "question": "Nội dung chủ yếu của đạo đức phản ánh điều gì trong xã hội có giai cấp và đấu tranh giai cấp?",
+    "options": ["Quan hệ giai cấp", "Quan hệ cá nhân", "Quan hệ gia đình", "Quan hệ tự nhiên"],
+    "answer": "A"
+  },
+  {
+    "context": "Trong xã hội có giai cấp và đấu tranh giai cấp thì nội dung chủ yếu của đạo đức phản ánh quan hệ giai cấp, nó có tính giai cấp. Trong các phạm trù đạo đức luôn luôn phản ánh địa vị và lợi ích của giai cấp. Mỗi giai cấp trong những giai đoạn phát triển nhất định của lịch sử xã hội đều có những quan niệm đạo đức riêng của mình. Giai cấp tiêu biểu cho xu thế phát triển đi lên của xã hội thì đại diện cho một nền đạo đức tiến bộ, còn các giai cấp phản động thì đại diện cho một nền đạo đức suy thoái.",
+    "question_type": "multiple_choice",
+    "question": "Giai cấp tiêu biểu cho xu thế phát triển đi lên của xã hội thì đại diện cho điều gì?",
+    "options": ["Một nền đạo đức tiến bộ", "Một nền đạo đức suy thoái", "Một nền đạo đức truyền thống", "Một nền đạo đức trung lập"],
+    "answer": "A"
+  },
+  {
+    "context": "Ăngghen viết: Xét cho đến cùng, mọi học thuyết về đạo đức đã có từ trước đến nay đều là sản phẩm của tình hình kinh tế của xã hội lúc bấy giờ. Và vì cho tới nay xã hội đã vận động trong những sự đối lập giai cấp, cho nên đạo đức cũng luôn luôn là đạo đức của giai cấp: hoặc là nó biện hộ cho sự thống trị và lợi ích của giai cấp thống trị, hoặc là, khi giai cấp bị trị đã trở nên khá mạnh thì nó tiêu biểu cho sự nổi dậy chống lại sự thống trị nói trên và tiêu biểu cho lợi ích tương lai của những người bị áp bức.",
+    "question_type": "sentences",
+    "question": "Theo Ăngghen, mọi học thuyết về đạo đức đều là sản phẩm của điều gì?",
+    "answer": "Tình hình kinh tế của xã hội lúc bấy giờ"
+  },
+  {
+    "context": "Ăngghen viết: Xét cho đến cùng, mọi học thuyết về đạo đức đã có từ trước đến nay đều là sản phẩm của tình hình kinh tế của xã hội lúc bấy giờ. Và vì cho tới nay xã hội đã vận động trong những sự đối lập giai cấp, cho nên đạo đức cũng luôn luôn là đạo đức của giai cấp: hoặc là nó biện hộ cho sự thống trị và lợi ích của giai cấp thống trị, hoặc là, khi giai cấp bị trị đã trở nên khá mạnh thì nó tiêu biểu cho sự nổi dậy chống lại sự thống trị nói trên và tiêu biểu cho lợi ích tương lai của những người bị áp bức.",
+    "question_type": "multiple_choice",
+    "question": "Theo Ăngghen, mọi học thuyết về đạo đức đã có từ trước đến nay đều là sản phẩm của tình hình nào?",
+    "options": ["Tình hình chính trị của xã hội lúc bấy giờ", "Tình hình kinh tế của xã hội lúc bấy giờ", "Sự phát triển của văn hóa và giáo dục", "Mối quan hệ giữa các quốc gia"],
+    "answer": "B"
+  },  
+  {
+    "context": "Ý thức khoa học vừa là một hình thái ý thức xã hội, vừa là một hiện tượng xã hội đặc biệt. Xem xét khoa học như một hình thái ý thức xã hội không thể tách rời xem xét nó như một hiện tượng xã hội. Ý thức khoa học - với tính cách là một hình thái ý thức xã hội - là hệ thống tri thức phản ánh chân thực dưới dạng lôgic trừu tượng về thế giới đã được kiểm nghiệm qua thực tiễn. Đối tượng phản ánh của ý thức khoa học bao quát mọi lĩnh vực của tự nhiên, xã hội và tư duy. Đó là một trong những sự khác biệt giữa ý thức khoa học với các hình thái ý thức xã hội khác.",
+    "question_type": "sentences",
+    "question": "Ý thức khoa học là gì?",
+    "answer": "Một hình thái ý thức xã hội và một hiện tượng xã hội đặc biệt"
+  },
+  {
+    "context": "Ý thức khoa học vừa là một hình thái ý thức xã hội, vừa là một hiện tượng xã hội đặc biệt. Xem xét khoa học như một hình thái ý thức xã hội không thể tách rời xem xét nó như một hiện tượng xã hội. Ý thức khoa học - với tính cách là một hình thái ý thức xã hội - là hệ thống tri thức phản ánh chân thực dưới dạng lôgic trừu tượng về thế giới đã được kiểm nghiệm qua thực tiễn. Đối tượng phản ánh của ý thức khoa học bao quát mọi lĩnh vực của tự nhiên, xã hội và tư duy. Đó là một trong những sự khác biệt giữa ý thức khoa học với các hình thái ý thức xã hội khác.",
+    "question_type": "multiple_choice",
+    "question": "Đối tượng phản ánh của ý thức khoa học bao quát những lĩnh vực nào?",
+    "options": ["Tự nhiên, xã hội và tư duy", "Kinh tế và chính trị", "Giáo dục và văn hóa", "Nghệ thuật và thể thao"],
+    "answer": "A"
+  },
+  {
+    "context": "Hình thức biểu hiện chủ yếu của tri thức khoa học là phạm trù, định luật, quy luật. Tri thức khoa học thâm nhập vào các hình thái ý thức xã hội khác, hình thành các khoa học tương ứng với từng hình thái ý thức đó. Thí dụ: ý thức chính trị và chính trị học, ý thức đạo đức và đạo đức học, ý thức nghệ thuật và nghệ thuật học, ý thức tôn giáo và tôn giáo học. Nhờ tri thức khoa học, con người không ngừng vươn tới cái mới sáng tạo ra một thế giới mới và ngày càng làm chủ tự nhiên, làm chủ xã hội và làm chủ bản thân mình.",
+    "question_type": "multiple_choice",
+    "question": "Hình thức biểu hiện chủ yếu của tri thức khoa học là gì?",
+    "options": ["Phạm trù, định luật, quy luật", "Quan điểm cá nhân", "Tình cảm và cảm xúc", "Hành vi và thói quen"],
+    "answer": "A"
+  },
+  {
+    "context": "Hình thức biểu hiện chủ yếu của tri thức khoa học là phạm trù, định luật, quy luật. Tri thức khoa học thâm nhập vào các hình thái ý thức xã hội khác, hình thành các khoa học tương ứng với từng hình thái ý thức đó. Thí dụ: ý thức chính trị và chính trị học, ý thức đạo đức và đạo đức học, ý thức nghệ thuật và nghệ thuật học, ý thức tôn giáo và tôn giáo học. Nhờ tri thức khoa học, con người không ngừng vươn tới cái mới sáng tạo ra một thế giới mới và ngày càng làm chủ tự nhiên, làm chủ xã hội và làm chủ bản thân mình.",
+    "question_type": "sentences",
+    "question": "Con người đã làm được gì nhờ tri thức khoa học?",
+    "answer": "Vươn tới cái mới sáng tạo ra một thế giới mới và ngày càng làm chủ tự nhiên, làm chủ xã hội và làm chủ bản thân mình"
+  },
+  {
+    "context": "Trong mỗi khoa học người ta phân thành các cấp độ: kinh nghiệm, là những tư liệu hiện thực đã tích luỹ được - sự tổng kết các quan sát và thí nghiệm; lý luận là sự khái quát kinh nghiệm thể hiện trong những lý thuyết về quy luật và nguyên lý tương ứng, cấp độ lý luận của các khoa học cụ thể hợp lực với nhau trong sự giải thích các nguyên lý và quy luật đã phát hiện trên bình diện lý luận chung - bình diện triết học, hình thành mặt thế giới quan và phương pháp luận của toàn bộ nhận thức khoa học.",
+    "question_type": "sentences",
+    "question": "Cấp độ kinh nghiệm trong mỗi khoa học là gì?",
+    "answer": "Những tư liệu hiện thực đã tích luỹ được - sự tổng kết các quan sát và thí nghiệm"
+  },
+  {
+    "context": "Trong mỗi khoa học người ta phân thành các cấp độ: kinh nghiệm, tức là những tư liệu hiện thực đã tích luỹ được - sự tổng kết các quan sát và thí nghiệm; lý luận là sự khái quát kinh nghiệm thể hiện trong những lý thuyết về quy luật và nguyên lý tương ứng, cấp độ lý luận của các khoa học cụ thể hợp lực với nhau để giải thích các nguyên lý và quy luật đã phát hiện trên bình diện lý luận chung - bình diện triết học, hình thành mặt thế giới quan và phương pháp luận của toàn bộ nhận thức khoa học.",
+    "question_type": "multiple_choice",
+    "question": "Cấp độ lý luận của các khoa học cụ thể hợp lực với nhau để làm gì?",
+    "options": ["Giải thích các nguyên lý và quy luật", "Tạo ra các thí nghiệm mới", "Phát triển công nghệ", "Quan sát hiện tượng tự nhiên"],
+    "answer": "A"
+  },
+  {
+    "context": "Ngày nay, trong sự tự động hóa sản xuất, tri thức khoa học được kết tinh trong mọi nhân tố của lực lượng sản xuất - trong đối tượng lao động, kỹ thuật, quá trình công nghệ và cả trong những hình thức tổ chức tương ứng của sản xuất. Người lao động không còn là nhân tố thao tác trực tiếp trong hệ thống kỹ thuật mà chủ yếu là vận dụng tri thức khoa học để điều khiển quá trình sản xuất. Khoa học cho phép hoàn thiện các phương pháp sản xuất, hoàn thiện việc quản lý kinh tế. Hơn nữa khoa học còn trở thành một ngành hoạt động sản xuất với quy mô ngày càng lớn, bao hàm hàng loạt các viện, phòng thí nghiệm, trạm, trại, xí nghiệp với số cán bộ khoa học ngày càng tăng, vốn đầu tư ngày càng lớn, hiệu quả đầu tư ngày càng cao. Do những biến đổi căn bản về vai trò của khoa học đối với sản xuất mà khoa học trở thành lực lượng sản xuất trực tiếp.",
+    "question_type": "sentences",
+    "question": "Trong sự tự động hóa sản xuất, tri thức khoa học được kết tinh trong những nhân tố nào của lực lượng sản xuất?",
+    "answer": "Đối tượng lao động, kỹ thuật, quá trình công nghệ và cả những hình thức tổ chức tương ứng của sản xuất"
+  },
+  {
+    "context": "Ngày nay, trong sự tự động hóa sản xuất, tri thức khoa học được kết tinh trong mọi nhân tố của lực lượng sản xuất - trong đối tượng lao động, kỹ thuật, quá trình công nghệ và cả trong những hình thức tổ chức tương ứng của sản xuất. Người lao động không còn là nhân tố thao tác trực tiếp trong hệ thống kỹ thuật mà chủ yếu là vận dụng tri thức khoa học để điều khiển quá trình sản xuất. Khoa học cho phép hoàn thiện các phương pháp sản xuất, hoàn thiện việc quản lý kinh tế. Hơn nữa khoa học còn trở thành một ngành hoạt động sản xuất với quy mô ngày càng lớn, bao hàm hàng loạt các viện, phòng thí nghiệm, trạm, trại, xí nghiệp với số cán bộ khoa học ngày càng tăng, vốn đầu tư ngày càng lớn, hiệu quả đầu tư ngày càng cao. Do những biến đổi căn bản về vai trò của khoa học đối với sản xuất mà khoa học trở thành lực lượng sản xuất trực tiếp.",
+    "question_type": "sentences",
+    "question": "Vai trò của người lao động trong hệ thống kỹ thuật là gì?",
+    "answer": "Vận dụng tri thức khoa học để điều khiển quá trình sản xuất"
+  },
+  {
+    "context": "Ý thức thẩm mỹ là sự phản ánh hiện thực vào ý thức con người trong quan hệ với nhu cầu thưởng thức và sáng tạo Cái Đẹp. Trong các hình thức hoạt động thưởng thức và sáng tạo Cái Đẹp thì nghệ thuật là hình thức biểu hiện cao nhất của ý thức thẩm mỹ. Nghệ thuật ra đời từ rất sớm ngay từ khi xã hội chưa phân chia thành giai cấp. Quá trình hình thành nghệ thuật gắn liền với lao động của con người, với thực tiễn xã hội. Những dấu vết đầu tiên của nghệ thuật đều thuộc về thời kỳ con người đã biết sản xuất ra những công cụ bằng đá, bằng xương, bằng sừng,...",
+    "question_type": "sentences",
+    "question": "Ý thức thẩm mỹ là gì?",
+    "answer": "Sự phản ánh hiện thực vào ý thức con người trong quan hệ với nhu cầu thưởng thức và sáng tạo Cái Đẹp"
+  },
+  {
+    "context": "Ý thức thẩm mỹ là sự phản ánh hiện thực vào ý thức con người trong quan hệ với nhu cầu thưởng thức và sáng tạo Cái Đẹp. Trong các hình thức hoạt động thưởng thức và sáng tạo Cái Đẹp thì nghệ thuật là hình thức biểu hiện cao nhất của ý thức thẩm mỹ. Nghệ thuật ra đời từ rất sớm ngay từ khi xã hội chưa phân chia thành giai cấp. Quá trình hình thành nghệ thuật gắn liền với lao động của con người, với thực tiễn xã hội. Những dấu vết đầu tiên của nghệ thuật đều thuộc về thời kỳ con người đã biết sản xuất ra những công cụ bằng đá, bằng xương, bằng sừng,...",
+    "question_type": "multiple_choice",
+    "question": "Ý thức thẩm mỹ là sự phản ánh thực vào ý thức con người trong quan hệ với nhu cầu nào?",
+    "options": ["Thưởng thức và sáng tạo Cái Đẹp", "Thưởng thức cái xấu", "Phân chia giai cấp", "Được lao động của con người"],
+    "answer": "A"
+  },
+  {
+    "context": "Cũng như các hình thái ý thức xã hội khác, nghệ thuật bắt nguồn từ tồn tại xã hội. Khác với khoa học và triết học, phản ánh thế giới hiện thực bằng khái niệm, phạm trù, quy luật, nghệ thuật phản ánh thế giới một cách sinh động, cụ thể bằng hình tượng nghệ thuật. Hình tượng nghệ thuật tuy cũng phản ánh cái bản chất của đời sống hiện thực nhưng phản ánh thông qua cái cá biệt, cụ thể - cảm tính, sinh động. Hình tượng nghệ thuật cũng nhận thức cái chung trong cái riêng, nhận thức cái bản chất trong cái hiện tượng, nhận thức cái phổ biến trong cái cá biệt, song cái cá biệt trong nghệ thuật phải là cái cá biệt có tính điển hình và nếu nhà nghệ thuật tạo ra cái điển hình thì phải là cái điển hình đã được cá biệt hóa.",
+    "question_type": "multiple_choice",
+    "question": "Nghệ thuật phản ánh thế giới một cách sinh động, cụ thể bằng hình tượng nào?",
+    "options": ["Hình tượng nghệ thuật", "Hình tượng khái niệm", "Hình tượng quy luật", "Hình tượng phạm trù"],
+    "answer": "A"
+  },
+  {
+    "context": "Cũng như các hình thái ý thức xã hội khác, nghệ thuật bắt nguồn từ tồn tại xã hội. Khác với khoa học và triết học, phản ánh thế giới hiện thực bằng khái niệm, phạm trù, quy luật, nghệ thuật phản ánh thế giới một cách sinh động, cụ thể bằng hình tượng nghệ thuật. Hình tượng nghệ thuật tuy cũng phản ánh cái bản chất của đời sống hiện thực nhưng phản ánh thông qua cái cá biệt, cụ thể - cảm tính, sinh động. Hình tượng nghệ thuật cũng nhận thức cái chung trong cái riêng, nhận thức cái bản chất trong cái hiện tượng, nhận thức cái phổ biến trong cái cá biệt, song cái cá biệt trong nghệ thuật phải là cái cá biệt có tính điển hình và nếu nhà nghệ thuật tạo ra cái điển hình thì phải là cái điển hình đã được cá biệt hóa.",
+    "question_type": "sentences",
+    "question": "Hình tượng nghệ thuật phản ánh cái bản chất của đời sống hiện thực thông qua điều gì?",
+    "answer": "Cái cá biệt, cụ thể - cảm tính, sinh động"
+  },
+  {
+    "context": "Nghệ thuật chân chính gắn bó với đời sống hiện thực của nhân dân; là nhân tố thúc đẩy mạnh mẽ tiến bộ xã hội thông qua việc đáp ứng những nhu cầu thẩm mỹ của con người. Khi phản ánh thế giới hiện thực trong các hình tượng nghệ thuật chân thực và có giá trị thẩm mỹ cao, nghệ thuật đã tác động đến lý trí và tình cảm của con người, kích thích tính tích cực của con người, xây dựng ở con người những hành vi đạo đức tốt đẹp.",
+    "question_type": "multiple_choice",
+    "question": "Nghệ thuật chân chính gắn bó với đời sống hiện thực của ai?",
+    "options": ["Nhân dân", "Giới quý tộc", "Giới thượng lưu", "Giới doanh nhân"],
+    "answer": "A"
+  },
+  {
+    "context": "Trong xã hội có giai cấp, nghệ thuật bao giờ cũng mang tính giai cấp. Tính giai cấp của nghệ thuật biểu hiện trước hết ở chỗ nó không thể không chịu sự tác động của thế giới quan, các quan điểm chính trị của một giai cấp, không thể đứng ngoài chính trị và các quan hệ kinh tế. Trong xã hội chia thành các giai cấp mà phủ nhận mối liên hệ của nghệ thuật với chính trị thì hoàn toàn sai lầm.",
+    "question_type": "multiple_choice",
+    "question": "Trong xã hội có giai cấp, nghệ thuật bao giờ cũng mang tính gì?",
+    "options": ["Giai cấp", "Tự nhiên", "Trung lập", "Cá nhân"],
+    "answer": "A"
+  },
+  {
+    "context": "Ý thức tôn giáo với tính cách là hình thái ý thức xã hội bao gồm tâm lý tôn giáo và hệ tư tưởng tôn giáo. Tâm lý tôn giáo là toàn bộ những biểu tượng, tình cảm, tâm trạng thói quen của quần chúng về tín ngưỡng tôn giáo. Hệ tư tưởng tôn giáo là hệ thống giáo lý do các giáo sĩ, các nhà thần học tạo ra và truyền bá trong xã hội. Đứng về mặt lịch sử, tâm lý tôn giáo và hệ tư tưởng tôn giáo là hai giai đoạn phát triển của ý thức tôn giáo, nhưng chúng liên hệ tác động qua lại và bổ sung nhau. Tâm lý tôn giáo đem lại cho hệ tư tưởng tôn giáo một tính chất đặc trưng, một sắc thái tình cảm riêng. Hệ tư tưởng tôn giáo thuyết minh những hiện tượng tâm lý tôn giáo, khái quát chúng, làm cho chúng biến đổi theo những chiều hướng nhất định.",
+    "question_type": "sentences",
+    "question": "Ý thức tôn giáo bao gồm những gì?",
+    "answer": "Tâm lý tôn giáo và hệ tư tưởng tôn giáo"
+  },
+  {
+    "context": "Ý thức tôn giáo với tính cách là hình thái ý thức xã hội bao gồm tâm lý tôn giáo và hệ tư tưởng tôn giáo. Tâm lý tôn giáo là toàn bộ những biểu tượng, tình cảm, tâm trạng thói quen của quần chúng về tín ngưỡng tôn giáo. Hệ tư tưởng tôn giáo là hệ thống giáo lý do các giáo sĩ, các nhà thần học tạo ra và truyền bá trong xã hội. Đứng về mặt lịch sử, tâm lý tôn giáo và hệ tư tưởng tôn giáo là hai giai đoạn phát triển của ý thức tôn giáo, nhưng chúng liên hệ tác động qua lại và bổ sung nhau. Tâm lý tôn giáo đem lại cho hệ tư tưởng tôn giáo một tính chất đặc trưng, một sắc thái tình cảm riêng. Hệ tư tưởng tôn giáo thuyết minh những hiện tượng tâm lý tôn giáo, khái quát chúng, làm cho chúng biến đổi theo những chiều hướng nhất định.",
+    "question_type": "sentences",
+    "question": "Tâm lý tôn giáo là gì?",
+    "answer": "Toàn bộ những biểu tượng, tình cảm, tâm trạng thói quen của quần chúng về tín ngưỡng tôn giáo"
+  },
+  {
+    "context": "Ý thức tôn giáo là một hình thái ý thức xã hội thực hiện chức năng chủ yếu của mình là chức năng đền bù - hư ảo trong một xã hội cần đến sự đền bù - hư ảo. Chức năng đó làm cho tôn giáo có một đời sống lâu dài, một vị trí đặc biệt trong xã hội. Chức năng đền bù - hư ảo nói lên khả năng của tôn giáo có thể bù đắp, bổ sung một cách hư ảo cái hiện thực mà trong đó con người còn bất lực trước những sức mạnh tự nhiên và những điều kiện khách quan của đời sống xã hội. Những mâu thuẫn của đời sống hiện thực, những bất lực thực tiễn của con người được giải quyết một cách hư ảo trong ý thức họ. Vì vậy, tôn giáo luôn được các giai cấp thống trị sử dụng như một công cụ áp bức tinh thần, một phương tiện củng cố địa vị thống trị của họ.",
+    "question_type": "multiple_choice",
+    "question": "Chức năng chủ yếu của ý thức tôn giáo là gì?",
+    "options": ["Chức năng đền bù - hư ảo", "Chức năng giáo dục", "Chức năng quản lý", "Chức năng khoa học"],
+    "answer": "A"
+  },
+  {
+    "context": "Chủ nghĩa Mác - Lênin cho rằng điều kiện tiên quyết để khắc phục tôn giáo như một hình thái ý thức có tính chất tiêu cực là phải xoá bỏ nguồn gốc xã hội của nó, nghĩa là phải tiến hành một cuộc cách mạng xã hội triệt để nhằm cải tạo cả tồn tại xã hội lẫn ý thức xã hội. Bằng hoạt động tích cực cách mạng của mình, quần chúng không những cải tạo xã hội mà còn cải tạo bản thân, giải phóng ý thức mình khỏi những quan niệm sai lầm, kể cả những ảo tưởng tôn giáo.",
+    "question_type": "sentences",
+    "question": "Điều kiện tiên quyết để khắc phục tôn giáo theo chủ nghĩa Mác - Lênin là gì?",
+    "answer": "Phải xoá bỏ nguồn gốc xã hội của nó"
+  },
+  {
+    "context": "Hồ Chí Minh là một nhà lý luận - thực tiễn. Người xây dựng lý luận, vạch cương lĩnh, đường lối, chủ trương cách mạng và trực tiếp tổ chức, lãnh đạo thực hiện. Và từ thực tiễn Người tổng kết, bổ sung để hoàn chỉnh và phát triển, cho nên tư tưởng cách mạng Hồ Chí Minh luôn luôn sáng tạo, không lạc hậu, giáo điều. Nghiên cứu tư tưởng Hồ Chí Minh không chỉ căn cứ vào các tác phẩm, bài viết mà cần coi trọng hoạt động thực tiễn của Người, thực tiễn cách mạng dưới sự tổ chức và lãnh đạo của Đảng do Người đứng đầu. Hơn nữa, Hồ Chí Minh có một phong cách nói và viết rất ngắn gọn không theo lối viết kiểu hàn lâm. Vì vậy, chỉ căn cứ vào bài viết, bài nói, tác phẩm của Người là chưa đầy đủ.",
+    "question_type": "sentences",
+    "question": "Hồ Chí Minh đã làm gì để tư tưởng cách mạng luôn sáng tạo?",
+    "answer": "Từ thực tiễn Người tổng kết, bổ sung để hoàn chỉnh và phát triển"
+  },
+  {
+    "context": "Hồ Chí Minh là một nhà lý luận - thực tiễn. Người xây dựng lý luận, vạch cương lĩnh, đường lối, chủ trương cách mạng và trực tiếp tổ chức, lãnh đạo thực hiện. Và từ thực tiễn Người tổng kết, bổ sung để hoàn chỉnh và phát triển, cho nên tư tưởng cách mạng Hồ Chí Minh luôn luôn sáng tạo, không lạc hậu, giáo điều. Nghiên cứu tư tưởng Hồ Chí Minh cần căn cứ vào các tác phẩm, bài viết và coi trọng hoạt động thực tiễn của Người, thực tiễn cách mạng dưới sự tổ chức và lãnh đạo của Đảng do Người đứng đầu. Hơn nữa, Hồ Chí Minh có một phong cách nói và viết rất ngắn gọn không theo lối viết kiểu hàn lâm. Vì vậy, chỉ căn cứ vào bài viết, bài nói, tác phẩm của Người là chưa đầy đủ.",
+    "question_type": "sentences",
+    "question": "Nghiên cứu tư tưởng Hồ Chí Minh cần căn cứ vào những gì?",
+    "answer": "Các tác phẩm, bài viết và coi trọng hoạt động thực tiễn của Người"
+  },
+  {
+    "context": "Hành động thực tiễn, chủ nghĩa anh hùng cách mạng trong chiến đấu và dựng xây của nhân dân Việt Nam theo tư tưởng Hồ Chí Minh cũng chính là lời giải thích rõ ràng giá trị khoa học của tư tưởng Hồ Chí Minh. Chân lý là cụ thể, cách mạng là sáng tạo. Sự sáng tạo cách mạng của Hồ Chí Minh trước hết là sự sáng tạo về tư duy lý luận, về chiến lược, về đường lối cách mạng. Điều đó giữ vai trò quyết định hàng đầu dẫn đến thắng lợi cách mạng. Tư tưởng lý luận cách mạng Hồ Chí Minh đã góp phần phát triển phong phú thêm lý luận cách mạng của thời đại, trước hết là về cách mạng thuộc địa. Tư tưởng Hồ Chí Minh đã tỏa sáng vượt ra ngoài biên giới Việt Nam, đến với những người nô lệ ở các nước phương Đông và người lao động làm thuê ở phương Tây.",
+    "question_type": "multiple_choice",
+    "question": "Sự sáng tạo cách mạng của Hồ Chí Minh trước hết là gì?",
+    "options": ["Sáng tạo về tư duy lý luận", "Sáng tạo về nghệ thuật", "Sáng tạo về văn học", "Sáng tạo về khoa học"],
+    "answer": "A"
+  },
+  {
+    "context": "Hành động thực tiễn, chủ nghĩa anh hùng cách mạng trong chiến đấu và dựng xây của nhân dân Việt Nam theo tư tưởng Hồ Chí Minh cũng chính là lời giải thích rõ ràng giá trị khoa học của tư tưởng Hồ Chí Minh. Chân lý là cụ thể, cách mạng là sáng tạo. Sự sáng tạo cách mạng của Hồ Chí Minh trước hết là sự sáng tạo về tư duy lý luận, về chiến lược, về đường lối cách mạng. Điều đó giữ vai trò quyết định hàng đầu dẫn đến thắng lợi cách mạng. Tư tưởng lý luận cách mạng Hồ Chí Minh đã góp phần phát triển phong phú thêm lý luận cách mạng của thời đại, trước hết là về cách mạng thuộc địa. Tư tưởng Hồ Chí Minh đã tỏa sáng vượt ra ngoài biên giới Việt Nam, đến với những người nô lệ ở các nước phương Đông và người lao động làm thuê ở phương Tây.",
+    "question_type": "multiple_choice",
+    "question": "Tư tưởng lý luận cách mạng Hồ Chí Minh đã góp phần phát triển phong phú thêm điều gì?",
+    "options": ["Lý luận cách mạng của thời đại", "Chiến lược quân sự", "Chính sách kinh tế", "Phong trào văn hóa"],
+    "answer": "A"
+  },  
+  {
+    "context": "Tư tưởng Hồ Chí Minh soi đường cho Đảng và nhân dân Việt Nam trên con đường xây dựng đất nước vì mục tiêu: dân giàu, nước mạnh, xã hội công bằng, dân chủ, văn minh. Vì vậy, phải nghiêm túc học tập tư tưởng Hồ Chí Minh để nâng cao tư duy lý luận, rèn luyện bản lĩnh chính trị, nâng cao đạo đức cách mạng, năng lực công tác, thực hiện tốt các nhiệm vụ cách mạng trọng đại của Đảng, của Nhà nước ta trên con đường quá độ lên chủ nghĩa xã hội.",
+    "question_type": "sentences",
+    "question": "Mục tiêu của tư tưởng Hồ Chí Minh trên con đường xây dựng đất nước là gì?",
+    "answer": "Dân giàu, nước mạnh, xã hội công bằng, dân chủ, văn minh"
+  },
+  {
+    "context": "Đối với thế hệ trẻ nói chung, với học sinh, sinh viên trong các trường cao đẳng và đại học nói riêng, cần đặc biệt coi trọng giáo dục chính trị, giáo dục tư tưởng Hồ Chí Minh nhằm nâng cao lý luận, phương pháp tư duy biện chứng, góp phần đào tạo sinh viên thành những chiến sĩ đi tiên phong trong công cuộc bảo vệ và xây dựng đất nước Việt Nam đàng hoàng hơn và to đẹp hơn như Di chúc của Người để lại: Đoàn viên và thanh niên ta nói chung là tốt, mọi việc đều hăng hái xung phong, không ngại khó khăn, có chí tiến thủ. Đảng cần phải chăm lo giáo dục đạo đức cách mạng cho họ, đào tạo họ thành những người thừa kế xây dựng chủ nghĩa xã hội vừa hồng vừa chuyên.",
+    "question_type": "multiple_choice",
+    "question": "Tại sao cần đặc biệt coi trọng giáo dục chính trị, giáo dục tư tưởng Hồ Chí Minh cho thế hệ trẻ?",
+    "options": ["Nhằm nâng cao lý luận, phương pháp tư duy biện chứng", "Nhằm nâng cao thể chất", "Nhằm nâng cao kiến thức kỹ thuật", "Nhằm nâng cao trình độ ngoại ngữ"],
+    "answer": "A"
+  },
+  {
+    "context": "Cùng với chủ nghĩa duy vật biện chứng, chúng ta cần vận dụng chủ nghĩa duy vật lịch sử vào việc nghiên cứu, học tập tư tưởng Hồ Chí Minh. Trong nghiên cứu khoa học, theo Lênin, chúng ta không được quên mối liên hệ lịch sử căn bản, nghĩa là phải xem xét một hiện tượng nhất định đã xuất hiện trong lịch sử như thế nào, hiện tượng đó đã trải qua những giai đoạn phát triển chủ yếu nào và đứng trên quan điểm của sự phát triển đó để xem xét hiện nay nó đã trở thành như thế nào? Nắm vững quan điểm này giúp chúng ta hiểu được tư tưởng Hồ Chí Minh mang đậm dấu ấn của quá trình phát triển lịch sử, quá trình phát triển sáng tạo, đổi mới.",
+    "question_type": "multiple_choice",
+    "question": "Tư tưởng Hồ Chí Minh mang đậm dấu ấn của quá trình nào?",
+    "options": ["Quá trình phát triển lịch sử", "Quá trình cách mạng", "Quá trình đổi mới", "Quá trình hội nhập"],
+    "answer": "A"
+  },
+  {
+    "context": "Trong giai đoạn đế quốc chủ nghĩa, cách mạng giải phóng dân tộc trở thành một bộ phận của cách mạng vô sản thế giới, Lênin có cơ sở thực tiễn để phát triển vấn đề dân tộc thuộc địa thành một hệ thống lý luận. Tuy cả Mác, Ăngghen và Lênin đã nêu lên những quan điểm cơ bản về mối quan hệ biện chứng giữa vấn đề dân tộc và vấn đề giai cấp, tạo cơ sở lý luận và phương pháp luận cho việc xác định chiến lược, sách lược của các Đảng Cộng sản về vấn đề dân tộc và thuộc địa, nhưng từ thực tiễn cách mạng vô sản ở châu Âu, các ông vẫn tập trung nhiều hơn vào vấn đề giai cấp. Điều kiện những năm đầu thế kỷ XX trở đi đặt ra yêu cầu cần vận dụng và phát triển sáng tạo lý luận Mác - Lênin cho phù hợp với thực tiễn ở các nước thuộc địa; chính Hồ Chí Minh là người đã đáp ứng yêu cầu đó.",
+    "question_type": "multiple_choice",
+    "question": "Trong giai đoạn đế quốc chủ nghĩa, cách mạng giải phóng dân tộc trở thành một bộ phận của cách mạng nào?",
+    "options": ["Cách mạng tư sản thế giới", "Cách mạng vô sản thế giới", "Cách mạng công nghiệp", "Cách mạng dân tộc"],
+    "answer": "B"
+  },
+  {
+    "context": "Trong giai đoạn đế quốc chủ nghĩa, cách mạng giải phóng dân tộc trở thành một bộ phận của cách mạng vô sản thế giới, Lênin có cơ sở thực tiễn để phát triển vấn đề dân tộc thuộc địa thành một hệ thống lý luận. Tuy cả Mác, Ăngghen và Lênin đã nêu lên những quan điểm cơ bản về mối quan hệ biện chứng giữa vấn đề dân tộc và vấn đề giai cấp, tạo cơ sở lý luận và phương pháp luận cho việc xác định chiến lược, sách lược của các Đảng Cộng sản về vấn đề dân tộc và thuộc địa, nhưng từ thực tiễn cách mạng vô sản ở châu Âu, các ông vẫn tập trung nhiều hơn vào vấn đề giai cấp. Những năm đầu thế kỷ XX, Hồ Chí Minh là người đã đáp ứng yêu cầu phát triển sáng tạo lý luận Mác - Lênin cho phù hợp với thực tiễn ở các nước thuộc địa.",
+    "question_type": "multiple_choice",
+    "question": "Ai là người đã đáp ứng yêu cầu phát triển sáng tạo lý luận Mác - Lênin cho phù hợp với thực tiễn ở các nước thuộc địa?",
+    "options": ["Lênin", "Mác", "Ăngghen", "Hồ Chí Minh"],
+    "answer": "D"
+  },
+  {
+    "context": "Độc lập, tự do là khát vọng lớn nhất của các dân tộc thuộc địa. Hồ Chí Minh nói: Tự do cho đồng bào tôi, độc lập cho Tổ quốc tôi, đấy là tất cả những điều tôi muốn; đấy là tất cả những điều tôi hiểu. Trong quá trình tìm đường cứu nước, Hồ Chí Minh đã tìm hiểu và tiếp nhận những nhân tố về quyền con người trong Tuyên ngôn độc lập năm 1776 của Mỹ, Tuyên ngôn nhân quyền và dân quyền năm 1791 của cách mạng Pháp. Từ đó, Hồ Chí Minh đã khái quát và nâng lên thành quyền của các dân tộc: Tất cả các dân tộc trên thế giới đều sinh ra bình đẳng, dân tộc nào cũng có quyền sống, quyền sung sướng và quyền tự do.",
+    "question_type": "sentences",
+    "question": "Hồ Chí Minh đã khái quát và nâng lên thành những quyền gì của các dân tộc?",
+    "answer": "Quyền sống, quyền sung sướng và quyền tự do"
+  },
+  {
+    "context": "Độc lập, tự do là khát vọng lớn nhất của các dân tộc thuộc địa. Hồ Chí Minh nói: Tự do cho đồng bào tôi, độc lập cho Tổ quốc tôi, đấy là tất cả những điều tôi muốn; đấy là tất cả những điều tôi hiểu. Trong quá trình tìm đường cứu nước, Hồ Chí Minh đã tìm hiểu và tiếp nhận những nhân tố về quyền con người trong Tuyên ngôn độc lập năm 1776 của Mỹ, Tuyên ngôn nhân quyền và dân quyền năm 1791 của cách mạng Pháp. Từ đó, Người đã khái quát và nâng lên thành quyền của các dân tộc: Tất cả các dân tộc trên thế giới đều sinh ra bình đẳng, dân tộc nào cũng có quyền sống, quyền sung sướng và quyền tự do.",
+    "question_type": "sentences",
+    "question": "Hồ Chí Minh đã tìm hiểu và tiếp nhận những nhân tố về quyền con người từ đâu?",
+    "answer": "Trong tuyên ngôn độc lập năm 1776 của Mỹ, Tuyên ngôn nhân quyền và dân quyền năm 1791 của cách mạng Pháp"
+  },
+  {
+    "context": "Năm 1919, vận dụng nguyên tắc dân tộc tự quyết thiêng liêng đã được các nước đồng minh thắng trận trong Chiến tranh thế giới thứ nhất thừa nhận, thay mặt những người Việt Nam yêu nước, Người gửi tới Hội nghị Vécxây (Pháp) bản Yêu sách gồm tám điểm, đòi các quyền tự do, dân chủ cho nhân dân Việt Nam. Bản Yêu sách chưa đề cập vấn đề độc lập hay tự trị, mà tập trung vào hai nội dung cơ bản: Một là, đòi quyền bình đẳng về chế độ pháp lý cho người bản xứ Đông Dương như đối với người châu Âu. Cụ thể là, phải xóa bỏ các tòa án đặc biệt dùng làm công cụ khủng bố, đàn áp bộ phận trung thực nhất trong nhân dân (tức những người yêu nước); phải xóa bỏ chế độ cai trị bằng sắc lệnh và thay thế bằng chế độ ra các đạo luật. Hai là, đòi các quyền tự do dân chủ tối thiểu cho nhân dân, đó là các quyền tự do ngôn luận, tự do báo chí, tự do lập hội, tự do hội họp, tự do cư trú.",
+    "question_type": "multiple_choice",
+    "question": "Bản Yêu sách gồm tám điểm, đòi hỏi điều gì cho nhân dân Việt Nam?",
+    "options": ["Các quyền tự do, dân chủ", "Độc lập, tự trị", "Quyền tự quyết", "Quyền lập hiến"],
+    "answer": "A"
+  },
+  {
+    "context": "Tháng 5-1941, Hồ Chí Minh chủ trì Hội nghị lần thứ tám Ban Chấp hành Trung ương Đảng nêu cao vấn đề giải phóng dân tộc. Tháng 6-1941, Người viết thư Kính cáo đồng bào, chỉ rõ: Trong lúc này quyền lợi dân tộc giải phóng cao hơn hết thảy. Người chỉ đạo thành lập Việt Nam độc lập đồng minh (Việt Minh), ra báo Việt Nam độc lập, ban bố Mười chính sách của Việt Minh, trong đó mục tiêu đầu tiên là: Cờ treo độc lập, nền xây bình quyền.",
+    "question_type": "multiple_choice",
+    "question": "Trong thư Kính cáo đồng bào, Người chỉ rõ điều gì cao hơn hết thảy?",
+    "options": ["Quyền lợi dân tộc giải phóng", "Quyền lợi kinh tế", "Quyền lợi chính trị", "Quyền lợi giáo dục"],
+    "answer": "A"
+  },
+  {
+    "context": "Tháng 5-1941, Hồ Chí Minh chủ trì Hội nghị lần thứ tám Ban Chấp hành Trung ương Đảng nêu cao vấn đề giải phóng dân tộc. Tháng 6-1941, Người viết thư Kính cáo đồng bào, chỉ rõ: Trong lúc này quyền lợi dân tộc giải phóng cao hơn hết thảy. Người chỉ đạo thành lập Việt Nam độc lập đồng minh (Việt Minh), ra báo Việt Nam độc lập, ban bố Mười chính sách của Việt Minh, trong đó mục tiêu đầu tiên là: Cờ treo độc lập, nền xây bình quyền.",
+    "question_type": "multiple_choice",
+    "question": "Mục tiêu đầu tiên trong Mười chính sách của Việt Minh là gì?",
+    "options": ["Cờ treo độc lập, nền xây bình quyền", "Xây dựng kinh tế", "Cải thiện giáo dục", "Phát triển y tế"],
+    "answer": "A"
+  },
+  {
+    "context": "Cách mạng Tháng Tám thành công, Hồ Chí Minh thay mặt Chính phủ lâm thời đọc Tuyên ngôn độc lập, long trọng khẳng định trước toàn thế giới: Nước Việt Nam có quyền hưởng tự do và độc lập, và sự thật đã thành một nước tự do độc lập. Toàn thể dân tộc Việt Nam quyết đem tất cả tinh thần và lực lượng, tính mạng và của cải để giữ vững quyền tự do, độc lập ấy.",
+    "question_type": "sentences",
+    "question": "Sau Cách mạng Tháng Tám thành công, Hồ Chí Minh khẳng định điều gì trước toàn thế giới?",
+    "answer": "Nước Việt Nam có quyền hưởng tự do và độc lập, và sự thật đã thành một nước tự do độc lập."
+  },
+  {
+    "context": "Trong các thư và điện văn gửi tới Liên hợp quốc và Chính phủ các nước vào thời gian sau Cách mạng Tháng Tám, Hồ Chí Minh trịnh trọng tuyên bố: Nhân dân Việt Nam thành thật mong muốn hòa bình. Nhưng nhân dân chúng tôi cũng kiên quyết chiến đấu đến cùng để bảo vệ những quyền thiêng liêng nhất: toàn vẹn lãnh thổ cho Tổ quốc và độc lập cho đất nước. Kháng chiến toàn quốc bùng nổ thể hiện quyết tâm bảo vệ độc lập và chủ quyền dân tộc, Người ra lời kêu gọi vang dội núi sông: Không! Chúng ta thà hy sinh tất cả, chứ nhất định không chịu mất nước, nhất định không chịu làm nô lệ. Khi đế quốc Mỹ mở rộng chiến tranh leo thang ra miền Bắc, Hồ Chí Minh nêu một chân lý có giá trị cho mọi thời đại: Không có gì quý hơn độc lập, tự do. Không có gì quý hơn độc lập, tự do là mục tiêu chiến đấu, là nguồn sức mạnh làm nên chiến thắng của dân tộc Việt Nam, đồng thời cũng là nguồn động viên lớn đối với các dân tộc bị áp bức trên toàn thế giới. Vì vậy, Người không chỉ được tôn vinh là Anh hùng giải phóng dân tộc của Việt Nam mà còn được thừa nhận là Người khởi xướng cuộc đấu tranh giải phóng của các dân tộc thuộc địa trong thế kỷ XX.",
+    "question_type": "multiple_choice",
+    "question": "Hồ Chí Minh trịnh trọng tuyên bố nhân dân Việt Nam mong muốn điều gì sau Cách mạng Tháng Tám?",
+    "options": ["Chiến tranh", "Hòa bình", "Sự áp bức", "Sự chiếm đóng"],
+    "answer": "B"
+  },
+  {
+    "context": "Trong các thư và điện văn gửi tới Liên hợp quốc và Chính phủ các nước vào thời gian sau Cách mạng Tháng Tám, Hồ Chí Minh trịnh trọng tuyên bố: Nhân dân chúng tôi thành thật mong muốn hòa bình. Nhưng nhân dân chúng tôi cũng kiên quyết chiến đấu đến cùng để bảo vệ những quyền thiêng liêng nhất: toàn vẹn lãnh thổ cho Tổ quốc và độc lập cho đất nước. Kháng chiến toàn quốc bùng nổ thể hiện quyết tâm bảo vệ độc lập và chủ quyền dân tộc, Người ra lời kêu gọi vang dội núi sông: Không! Chúng ta thà hy sinh tất cả, chứ nhất định không chịu mất nước, nhất định không chịu làm nô lệ. Khi đế quốc Mỹ mở rộng chiến tranh leo thang ra miền Bắc, Hồ Chí Minh nêu một chân lý có giá trị cho mọi thời đại: Không có gì quý hơn độc lập, tự do. Không có gì quý hơn độc lập, tự do là mục tiêu chiến đấu, là nguồn sức mạnh làm nên chiến thắng của dân tộc Việt Nam, đồng thời cũng là nguồn động viên lớn đối với các dân tộc bị áp bức trên toàn thế giới. Vì vậy, Người không chỉ được tôn vinh là Anh hùng giải phóng dân tộc của Việt Nam mà còn được thừa nhận là Người khởi xướng cuộc đấu tranh giải phóng của các dân tộc thuộc địa trong thế kỷ XX.",
+    "question_type": "multiple_choice",
+    "question": "Hồ Chí Minh nêu lên chân lý nào khi đế quốc Mỹ mở rộng chiến tranh leo thang ra miền Bắc?",
+    "options": ["Hòa bình", "Tự do", "Độc lập", "Không có gì quý hơn độc lập, tự do"],
+    "answer": "D"
+  },
+  {
+    "context": "Theo Hồ Chí Minh, do kinh tế còn lạc hậu, chưa phát triển, nên sự phân hóa giai cấp ở Đông Dương chưa triệt để, vì thế cuộc đấu tranh giai cấp không diễn ra giống như ở phương Tây. Các giai cấp vẫn có sự tương đồng lớn: dù là địa chủ hay nông dân, họ đều chịu chung số phận là người nô lệ mất nước. Từ sự phân tích đó, Người kiến nghị về Cương lĩnh hành động của Quốc tế cộng sản là: Phát động chủ nghĩa dân tộc bản xứ nhân danh Quốc tế cộng sản... Khi chủ nghĩa dân tộc của họ thắng lợi... nhất định chủ nghĩa dân tộc ấy sẽ biến thành chủ nghĩa quốc tế.",
+    "question_type": "sentences",
+    "question": "Tại sao sự phân hóa giai cấp ở Đông Dương chưa triệt để?",
+    "answer": "Do kinh tế còn lạc hậu, chưa phát triển"
+  },
+  {
+    "context": "Theo Hồ Chí Minh, do kinh tế còn lạc hậu, chưa phát triển, nên sự phân hóa giai cấp ở Đông Dương chưa triệt để, vì thế cuộc đấu tranh giai cấp không diễn ra giống như ở phương Tây. Các giai cấp vẫn có sự tương đồng lớn: dù là địa chủ hay nông dân, họ đều chịu chung số phận là người nô lệ mất nước. Từ sự phân tích đó, Người kiến nghị về Cương lĩnh hành động của Quốc tế cộng sản là: Phát động chủ nghĩa dân tộc bản xứ nhân danh Quốc tế cộng sản... Khi chủ nghĩa dân tộc của họ thắng lợi... nhất định chủ nghĩa dân tộc ấy sẽ biến thành chủ nghĩa quốc tế.",
+    "question_type": "sentences",
+    "question": "Hồ Chí Minh đã kiến nghị gì về Cương lĩnh hành động của Quốc tế cộng sản?",
+    "answer": "Phát động chủ nghĩa dân tộc bản xứ nhân danh Quốc tế cộng sản"
+  },
+  {
+    "context": "Như vậy, xuất phát từ sự phân tích quan hệ giai cấp trong xã hội thuộc địa, từ truyền thống dân tộc Việt Nam, Hồ Chí Minh đã đánh giá cao sức mạnh của chủ nghĩa dân tộc mà những người cộng sản phải nắm lấy và phát huy. Người cho đó là một chính sách mang tính hiện thực tuyệt vời. Chủ nghĩa dân tộc bản xứ nhân danh Quốc tế cộng sản mà Hồ Chí Minh đề cập ở đây là chủ nghĩa dân tộc chân chính, chứ không phải là chủ nghĩa dân tộc hẹp hòi.",
+    "question_type": "sentences",
+    "question": "Chủ nghĩa dân tộc bản xứ nhân danh Quốc tế cộng sản mà Hồ Chí Minh đề cập là loại chủ nghĩa dân tộc nào?",
+    "answer": "Chủ nghĩa dân tộc chân chính, không phải là chủ nghĩa dân tộc hẹp hòi"
+  },
+  {
+    "context": "Ngay từ khi lựa chọn con đường cách mạng vô sản, ở Hồ Chí Minh đã có sự gắn bó thống nhất giữa dân tộc và giai cấp, dân tộc và quốc tế, độc lập dân tộc và chủ nghĩa xã hội. Năm 1930, trong Cương lĩnh chính trị đầu tiên của Đảng, Người xác định phương hướng chiến lược của cách mạng Việt Nam là: làm tư sản dân quyền cách mạng và thổ địa cách mạng để đi tới xã hội cộng sản.",
+    "question_type": "multiple_choice",
+    "question": "Phương hướng chiến lược của cách mạng Việt Nam trong Cương lĩnh chính trị đầu tiên của Đảng là gì?",
+    "options": ["Tư sản dân quyền cách mạng và thổ địa cách mạng", "Tư sản dân quyền cách mạng và độc lập dân tộc", "Thổ địa cách mạng và chủ nghĩa xã hội", "Dân tộc và quốc tế"],
+    "answer": "A"
+  },
+  {
+    "context": "Xóa bỏ ách áp bức dân tộc mà không xóa bỏ tình trạng bóc lột và áp bức giai cấp thì nhân dân lao động vẫn chưa được giải phóng. Chỉ có xóa bỏ tận gốc tình trạng áp bức, bóc lột và thiết lập một nhà nước thực sự của dân, do dân, vì dân mới bảo đảm cho người lao động có quyền làm chủ và thực hiện được sự phát triển hài hòa giữa cá nhân và xã hội, giữa độc lập dân tộc với tự do và hạnh phúc của con người. Do đó, sau khi giành độc lập, phải tiến lên xây dựng chủ nghĩa xã hội, làm cho dân giàu, nước mạnh, mọi người đều được sung sướng, tự do. Sự phát triển đất nước theo con đường chủ nghĩa xã hội là một bảo đảm vững chắc cho nền độc lập của dân tộc. Hồ Chí Minh nói: yêu Tổ quốc, yêu nhân dân phải gắn liền với yêu chủ nghĩa xã hội, vì có tiến lên chủ nghĩa xã hội thì nhân dân mình mỗi ngày một no ấm thêm, Tổ quốc mỗi ngày một giàu mạnh thêm.",
+    "question_type": "sentences",
+    "question": "Cần làm gì để bảo đảm cho người lao động có quyền làm chủ và thực hiện được sự phát triển hài hòa giữa cá nhân và xã hội?",
+    "answer": "Xóa bỏ tận gốc tình trạng áp bức, bóc lột và thiết lập một nhà nước thực sự của dân, do dân, vì dân"
+  },
+  {
+    "context": "Xóa bỏ ách áp bức dân tộc mà không xóa bỏ tình trạng bóc lột và áp bức giai cấp thì nhân dân lao động vẫn chưa được giải phóng. Chỉ có xóa bỏ tận gốc tình trạng áp bức, bóc lột, chỉ có thiết lập một nhà nước thực sự của dân, do dân, vì dân mới bảo đảm cho người lao động có quyền làm chủ, mới thực hiện được sự phát triển hài hòa giữa cá nhân và xã hội, giữa độc lập dân tộc với tự do và hạnh phúc của con người. Do đó, sau khi giành độc lập, phải tiến lên xây dựng chủ nghĩa xã hội, làm cho dân giàu, nước mạnh, mọi người đều được sung sướng, tự do. Sự phát triển đất nước theo con đường chủ nghĩa xã hội là một bảo đảm vững chắc cho nền độc lập của dân tộc. Hồ Chí Minh nói: yêu Tổ quốc, yêu nhân dân phải gắn liền với yêu chủ nghĩa xã hội, vì chỉ có tiến lên chủ nghĩa xã hội thì nhân dân mình mỗi ngày một no ấm thêm, Tổ quốc mỗi ngày một giàu mạnh thêm.",
+    "question_type": "sentences",
+    "question": "Tại sao sau khi giành độc lập, phải tiến lên xây dựng chủ nghĩa xã hội?",
+    "answer": "Vì chỉ có tiến lên chủ nghĩa xã hội thì nhân dân mình mỗi ngày một no ấm thêm, Tổ quốc mỗi ngày một giàu mạnh thêm"
+  }
+]
+  

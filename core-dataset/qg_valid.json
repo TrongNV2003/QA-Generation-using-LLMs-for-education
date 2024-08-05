@@ -1,0 +1,653 @@
+[
+  {
+    "context": "Tình cảm là sự cảm động của con người trong quan hệ của mình với thực tại xung quanh và đối với bản thân mình. Tình cảm là một hình thái đặc biệt của sự phản ánh thực tại; nó phản ánh quan hệ của con người đối với nhau, cũng như đối với thế giới khách quan. Tình cảm tham gia vào mọi hoạt động của con người và giữ một vị trí quan trọng trong việc điều chỉnh hoạt động của con người. Tình cảm có thể mang tính chất chủ động, chứa đựng sắc thái cảm xúc tích cực, cũng như trở thành thụ động, chứa đựng sắc thái cảm xúc tiêu cực. Tình cảm tích cực là một trong những động lực nâng cao năng lực hoạt động sống của con người. Tri thức kết hợp với tình cảm hình thành nên niềm tin, nâng cao ý chí tích cực biến thành hành động thực tế, mới phát huy được sức mạnh của mình.",
+    "question_type": "sentences",
+    "question": "Tình cảm có ảnh hưởng như thế nào đến con người?",
+    "answer": "Tham gia vào mọi hoạt động của con người và giữ một vị trí quan trọng trong việc điều chỉnh hoạt động của con người"
+  },
+  {
+    "context": "Trong quá trình phát triển, đối tượng của triết học thay đổi theo từng giai đoạn lịch sử. Ngay từ khi mới ra đời, triết học được xem là hình thái cao nhất của tri thức, bao hàm trong nó tri thức về tất cả các lĩnh vực không có đối tượng riêng. Đây là nguyên nhân sâu xa làm nảy sinh quan niệm cho rằng, triết học là khoa học của mọi khoa học, đặc biệt là ở triết học tự nhiên của Hy Lạp cổ đại. Thời kỳ này, triết học đã đạt được nhiều thành tựu rực rỡ mà ảnh hưởng của nó còn in đậm đối với sự phát triển của tư tưởng triết học ở Tây Âu",
+    "question_type": "multiple_choice",
+    "question": "Triết học được xem là hình thái cao nhất của cái gì ngay từ khi ra đời?",
+    "options": ["Tri thức", "Khoa học", "Nghệ thuật", "Văn hóa"],
+    "answer": "A"
+  },
+  {
+    "context": "Thế giới quan là toàn bộ những quan niệm của con người về thế giới, về bản thân con người, về cuộc sống và vị trí của con người trong thế giới đó. Trong thế giới quan có sự hoà nhập giữa tri thức và niềm tin. Tri thức là cơ sở trực tiếp cho sự hình thành thế giới quan, song nó chỉ gia nhập thế giới quan khi nó đã trở thành niềm tin định hướng cho hoạt động của con người. Có nhiều cách tiếp cận để nghiên cứu về thế giới quan. Nếu xét theo quá trình phát triển thì có thể chia thế giới quan thành ba loại hình cơ bản: Thế giới quan huyền thoại, thế giới quan tôn giáo và thế giới quan triết học.",
+    "question_type": "sentences",
+    "question": "Thế giới quan là gì?",
+    "answer": "Toàn bộ những quan niệm của con người về thế giới, về bản thân con người, về cuộc sống và vị trí của con người trong thế giới đó"
+  },
+  {
+    "context": "Trong điều kiện xã hội ngày nay, cuộc đấu tranh giai cấp trên lĩnh vực ý thức hệ vẫn đang tiếp tục diễn ra. Trước những khó khăn và thử thách trên con đường phát triển của chủ nghĩa xã hội, các thế lực thù địch đang ra sức tiến công vào chủ nghĩa Mác - Lênin, muốn phủ nhận, xoá bỏ nó. Do vậy bảo vệ và phát triển chủ nghĩa Mác - Lênin trong điều kiện thế giới ngày nay, là một nhiệm vụ quan trọng của cuộc đấu tranh vì mục tiêu độc lập dân tộc, dân chủ và chủ nghĩa xã hội của nhân dân ta và nhân dân tiến bộ trên thế giới nói chung.",
+    "question_type": "multiple_choice",
+    "question": "Trong điều kiện xã hội ngày nay, cuộc đấu tranh giai cấp diễn ra trên lĩnh vực nào?",
+    "options": ["Lĩnh vực ý thức hệ", "Lĩnh vực kinh tế", "Lĩnh vực văn hóa", "Lĩnh vực chính trị"],
+    "answer": "A"
+  },
+  {
+    "context": "Phương pháp siêu hình là phương pháp: Nhận thức đối tượng ở trạng thái cô lập, tách rời đối tượng ra khỏi các chỉnh thể khác và giữa các mặt đối lập nhau có một ranh giới tuyệt đối. Nhận thức đối tượng ở trạng thái tĩnh tại; nếu có sự biến đổi thì đấy chỉ là sự biến đổi về số lượng, nguyên nhân của sự biến đổi nằm ở bên ngoài đối tượng. Phương pháp siêu hình làm cho con người chỉ nhìn thấy những sự vật riêng biệt mà không nhìn thấy mối liên hệ qua lại giữa những sự vật ấy, chỉ nhìn thấy sự tồn tại của những sự vật ấy mà không nhìn thấy sự phát sinh và sự tiêu vong của những sự vật ấy, chỉ nhìn thấy trạng thái tĩnh của những sự vật ấy mà quên mất sự vận động của những sự vật ấy, chỉ nhìn thấy cây mà không thấy rừng.",
+    "question_type": "sentences",
+    "question": "Phương pháp siêu hình là gì?",
+    "answer": "Nhận thức đối tượng ở trạng thái cô lập, tách rời đối tượng ra khỏi các chỉnh thể khác"
+  },
+  {
+    "context": "Về mặt nhận thức luận, do đã coi vấn đề bản thể luận trung tâm của triết học là sự cảm thụ chủ quan và thái độ ứng xử của cá nhân nên chủ nghĩa hiện sinh không chú trọng nghiên cứu nhận thức khoa học. Trái lại chủ nghĩa hiện sinh cho rằng, những tri thức thu được bằng khoa học dựa trên lý tính là hư ảo. Người ta càng dựa vào lý tính và khoa học thì càng khiến mình bị chi phối, từ đó bị tha hóa. Theo họ, để đạt đến hiện sinh chân chính thì chỉ có thể dựa vào trực giác phi lý tính. Chỉ có trong cuộc sống đau khổ, cô đơn, tuyệt vọng, sợ hãi... con người mới có thể trực tiếp cảm nhận được sự tồn tại của mình. Như vậy, nhận thức luận của chủ nghĩa hiện sinh là nhận thức duy tâm chủ quan phi duy lý.",
+    "question_type": "sentences",
+    "question": "Nhận thức luận của chủ nghĩa hiện sinh là gì?",
+    "answer": "Nhận thức duy tâm chủ quan phi duy lý"
+  },
+  {
+    "context": "Phật là tên theo âm Hán - Việt của Buddha, có nghĩa là giác ngộ. Phật giáo là hình thức giáo đoàn được xây dựng trên một niềm tin từ đức Phật, tức từ biển lớn trí tuệ và từ bi của Siddharta. Kinh điển của Phật giáo gồm Kinh tạng, Luật tạng và Luận tạng. Phật giáo cũng luận về thuyết luân hồi và nghiệp, cũng tìm con đường giải thoát ra khỏi vòng luân hồi. Trạng thái chấm dứt luân hồi và nghiệp được gọi là Niết bàn. Nhưng Phật giáo khác các tôn giáo khác ở chỗ chúng sinh thuộc bất kỳ đẳng cấp nào cũng được giải thoát.",
+    "question_type": "multiple_choice",
+    "question": "Phật giáo được xây dựng dựa trên một niềm tin từ ai?",
+    "options": ["Đức Chúa", "Đức Phật", "Đức Allah", "Đức Thánh"],
+    "answer": "B"
+  },
+  {
+    "context": "Điều kiện về văn hóa: Văn hóa Ấn Độ được hình thành và phát triển trên cơ sở điều kiện tự nhiên và hiện thực xã hội. Người Ấn Độ cổ đại đã tích lũy được nhiều kiến thức về thiên văn, sáng tạo ra lịch pháp, giải thích được hiện tượng nhật thực, nguyệt thực... ở đây, toán học xuất hiện sớm: phát minh ra số thập phân, tính được trị số π, biết về đại số, lượng giác, phép khai căn, giải phương trình bậc 2, 3. Về y học đã xuất hiện những danh y nổi tiếng, chữa bệnh bằng thuật châm cứu, bằng thuốc thảo mộc.",
+    "question_type": "sentences",
+    "question": "Văn hóa Ấn Độ được hình thành và phát triển dựa trên cơ sở nào?",
+    "answer": "Điều kiện tự nhiên và hiện thực xã hội"
+  },
+  {
+    "context": "Kinh điển của Nho gia thường kể tới bộ Tứ thư và Ngũ kinh. Tứ thư có Trung dung, Đại học, Luận ngữ, Mạnh Tử. Ngũ kinh có: Thi, Thư, Lễ, Dịch, Xuân Thu. Hệ thống kinh điển đó hầu hết viết về xã hội, về những kinh nghiệm lịch sử Trung Hoa, ít viết về tự nhiên. Điều này cho thấy rõ xu hướng biện luận về xã hội, về chính trị đạo đức là những tư tưởng cốt lõi của Nho gia. Những người sáng lập Nho gia nói về vũ trụ và tự nhiên không nhiều.",
+    "question_type": "sentences",
+    "question": "Kinh điển của Nho gia thường kể tới bộ nào?",
+    "answer": "Bộ Tứ thư và Ngũ kinh"
+  },
+  {
+    "context": "Họ thừa nhận có thiên mệnh, nhưng đối với quỷ thần lại xa lánh, kính trọng. Lập trường của họ về vấn đề này rất mâu thuẫn. Điều đó chứng tỏ tâm lý của họ là muốn gạt bỏ quan niệm thần học thời Ân - Chu nhưng không gạt nổi. Quan niệm thiên mệnh của Khổng Tử được Mạnh Tử hệ thống hóa, xây dựng thành nội dung triết học duy tâm trong hệ thống tư tưởng triết học của Nho gia.",
+    "question_type": "sentences",
+    "question": "Mạnh Tử đã làm gì với quan niệm thiên mệnh của Khổng Tử?",
+    "answer": "Hệ thống hóa, xây dựng thành nội dung triết học duy tâm trong hệ thống tư tưởng triết học của Nho gia"
+  },
+  {
+    "context": "Mâu thuẫn bên trong có vai trò quyết định trực tiếp đối với quá trình vận động và phát triển của sự vật. Tuy nhiên, mâu thuẫn bên trong và mâu thuẫn bên ngoài không ngừng tác động qua lại lẫn nhau. Việc giải quyết mâu thuẫn bên trong không thể tách rời việc giải quyết mâu thuẫn bên ngoài; việc giải quyết mâu thuẫn bên ngoài là điều kiện để giải quyết mâu thuẫn bên trong. Thực tiễn cách mạng nước ta cũng cho thấy: việc giải quyết những mâu thuẫn trong nước ta không tách rời việc giải quyết những mâu thuẫn giữa nước ta với các nước khác.",
+    "question_type": "multiple_choice",
+    "question": "Mâu thuẫn bên trong có vai trò như thế nào đối với quá trình vận động và phát triển của sự vật?",
+    "options": ["Phụ thuộc vào mâu thuẫn bên ngoài", "Quyết định trực tiếp", "Không ảnh hưởng đến sự phát triển", "Chỉ tác động gián tiếp"],
+    "answer": "B"
+  },
+  {
+    "context": "Nho giáo sinh ra từ một xã hội chiếm hữu nô lệ trên đường suy tàn, vì vậy, Khổng Tử đã luyến tiếc và cố sức duy trì chế độ ấy bằng đạo đức. Đạo theo Nho gia là quy luật biến chuyển, tiến hóa của trời đất, muôn vật. Đối với con người, đạo là con đường đúng đắn phải noi theo để xây dựng quan hệ lành mạnh, tốt đẹp. Đạo của con người, theo quan điểm của Nho gia là phải phù hợp với tính của con người, do con người lập nên. Trong Kinh Dịch, sau hai câu Lập đạo của trời, nói âm và dương, Lập đạo của đất, nói nhu và cương là câu Lập đạo của người, nói nhân và nghĩa.",
+    "question_type": "sentences",
+    "question": "Đạo là gì theo quan điểm của Nho gia?",
+    "answer": "Quy luật biến chuyển, tiến hóa của trời đất, muôn vật"
+  },
+  {
+    "context": "Như vậy phương pháp biện chứng thể hiện tư duy mềm dẻo, linh hoạt. Nó thừa nhận trong những trường hợp cần thiết thì bên cạnh cái hoặc là... hoặc là... còn có cả cái vừa là... vừa là... nữa; thừa nhận một chỉnh thể trong lúc vừa là nó lại vừa không phải là nó; thừa nhận cái khẳng định và cái phủ định vừa loại trừ nhau lại vừa gắn bó với nhau . Phương pháp biện chứng phản ánh hiện thực đúng như nó tồn tại. Nhờ vậy, phương pháp tư duy biện chứng trở thành công cụ hữu hiệu giúp con người nhận thức và cải tạo thế giới.",
+    "question_type": "multiple_choice",
+    "question": "Phương pháp biện chứng thể hiện điều gì về tư duy?",
+    "options": ["Tư duy mềm dẻo, linh hoạt", "Tư duy cứng nhắc, cố định", "Tư duy đơn giản, dễ hiểu", "Tư duy phức tạp, khó hiểu"],
+    "answer": "A"
+  },
+  {
+    "context": "Cần thấy rõ sự khác nhau tương đối giữa ý thức xã hội và ý thức cá nhân. Ý thức của cá nhân đều phản ánh tồn tại xã hội với mức độ khác nhau. Do đó, nó không thể không mang tính xã hội. Song ý thức cá nhân không phải bao giờ cũng thể hiện quan điểm tư tưởng, tình cảm phổ biến của một cộng đồng, một tập đoàn xã hội, một thời đại xã hội nhất định.",
+    "question_type": "multiple_choice",
+    "question": "Ý thức của cá nhân đều phản ánh điều gì với mức độ khác nhau?",
+    "options": ["Tồn tại xã hội", "Ý thức tập thể", "Ý thức lịch sử", "Ý thức cộng đồng"],
+    "answer": "A"
+  },
+  {
+    "context": "Cùng với sự phát triển của tư duy con người, phương pháp biện chứng đã qua ba giai đoạn phát triển, được thể hiện trong triết học với ba hình thức lịch sử của nó: phép biện chứng tự phát, phép biện chứng duy tâm và phép biện chứng duy vật.",
+    "question_type": "sentences",
+    "question": "Phương pháp biện chứng đã trải qua những giai đoạn nào?",
+    "answer": "Phép biện chứng tự phát, phép biện chứng duy tâm và phép biện chứng duy vật"
+  },
+  {
+    "context": "Theo Ăngghen: Vấn đề cơ bản lớn của mọi triết học, đặc biệt là của triết học hiện đại, là vấn đề quan hệ giữa tư duy với tồn tại. Giải quyết vấn đề cơ bản của triết học không chỉ xác định được nền tảng và điểm xuất phát để giải quyết các vấn đề khác của triết học mà nó còn là tiêu chuẩn để xác định lập trường, thế giới quan của các triết gia và học thuyết của họ.",
+    "question_type": "sentences",
+    "question": "Vấn đề cơ bản lớn của triết học được định nghĩa là gì?",
+    "answer": "Vấn đề quan hệ giữa tư duy với tồn tại"
+  },
+  {
+    "context": "Tính tất yếu và tính phổ biến là những đặc trưng của quy luật xã hội. Tuy nhiên, tùy thuộc vào phạm vi và cấp độ của các mối quan hệ xã hội mà các quy luật thể hiện chúng cũng có mức độ tất yếu và phổ biến khác nhau.",
+    "question_type": "multiple_choice",
+    "question": "Tính tất yếu và tính phổ biến là đặc trưng của quy luật nào?",
+    "options": ["Quy luật tự nhiên", "Quy luật vật lý", "Quy luật xã hội", "Quy luật sinh học"],
+    "answer": "C"
+  },
+  {
+    "context": "Lý luận về dân tộc độc lập và quốc gia có chủ quyền là một vũ khí quan trọng trong tay lực lượng kháng chiến, song bản thân nó không đủ để làm nên chiến thắng. Kẻ thù có một đội quân đông đảo và hùng mạnh hơn mình gấp nhiều lần, muốn thắng được nó cần phải có những hiểu biết khác. Trong đó có những vấn đề bức bách cần phải giải đáp như: Làm thế nào để động viên được sức mạnh của toàn dân? Làm thế nào để thấy được thực chất mối quan hệ giữa địch và ta? Để chuyển yếu thành mạnh, lấy ít địch nhiều phải làm gì? Để thấy được những bước phát triển tất yếu của cuộc chiến phải làm thế nào?... Nghĩa là những vấn đề về một khoa học và một nghệ thuật của cuộc chiến tranh giữ nước phải được hình thành và phát triển.",
+    "question_type": "sentences",
+    "question": "Lý luận về dân tộc độc lập và quốc gia có chủ quyền là gì?",
+    "answer": "Một vũ khí quan trọng trong tay lực lượng kháng chiến"
+  },
+  {
+    "context": "Các nhà chỉ đạo cuộc chiến tranh giữ nước trong lịch sử dân tộc đều thấy sự cần thiết phải có một lý luận được khái quát lên từ thực tế chiến đấu. Họ tìm nguyên nhân của những thành công và thất bại. Họ đúc kết kinh nghiệm thành lý luận, họ đem hiểu biết của một người truyền bá cho nhiều người. Và sau khi thắng lợi hoàn toàn, họ đều tiến hành việc tổng kết để nhìn nhận sự việc đã qua cho rõ và để có thêm cơ sở đối phó về sau. Không phải ngẫu nhiên mà ở họ có những ý kiến trùng hợp. Hoàn cảnh khác nhau, thời điểm khác nhau, kẻ thù khác nhau, tương quan lực lượng cũng khác nhau nhưng họ lại đi đến những nhận định như nhau. Không phải là người sau bắt chước tiếng nói của người trước, mà trước hay sau đều là tiếng nói của thực tiễn, của chân lý. Những tiếng nói giống nhau ấy phải chăng là những quy luật được rút ra từ những cuộc chiến đấu trường kỳ dựng nước và giữ nước của dân tộc.",
+    "question_type": "multiple_choice",
+    "question": "Sau khi thắng lợi hoàn toàn, các nhà chỉ đạo cuộc chiến tranh đã làm gì để nhìn nhận sự việc đã qua?",
+    "options": ["Tiến hành việc tổng kết", "Viết sách lịch sử", "Kỷ niệm chiến thắng", "Truyền bá kinh nghiệm"],
+    "answer": "A"
+  },
+  {
+    "context": "Phải coi trọng sức mạnh của cộng đồng là điều đầu tiên rút ra được của các nhà tư tưởng. Cộng đồng người Việt là một thực thể xã hội hình thành trong lịch sử và được củng cố bởi những thành viên của nó ý thức được rằng họ cùng một giống nòi, cùng một lãnh thổ, cùng một sinh hoạt và cùng một vận mệnh. Cộng đồng đó sẽ yếu ớt nếu những thành viên đó không có gì để gắn bó với nhau, và ngược lại nó sẽ trở thành một sức mạnh nếu nó được cố kết với nhau, và có điều kiện để cố kết với nhau.",
+    "question_type": "sentences",
+    "question": "Điều đầu tiên các nhà tư tưởng rút ra là gì?",
+    "answer": "Phải coi trọng sức mạnh của cộng đồng"
+  },
+  {
+    "context": "Các nhà chỉ đạo cuộc chiến tranh lúc bấy giờ hiểu được điều đó. Họ thấy con người ta có quyền lợi thì mới có trách nhiệm, có phần của mình trong tập thể thì mới gắn bó với tập thể, có quan hệ tốt thì mới đồng lòng. Họ nhấn mạnh yếu tố đó để phát huy sức mạnh của cộng đồng. Trần Quốc Tuấn nhấn mạnh: Trên dưới một lòng, lòng dân không chia, vì Vua tôi đồng lòng, anh em hoà mục, nước nhà góp sức giặc tự bị bắt, có thu phục được quân lính một lòng như cha con thì mới dùng được. Nguyễn Trãi nói: Thết quân rượu hoà nước, dưới trên đều một dạ cha con. Tư tưởng này đến thời cận đại, được các nhà tư tưởng nêu lên là, có hợp sức, hợp quần thì mới có sức mạnh. Và đến thời kỳ hiện đại, Hồ Chí Minh nêu lên thành nguyên lý: Đoàn kết, đoàn kết đại đoàn kết - Thành công, thành công đại thành công.",
+    "question_type": "multiple_choice",
+    "question": "Trần Quốc Tuấn nhấn mạnh điều gì để phát huy sức mạnh của cộng đồng?",
+    "options": ["Trên dưới một lòng, lòng dân không chia", "Quyền lợi và trách nhiệm cá nhân", "Tập trung vào quyền lực",
+      "Phát triển kinh tế"],
+    "answer": "A"
+  },
+  {
+    "context": "Các nhà chỉ đạo cuộc chiến tranh lúc bấy giờ hiểu được điều đó. Họ thấy con người ta có quyền lợi thì mới có trách nhiệm, có phần của mình trong tập thể thì mới gắn bó với tập thể, có quan hệ tốt thì mới đồng lòng. Họ nhấn mạnh yếu tố đó để phát huy sức mạnh của cộng đồng. Trần Quốc Tuấn yêu cầu: Trên dưới một lòng, lòng dân không chia, vì Vua tôi đồng lòng, anh em hoà mục, nước nhà góp sức giặc tự bị bắt, có thu phục được quân lính một lòng như cha con thì mới dùng được. Nguyễn Trãi nói: Thết quân rượu hoà nước, dưới trên đều một dạ cha con. Tư tưởng này đến thời cận đại, được các nhà tư tưởng nêu lên là, có hợp sức, hợp quần thì mới có sức mạnh. Và đến thời kỳ hiện đại, Hồ Chí Minh nêu lên thành nguyên lý: Đoàn kết, đoàn kết đại đoàn kết - Thành công, thành công đại thành công.",
+    "question_type": "sentences",
+    "question": "Hồ Chí Minh đã nêu lên nguyên lý gì?",
+    "answer": "Đoàn kết, đoàn kết đại đoàn kết - Thành công, thành công đại thành công"
+  },
+  {
+    "context": "Sự phân biệt chất và lượng của sự vật chỉ mang tính tương đối. Có những tính quy định trong mối quan hệ này là chất của sự vật, song trong mối quan hệ khác lại biểu thị lượng của sự vật và ngược lại. Chẳng hạn, số lượng sinh viên học giỏi nhất định của một lớp sẽ nói lên chất lượng học tập của lớp đó. Điều này cũng có nghĩa là dù số lượng cụ thể quy định thuần túy về lượng, song số lượng ấy cũng có tính quy định về chất của sự vật.",
+    "question_type": "multiple_choice",
+    "question": "Sự phân biệt chất và lượng của sự vật có đặc điểm gì?",
+    "options": ["Mang tính tuyệt đối", "Mang tính tương đối", "Không thay đổi", "Phụ thuộc vào thời gian"],
+    "answer": "B"
+  },
+  {
+    "context": "Việc phân chia mâu thuẫn thành mâu thuẫn bên trong và mâu thuẫn bên ngoài chỉ là tương đối, tùy theo phạm vi xem xét. Thí dụ: Trong phạm vi nước ta, mâu thuẫn trong nội bộ nền kinh tế quốc dân là mâu thuẫn bên trong; còn mâu thuẫn về kinh tế giữa nước ta với các nước ASEAN là mâu thuẫn bên ngoài. Nếu trong phạm vi ASEAN thì mâu thuẫn giữa các nước trong khối lại là mâu thuẫn bên trong. Vì vậy, để xác định một mâu thuẫn nào đó là mâu thuẫn bên trong hay mâu thuẫn bên ngoài trước hết phải xác định phạm vi sự vật được xem xét.",
+    "question_type": "multiple_choice",
+    "question": "Mâu thuẫn về kinh tế giữa nước ta với các nước nào được coi mâu thuẫn bên ngoài?",
+    "options": ["ASEAN", "Châu Âu", "Mỹ", "Châu Phi"],
+    "answer": "A"
+  },
+  {
+    "context": "Đề cao sức mạnh của cộng đồng, các nhà tư tưởng đã làm một việc phù hợp với yêu cầu giải quyết mâu thuẫn giữa nhân dân ta và bọn xâm lược là mâu thuẫn chủ yếu lúc bấy giờ. Phía ta có giải quyết được mâu thuẫn nội bộ, có đoàn kết một lòng, có trở thành một sức mạnh hùng hậu thì mới có điều kiện chuyển hóa được các mặt đối lập của mâu thuẫn địch ta, mới có thể biến kẻ địch từ mạnh sang yếu và ta từ yếu sang mạnh, mới tiêu diệt được kẻ thù. Đó là ý thức tập thể trong điều kiện lúc bấy giờ.",
+    "question_type": "multiple_choice",
+    "question": "Các nhà tư tưởng đã làm gì để giải quyết mâu thuẫn giữa nhân dân ta và bọn xâm lược?",
+    "options": ["Đề cao sức mạnh của cộng đồng", "Tăng cường quân sự", "Đàm phán hòa bình", "Phát triển kinh tế"],
+    "answer": "A"
+  },
+  {
+    "context": "Phải coi trọng vai trò của nhân dân là một tư tưởng lớn trong ý thức dân tộc ở các nhà tư tưởng. Xoay quanh vấn đề dân này, đã từng có những quan niệm tiêu cực. Khổng Tử cho dân là người để sai khiến. Mạnh Tử cho dân là người bị người trị và phải nuôi người. Dĩ nhiên ngay trong hàng ngũ kháng chiến của dân tộc cũng có người miệt thị dân, như Trần Khánh Dư là một tướng lĩnh đời Trần nói: Tướng là chim ưng, quân dân là con vịt, đem con vịt mà nuôi chim ưng thì có gì là lạ. Thượng Hoàng Trần Minh Tông thì dứt khoát không thừa nhận vị trí đáng có của dân nên đã nói: Bọn gia nô dù có chút công cũng không được dự vào quan tước của triều đình.",
+    "question_type": "multiple_choice",
+    "question": "Tư tưởng lớn trong ý thức dân tộc ở các nhà tư tưởng là gì?",
+    "options": ["Phải coi trọng vai trò của nhân dân", "Phải phát triển kinh tế", "Phải tăng cường quân sự", "Phải đề cao giáo dục"],
+    "answer": "A"
+  },
+  {
+    "context": "Pốppơ phủ định phép quy nạp, nhấn mạnh rằng khoa học bắt đầu từ vấn đề chứ không phải bắt nguồn từ việc quan sát, thực nghiệm. Ông nhận định rằng, phương pháp khoa học không phải là chứng thực trực tiếp mà là chứng thực bằng sự giả hóa, tức là phê phán sai lầm của nó. Ông đưa ra nguyên tắc giả hóa của lý luận khoa học để bác bỏ nguyên tắc về tính có thể chứng thực trực tiếp được của chủ nghĩa thực chứng lôgíc. Theo ông thì sự phát triển của khoa học bắt đầu từ vấn đề mà đề ra giả thuyết có tính quy ước, tiếp đó dùng thực nghiệm để kiểm nghiệm, cố gắng chứng thực nó bằng sự giả hóa, sau đó lại xuất hiện vấn đề mới. Như vậy khoa học phát triển theo phương thức cách mạng không ngừng.",
+    "question_type": "multiple_choice",
+    "question": "Pốppơ phủ định cái gì trong phương pháp khoa học?",
+    "options": ["Phép quy nạp", "Phép suy luận", "Phép chứng thực", "Phép phân tích"],
+    "answer": "A"
+  },
+  {
+    "context": "Cun dùng thuyết các giai đoạn phát triển của khoa học để thay thế cho thuyết cách mạng không ngừng của sự tăng trưởng tri thức khoa học. Ông chia sự phát triển khoa học thành hai thời kỳ, thời kỳ phát triển bình thường và thời kỳ cách mạng. Theo ông, ngay trong thời kỳ phát triển bình thường của khoa học đã xuất hiện những hiện tượng trái với bình thường. Việc tích luỹ các hiện tượng trái với bình thường, đến một chừng mực nào đó sẽ dẫn đến sự khủng hoảng trong khoa học, do đó tạo ra cuộc cách mạng khoa học.",
+    "question_type": "multiple_choice",
+    "question": "Cun dùng thuyết nào của khoa học để thay thế cho thuyết cách mạng không ngừng của sự tăng trưởng tri thức khoa học?",
+    "options": ["Thuyết các giai đoạn phát triển", "Thuyết cách mạng khoa học", "Thuyết tích luỹ tri thức", "Thuyết khủng hoảng khoa học"],
+    "answer": "A"
+  },
+  {
+    "context": "Chúng ta đều biết, trong xã hội tư sản hiện đại, một mặt đang tồn tại cuộc khủng hoảng xã hội trầm trọng, nhưng mặt khác, khoa học tự nhiên lại có sự tiến bộ to lớn. Đứng trước mâu thuẫn đó, một số nhà triết học cảm thấy bó tay không có cách gì giải quyết. Về mặt lý luận, họ chán ghét loại triết học thuần túy tư biện, cho rằng loại triết học này căn bản không thể góp phần giải quyết những vấn đề xã hội đặt ra. Trong khi đó, sự phát triển mạnh mẽ của khoa học tự nhiên lại đưa đến cho họ niềm hy vọng và chỗ dựa tinh thần mới. Vì vậy, họ chuyển hướng nghiên cứu triết học từ phương diện thế giới quan sang phương diện phương pháp luận của khoa học. Một loạt trường phái và phong trào được gọi là chủ nghĩa duy khoa học đã ra đời trong hoàn cảnh đó.",
+    "question_type": "sentences",
+    "question": "Một số nhà triết học cảm thấy thế nào trước những mâu thuẫn?",
+    "answer": "Bó tay không có cách gì giải quyết"
+  },
+  {
+    "context": "Ngoài bối cảnh xã hội, còn một nguyên nhân nữa xuất phát từ đặc điểm của khoa học tự nhiên hiện đại. Sự phát triển nhanh chóng của nhiều môn khoa học mới, sự phân công trong nội bộ khoa học ngày càng tỷ mỷ hơn, sự ứng dụng rộng rãi toán học và lôgíc toán, việc khoa học ngày càng đi sâu hơn vào kết cấu vật chất, vai trò của mô hình và kết cấu lý luận tăng lên, v.v.. Tất cả những điều đó đòi hỏi các môn khoa học thực chứng không những phải nghiên cứu những nội dung cụ thể mà còn phải nghiên cứu những vấn đề chung của khoa học, đặc biệt là vấn đề phương pháp luận nhận thức của khoa học. Chủ nghĩa duy khoa học dựa vào yêu cầu mới trong khoa học tự nhiên hiện đại để đưa ra các quan điểm triết học thực chứng của mình.",
+    "question_type": "sentences",
+    "question": "Chủ nghĩa duy khoa học dựa vào cái gì để đưa ra quan điểm triết học thực chứng?",
+    "answer": "Yêu cầu mới trong khoa học tự nhiên hiện đại"
+  },
+  {
+    "context": "Quy luật xã hội là những quy luật hoạt động của chính con người trong các quan hệ xã hội. Những quy luật đó không thể nảy sinh và tác động ngoài hoạt động có ý thức của con người. Mặc dù vậy, quy luật xã hội vẫn mang tính khách quan.",
+    "question_type": "multiple_choice",
+    "question": "Quy luật nào là quy luật hoạt động của chính con người trong các quan hệ xã hội?",
+    "options": ["Quy luật tự nhiên", "Quy luật xã hội", "Quy luật cơ học", "Quy luật nhiệt động lực học"],
+    "answer": "B"
+  },
+  {
+    "context": "Chủ nghĩa duy khoa học đã có công đi sâu nghiên cứu và tiếp thu nhiều thành quả trong toán học và trong các khoa học tự nhiên hiện đại, nêu ra nhiều vấn đề mới cho triết học, mở ra nhiều hướng mới cho sự phát triển triết học duy vật và phép biện chứng. Trong đó, có thể nói những nhân tố tích cực, triết học Mác có thể tiếp thu và sử dụng. Tất nhiên, trào lưu triết học này có một mâu thuẫn, do đó cũng là sai lầm không thể khắc phục được: do muốn phá vỡ một số công thức của triết học truyền thống, nên đã cực đoan phủ nhận ý nghĩa thế giới quan của triết học, tức là phủ nhận bản thân triết học. Mặc dù những nhà triết học sau Pốppơ và Cun đã chú ý đến ý nghĩa thế giới quan của triết học đối với khoa học, nhưng do thiếu quan điểm duy vật lịch sử nên họ không có cách nào thoát khỏi tính hạn chế đó. Vì vậy chủ nghĩa duy khoa học không thể mở ra một con đường mới thực sự đúng đắn cho sự phát triển của triết học.",
+    "question_type": "multiple_choice",
+    "question": "Tại sao những nhà triết học không thể thoát khỏi tính hạn chế của chủ nghĩa duy khoa học?",
+    "options": ["Do thiếu quan điểm duy vật lịch sử", "Do thiếu quan điểm khoa học", "Do thiếu quan điểm duy tâm", "Do thiếu quan điểm triết học truyền thống"],
+    "answer": "A"
+  },
+  {
+    "context": "Chủ nghĩa hiện sinh là một trường phái triết học rất phức tạp. Quan điểm của những đại biểu của triết học này thường có sự khác nhau rất lớn. Ngoài sự phân biệt về quốc gia như chủ nghĩa hiện sinh của Đức, chủ nghĩa hiện sinh của Pháp và chủ nghĩa hiện sinh của Mỹ, còn có thể phân biệt chủ nghĩa hiện sinh theo thái độ đối với tôn giáo như chủ nghĩa hiện sinh vô thần và chủ nghĩa hiện sinh hữu thần. Trên những vấn đề chính trị to lớn, giữa những nhà triết học hiện sinh cũng có những khác biệt lớn. Nhưng tất cả những người theo chủ nghĩa hiện sinh đều coi sự hiện sinh của cá nhân là nội dung cơ bản trong triết học của mình.",
+    "question_type": "sentences",
+    "question": "Chủ nghĩa hiện sinh là gì?",
+    "answer": "Một trường phái triết học rất phức tạp"
+  },
+  {
+    "context": "Do đó hiện sinh không phải là giới tự nhiên hoặc sự vật, mà là con người. Bởi vì chỉ có con người mới có thể hiểu được sự tồn tại của bản thân và của sự vật khác, chỉ có con người mới hiện sinh. Do đó nhiệm vụ hàng đầu của triết học là phân tích về mặt bản thể luận đối với hiện sinh, tức là mô tả sự tồn tại bản chất của con người trong hoạt động ý thức phi duy lý của các cá nhân. Theo chủ nghĩa hiện sinh, đó mới là bản thể luận duy nhất đúng. Thực chất đây là bản thể luận triết học duy tâm chủ quan.",
+    "question_type": "sentences",
+    "question": "Tại sao chỉ có con người mới hiện sinh?",
+    "answer": "Bởi vì chỉ có con người mới có thể hiểu được sự tồn tại của bản thân và của sự vật khác"
+  },
+  {
+    "context": "Từ cuối những năm 60 đầu những năm 70 thế kỷ XX, chủ nghĩa hiện sinh tuy đã suy thoái nhưng những tư tưởng của nó vẫn tiếp tục có ảnh hưởng trong khoa học nhân văn, triết học và khoa học xã hội ở nhiều nước phương Tây. Giải pháp của chủ nghĩa hiện sinh đối với các vấn đề xã hội về cơ bản là tiêu cực. Nhưng các nhà hiện sinh đã đóng vai trò tích cực khi họ đặt ra và đề cao nhiệm vụ nghiên cứu các vấn đề bản chất con người, về sự tha hóa do sự thống trị của kỹ thuật, v.v.. Đặc biệt cũng như việc họ thức tỉnh mọi người phải trăn trở về ý nghĩa của cuộc sống và về các hiện tượng bất hợp lý trong xã hội tư bản hiện đại.",
+    "question_type": "multiple_choice",
+    "question": "Giải pháp của chủ nghĩa hiện sinh đối với các vấn đề xã hội là gì?",
+    "options": ["Tích cực", "Tiêu cực", "Trung lập", "Phê phán"],
+    "answer": "B"
+  },
+  {
+    "context": "Chủ nghĩa Phơrớt cũng là một trường phái có ảnh hưởng rất lớn của trào lưu chủ nghĩa nhân bản phi duy lý do nhà bệnh học tinh thần, nhà tâm lý học người Áo, Phơrớt sáng lập. Học thuyết và phương pháp của Phơrớt có ý nghĩa thế giới quan và nhân sinh quan triết học, có ảnh hưởng rộng lớn đối với các trường phái của chủ nghĩa nhân bản triết học phương Tây hiện đại.",
+    "question_type": "sentences",
+    "question": "Chủ nghĩa Phơrớt là gì?",
+    "answer": "Một trường phái có ảnh hưởng rất lớn của trào lưu chủ nghĩa nhân bản phi duy lý"
+  },
+  {
+    "context": "Tình cảm là sự cảm động của con người trong quan hệ của mình với thực tại xung quanh và đối với bản thân mình. Tình cảm là một hình thái đặc biệt của sự phản ánh thực tại; nó phản ánh quan hệ của con người đối với nhau, cũng như đối với thế giới khách quan. Tình cảm tham gia vào mọi hoạt động của con người và giữ một vị trí quan trọng trong việc điều chỉnh hoạt động của con người. Tình cảm có thể mang tính chất chủ động, chứa đựng sắc thái cảm xúc tích cực, cũng như trở thành thụ động, chứa đựng sắc thái cảm xúc tiêu cực. Tình cảm tích cực là một trong những động lực nâng cao năng lực hoạt động sống của con người. Tri thức kết hợp với tình cảm hình thành nên niềm tin, nâng cao ý chí tích cực biến thành hành động thực tế, mới phát huy được sức mạnh của mình.",
+    "question_type": "sentences",
+    "question": "Tình cảm phản ánh điều gì?",
+    "answer": "Quan hệ của con người đối với nhau, cũng như đối với thế giới khách quan"
+  },
+  {
+    "context": "Lý luận về vô thức là bộ phận quan trọng trong hệ thống phân tích tâm lý đầu tiên của Phơrớt. Ông chia quá trình tâm lý của con người thành ba bậc: ý thức, tiềm thức và vô thức. Sự suy nghĩ của con người thường tiến hành giữa trạng thái vô thức và ý thức. ý thức là tâm lý nhận biết của con người. Thí dụ, một người nói với mình rằng trời sắp mưa, phải mau mau về nhà thì suy nghĩ đó tiến hành trong trạng thái ý thức, tuân theo những hình thức lôgíc. Còn vô thức là hiện tượng tâm lý nằm ngoài phạm vi của lý trí, do bản năng, thói quen và dục vọng của con người gây ra. Hoạt động tâm lý này tiến hành theo nguyên tắc khoái cảm, tức là do tình cảm và dục vọng chi phối, không bị hạn chế về thời gian, không gian và quy tắc lôgíc của lý trí. Con người thường suy nghĩ trong tình trạng vô thức như vô cớ bực bội.",
+    "question_type": "sentences",
+    "question": "Lý luận về vô thức của Phơrớt là gì?",
+    "answer": "Bộ phận quan trọng trong hệ thống phân tích tâm lý đầu tiên"
+  },
+  {
+    "context": "Tiềm thức là yếu tố trung gian, ở giữa ý thức và vô thức, hoạt động theo nguyên tắc của tính hiện thực. Phơrớt cho rằng, trong vô thức ẩn giấu những xung đột bản năng, phải thông qua sự lựa chọn và phê chuẩn của tiềm thức mới có thể trở thành ý thức. Theo ông, ý thức không phải là thực chất của hoạt động tâm lý mà chỉ là một thuộc tính không ổn định của hoạt động tâm lý. Vô thức mới là căn cứ hành vi con người. Phơrớt đánh giá cao tác dụng quan trọng của vô thức đối với hành vi con người. Ông phân tích những hành vi vô thức thường ngày như nói nhịu, viết sai, quên lãng, đưa nhầm, lấy nhầm, đánh mất, v.v. và cho rằng nguyên nhân tâm lý của những hành vi đó chính là kết quả của những ước vọng bị dồn nén.",
+    "question_type": "sentences",
+    "question": "Ý thức theo Phơrớt là gì?",
+    "answer": "Một thuộc tính không ổn định của hoạt động tâm lý"
+  },
+  {
+    "context": "Các nhà hiện sinh phân biệt hai khái niệm hữu thể và hiện hữu (hiện sinh). Hữu thể là khái niệm chỉ một cái gì đó (một vật, một người) đang tồn tại, đang có mặt, nhưng chưa là một cái gì đó cụ thể cả, chưa có diện mạo, chưa có cá tính. Đó là một tồn tại chưa sống đích thực, vô hồn, tức là chưa hiện hữu. Còn hiện hữu là một khái niệm chỉ một cái gì đó không những là đang có mặt (tồn tại) mà còn đang sống đích thực với diện mạo riêng.",
+    "question_type": "multiple_choice",
+    "question": "Các nhà hiện sinh phân biệt hai khái niệm nào?",
+    "options": ["Hiện hữu và tồn tại", "Hữu thể và hiện hữu", "Thực tại và phi thực", "Vô thức và ý thức"],
+    "answer": "B"
+  },
+  {
+    "context": "Không những giai cấp bị trị chịu ảnh hưởng tư tưởng của giai cấp thống trị, mà trái lại giai cấp thống trị cũng chịu ảnh hưởng tư tưởng của giai cấp bị trị. Đặc biệt ở thời kỳ đấu tranh cách mạng phát triển mạnh, thường thấy một số người trong giai cấp thống trị, nhất là những trí thức tiến bộ từ bỏ giai cấp xuất thân của mình chuyển sang hàng ngũ giai cấp cách mạng, chịu ảnh hưởng tư tưởng của giai cấp đó. Một số người còn trở thành nhà tư tưởng của giai cấp cách mạng.",
+    "question_type": "multiple_choice",
+    "question": "Giai cấp nào chịu ảnh hưởng tư tưởng của giai cấp bị trị?",
+    "options": ["Giai cấp tư sản", "Giai cấp công nhân", "Giai cấp thống trị", "Giai cấp nông dân"],
+    "answer": "C"
+  },
+  {
+    "context": "Trong lý luận về nhân cách, Phơrớt đưa ra ba khái niệm cái ấy, cái tôi và cái siêu tôi. Theo ông, cái ấy chính là sự thể hiện của libiđô (tính dục), là bản năng đầu tiên có từ lúc con người sinh ra. Nó là nguồn năng lượng tâm lý đòi hỏi bộc lộ và đòi hỏi được thỏa mãn một cách mãnh liệt. Nó là kết cấu phi lý tính, chỉ tuân theo nguyên tắc khoái cảm. Cái tôi là hệ thống ý thức hoạt động theo nhu cầu của thế giới bên ngoài, điều tiết sự xung đột giữa cái ấy và thế giới bên ngoài. Cái siêu tôi là đại diện của xã hội, của lý tưởng và của uy thế bên ngoài trong tâm lý con người. Nó được tạo thành bởi những chuẩn mực xã hội, những quy tắc luân lý và những giới luật tôn giáo. Cái siêu tôi khuyến khích đấu tranh giữa cái tôi và cái ấy. Phơrớt cho rằng, trạng thái tâm lý của người bình thường là người giữ được sự cân bằng giữa ba cái: cái ấy, cái tôi và cái siêu tôi. Những người mắc bệnh tâm thần là do mối quan hệ cân bằng giữa ba cái đó bị phá hoại.",
+    "question_type": "sentences",
+    "question": "Cái tôi là gì?",
+    "answer": "Hệ thống ý thức hoạt động theo nhu cầu của thế giới bên ngoài, điều tiết sự xung đột giữa cái ấy và thế giới bên ngoài"
+  },
+  {
+    "context": "Phương pháp siêu hình bắt nguồn từ chỗ muốn nhận thức một đối tượng nào trước hết con người cũng phải tách đối tượng ấy ra khỏi những mối liên hệ và nhận thức nó ở trạng thái không biến đổi trong một không gian và thời gian xác định. Song phương pháp siêu hình chỉ có tác dụng trong một phạm vi nhất định bởi hiện thực không rời rạc và ngưng đọng như phương pháp này quan niệm.",
+    "question_type": "multiple_choice",
+    "question": "Phạm vi tác dụng của phương pháp siêu hình như thế nào?",
+    "options": ["Chỉ có tác dụng trong một phạm vi nhất định", "Có tác dụng trong mọi phạm vi lớn", "Không có tác dụng", "Có tác dụng trong phạm vi nhỏ"],
+    "answer": "A"
+  },
+  {
+    "context": "Phương pháp biện chứng là phương pháp: Nhận thức đối tượng ở trong các mối liên hệ với nhau, ảnh hưởng nhau, ràng buộc nhau. Nhận thức đối tượng ở trạng thái vận động biến đổi, nằm trong khuynh hướng chung là phát triển. Đây là quá trình thay đổi về chất của các sự vật, hiện tượng mà nguồn gốc của sự thay đổi ấy là đấu tranh của các mặt đối lập để giải quyết mâu thuẫn nội tại của chúng.",
+    "question_type": "sentences",
+    "question": "Phương pháp biện chứng là gì?",
+    "answer": "Nhận thức đối tượng ở trong các mối liên hệ với nhau, ảnh hưởng nhau, ràng buộc nhau"
+  },
+  {
+    "context": "Trong triết học Mác Lênin, lý luận và phương pháp thống nhất hữu cơ với nhau. Phép biện chứng duy vật là lý luận khoa học phản ánh khái quát sự vận động và phát triển của hiện thực; do đó, nó không chỉ là lý luận về phương pháp mà còn là sự diễn tả quan niệm về thế giới, là lý luận về thế giới quan. Hệ thống các quan điểm của chủ nghĩa duy vật mácxít, do tính đúng đắn và triệt để của nó đem lại đã trở thành nhân tố định hướng cho hoạt động nhận thức và hoạt động thực tiễn, trở thành những nguyên tắc xuất phát của phương pháp luận.",
+    "question_type": "multiple_choice",
+    "question": "Trong triết học Mác Lênin, lý luận và phương pháp có mối quan hệ như thế nào?",
+    "options": ["Độc lập", "Tách rời", "Thống nhất hữu cơ", "Phủ định nhau"],
+    "answer": "C"
+  },
+  {
+    "context": "Ý thức cá nhân trong xã hội, về bản chất, là biểu hiện mức độ này hay mức độ khác của ý thức giai cấp, do địa vị và những điều kiện sinh hoạt vật chất chung của giai cấp quyết định. Nhưng mỗi cá nhân lại có những hoàn cảnh sinh sống riêng như hoàn cảnh giáo dục, trường đời mà họ trải qua, ảnh hưởng tư tưởng chính trị và tư tưởng khác do họ tiếp thu được khi sống trong môi trường thân cận (gia đình, bạn bè, đồng nghiệp), v.v.. Tất cả những cái đó làm cho ý thức của mỗi người vừa biểu hiện ý thức giai cấp vừa mang những đặc điểm cá nhân, tạo thành những cá tính và nhân cách riêng của cá nhân, làm cho thế giới tinh thần của cá nhân này khác với thế giới tinh thần của những cá nhân khác cùng giai cấp.",
+    "question_type": "sentences",
+    "question": "Ý thức cá nhân trong xã hội là gì?",
+    "answer": "Biểu hiện mức độ này hay mức độ khác của ý thức giai cấp"
+  },
+  {
+    "context": "Tình cảm là sự cảm động của con người trong quan hệ của mình với thực tại xung quanh và đối với bản thân mình. Tình cảm là một hình thái đặc biệt của sự phản ánh thực tại; nó phản ánh quan hệ của con người đối với nhau, cũng như đối với thế giới khách quan. Tình cảm tham gia vào mọi hoạt động của con người và giữ một vị trí quan trọng trong việc điều chỉnh hoạt động của con người. Tình cảm có thể mang tính chất chủ động, chứa đựng sắc thái cảm xúc tích cực, cũng như trở thành thụ động, chứa đựng sắc thái cảm xúc tiêu cực. Tình cảm tích cực là một trong những động lực nâng cao năng lực hoạt động sống của con người.",
+    "question_type": "sentences",
+    "question": "Tình cảm là gì?",
+    "answer": "Sự cảm động của con người trong quan hệ của mình với thực tại xung quanh và đối với bản thân mình"
+  },
+  {
+    "context": "Các quy luật hết sức đa dạng. Chúng khác nhau về mức độ phổ biến, về phạm vi bao quát, về tính chất, về vai trò của chúng đối với quá trình vận động và phát triển của sự vật. Do vậy, việc phân loại quy luật là cần thiết để nhận thức và vận dụng có hiệu quả các quy luật vào hoạt động thực tiễn của con người.",
+    "question_type": "multiple_choice",
+    "question": "Các quy luật có tính chất như thế nào?",
+    "options": ["đa dạng", "đơn giản", "cố định", "không thay đổi"],
+    "answer": "A"
+  },
+  {
+    "context": "Thuộc tính của sự vật là những tính chất, những trạng thái, những yếu tố cấu thành sự vật,... Đó là những cái vốn có của sự vật từ khi sự vật được sinh ra hoặc được hình thành trong sự vận động và phát triển của nó. Tuy nhiên những thuộc tính vốn có của sự vật, hiện tượng chỉ được bộc lộ ra thông qua sự tác động qua lại với các sự vật, hiện tượng khác. Chúng ta chỉ có thể biết nhiệt độ cao hay thấp của không khí thông qua sự tác động qua lại của nó với cơ quan xúc giác của chúng ta. Chất của một người cụ thể chỉ được bộc lộ thông qua quan hệ của người đó với những người khác, với môi trường xung quanh, thông qua lời nói và việc làm của người ấy.",
+    "question_type": "sentences",
+    "question": "Thuộc tính của sự vật là gì?",
+    "answer": "Những tính chất, những trạng thái, những yếu tố cấu thành sự vật"
+  },
+  {
+    "context": "Chất của sự vật được biểu hiện qua những thuộc tính của nó. Nhưng không phải bất kỳ thuộc tính nào cũng biểu hiện chất của sự vật. Thuộc tính của sự vật có thuộc tính cơ bản và thuộc tính không cơ bản. Những thuộc tính cơ bản được tổng hợp lại tạo thành chất của sự vật. Chính chúng quy định sự tồn tại, sự vận động và sự phát triển của sự vật, chỉ khi nào chúng thay đổi hay mất đi thì sự vật mới thay đổi hay mất đi.",
+    "question_type": "sentences",
+    "question": "Thuộc tính của sự vật bao gồm những thuộc tính nào?",
+    "answer": "Thuộc tính cơ bản và thuộc tính không cơ bản"
+  },
+  {
+    "context": "Mỗi sự vật có rất nhiều thuộc tính; mỗi thuộc tính lại biểu hiện một chất của sự vật. Do vậy, mỗi sự vật có rất nhiều chất. Chất và sự vật có mối quan hệ chặt chẽ, không tách rời nhau. Trong hiện thực khách quan không thể tồn tại sự vật không có chất và không thể có chất nằm ngoài sự vật.",
+    "question_type": "multiple_choice",
+    "question": "Mỗi thuộc tính lại biểu hiện cái gì của sự vật?",
+    "options": ["Một lượng", "Một chất", "Một hình dạng", "Một cấu trúc"],
+    "answer": "B"
+  },
+  {
+    "context": "Cuối thế kỷ XIX, đất nước ta bị rơi vào cảnh nô lệ lầm than dưới ách thuộc địa của thực dân Pháp. Nhân dân Việt Nam đã liên tiếp nổi dậy chống lại ách thống trị của thực dân Pháp dưới ngọn cờ của một số nhà yêu nước tiêu biểu nối tiếp nhau, song đều lần lượt thất bại. Đám mây đen của chủ nghĩa thực dân vẫn bao phủ bầu trời Việt Nam. Dân tộc Việt Nam rơi vào khủng hoảng đường lối cách mạng.",
+    "question_type": "multiple_choice",
+    "question": "Điều gì đã bao phủ bầu trời Việt Nam cuối thế kỷ XIX?",
+    "options": ["Ánh sáng cách mạng", "Đám mây đen của chủ nghĩa thực dân", "Tự do và hòa bình", "Sự thịnh vượng và phát triển"],
+    "answer": "B"
+  },
+  {
+    "context": "Giữa lúc đó, Hồ Chí Minh ra nước ngoài để tìm một giải pháp để cứu nước, giải phóng dân tộc. Lúc này, chủ nghĩa đế quốc đã xác lập được sự thống trị của chúng trên một phạm vi rộng lớn của thế giới. Ách áp bức và thôn tính dân tộc càng nặng, sự phản kháng dân tộc của nhân dân bị nô dịch càng tăng. Phương Đông đã thức tỉnh. Chiến tranh thế giới lần thứ nhất bùng nổ. Cách mạng Tháng Mười Nga đã thành công, nước Nga Xôviết đã ra đời. Quốc tế Cộng sản được thành lập. Các đảng cộng sản đã lần lượt ra đời tại một số nước ở châu Âu, châu Á...",
+    "question_type": "multiple_choice",
+    "question": "Hồ Chí Minh ra nước ngoài để làm gì?",
+    "options": ["Đi du lịch", "Tìm giải pháp để cứu nước", "Tham gia chiến tranh", "Giao thương buôn bán"],
+    "answer": "B"
+  },
+  {
+    "context": "Hồ Chí Minh đã hoạt động trong phong trào công nhân và lao động một số nước trên thế giới; đến với nhân dân cần lao ở các nước thuộc địa đang bị chủ nghĩa thực dân nô dịch; học tập, nghiên cứu các trào lưu tư tưởng, các thể chế chính trị; tiếp thu tư tưởng cách mạng của chủ nghĩa Mác-Lênin; chọn lựa con đường cứu nước, giải phóng dân tộc là con đường cách mạng vô sản; đứng về phía Quốc tế Cộng sản; tham gia Đảng Cộng sản Pháp. Từ đó, Hồ Chí Minh càng đi sâu tìm hiểu các học thuyết cách mạng trên thế giới, xây dựng lý luận về cách mạng thuộc địa, trước hết là lý luận cách mạng để giải phóng dân tộc Việt Nam, xây dựng các nhân tố cách mạng của dân tộc, tổ chức và lãnh đạo cách mạng Việt Nam tiến lên giành những thắng lợi vĩ đại vì độc lập của dân tộc, tự do của toàn dân.",
+    "question_type": "multiple_choice",
+    "question": "Hồ Chí Minh đã tiếp thu tư tưởng cách mạng của chủ nghĩa nào?",
+    "options": ["Chủ nghĩa Mác-Lênin", "Chủ nghĩa tư bản", "Chủ nghĩa phong kiến", "Chủ nghĩa dân chủ"],
+    "answer": "A"
+  },
+  {
+    "context": "Hồ Chí Minh đã hoạt động trong phong trào công nhân và lao động một số nước trên thế giới; đến với nhân dân cần lao ở các nước thuộc địa đang bị chủ nghĩa thực dân nô dịch; học tập, nghiên cứu các trào lưu tư tưởng, các thể chế chính trị; tiếp thu tư tưởng cách mạng của chủ nghĩa Mác-Lênin; chọn lựa con đường cứu nước, giải phóng dân tộc là con đường cách mạng vô sản; đứng về phía Quốc tế Cộng sản; tham gia Đảng Cộng sản Pháp. Từ đó, Hồ Chí Minh càng đi sâu tìm hiểu các học thuyết cách mạng trên thế giới, xây dựng lý luận về cách mạng thuộc địa, trước hết là lý luận cách mạng để giải phóng dân tộc Việt Nam, xây dựng các nhân tố cách mạng của dân tộc, tổ chức và lãnh đạo cách mạng Việt Nam tiến lên giành những thắng lợi vĩ đại vì độc lập của dân tộc, tự do của toàn dân.",
+    "question_type": "multiple_choice",
+    "question": "Hồ Chí Minh chọn con đường cứu nước, giải phóng dân tộc nào?",
+    "options": ["Con đường cách mạng vô sản", "Con đường cách mạng tư sản", "Con đường cách mạng phong kiến", "Con đường cách mạng dân chủ"],
+    "answer": "A"
+  },
+  {
+    "context": "Lịch sử hàng ngàn năm dựng nước và giữ nước đã hình thành cho Việt Nam các giá trị truyền thống dân tộc phong phú, vững bền. Đó là ý thức chủ quyền quốc gia dân tộc, ý chí tự lập, tự cường, yêu nước, kiên cường, bất khuất... tạo thành động lực mạnh mẽ của đất nước; là tinh thần tương thân, tương ái, nhân nghĩa, cố kết cộng đồng dân tộc; thủy chung, khoan dung, độ lượng; là thông minh, sáng tạo, quý trọng hiền tài, tiếp thu tinh hoa văn hóa nhân loại để làm phong phú văn hóa dân tộc... Trong nguồn giá trị tinh thần truyền thống đó, chủ nghĩa yêu nước là cốt lõi, là dòng chảy chính của tư tưởng văn hóa truyền thống Việt Nam, xuyên suốt trường kỳ lịch sử, là động lực mạnh mẽ cho sự trường tồn và phát triển của dân tộc. Chính sức mạnh truyền thống tư tưởng và văn hóa đó của dân tộc đã thúc giục Hồ Chí Minh ra đi tìm tòi, học hỏi, tiếp thu tinh hoa văn hóa của nhân loại để làm giàu cho tư tưởng cách mạng và văn hóa của Người.",
+    "question_type": "multiple_choice",
+    "question": "Cốt lõi của giá trị tinh thần truyền thống Việt Nam là gì?",
+    "options": ["Ý chí tự lập", "Ý thức chủ quyền", "Chủ nghĩa yêu nước", "Tinh thần nhân nghĩa"],
+    "answer": "C"
+  },
+  {
+    "context": "Lịch sử hàng ngàn năm dựng nước và giữ nước đã hình thành cho Việt Nam các giá trị truyền thống dân tộc phong phú, vững bền. Đó là ý thức chủ quyền quốc gia dân tộc, ý chí tự lập, tự cường, yêu nước, kiên cường, bất khuất... tạo thành động lực mạnh mẽ của đất nước; là tinh thần tương thân, tương ái, nhân nghĩa, cố kết cộng đồng dân tộc; thủy chung, khoan dung, độ lượng; là thông minh, sáng tạo, quý trọng hiền tài, tiếp thu tinh hoa văn hóa nhân loại để làm phong phú văn hóa dân tộc... Trong nguồn giá trị tinh thần truyền thống đó, chủ nghĩa yêu nước là cốt lõi, là dòng chảy chính của tư tưởng văn hóa truyền thống Việt Nam, xuyên suốt trường kỳ lịch sử, là động lực mạnh mẽ cho sự trường tồn và phát triển của dân tộc. Chính sức mạnh truyền thống tư tưởng và văn hóa đó của dân tộc đã thúc giục Hồ Chí Minh ra đi tìm tòi, học hỏi tinh hoa văn hóa của nhân loại để làm giàu cho tư tưởng cách mạng và văn hóa của Người.",
+    "question_type": "multiple_choice",
+    "question": "Điều gì đã thúc giục Hồ Chí Minh ra đi tìm tòi, học hỏi tinh hoa văn hóa của nhân loại?",
+    "options": ["Tinh thần tương thân tương ái", "Sức mạnh truyền thống tư tưởng và văn hóa", "Ý thức chủ quyền quốc gia", "Tinh thần nhân nghĩa"],
+    "answer": "B"
+  },
+  {
+    "context": "Hồ Chí Minh đã biết làm giàu vốn văn hóa của mình bằng cách học hỏi, tiếp thu tư tưởng văn hóa phương Đông và phương Tây. Về tư tưởng và văn hóa phương Đông, Hồ Chí Minh đã tiếp thu những mặt tích cực của Nho giáo về triết lý hành động, nhân nghĩa, ước vọng về một xã hội bình trị, hòa mục, thế giới đại đồng; về một triết lý nhân sinh, tu thân, tề gia; đề cao văn hóa trung hiếu: dân vi quý, xã tắc thứ chi, quân vi khinh.",
+    "question_type": "sentences",
+    "question": "Hồ Chí Minh đã làm giàu vốn văn hóa của mình bằng cách nào?",
+    "answer": "Bằng cách học hỏi, tiếp thu tư tưởng văn hóa phương Đông và phương Tây"
+  },
+  {
+    "context": "Về tư tưởng dân chủ của cách mạng Pháp, Hồ Chí Minh đã tiếp thu tư tưởng của các nhà khai sáng: Vônte (Voltaire), Rútxô (Rousso), Môngtexkiơ (Moutesquieu). Đặc biệt, Người chịu ảnh hưởng sâu sắc về tư tưởng tự do, bình đẳng của Tuyên ngôn nhân quyền và dân quyền năm 1791 của Đại cách mạng Pháp. Về tư tưởng dân chủ của cách mạng Mỹ, Người đã tiếp thu giá trị về quyền sống, quyền tự do và quyền mưu cầu hạnh phúc của Tuyên ngôn độc lập năm 1776, quyền của nhân dân kiểm soát chính phủ.",
+    "question_type": "sentences",
+    "question": "Hồ Chí Minh chịu ảnh hưởng sâu sắc về tư tưởng tự do, bình đẳng của cái gì?",
+    "answer": "Tuyên ngôn nhân quyền và dân quyền năm 1791 của Đại cách mạng Pháp"
+  },
+  {
+    "context": "Chủ nghĩa Mác- Lênin là nguồn gốc lý luận trực tiếp, quyết định bản chất tư tưởng Hồ Chí Minh. Hồ Chí Minh khẳng định: Chủ nghĩa Lênin đối với những người cách mạng và nhân dân Việt Nam, không những là cái cẩm nang thần kỳ, cái kim chỉ nam, mà còn là mặt trời soi sáng con đường chúng ta đi tới thắng lợi cuối cùng, đi tới chủ nghĩa xã hội và chủ nghĩa cộng sản. Đối với chủ nghĩa Mác- Lênin, Hồ Chí Minh đã nắm vững cái cốt lõi, linh hồn sống của nó, là phương pháp biện chứng duy vật; học tập lập trường, quan điểm, phương pháp biện chứng của chủ nghĩa Mác- Lênin để giải quyết các vấn đề thực tiễn của cách mạng Việt Nam.",
+    "question_type": "sentences",
+    "question": "Hồ Chí Minh đã coi chủ nghĩa Lênin như thế nào đối với những người cách mạng và nhân dân Việt Nam?",
+    "answer": "Không những là cái cẩm nang thần kỳ, cái kim chỉ nam, mà còn là mặt trời soi sáng con đường chúng ta đi tới thắng lợi cuối cùng"
+  },
+  {
+    "context": "Chủ nghĩa Mác- Lênin là nguồn gốc lý luận trực tiếp, quyết định bản chất tư tưởng Hồ Chí Minh. Hồ Chí Minh khẳng định: Chủ nghĩa Lênin đối với chúng ta, những người cách mạng và nhân dân Việt Nam, không những là cái cẩm nang thần kỳ, không những là cái kim chỉ nam, mà còn là mặt trời soi sáng con đường chúng ta đi tới thắng lợi cuối cùng, đi tới chủ nghĩa xã hội và chủ nghĩa cộng sản. Đối với chủ nghĩa Mác- Lênin, Hồ Chí Minh đã nắm vững cái cốt lõi là phương pháp biện chứng duy vật; học tập lập trường, quan điểm, phương pháp biện chứng của chủ nghĩa Mác- Lênin để giải quyết các vấn đề thực tiễn của cách mạng Việt Nam.",
+    "question_type": "multiple_choice",
+    "question": "Hồ Chí Minh đã nắm vững cái gì của chủ nghĩa Mác-Lênin?",
+    "options": ["Phương pháp biện chứng duy vật", "Phương pháp biện chứng duy tâm", "Phương pháp biện chứng thần kỳ", "Phương pháp biện chứng tâm linh"],
+    "answer": "A"
+  },
+  {
+    "context": "Ngoài nguồn gốc tư tưởng, quá trình hình thành và phát triển tư tưởng Hồ Chí Minh còn chịu sự tác động sâu sắc của thực tiễn dân tộc và thời đại mà Người đã sống và hoạt động. Chính quá trình hoạt động thực tiễn của Hồ Chí Minh ở trong nước và khi còn bôn ba khắp thế giới để học tập, nghiên cứu và hoạt động đã làm cho Người có một hiểu biết sâu sắc về dân tộc và thời đại, nhất là thực tiễn phương Đông để xem xét, đánh giá và bổ sung cơ sở triết lý phương Đông cho học thuyết Mác - Lênin.",
+    "question_type": "sentences",
+    "question": "Yếu tố nào tác động sâu sắc đến quá trình hình thành và phát triển tư tưởng Hồ Chí Minh?",
+    "answer": "Thực tiễn dân tộc và thời đại mà Người đã sống và hoạt động"
+  },
+  {
+    "context": "Ngoài nguồn gốc tư tưởng, quá trình hình thành và phát triển tư tưởng Hồ Chí Minh còn chịu sự tác động sâu sắc của thực tiễn dân tộc và thời đại mà Người đã sống và hoạt động. Chính quá trình hoạt động thực tiễn của Hồ Chí Minh ở trong nước và khi còn bôn ba khắp thế giới để học tập, nghiên cứu và hoạt động đã làm cho Người có một hiểu biết sâu sắc về dân tộc và thời đại, nhất là thực tiễn phương Đông để xem xét, đánh giá và bổ sung cơ sở triết lý phương Đông cho học thuyết Mác - Lênin.",
+    "question_type": "sentences",
+    "question": "Quá trình hoạt động thực tiễn của Hồ Chí Minh đã giúp Người hiểu biết sâu sắc về điều gì?",
+    "answer": "Về dân tộc và thời đại, nhất là thực tiễn phương Đông"
+  },
+  {
+    "context": "Từ hoạt động thực tiễn, Hồ Chí Minh đã khám phá quy luật vận động xã hội, đời sống văn hóa và cuộc đấu tranh của các dân tộc trong hoàn cảnh cụ thể của các quốc gia và thời đại mới để khái quát thành lý luận, đem lý luận chỉ đạo hoạt động thực tiễn, qua kiểm nghiệm của thực tiễn để hoàn thiện, làm cho lý luận có giá trị khách quan, tính cách mạng và khoa học.",
+    "question_type": "sentences",
+    "question": "Hồ Chí Minh đã làm gì từ hoạt động thực tiễn?",
+    "answer": "Khám phá quy luật vận động xã hội, đời sống văn hóa và cuộc đấu tranh của các dân tộc"
+  },
+  {
+    "context": "Nhân cách, phẩm chất, tài năng của Hồ Chí Minh đã tác động rất lớn đến sự hình thành và phát triển tư tưởng của Người. Đó là một con người sống có hoài bão, có lý tưởng, yêu nước, thương dân, có bản lĩnh kiên định, có lòng tin vào nhân dân, khiêm tốn, bình dị, ham học hỏi, nhạy bén với cái mới, thông minh, có hiểu biết sâu rộng, có phương pháp biện chứng, có đầu óc thực tiễn, ... Chính nhờ vậy, Người đã khám phá sáng tạo về lý luận cách mạng thuộc địa trong thời đại mới, xây dựng được một hệ thống quan điểm toàn diện, sâu sắc và sáng tạo về cách mạng Việt Nam, đã vượt qua mọi thử thách, sóng gió trong hoạt động thực tiễn, kiên trì chân lý, định ra các quyết sách đúng đắn và sáng tạo, biến tư tưởng thành hiện thực cách mạng.",
+    "question_type": "multiple_choice",
+    "question": "Nhân cách, phẩm chất, tài năng của Hồ Chí Minh đã tác động đến điều gì?",
+    "options": ["Hoạt động thực tiễn của Người", "Sự hình thành và phát triển tư tưởng của Người", "Quan hệ quốc tế của Người", "Cuộc sống cá nhân của Người"],
+    "answer": "B"
+  },
+  {
+    "context": "Đây là thời kỳ Hồ Chí Minh lớn lên và sống trong nỗi đau của người dân mất nước, được sự giáo dục của gia đình, quê hương, dân tộc về lòng yêu nước thương dân; sớm tham gia phong trào đấu tranh chống Pháp; băn khoăn trước những thất bại của các sĩ phu yêu nước chống Pháp; ham học hỏi, muốn tìm hiểu những tinh hoa văn hóa tiên tiến của các cuộc cách mạng dân chủ tư sản ở châu Âu, muốn đi ra nước ngoài xem họ làm gì để trở về giúp đồng bào thoát khỏi vòng nô lệ. Trong thời kỳ này, Hồ Chí Minh đã hình thành tư tưởng yêu nước, thương dân, tha thiết bảo vệ những giá trị tinh thần truyền thống của dân tộc, ham muốn học hỏi những tư tưởng tiến bộ của nhân loại.",
+    "question_type": "multiple_choice",
+    "question": "Trong thời kỳ đầu, Hồ Chí Minh đã hình thành tư tưởng gì?",
+    "options": ["Yêu nước, thương dân", "Cách mạng bạo lực", "Phát triển kinh tế", "Học thuyết chính trị"],
+    "answer": "A"
+  },
+  {
+    "context": "Hồ Chí Minh ra đi tìm đường cứu nước, trước tiên Người đến nước Pháp, nơi đã sản sinh ra tư tưởng tự do, bình đẳng, bác ái; tiếp tục đến nhiều nước ở châu Âu, châu Phi, châu Mỹ, sống và hoạt động với những người dân bị áp bức ở phương Đông và những người làm thuê ở phương Tây. Hồ Chí Minh đã tham gia Đảng Xã hội Pháp, tìm hiểu Cách mạng Tháng Mười Nga, học tập và đã tìm đến với chủ nghĩa Lênin, tham dự Đại hội Tua, đứng về phía Quốc tế cộng sản, tham gia sáng lập Đảng Cộng sản Pháp. Đây là thời kỳ Hồ Chí Minh đã có sự chuyển biến vượt bậc về tư tưởng; từ giác ngộ chủ nghĩa dân tộc tiến lên giác ngộ chủ nghĩa Mác - Lênin, từ một chiến sĩ chống thực dân phát triển thành một chiến sĩ cộng sản Việt Nam.",
+    "question_type": "multiple_choice",
+    "question": "Hồ Chí Minh đã tham gia Đảng nào ở Pháp?",
+    "options": ["Đảng Xã hội Pháp", "Đảng Cộng sản Mỹ", "Đảng Xã hội Mỹ", "Đảng Cộng sản Nga"],
+    "answer": "A"
+  },
+  {
+    "context": "Hồ Chí Minh ra đi tìm đường cứu nước, trước tiên Người đến nước Pháp, nơi đã sản sinh ra tư tưởng tự do, bình đẳng, bác ái; tiếp tục đến nhiều nước ở châu Âu, châu Phi, châu Mỹ, sống và hoạt động với những người dân bị áp bức ở phương Đông và những người làm thuê ở phương Tây. Hồ Chí Minh đã khảo sát, tìm hiểu cuộc cách mạng Pháp, cách mạng Mỹ, tham gia Đảng Xã hội Pháp, tìm hiểu Cách mạng Tháng Mười Nga, học tập và đã tìm đến với chủ nghĩa Lênin, tham dự Đại hội Tua, đứng về phía Quốc tế cộng sản, tham gia sáng lập Đảng Cộng sản Pháp. Đây là thời kỳ Hồ Chí Minh đã có sự chuyển biến vượt bậc về tư tưởng; từ giác ngộ chủ nghĩa dân tộc tiến lên giác ngộ chủ nghĩa Mác - Lênin, từ một chiến sĩ chống thực dân phát triển thành một chiến sĩ cộng sản Việt Nam.",
+    "question_type": "sentences",
+    "question": "Hồ Chí Minh đã tìm hiểu cuộc cách mạng nào trong quá trình tìm đường cứu nước?",
+    "answer": "Cuộc cách mạng Pháp, cách mạng Mỹ, tham gia Đảng Xã hội Pháp, tìm hiểu Cách mạng Tháng Mười Nga"
+  },
+  {
+    "context": "Hồ Chí Minh ra đi tìm đường cứu nước, trước tiên Người đến nước Pháp, nơi đã sản sinh ra tư tưởng tự do, bình đẳng, bác ái; tiếp tục đến nhiều nước ở châu Âu, châu Phi, châu Mỹ, sống và hoạt động với những người dân bị áp bức ở phương Đông và những người làm thuê ở phương Tây. Người đã khảo sát, tìm hiểu cuộc cách mạng Pháp, cách mạng Mỹ, tham gia Đảng Xã hội Pháp, tìm hiểu Cách mạng Tháng Mười Nga, học tập và đã tìm đến với chủ nghĩa Lênin, tham dự Đại hội Tua, đứng về phía Quốc tế cộng sản, tham gia sáng lập Đảng Cộng sản Pháp. Đây là thời kỳ Hồ Chí Minh đã có sự chuyển biến vượt bậc về tư tưởng, từ giác ngộ chủ nghĩa dân tộc tiến lên giác ngộ chủ nghĩa Mác - Lênin, từ một chiến sĩ chống thực dân phát triển thành một chiến sĩ cộng sản Việt Nam.",
+    "question_type": "sentences",
+    "question": "Sự chuyển biến tư tưởng của Hồ Chí Minh trong thời kỳ này là gì?",
+    "answer": "Có sự chuyển biến vượt bậc về tư tưởng, từ giác ngộ chủ nghĩa dân tộc tiến lên giác ngộ chủ nghĩa Mác - Lênin"
+  },
+  {
+    "context": "Cách mạng giải phóng dân tộc trong thời đại mới phải đi theo con đường cách mạng vô sản. Giải phóng dân tộc phải gắn liền với giải phóng nhân dân lao động, giải phóng giai cấp công nhân, phải kết hợp độc lập dân tộc với chủ nghĩa xã hội. Cách mạng thuộc địa và cách mạng vô sản ở chính quốc có quan hệ mật thiết với nhau. Cách mạng thuộc địa không lệ thuộc vào cách mạng ở chính quốc mà có tính chủ động, độc lập. Cách mạng thuộc địa có khả năng giành thắng lợi trước cách mạng ở chính quốc và giúp cho cách mạng ở chính quốc trong nhiệm vụ giải phóng hoàn toàn.",
+    "question_type": "multiple_choice",
+    "question": "Cách mạng giải phóng dân tộc trong thời đại mới phải đi theo con đường nào?",
+    "options": ["Cách mạng vô sản", "Chủ nghĩa tư bản", "Chủ nghĩa đế quốc", "Chủ nghĩa phong kiến"],
+    "answer": "A"
+  },
+  {
+    "context": "Cách mạng là sự nghiệp của quần chúng, của cả dân tộc đại đoàn kết. Phải tổ chức quần chúng, lãnh đạo và tổ chức đấu tranh bằng các hình thức và khẩu hiệu thích hợp. Phương pháp đấu tranh để giành chính quyền, giành lại độc lập tự do là bằng bạo lực của quần chúng và có thể bằng phương thức khởi nghĩa dân tộc. Cách mạng muốn thành công trước hết phải có đảng cách mạng lãnh đạo, vận động và tổ chức quần chúng đấu tranh. Đảng có vững cách mạng mới thành công, cũng như người cầm lái có vững thuyền mới chạy đúng hướng, tới đích.",
+    "question_type": "sentences",
+    "question": "Cách mạng muốn thành công phải cần điều kiện gì?",
+    "answer": "Phải có đảng cách mạng lãnh đạo, vận động và tổ chức quần chúng đấu tranh"
+  },
+  {
+    "context": "Cách mạng là sự nghiệp của quần chúng, của cả dân tộc đại đoàn kết. Phải tổ chức quần chúng, lãnh đạo và tổ chức đấu tranh bằng các hình thức và khẩu hiệu thích hợp. Phương pháp đấu tranh để giành chính quyền, giành lại độc lập tự do là bằng bạo lực của quần chúng và có thể bằng phương thức khởi nghĩa dân tộc. Cách mạng muốn thành công trước hết phải có đảng cách mạng lãnh đạo, vận động và tổ chức quần chúng đấu tranh. Đảng có vững cách mạng mới thành công, cũng như người cầm lái có vững thuyền mới chạy đúng hướng, tới đích.",
+    "question_type": "sentences",
+    "question": "Phương pháp đấu tranh để giành chính quyền, giành lại độc lập tự do là gì?",
+    "answer": "Bằng bạo lực của quần chúng và có thể bằng phương thức khởi nghĩa dân tộc"
+  },
+  {
+    "context": "Trên cơ sở tư tưởng về con đường cách mạng Việt Nam đã hình thành về cơ bản, trong mấy năm đầu của những năm 1930, Hồ Chí Minh đã kiên trì giữ vững quan điểm cách mạng của mình, vượt qua khuynh hướng tả đang chi phối Quốc tế Cộng sản, chi phối Ban Chấp hành Trung ương Đảng, phát triển thành chiến lược cách mạng giải phóng dân tộc, xác lập tư tưởng độc lập, tự do, dẫn đến thắng lợi của cuộc Cách mạng Tháng Tám năm 1945, nước Việt Nam Dân chủ Cộng hòa đã ra đời. Tuyên ngôn độc lập do Hồ Chí Minh công bố trước quốc dân đồng bào và toàn thế giới về sự ra đời của nước Việt Nam Dân chủ Cộng hòa - Nhà nước của dân, do dân, vì dân đã khẳng định về mặt pháp lý quyền tự do, độc lập của dân tộc Việt Nam. Đây là mốc lịch sử không chỉ đánh dấu kỷ nguyên tự do, độc lập mà còn là bước phát triển mở rộng tư tưởng dân quyền và nhân quyền của cách mạng tư sản thành quyền tự do, độc lập của các dân tộc trên thế giới.",
+    "question_type": "multiple_choice",
+    "question": "Tuyên ngôn độc lập do Hồ Chí Minh công bố khẳng định điều gì?",
+    "options": ["Quyền tự do, độc lập của dân tộc Việt Nam", "Sự ra đời của Đảng Cộng sản Việt Nam", "Sự phát triển kinh tế của Việt Nam", "Quan hệ ngoại giao của Việt Nam"],
+    "answer": "A"
+  },
+  {
+    "context": "Trên cơ sở tư tưởng về con đường cách mạng Việt Nam đã hình thành về cơ bản, trong mấy năm đầu của những năm 1930, Hồ Chí Minh đã kiên trì giữ vững quan điểm cách mạng của mình, vượt qua khuynh hướng tả đang chi phối Quốc tế Cộng sản, chi phối Ban Chấp hành Trung ương Đảng, phát triển thành chiến lược cách mạng giải phóng dân tộc, xác lập tư tưởng độc lập, tự do, dẫn đến thắng lợi của cuộc Cách mạng Tháng Tám năm 1945, nước Việt Nam Dân chủ Cộng hòa đã ra đời. Tuyên ngôn độc lập do Hồ Chí Minh trịnh trọng công bố trước quốc dân đồng bào và toàn thế giới về sự ra đời của nước Việt Nam Dân chủ Cộng hòa - Nhà nước của dân, do dân, vì dân đã khẳng định về mặt pháp lý quyền tự do, độc lập của dân tộc Việt Nam. Đây là mốc lịch sử không chỉ đánh dấu kỷ nguyên tự do, độc lập mà còn là bước phát triển mở rộng tư tưởng dân quyền và nhân quyền của cách mạng tư sản thành quyền tự do, độc lập của các dân tộc trên thế giới.",
+    "question_type": "multiple_choice",
+    "question": "Cuộc Cách mạng Tháng Tám năm 1945 đã dẫn đến sự ra đời của nhà nước nào?",
+    "options": ["Nước Việt Nam Dân chủ Cộng hòa", "Nước Việt Nam Cộng hòa", "Nhà nước Đại Việt", "Nhà nước Đông Dương"],
+    "answer": "A"
+  },
+  {
+    "context": "Đây là thời kỳ Hồ Chí Minh cùng Trung ương Đảng lãnh đạo nhân dân ta vừa tiến hành cuộc kháng chiến chống thực dân Pháp, vừa xây dựng chế độ dân chủ nhân dân (1945 - 1954) mà đỉnh cao là chiến thắng Điện Biên Phủ; tiến hành cuộc kháng chiến chống Mỹ, cứu nước và xây dựng chủ nghĩa xã hội ở miền Bắc. Thời kỳ này, tư tưởng Hồ Chí Minh có bước phát triển mới: Tư tưởng kết hợp kháng chiến với kiến quốc, tiến hành kháng chiến kết hợp với xây dựng chế độ dân chủ nhân dân; tiến hành đồng thời hai chiến lược cách mạng khác nhau, đó là cách mạng giải phóng dân tộc ở miền Nam và cách mạng xã hội chủ nghĩa ở miền Bắc nhằm một mục tiêu chung trước mắt là giải phóng miền Nam, thống nhất Tổ quốc.",
+    "question_type": "sentences",
+    "question": "Tư tưởng Hồ Chí Minh trong thời kỳ kháng chiến có bước phát triển mới nào?",
+    "answer": "Tư tưởng kết hợp kháng chiến với kiến quốc, tiến hành kháng chiến kết hợp với xây dựng chế độ dân chủ nhân dân"
+  },
+  {
+    "context": "Đây là thời kỳ Hồ Chí Minh cùng Trung ương Đảng lãnh đạo nhân dân ta vừa tiến hành cuộc kháng chiến chống thực dân Pháp, vừa xây dựng chế độ dân chủ nhân dân (1945 - 1954) mà đỉnh cao là chiến thắng Điện Biên Phủ; tiến hành cuộc kháng chiến chống Mỹ, cứu nước và xây dựng chủ nghĩa xã hội ở miền Bắc. Thời kỳ này, tư tưởng Hồ Chí Minh có bước phát triển mới, trong đó nổi bật là các nội dung lớn như sau: Tư tưởng kết hợp kháng chiến với kiến quốc, tiến hành kháng chiến kết hợp với xây dựng chế độ dân chủ nhân dân; tiến hành đồng thời hai chiến lược cách mạng khác nhau, đó là cách mạng giải phóng dân tộc ở miền Nam và cách mạng xã hội chủ nghĩa ở miền Bắc nhằm một mục tiêu chung trước mắt là giải phóng miền Nam, thống nhất Tổ quốc.",
+    "question_type": "sentences",
+    "question": "Hồ Chí Minh cùng Trung ương Đảng lãnh đạo nhân dân ta tiến hành cuộc kháng chiến nào?",
+    "answer": "Kháng chiến chống thực dân Pháp và kháng chiến chống Mỹ"
+  },
+  {
+    "context": "Khi nói khái niệm tư tưởng là nói đến một hệ thống quan điểm, lý luận mang giá trị như một học thuyết được xây dựng trên một thế giới quan và phương pháp luận nhất quán, đại biểu cho ý chí, nguyện vọng của một giai cấp, một dân tộc, phù hợp với nhu cầu tiến hóa của thực tiễn nhất định, trở lại chỉ đạo và cải tạo thực tiễn đó. Báo cáo chính trị của Ban Chấp hành Trung ương Đảng khóa VIII đọc trước Đại hội đại biểu toàn quốc lần thứ IX viết: Tư tưởng Hồ Chí Minh là kết quả của sự vận dụng và phát triển sáng tạo chủ nghĩa Mác - Lênin vào điều kiện cụ thể của nước ta, kế thừa và phát triển các giá trị truyền thống tốt đẹp của dân tộc, tiếp thu văn hoá nhân loại...",
+    "question_type": "multiple_choice",
+    "question": "Tư tưởng Hồ Chí Minh là kết quả của sự vận dụng và phát triển sáng tạo chủ nghĩa nào?",
+    "options": ["Chủ nghĩa Mác - Lênin", "Chủ nghĩa tư bản", "Chủ nghĩa xã hội", "Chủ nghĩa duy vật"],
+    "answer": "A"
+  },
+  {
+    "context": "Khi nói khái niệm tư tưởng là nói đến một hệ thống quan điểm, lý luận mang giá trị như một học thuyết được xây dựng trên một thế giới quan và phương pháp luận nhất quán, đại biểu cho ý chí, nguyện vọng của một giai cấp, một dân tộc, phù hợp với nhu cầu tiến hóa của thực tiễn nhất định, trở lại chỉ đạo và cải tạo thực tiễn đó. Báo cáo chính trị của Ban Chấp hành Trung ương Đảng khóa VIII đọc trước Đại hội đại biểu toàn quốc lần thứ IX viết: Tư tưởng Hồ Chí Minh là hệ thống quan điểm toàn diện và sâu sắc về những vấn đề cơ bản của cách mạng Việt Nam, là kết quả của sự vận dụng và phát triển sáng tạo chủ nghĩa Mác - Lênin vào điều kiện cụ thể của nước ta, kế thừa và phát triển các giá trị truyền thống tốt đẹp của dân tộc, tiếp thu văn hoá nhân loại...",
+    "question_type": "multiple_choice",
+    "question": "Tư tưởng Hồ Chí Minh là hệ thống quan điểm toàn diện và sâu sắc về vấn đề nào?",
+    "options": ["Những vấn đề cơ bản của cách mạng Việt Nam", "Những vấn đề kinh tế thế giới", "Những vấn đề văn hóa phương Tây", "Những vấn đề xã hội của nước ngoài"],
+    "answer": "A"
+  },
+  {
+    "context": "Đối tượng nghiên cứu tư tưởng Hồ Chí Minh bao gồm hệ thống quan điểm, lý luận về cách mạng Việt Nam trong dòng chảy của thời đại mới mà cốt lõi là tư tưởng độc lập, tự do; về mối quan hệ giữa lý luận và thực tiễn của hệ thống quan điểm lý luận cách mạng Hồ Chí Minh; về mối liên hệ biện chứng trong sự tác động qua lại của tư tưởng độc lập, tự do với tư tưởng giải phóng dân tộc, giải phóng giai cấp, giải phóng con người; về độc lập dân tộc với chủ nghĩa xã hội, về các quan điểm cơ bản trong hệ thống tư tưởng Hồ Chí Minh.",
+    "question_type": "sentences",
+    "question": "Đối tượng nghiên cứu tư tưởng Hồ Chí Minh bao gồm những nội dung gì?",
+    "answer": "Hệ thống quan điểm, lý luận về cách mạng Việt Nam trong dòng chảy của thời đại"
+  },
+  {
+    "context": "Hồ Chí Minh đã nhấn mạnh ưu điểm lớn của học thuyết Mác là phép duy vật biện chứng. Phép biện chứng duy vật một phương pháp duy nhất khoa học là linh hồn của toàn bộ học thuyết Mác. Hồ Chí Minh thường nhắc nhở chúng ta phải đứng trên lập trường, quan điểm, phương pháp của chủ nghĩa Mác - Lênin để tổng kết kinh nghiệm, phân tích một cách đúng đắn những đặc điểm của đất nước mới có thể dần dần hiểu được quy luật phát triển của cách mạng đến thắng lợi. Chính nhờ nắm vững phép biện chứng duy vật, Hồ Chí Minh từ rất sớm đã nêu vấn đề cần bổ sung cơ sở lịch sử của chủ nghĩa Mác bằng cách đưa thêm vào đó những tư liệu mà ở thời kỳ đó, Mác không thể có được; phải xem lại chủ nghĩa Mác về cơ sở lịch sử của nó, củng cố nó bằng dân tộc học phương Đông.",
+    "question_type": "multiple_choice",
+    "question": "Hồ Chí Minh đã nhấn mạnh ưu điểm lớn của học thuyết Mác là gì?",
+    "options": ["Phép duy vật biện chứng", "Phương pháp duy tâm", "Phép biện chứng tự nhiên", "Phép luận siêu hình"],
+    "answer": "A"
+  },
+  {
+    "context": "Hồ Chí Minh đã nhấn mạnh ưu điểm lớn của học thuyết Mác là phép duy vật biện chứng. Phép biện chứng duy vật một phương pháp duy nhất khoa học là linh hồn của toàn bộ học thuyết Mác. Hồ Chí Minh thường nhắc nhở chúng ta phải đứng trên lập trường của chủ nghĩa Mác - Lênin để phân tích đúng đắn những đặc điểm của đất nước mới có thể dần dần hiểu được quy luật phát triển của cách mạng đến thắng lợi. Chính nhờ nắm vững phép biện chứng duy vật, Hồ Chí Minh từ rất sớm đã nêu vấn đề cần bổ sung cơ sở lịch sử của chủ nghĩa Mác bằng cách đưa thêm vào đó những tư liệu mà ở thời kỳ đó, Mác không thể có được; phải xem lại chủ nghĩa Mác về cơ sở lịch sử của nó, củng cố nó bằng dân tộc học phương Đông.",
+    "question_type": "multiple_choice",
+    "question": "Theo Hồ Chí Minh, chúng ta phải đứng trên lập trường nào để phân tích đúng đắn những đặc điểm của đất nước?",
+    "options": ["Lập trường của chủ nghĩa Mác - Lênin", "Lập trường của chủ nghĩa duy tâm", "Lập trường của phương Tây", "Lập trường của dân tộc học"],
+    "answer": "A"
+  },
+  {
+    "context": "Với phương pháp biện chứng, khi nghiên cứu thực tiễn đất nước, lịch sử dân tộc Việt Nam, Hồ Chí Minh kết luận: Chủ nghĩa dân tộc là động lực lớn của đất nước, Phát động chủ nghĩa dân tộc bản xứ nhân danh Quốc tế cộng sản là một chính sách mang tính hiện thực tuyệt vời. Giờ đây, người ta sẽ không thể làm gì được cho người An Nam nếu không dựa trên các động lực vĩ đại, và duy nhất của đời sống xã hội của họ. Điều này thể hiện sự sáng tạo của Hồ Chí Minh trong việc nắm vững và sử dụng phương pháp biện chứng duy vật của Mác.",
+    "question_type": "sentences",
+    "question": "Hồ Chí Minh kết luận gì về chủ nghĩa dân tộc khi nghiên cứu thực tiễn đất nước, lịch sử dân tộc Việt Nam?",
+    "answer": "Chủ nghĩa dân tộc là động lực lớn của đất nước, Phát động chủ nghĩa dân tộc bản xứ nhân danh Quốc tế cộng sản là một chính sách mang tính hiện thực tuyệt vời"
+  },
+  {
+    "context": "Tư tưởng Hồ Chí Minh là một hệ thống quan điểm toàn diện và sâu sắc về cách mạng Việt Nam, có quan hệ thống nhất biện chứng nội tại của nó. Một yêu cầu về phương pháp luận khi nghiên cứu tư tưởng Hồ Chí Minh trên bình diện tổng thể hay từng bộ phận là phải luôn luôn quán triệt mối liên hệ qua lại của các yếu tố, các bộ phận khác nhau trong sự gắn kết tất yếu của hệ thống tư tưởng đó quanh hạt nhân cốt lõi là tư tưởng độc lập, tự do. V.I.Lênin cũng đã viết: Muốn thực sự hiểu được sự vật, cần phải nhìn bao quát và nghiên cứu tất cả các mặt, tất cả mối liên hệ và quan hệ gián tiếp của sự vật đó",
+    "question_type": "sentences",
+    "question": "Một yêu cầu về phương pháp luận khi nghiên cứu tư tưởng Hồ Chí Minh là gì?",
+    "answer": "Phải luôn luôn quán triệt mối liên hệ qua lại của các yếu tố, các bộ phận khác nhau"
+  },
+  {
+    "context": "Tư tưởng Hồ Chí Minh là một hệ thống quan điểm toàn diện và sâu sắc về cách mạng Việt Nam, có quan hệ thống nhất biện chứng nội tại của nó. Một yêu cầu về phương pháp luận khi nghiên cứu tư tưởng Hồ Chí Minh trên bình diện tổng thể hay từng bộ phận là phải luôn luôn quán triệt mối liên hệ qua lại của các yếu tố, các bộ phận khác nhau trong sự gắn kết tất yếu của hệ thống tư tưởng đó quanh hạt nhân cốt lõi là tư tưởng độc lập, tự do. V.I.Lênin cũng đã viết: Muốn thực sự hiểu được sự vật, cần phải nhìn bao quát và nghiên cứu tất cả các mặt, tất cả mối liên hệ và quan hệ gián tiếp của sự vật đó",
+    "question_type": "sentences",
+    "question": "Theo V.I.Lênin, cần làm gì để thực sự hiểu được sự vật?",
+    "answer": "Cần phải nhìn bao quát và nghiên cứu tất cả các mặt, tất cả mối liên hệ và quan hệ gián tiếp của sự vật đó"
+  },
+  {
+    "context": "Theo Hồ Chí Minh, độc lập tự do là quyền thiêng liêng, bất khả xâm phạm của các dân tộc. Là một chiến sĩ quốc tế chân chính, Hồ Chí Minh không chỉ đấu tranh cho độc lập của dân tộc mình mà còn đấu tranh cho độc lập của tất cả các dân tộc bị áp bức trên toàn thế giới. Năm 1914, khi Chiến tranh thế giới thứ nhất vừa nổ ra, Hồ Chí Minh đã đem toàn bộ số tiền dành dụm được từ đồng lương ít ỏi của mình ủng hộ quỹ kháng chiến của người Anh. Theo Hồ Chí Minh, chúng ta phải tranh đấu cho tự do, độc lập của các dân tộc khác như là tranh đấu cho dân tộc ta vậy.",
+    "question_type": "multiple_choice",
+    "question": "Theo Hồ Chí Minh, chúng ta phải làm gì cho các dân tộc khác?",
+    "options": ["Tranh đấu cho quyền lợi của chúng ta", "Tranh đấu cho dân tộc ta", "Tranh đấu cho tự do của chúng ta", "Tranh đấu cho tự do, độc lập của các dân tộc khác"],
+    "answer": "D"
+  },
+  {
+    "context": "Nêu cao tinh thần dân tộc tự quyết, nhưng Hồ Chí Minh không quên nghĩa vụ quốc tế trong việc ủng hộ các cuộc đấu tranh giải phóng dân tộc trên thế giới. Hồ Chí Minh đã nhiệt liệt ủng hộ cuộc kháng chiến chống Nhật của nhân dân Trung Quốc, cuộc kháng chiến chống Pháp của nhân dân Lào và Campuchia, đề ra khẩu hiệu giúp bạn là tự giúp mình, và chủ trương phải bằng thắng lợi của cách mạng mỗi nước mà đóng góp vào thắng lợi chung của cách mạng thế giới.",
+    "question_type": "sentences",
+    "question": "Hồ Chí Minh đã nhiệt liệt ủng hộ những cuộc kháng chiến nào?",
+    "answer": "Cuộc kháng chiến chống Nhật của nhân dân Trung Quốc, cuộc kháng chiến chống Pháp của nhân dân Lào và Campuchia"
+  },
+  {
+    "context": "Thất bại của các phong trào yêu nước chống thực dân Pháp ở Việt Nam cuối thế kỷ XIX đầu thế kỷ XX chứng tỏ rằng, những con đường giải phóng dân tộc dưới ngọn cờ tư tưởng phong kiến hoặc tư tưởng tư sản là không đáp ứng được yêu cầu khách quan là giành độc lập, tự do của dân tộc do lịch sử đặt ra. Hồ Chí Minh rất khâm phục tinh thần cứu nước của ông cha, nhưng Người không tán thành các con đường cứu nước ấy, mà quyết tâm ra đi tìm một con đường cứu nước mới.",
+    "question_type": "sentences",
+    "question": "Hồ Chí Minh đã có quan điểm như thế nào về các con đường cứu nước trước đó?",
+    "answer": "Rất khâm phục tinh thần cứu nước của ông cha, nhưng không tán thành các con đường cứu nước ấy"
+  },
+  {
+    "context": "Tháng 7-1920, khi đọc Sơ thảo lần thứ nhất những luận cương về vấn đề dân tộc và vấn đề thuộc địa của V.I.Lênin, Người thấy tin tưởng, sáng tỏ và cảm động. Người khẳng định: Đây là cái cần thiết cho chúng ta, đây là con đường giải phóng chúng ta. Người đã tìm thấy trong lý luận của V.I.Lênin một con đường cứu nước mới: con đường cách mạng vô sản. Đầu năm 1923, trong Truyền đơn cổ động mua báo Người cùng khổ (Le Paria), Người viết: Chỉ có chủ nghĩa cộng sản mới cứu nhân loại, đem lại cho mọi người không phân biệt chủng tộc và nguồn gốc sự tự do, bình đẳng, bác ái, đoàn kết, ấm no trên quả đất, việc làm cho mọi người và vì mọi người, niềm vui, hòa bình, hạnh phúc.",
+    "question_type": "multiple_choice",
+    "question": "Hồ Chí Minh đã tìm thấy trong lý luận của V.I.Lênin con đường cứu nước mới nào?",
+    "options": ["Con đường cách mạng tư sản", "Con đường cách mạng phong kiến", "Con đường cách mạng vô sản", "Con đường cách mạng dân tộc"],
+    "answer": "C"
+  },
+  {
+    "context": "Tháng 7-1920, khi đọc Sơ thảo lần thứ nhất những luận cương về vấn đề dân tộc và vấn đề thuộc địa của V.I.Lênin, Người thấy tin tưởng, sáng tỏ và cảm động. Người khẳng định: Đây là cái cần thiết cho chúng ta, đây là con đường giải phóng chúng ta. Người đã tìm thấy trong lý luận của V.I.Lênin một con đường cứu nước mới: con đường cách mạng vô sản. Đầu năm 1923, trong Truyền đơn cổ động mua báo Người cùng khổ (Le Paria), Người viết: Chỉ có chủ nghĩa cộng sản mới cứu nhân loại, đem lại cho mọi người không phân biệt chủng tộc và nguồn gốc sự tự do, bình đẳng, bác ái, đoàn kết, ấm no trên quả đất, việc làm cho mọi người và vì mọi người, niềm vui, hòa bình, hạnh phúc.",
+    "question_type": "multiple_choice",
+    "question": "Hồ Chí Minh đã khẳng định điều gì trong Truyền đơn cổ động mua báo Người cùng khổ?",
+    "options": ["Chủ nghĩa tư bản sẽ cứu nhân loại", "Chủ nghĩa dân tộc sẽ cứu nhân loại", "Chủ nghĩa phong kiến sẽ cứu nhân loại", "Chỉ có chủ nghĩa cộng sản mới cứu nhân loại"],
+    "answer": "D"
+  },
+  {
+    "context": "Dù đã thành lập hay chưa thì các tổ chức cách mạng kiểu cũ không thể đưa cách mạng giải phóng dân tộc đi đến thành công, vì nó thiếu một đường lối chính trị đúng đắn và một phương pháp cách mạng khoa học, không có cơ sở rộng rãi trong quần chúng. Những nỗ lực đấu tranh cứu nước nhưng không thành công của tổ chức Việt Nam quốc dân đảng, tổ chức chính trị tiêu biểu nhất của giai cấp tư sản Việt Nam, đã chứng minh điều đó.",
+    "question_type": "multiple_choice",
+    "question": "Những nỗ lực đấu tranh cứu nước của tổ chức chính trị nào đã không thành công?",
+    "options": ["Duy tân hội", "Việt Nam Quang phục hội", "Việt Nam quốc dân đảng", "Đông Dương cộng sản đảng"],
+    "answer": "C"
+  },
+  {
+    "context": "Hồ Chí Minh khẳng định: Muốn giải phóng dân tộc thành công trước hết phải có đảng cách mệnh. Người phân tích: cách mệnh trước phải làm cho dân giác ngộ, phải giảng giải lý luận và chủ nghĩa cho dân hiểu, phải hiểu phong triều thế giới, phải bày sách lược cho dân... Vậy nên sức cách mệnh phải tập trung, muốn tập trung phải có đảng cách mệnh.",
+    "question_type": "multiple_choice",
+    "question": "Theo Hồ Chí Minh, muốn giải phóng dân tộc thành công trước hết phải có điều gì?",
+    "options": ["Giáo dục dân", "Lý luận và chủ nghĩa", "Đảng cách mệnh", "Sách lược cho dân"],
+    "answer": "C"
+  },
+  {
+    "context": "Đầu năm 1930, Hồ Chí Minh sáng lập Đảng Cộng sản Việt Nam, một chính đảng của giai cấp công nhân Việt Nam, có tổ chức chặt chẽ, kỷ luật nghiêm minh và liên hệ mật thiết với quần chúng.",
+    "question_type": "sentences",
+    "question": "Đầu năm 1930, Hồ Chí Minh đã sáng lập đảng nào?",
+    "answer": "Đảng Cộng sản Việt Nam"
+  },
+  {
+    "context": "Theo Hồ Chí Minh, cách mạng giải phóng dân tộc là việc chung cả dân chúng chứ không phải việc một hai người. Người phân tích: dân tộc cách mệnh chưa phân giai cấp, nghĩa là sĩ, nông, công, thương đều nhất trí chống lại cường quyền. Trong lực lượng đó, công nông là người chủ cách mệnh; còn học trò, nhà buôn nhỏ, điền chủ nhỏ cũng bị tư bản áp bức, song không cực khổ bằng công nông; 3 hạng ấy chỉ là bầu bạn cách mệnh của công nông thôi.",
+    "question_type": "multiple_choice",
+    "question": "Theo Hồ Chí Minh, ai là người chủ cách mệnh trong lực lượng cách mạng giải phóng dân tộc?",
+    "options": ["Sĩ", "Nông", "Công nông", "Thương"],
+    "answer": "C"
+  },
+  {
+    "context": "Hồ Chí Minh đánh giá rất cao vai trò của nhân dân. Người coi sức mạnh vĩ đại và năng lực sáng tạo vô tận của quần chúng là then chốt bảo đảm thắng lợi trong khởi nghĩa vũ trang. Trong tác phẩm Đường Kách mệnh, Người phê phán việc lấy ám sát cá nhân và bạo động non làm phương thức hành động. Người khẳng định: Dân khí mạnh thì quân lính nào, súng ống nào cũng không chống lại.",
+    "question_type": "sentences",
+    "question": "Theo Hồ Chí Minh, yếu tố nào là then chốt bảo đảm thắng lợi trong khởi nghĩa vũ trang?",
+    "answer": "Sức mạnh vĩ đại và năng lực sáng tạo vô tận của quần chúng"
+  },
+  {
+    "context": "Trong Cương lĩnh chính trị đầu tiên của Đảng, Người xác định lực lượng cách mạng bao gồm toàn dân tộc: Đảng phải tập hợp đại bộ phận giai cấp công nhân, đại bộ phận nông dân và phải dựa vào hạng dân cày nghèo làm cách mạng ruộng đất; lôi kéo tiểu tư sản, trí thức, trung nông... đi vào phe vô sản giai cấp; đối với phú nông, trung tiểu địa chủ và tư bản Việt Nam mà chưa rõ mặt phản cách mạng thì phải lợi dụng, chí ít là làm cho họ đứng trung lập. Bộ phận nào đã ra mặt phản cách mạng (như Đảng Lập hiến) thì phải đánh đổ.",
+    "question_type": "sentences",
+    "question": "Đảng phải tập hợp đại bộ phận nào để làm cách mạng ruộng đất?",
+    "answer": "Đại bộ phận giai cấp công nhân, đại bộ phận nông dân và phải dựa vào hạng dân cày nghèo"
+  },
+  {
+    "context": "Chủ trương tập hợp lực lượng của Hồ Chí Minh phản ánh tư tưởng đại đoàn kết dân tộc của Người. Trong Bài ca du kích (1942), Người chủ trương mọi người già, trẻ, gái, trai, dân, lính đều tham gia đánh giặc. Trong Chỉ thị thành lập Đội Việt Nam tuyên truyền giải phóng quân (ngày 22-12-1944), Người viết: Cuộc kháng chiến của ta là cuộc kháng chiến của toàn dân, cần phải động viên toàn dân, vũ trang toàn dân.",
+    "question_type": "multiple_choice",
+    "question": "Chủ trương tập hợp lực lượng của Hồ Chí Minh phản ánh tư tưởng gì của Người?",
+    "options": ["Tư tưởng tự do dân chủ", "Tư tưởng đại đoàn kết dân tộc", "Tư tưởng độc lập tự do", "Tư tưởng bảo vệ nhân quyền"],
+    "answer": "B"
+  },
+  {
+    "context": "Trong hai cuộc kháng chiến chống thực dân Pháp và chống đế quốc Mỹ, Hồ Chí Minh lấy nhân dân làm nguồn sức mạnh. Quan điểm lấy dân làm gốc xuyên suốt quá trình chỉ đạo chiến tranh của Người. Người đặt niềm tin ở truyền thống yêu nước nồng nàn của nhân dân Việt Nam. Người khẳng định: Địch chiếm trời, địch chiếm đất, nhưng chúng không làm sao chiếm được lòng nồng nàn yêu nước của nhân dân ta.",
+    "question_type": "multiple_choice",
+    "question": "Trong hai cuộc kháng chiến, Hồ Chí Minh lấy gì làm nguồn sức mạnh?",
+    "options": ["Quân đội", "Vũ khí hiện đại", "Nhân dân", "Liên minh quốc tế"],
+    "answer": "C"
+  },
+  {
+    "context": "Khi phát động cuộc kháng chiến toàn quốc chống thực dân Pháp (tháng 12-1946), Người kêu gọi toàn dân đánh giặc và đánh giặc bằng mọi vũ khí có trong tay: Bất kỳ đàn ông, đàn bà, bất kỳ người già, người trẻ, không chia tôn giáo, đảng phái, dân tộc. Hễ là người Việt Nam thì phải đứng lên đánh thực dân Pháp để cứu Tổ quốc. Ai có súng dùng súng. Ai có gươm dùng gươm, không có gươm thì dùng cuốc, thuổng, gậy gộc. Ai cũng phải ra sức chống thực dân Pháp cứu nước.",
+    "question_type": "multiple_choice",
+    "question": "Theo Hồ Chí Minh, ai cần phải đứng lên đánh thực dân Pháp?",
+    "options": ["Đàn ông", "Bộ đội", "Người trẻ", "Người Việt Nam"],
+    "answer": "D"
+  },
+  {
+    "context": "Kêu gọi toàn dân kháng chiến chống đế quốc Mỹ, Hồ Chí Minh khẳng định: Chống Mỹ, cứu nước là nhiệm vụ thiêng liêng nhất của mọi người Việt Nam yêu nước. Cuộc kháng chiến của ta là toàn dân, thực sự là cuộc chiến tranh nhân dân. 31 triệu đồng bào ta ở cả hai miền, bất kỳ già trẻ, gái trai, phải là 31 triệu chiến sĩ anh dũng diệt Mỹ, cứu nước, quyết giành thắng lợi cuối cùng. Ngày 9-4-1965, trả lời phóng viên báo Acahata (Nhật Bản) Hồ Chí Minh khẳng định, trong thời đại chúng ta, một dân tộc đoàn kết chặt chẽ, đấu tranh kiên quyết, hoàn toàn có thể đánh bại bọn đế quốc xâm lược hung hãn, gian ác và có nhiều vũ khí.",
+    "question_type": "sentences",
+    "question": "Hồ Chí Minh khẳng định nhiệm vụ thiêng liêng nhất của mọi người Việt Nam yêu nước là gì?",
+    "answer": "Chống Mỹ, cứu nước"
+  },
+  {
+    "context": "Mục đích cách mạng và chiến tranh chính nghĩa - vì độc lập tự do, làm cho khả năng tiến hành chiến tranh nhân dân trở thành hiện thực, làm cho toàn dân tự giác tham gia kháng chiến. Tư tưởng chiến tranh nhân dân của Hồ Chí Minh đã cổ vũ, dẫn dắt cả dân tộc ta đứng lên kháng chiến và kháng chiến thắng lợi, đánh thắng hai đế quốc to là Pháp và Mỹ trong 30 năm chiến tranh cách mạng Việt Nam, làm nên thắng lợi vĩ đại có tính thời đại sâu sắc.",
+    "question_type": "sentences",
+    "question": "Tư tưởng chiến tranh nhân dân của Hồ Chí Minh có tác động gì?",
+    "answer": "Cổ vũ, dẫn dắt cả dân tộc ta đứng lên kháng chiến và kháng chiến thắng lợi"
+  }
+]
