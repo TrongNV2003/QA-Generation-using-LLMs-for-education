@@ -26,12 +26,13 @@ To get model fine-tuned with custom dataset, Run:
 
 Hyperparameters can be changed using arguments. See the scripts for the list of available arguments.
 
-### Datasets custom in philosophy
-Public free on github for all who loves NLP: https://github.com/TrongNV2003/T5-QA-Generator/tree/main/datasets
+### Custom dataset in Philosophy
+Dataset is created by extracting in 2 Philosophy books: "Marxist-Leninist philosophy" and "Ho Chi Minh ideology philosophy"; and labeled by author manually for fine-tuning and evaluating models.
+Public on github for all who loves NLP: https://github.com/TrongNV2003/T5-QA-Generator/tree/main/datasets
 
 ## Usage
 
-Then, to generate QA you have to clone the github repo and fine-tune 3 model above, then run `!python run_qa.py`, for example:
+To generate QA you have to clone the github repo and fine-tune 3 model above, then run `!python run_qa.py`, for example:
 
 ```
 git clone https://github.com/TrongNV2003/T5-QA-Generator
