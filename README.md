@@ -24,11 +24,18 @@ To get model fine-tuned with custom dataset, Run:
 ```
 
 Or you can get it on HuggingFace:
-Sentence-Question: https://huggingface.co/Trongdz/vi-T5-QA-generation-for-philosophy
-MCQ: https://huggingface.co/Trongdz/vi-T5-QA-generation-MCQ-for-philosophy
-Distractor: https://huggingface.co/Trongdz/vi-T5-QA-Distractor-in-MCQ-for-philosophy
-
-Hyperparameters can be changed using arguments. See the scripts for the list of available arguments.
+`Sentence-Question`
+```bash
+https://huggingface.co/Trongdz/vi-T5-QA-generation-for-philosophy
+```
+`Multiple-choice-Question`
+```bash
+https://huggingface.co/Trongdz/vi-T5-QA-generation-MCQ-for-philosophy
+```
+`Distractor for multiple-choice question`
+```bash
+https://huggingface.co/Trongdz/vi-T5-QA-Distractor-in-MCQ-for-philosophy
+```
 
 ### Custom dataset in Philosophy
 Dataset is created by extracting in 2 Philosophy books: "Marxist-Leninist philosophy" and "Ho Chi Minh ideology philosophy"; and labeled by author manually for fine-tuning and evaluating models.
