@@ -10,23 +10,23 @@ class QuestionAnswerGenerator:
 
     def __init__(self) -> None:
         self.SEQ_LENGTH = 512
-        self.qg_tokenizer = T5Tokenizer.from_pretrained("VietAI/vit5-base")
+        QG_PRETRAINED = "t5-base-question-generator"
+        self.qg_tokenizer = T5Tokenizer.from_pretrained(QG_PRETRAINED)
         self.qg_tokenizer.add_special_tokens({"sep_token": "<sep>"})
         
         self.device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
         
-        QG_PRETRAINED = "t5-base-question-generator"
-        self.qg_model = AutoModelForSeq2SeqLM.from_pretrained(QG_PRETRAINED)
+        self.qg_model = AutoModelForSeq2SeqLM.from_pretrained(QG_PRETRAINED, torch_dtype=torch.bfloat16)
         self.qg_model.to(self.device)
         self.qg_model.eval()
         
         MCQ_QG_PRETRAINED = "t5-base-question-mcq-generator"
-        self.mcq_qg_model = AutoModelForSeq2SeqLM.from_pretrained(MCQ_QG_PRETRAINED)
+        self.mcq_qg_model = AutoModelForSeq2SeqLM.from_pretrained(MCQ_QG_PRETRAINED, torch_dtype=torch.bfloat16)
         self.mcq_qg_model.to(self.device)
         self.mcq_qg_model.eval()
         
         QD_PRETRAINED = "t5-base-distractor-generator"
-        self.qd_model = AutoModelForSeq2SeqLM.from_pretrained(QD_PRETRAINED)
+        self.qd_model = AutoModelForSeq2SeqLM.from_pretrained(QD_PRETRAINED, torch_dtype=torch.bfloat16)
         self.qd_model.to(self.device)
         self.qd_model.eval()
 
