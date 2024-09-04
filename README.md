@@ -12,15 +12,15 @@ Here is architecture of my system, i seperated into 3 main modules to process 2 
 To fine-tune model with custom dataset, Run:
 
 ```bash
-!python training/train_qa.py
+python training/train_qa.py
 ```
 
 ```bash
-!python training/train_qa_mcq.py
+python training/train_qa_mcq.py
 ```
 
 ```bash
-!python training/train_distractors.py
+python training/train_distractors.py
 ```
 
 Or you can get pre-trained models on HuggingFace:
@@ -55,7 +55,7 @@ To generate QA you have to clone the github repo and fine-tune 3 model above, th
 git clone https://github.com/TrongNV2003/T5-QA-Generator
 cd T5-QA-Generator
 pip install -r requirements.txt -qq
-!python run_qa.py
+python run_qa.py
 ```
 
 This will generate 5 question-answer pairs (full-sentence or multiple choice) based on the article specified in `--text_file` and print them to the console.
@@ -75,13 +75,13 @@ I use the pakage which is created to evaluate: https://github.com/p208p2002/nqg.
 
 Get scorer
 ```python
-!python setup_scorer.py 
+python setup_scorer.py 
 ```
 
 Evaluation for 2 types of QA
 
 ```python
-!python nqg/qgevalcap/eval.py \
+python nqg/qgevalcap/eval.py \
   --src datasets/score_evaluation_mcq/predict.txt \
   --tgt datasets/score_evaluation_mcq/tgt-test.txt \
   --out datasets/score_evaluation_mcq/predict.txt
@@ -134,5 +134,5 @@ The Distractor takes a "Question-Answer-Context" as an input and outputs are 3 d
 To have a deep inside view in this QA problem, UI is created for users to easy to use 
 You have to fine-tune 3 models above first, then run:
 ```python
-!python app.py
+python app.py
 ```
