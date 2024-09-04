@@ -9,7 +9,7 @@ jsons==1.6.3
 pandas==2.1.4
 random2
 flask==3.0.1
-re
+regex
 threaded
 uuid
 matplotlib
