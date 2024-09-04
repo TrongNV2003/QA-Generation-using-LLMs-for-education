@@ -5,6 +5,7 @@ There are 3 modules: the Sentence-QA generator, Multiple choice-QA generator, an
 
 ### System architecture
 Here is architecture of my system, i seperated into 3 main modules to process 2 types of questions: Generate MCQ module, Generate Sentence-Question module, Generate Distractor module.
+
 ![architecture-overview](assets/QA-generation.png) 
 
 ### Updated training scripts
@@ -25,17 +26,17 @@ python training/train_distractors.py
 
 Or you can get pre-trained models on HuggingFace:
 
-`Sentence-Question`
+- `Sentence-Question`
 ```bash
 https://huggingface.co/Trongdz/vi-T5-QA-generation-for-philosophy
 ```
 
-`Multiple-choice-Question`
+- `Multiple-choice-Question`
 ```bash
 https://huggingface.co/Trongdz/vi-T5-QA-generation-MCQ-for-philosophy
 ```
 
-`Distractor for multiple-choice question`
+- `Distractor for Multiple-choice Question`
 ```bash
 https://huggingface.co/Trongdz/vi-T5-QA-Distractor-in-MCQ-for-philosophy
 ```
@@ -49,7 +50,7 @@ Public dataset on for all who loves NLP: [HuggingFace](https://huggingface.co/da
 
 ## Usage
 
-To generate QA you have to clone the github repo and fine-tune 3 model above, then run `!python run_qa.py`, for example:
+To generate QA you have to clone the github repo and fine-tune 3 model above, then run `python run_qa.py`, for example:
 
 ```
 git clone https://github.com/TrongNV2003/T5-QA-Generator
