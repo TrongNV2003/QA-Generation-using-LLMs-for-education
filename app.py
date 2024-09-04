@@ -1,7 +1,6 @@
 from flask import Flask, render_template, request, jsonify
 from questiongenerator import QuestionAnswerGenerator
 import threading
-import time
 import uuid
 
 qg = QuestionAnswerGenerator()
