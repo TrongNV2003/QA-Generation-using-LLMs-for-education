@@ -9,7 +9,7 @@ Here is architecture of my system, i seperated into 3 main modules to process 2 
 
 ### Updated training scripts
 
-To get model fine-tuned with custom dataset, Run:
+To fine-tune model with custom dataset, Run:
 
 ```bash
 !python training/train_qa.py
@@ -23,15 +23,18 @@ To get model fine-tuned with custom dataset, Run:
 !python training/train_distractors.py
 ```
 
-Or you can get it on HuggingFace:
+Or you can get pre-trained models on HuggingFace:
+
 `Sentence-Question`
 ```bash
 https://huggingface.co/Trongdz/vi-T5-QA-generation-for-philosophy
 ```
+
 `Multiple-choice-Question`
 ```bash
 https://huggingface.co/Trongdz/vi-T5-QA-generation-MCQ-for-philosophy
 ```
+
 `Distractor for multiple-choice question`
 ```bash
 https://huggingface.co/Trongdz/vi-T5-QA-Distractor-in-MCQ-for-philosophy
