@@ -10,7 +10,7 @@ class QuestionAnswerGenerator:
 
     def __init__(self) -> None:
         self.SEQ_LENGTH = 512
-        QG_PRETRAINED = "t5-base-question-generator"
+        QG_PRETRAINED = "Trongdz/vi-T5-QA-generation-for-philosophy"
         self.qg_tokenizer = T5Tokenizer.from_pretrained(QG_PRETRAINED)
         self.qg_tokenizer.add_special_tokens({"sep_token": "<sep>"})
         
@@ -20,12 +20,12 @@ class QuestionAnswerGenerator:
         self.qg_model.to(self.device)
         self.qg_model.eval()
         
-        MCQ_QG_PRETRAINED = "t5-base-question-mcq-generator"
+        MCQ_QG_PRETRAINED = "Trongdz/vi-T5-QA-generation-MCQ-for-philosophy"
         self.mcq_qg_model = AutoModelForSeq2SeqLM.from_pretrained(MCQ_QG_PRETRAINED, torch_dtype=torch.bfloat16)
         self.mcq_qg_model.to(self.device)
         self.mcq_qg_model.eval()
         
-        QD_PRETRAINED = "t5-base-distractor-generator"
+        QD_PRETRAINED = "Trongdz/vi-T5-QA-Distractor-in-MCQ-for-philosophy"
         self.qd_model = AutoModelForSeq2SeqLM.from_pretrained(QD_PRETRAINED, torch_dtype=torch.bfloat16)
         self.qd_model.to(self.device)
         self.qd_model.eval()
