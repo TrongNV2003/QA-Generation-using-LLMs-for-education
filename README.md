@@ -48,6 +48,11 @@ Dataset is created by extracting and processing in 2 Philosophy books: "Marxist-
 
 Public dataset on for all who loves NLP: [HuggingFace](https://huggingface.co/datasets/Trongdz/Vietnamese-Philosophy-QA)
 
+### Evaluate fine-tuned models
+2 fine-tuned models BartPho and ViT5 is compared to GPT-2 model with the same tasks. Here is the result of evaluating models:
+
+![evalutate-result](assets/evaluate-model.png)
+
 ## Usage
 
 To generate QA you have to clone the github repo and fine-tune 3 model above, then run `python run_qa.py`, for example:
