@@ -51,7 +51,7 @@ Public dataset on for all who loves NLP: [HuggingFace](https://huggingface.co/da
 ### Evaluate fine-tuned models
 2 fine-tuned models BartPho and ViT5 is compared to GPT-2 model with the same tasks. Here is the result of evaluating models:
 
-![evalutate-result](assets/evaluate-model.png)
+![evalutate-result](assets/evaluate-models.png)
 
 ## Usage
 
